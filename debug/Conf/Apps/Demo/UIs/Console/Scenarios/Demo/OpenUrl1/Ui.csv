@@ -1,0 +1,5 @@
+Name,TypeName,DisplayName,Value,ValidationRules
+Tip,WriteLine,＃＃＃＃＃＃  Open Url ＃＃＃＃＃＃,,
+NewLine,NewLine,,2,
+WebUrl,ReadLine,网址,,WebUrl
+OpenUrl,Transaction,打开网址  ,OpenUrl;$WebUrl.v$,

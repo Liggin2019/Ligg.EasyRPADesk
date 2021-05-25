@@ -1,0 +1,571 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>DecorationLine</Name><TypeName>WriteLine</TypeName>
+			<DisplayName/>			
+			<Value>＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>ProductShortName</Name><TypeName>Write</TypeName>
+			<DisplayName/>			
+			<Value>=GetAnnexText;Application;%AppCode%;Remark</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>WriteWriteSpace</Name><TypeName>WriteSpace</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>ProductDes</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>=GetAnnexText;Application;%AppCode%;Remark2</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine1</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar1</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine2</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar2</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine3</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar3</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Product</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Product</DisplayName>			
+			<Value>=GetAnnexText;Application;%AppCode%;Remark1</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine4</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar4</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine5</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar5</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Module</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>=GetAnnexText;Application;%AppCode%;Description</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine6</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar6</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine7</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar7</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Application</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Application</DisplayName>			
+			<Value>=GetAnnexText;Application;%AppCode%</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine8</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar8</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine9</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar9</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Version</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Version</DisplayName>			
+			<Value>%AppVersion%(#App.v#)       %ArchVersion%(#Arch.v#)</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLineA</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationCharA</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLineB</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationLine1</Name><TypeName>WriteLine</TypeName>
+			<DisplayName/>			
+			<Value>＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLineC</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>1</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>WriteSpaceA</Name><TypeName>WriteSpace</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>5</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Org</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Ligg Tech</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>CopyRight</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>All Right Reserved</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>WriteSpaceB</Name><TypeName>WriteSpace</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>5</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>ContactUs</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Contact Us</DisplayName>			
+			<Value>Liggin2019@outlook.com</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Sleep</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Sleep;2000</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem><UiItem>
+			<Name>ClearConsole</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>ClearConsole</Value><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

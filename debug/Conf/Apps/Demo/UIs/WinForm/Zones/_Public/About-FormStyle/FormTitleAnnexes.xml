@@ -1,0 +1,38 @@
+
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>xxxx</MasterName>
+			<DisplayName>About</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>xxxx</MasterName>
+			<DisplayName>关于</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>xxxx</MasterName>
+			<DisplayName>About</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

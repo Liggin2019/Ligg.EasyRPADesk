@@ -1,0 +1,136 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ User  Logon ＃＃＃＃＃＃</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			<ShowRunningStatusFlag/><InvalidFlag>false</InvalidFlag>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>2</Value><ValidationRules/>
+			
+			
+			<ShowRunningStatusFlag/><InvalidFlag>false</InvalidFlag>
+						
+			
+		</UiItem><UiItem>
+			<Name>UserName</Name><TypeName>ReadLine</TypeName>
+			<DisplayName>user name</DisplayName>			
+			<Value/><ValidationRules>UserName,StringMinLength;4</ValidationRules>
+			
+			
+			<ShowRunningStatusFlag/><InvalidFlag>false</InvalidFlag>
+						
+			
+		</UiItem><UiItem>
+			<Name>Password</Name><TypeName>ReadLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>password</DisplayName>			
+			<Value/><ValidationRules>Password</ValidationRules>
+			
+			
+			<ShowRunningStatusFlag/><InvalidFlag>false</InvalidFlag>
+						
+			
+		</UiItem><UiItem>
+			<Name>SetUserNameVar</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>SetUserNameVar</DisplayName>			
+			<Value>SetProcessVariableValue;#UserName#;$UserName.v$</Value><ValidationRules/>
+			
+			
+			<ShowRunningStatusFlag></ShowRunningStatusFlag><InvalidFlag>false</InvalidFlag>
+						
+			
+		</UiItem><UiItem>
+			<Name>SetPasswordVar</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>SetPasswordVar</DisplayName>			
+			<Value>SetProcessVariableValue;#Password#;$Password.v$</Value><ValidationRules/>
+			
+			
+			<ShowRunningStatusFlag></ShowRunningStatusFlag><InvalidFlag>false</InvalidFlag>
+						
+			
+		</UiItem><UiItem>
+			<Name>Logon</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Logon</DisplayName>			
+			<Value>RefreshProcessByGroup;1</Value><ValidationRules/>
+			
+			
+			<ShowRunningStatusFlag>true</ShowRunningStatusFlag><InvalidFlag>false</InvalidFlag>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine1</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>2</Value><ValidationRules/>
+			
+			
+			<ShowRunningStatusFlag></ShowRunningStatusFlag><InvalidFlag>false</InvalidFlag>
+						
+			
+		</UiItem><UiItem>
+			<Name>GoTo</Name><TypeName>GoTo</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>=GetBool;Not;#LogonResult.v#^UserName</Value><ValidationRules/>
+			
+			
+			<ShowRunningStatusFlag/><InvalidFlag>false</InvalidFlag>
+						
+			
+		</UiItem><UiItem>
+			<Name>ClearConsole</Name><TypeName>ClearConsole</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			<ExecModeFlag/><ShowRunningStatusFlag/><WriteIntoLogFlag/><InvalidFlag/>
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

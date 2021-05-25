@@ -1,0 +1,72 @@
+<ArrayOfAnnex>
+	
+	
+		<Annex>
+			
+			
+			
+			<MasterName>EasyNetGate</MasterName>
+			<DisplayName>快捷网关</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>HyperNetGate</MasterName>
+			<DisplayName>超级网关</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>HyperRemote</MasterName>
+			<DisplayName>超级远程</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>EntNetDisk</MasterName>
+			<DisplayName>企业网盘</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>FileCleaner</MasterName>
+			<DisplayName>磁盘清理</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>RemoteSeeDisplay</MasterName>
+			<DisplayName>远程看屏</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex>
+		
+</ArrayOfAnnex>

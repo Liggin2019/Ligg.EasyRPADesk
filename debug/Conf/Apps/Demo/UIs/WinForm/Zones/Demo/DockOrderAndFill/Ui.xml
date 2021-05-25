@@ -1,0 +1,79 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>LeftYellow</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:255,255,0</StyleText>
+			
+			<DisplayName>LeftYellow</DisplayName>			
+			
+			
+			
+			<DockTypeName>Left</DockTypeName><DockOrder/><OffsetOrPositionX>12</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>55</Width><Height>55</Height>
+						
+			<InvalidFlag></InvalidFlag>
+		</ZoneItem><ZoneItem>
+			<Name>FillGreen</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:0,255,0</StyleText>
+			
+			<DisplayName>FillGreen</DisplayName>			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>55</Width><Height>-1</Height>
+						
+			<InvalidFlag></InvalidFlag>
+		</ZoneItem><ZoneItem>
+			<Name>PosWhite</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:255,255,255</StyleText>
+			
+			<DisplayName>PosWhite</DisplayName>			
+			
+			
+			
+			<DockTypeName></DockTypeName><DockOrder/><OffsetOrPositionX>400</OffsetOrPositionX><OffsetOrPositionY>50</OffsetOrPositionY><Width>55</Width><Height>55</Height>
+						
+			<InvalidFlag></InvalidFlag>
+		</ZoneItem><ZoneItem>
+			<Name>FillRed</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:255,0,0</StyleText>
+			
+			<DisplayName>FillRed</DisplayName>			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>55</Width><Height>-1</Height>
+						
+			<InvalidFlag></InvalidFlag>
+		</ZoneItem><ZoneItem>
+			<Name>RightBlack</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:255,255,255</StyleText>
+			
+			<DisplayName>RightBlack</DisplayName>			
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>55</Width><Height>55</Height>
+						
+			<InvalidFlag></InvalidFlag>
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

@@ -1,0 +1,1027 @@
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>10</MasterName>
+			<DisplayName>Operation Center</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Operation</MasterName>
+			<DisplayName>Operation</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Operation</MasterName>
+			<DisplayName>Operation</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Operation</MasterName>
+			<DisplayName>运维中心</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>EventMgr</MasterName>
+			<DisplayName>Event Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>EventMgr</MasterName>
+			<DisplayName>Event Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>EventMgr</MasterName>
+			<DisplayName>事件管理</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ChgMgr</MasterName>
+			<DisplayName>Change Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ChgMgr</MasterName>
+			<DisplayName>Change Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ChgMgr</MasterName>
+			<DisplayName>变更管理</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ObjMgr</MasterName><DisplayName>Object Management</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ObjMgr</MasterName><DisplayName>Object Management</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ObjMgr</MasterName><DisplayName>对象管理</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ConfigMgr</MasterName>
+			<DisplayName>Config Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ConfigMgr</MasterName>
+			<DisplayName>Config Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ConfigMgr</MasterName>
+			<DisplayName>配置管理</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>EmrgMgr</MasterName>
+			<DisplayName>Emergency Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>EmrgMgr</MasterName>
+			<DisplayName>Emergency Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>EmrgMgr</MasterName>
+			<DisplayName>紧急事故管理</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>SchMgr</MasterName><DisplayName>Scheduling Management</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>SchMgr</MasterName><DisplayName>Scheduling Management</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>SchMgr</MasterName><DisplayName>调度管理</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>DeployMgr</MasterName>
+			<DisplayName>Deployment Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>DeployMgr</MasterName>
+			<DisplayName>Deployment Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>DeployMgr</MasterName>
+			<DisplayName>部署管理</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>OlDeploy</MasterName>
+			<DisplayName>Online Deployment </DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>OlDeploy</MasterName>
+			<DisplayName>Online Deployment </DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>OlDeploy</MasterName>
+			<DisplayName>在线部署</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Console</MasterName>
+			<DisplayName>Console Of Scheduling And Deployment </DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Console</MasterName>
+			<DisplayName>Console Of Scheduling And Deployment </DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Console</MasterName>
+			<DisplayName>调度部署监控台</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>AdmTk</MasterName>
+			<DisplayName>Administrator Toolkit</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>AdmTk</MasterName>
+			<DisplayName>Administrator Toolkit</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>AdmTk</MasterName>
+			<DisplayName>管理员工具箱</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>20</MasterName>
+			<DisplayName>Service Center</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Service</MasterName>
+			<DisplayName>Service</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Service</MasterName>
+			<DisplayName>Service</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Service</MasterName>
+			<DisplayName>服务中心</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ServDesk</MasterName>
+			<DisplayName>Servive Desk</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ServDesk</MasterName>
+			<DisplayName>Servive Desk</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ServDesk</MasterName>
+			<DisplayName>服务台</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>CmplMgr</MasterName><DisplayName>Complaint Management</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>CmplMgr</MasterName><DisplayName>Complaint Management</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>CmplMgr</MasterName><DisplayName>投诉管理</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>SLAMgr</MasterName>
+			<DisplayName>SLA Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>SLAMgr</MasterName>
+			<DisplayName>SLA Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>SLAMgr</MasterName>
+			<DisplayName>SLA 管理</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>PrbmMgr</MasterName><DisplayName>Problem Management</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>PrbmMgr</MasterName><DisplayName>Problem Management</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>PrbmMgr</MasterName><DisplayName>问题管理</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>InccidentMgr</MasterName>
+			<DisplayName>Inccident Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>InccidentMgr</MasterName>
+			<DisplayName>Inccident Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>InccidentMgr</MasterName>
+			<DisplayName>事故管理</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>AssetMgr</MasterName>
+			<DisplayName>Asset Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>AssetMgr</MasterName>
+			<DisplayName>Asset Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>AssetMgr</MasterName>
+			<DisplayName>资产管理</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ChangeMgr</MasterName>
+			<DisplayName>Change Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ChangeMgr</MasterName>
+			<DisplayName>Change Management</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ChangeMgr</MasterName>
+			<DisplayName>变更管理</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ServEval</MasterName>
+			<DisplayName>Servive Evaluation And Analysis</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ServEval</MasterName>
+			<DisplayName>Servive Evaluation And Analysis</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ServEval</MasterName>
+			<DisplayName>服务评估和分析</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>UsrHelpdesk</MasterName><DisplayName>User Helpdesk</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>UsrHelpdesk</MasterName><DisplayName>User Helpdesk</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>UsrHelpdesk</MasterName><DisplayName>用户帮助台</DisplayName>
+			
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>UsrTk</MasterName>
+			<DisplayName>User Toolkit</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>UsrTk</MasterName>
+			<DisplayName>User Toolkit</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>UsrTk</MasterName>
+			<DisplayName>用户工具箱</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>30</MasterName>
+			<DisplayName>Knowledge Center</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Knowledge</MasterName>
+			<DisplayName>Knowledge</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Knowledge</MasterName>
+			<DisplayName>Knowledge</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Knowledge</MasterName>
+			<DisplayName>知识中心</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>DocLib</MasterName>
+			<DisplayName>Documentation Libary</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>DocLib</MasterName>
+			<DisplayName>Documentation Libary</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>DocLib</MasterName>
+			<DisplayName>资料库</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>MediaLib</MasterName>
+			<DisplayName>Media Libary</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>MediaLib</MasterName>
+			<DisplayName>Media Libary</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>MediaLib</MasterName>
+			<DisplayName>介质库</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>NwConnLib</MasterName>
+			<DisplayName>Network Connection Libary</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>NwConnLib</MasterName>
+			<DisplayName>Network Connection Libary</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>NwConnLib</MasterName>
+			<DisplayName>网络连接库</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>40</MasterName>
+			<DisplayName>Process Center</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Wf</MasterName>
+			<DisplayName>Work Flow</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Wf</MasterName>
+			<DisplayName>Work Flow</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Wf</MasterName>
+			<DisplayName>流程中心</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>50</MasterName>
+			<DisplayName>Project Center</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Project</MasterName>
+			<DisplayName>Project</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Project</MasterName>
+			<DisplayName>Project</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Project</MasterName>
+			<DisplayName>项目中心</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>60</MasterName>
+			<DisplayName>Performance Cenetr</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Performance</MasterName>
+			<DisplayName>Performance</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Performance</MasterName>
+			<DisplayName>Performance</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Performance</MasterName>
+			<DisplayName>绩效中心</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

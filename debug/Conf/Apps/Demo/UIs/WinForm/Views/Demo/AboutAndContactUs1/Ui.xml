@@ -1,0 +1,72 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Name>LeftArea</Name><Container>MainSectionRightNavDivisionMidRegion</Container><TypeName>ContentArea</TypeName>
+			<Location/><InputVariables/><StyleClass/><StyleText>Padding:2</StyleText>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>AboutUs</Name><Container>LeftArea</Container><TypeName>Zone</TypeName>
+			<Location>_Public\About</Location><InputVariables/><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>580</Width><Height>240</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>MainArea</Name><Container>MainSectionMainDivisionMidRegion</Container><TypeName>ContentArea</TypeName>
+			<Location/><InputVariables/><StyleClass/><StyleText>Padding:2</StyleText>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>ContactUs</Name><Container>MainArea</Container><TypeName>Zone</TypeName>
+			<Location>_Public\ContactUs</Location><InputVariables/><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>520</Width><Height>310</Height>
+		</LayoutElement>
+
+	</ArrayOfLayoutElement>

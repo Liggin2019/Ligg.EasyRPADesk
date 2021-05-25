@@ -1,0 +1,248 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ChooseFileL</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Choose File</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>120</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>FilePath</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>Double click to choose a file...</Value><LoadValueOnInitFlag>true</LoadValueOnInitFlag><Action>Crun^=GetBool;IsFileExisting;$FilePath.v$^$SetContentValue$</Action><Action1>Xrun;$RefreshProcds$,$Crun$</Action1>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>702</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>RefreshProcds</Name><TypeName>Transaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>RefreshZoneProcessByGroup;$$;1</Action>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Crun</Name><TypeName>Transaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Crun;#IsPathValid.v#;$SetFilePathValue$</Action>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SetFilePathValue</Name><TypeName>Transaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SetControlValue;$FilePath$;#FilePath.v#</Action>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SetContentValue</Name><TypeName>Transaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SetControlValue^$Content$^=GetContentFromTextFile;$FilePath.v$;RTI</Action>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row11</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine81</Name><TypeName>Control</TypeName>
+			<Row>Row11</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>830</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row90</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ContentL</Name><TypeName>Control</TypeName>
+			<Row>Row90</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Content</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>100</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ClearContent</Name><TypeName>Control</TypeName>
+			<Row>Row90</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Clear Content</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>ClearControlValue;$Content$</Action>
+			
+			
+			<Action1/><OffsetOrPositionX>648</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>100</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row91</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine91</Name><TypeName>Control</TypeName>
+			<Row>Row91</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>830</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row92</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>300</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Content</Name><TypeName>Control</TypeName>
+			<Row>Row92</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<DisplayName>ThreadPool</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<Action1/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>832</Width><Height>300</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

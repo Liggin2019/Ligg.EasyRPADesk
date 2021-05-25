@@ -1,0 +1,28 @@
+<ArrayOfZoneItem>
+
+		<ZoneItem>
+			<Name>SplitRectangle</Name><TypeName>DisplayOnlyItem</TypeName>
+			<RowId>-1</RowId><ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:255,255,255</StyleText>
+			
+						
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName>
+						
+			
+		</ZoneItem>
+		
+		
+		
+		
+				
+		
+		
+		
+	</ArrayOfZoneItem>
+

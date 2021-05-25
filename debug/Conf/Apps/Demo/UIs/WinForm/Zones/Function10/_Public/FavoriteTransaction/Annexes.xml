@@ -1,0 +1,50 @@
+<ArrayOfAnnex>
+	
+	
+		<Annex>
+			
+			
+			
+			<MasterName>AutoInstaller</MasterName>
+			<DisplayName>自动装机</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>WinUpdator</MasterName>
+			<DisplayName>更新Windows</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>DailyBackup</MasterName>
+			<DisplayName>每日必备</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>FileConvertor</MasterName>
+			<DisplayName>文件转换</DisplayName>
+			
+			
+			<Remark/><LanguageCode>szh</LanguageCode>
+			
+			
+		</Annex>
+		
+</ArrayOfAnnex>

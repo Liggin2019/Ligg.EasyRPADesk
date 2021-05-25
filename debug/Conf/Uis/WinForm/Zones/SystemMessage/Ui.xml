@@ -1,0 +1,116 @@
+<ArrayOfZoneItem>
+
+		<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Row>-1</Row>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>8</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>50</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine1</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<StyleClass>Level2</StyleClass><DisplayName/><DataSource/>
+			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>530</Width>
+			<Height>1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row20</Name><TypeName>Control</TypeName>
+			<Row>-1</Row>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>64</Height>
+		</ZoneItem>
+		<ZoneItem>
+			<Name>PictureBox</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row><ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<StyleText/>
+			
+			<DisplayName>=GetPhraseAnnexText;#1#</DisplayName><DataSource>#0#</DataSource>			
+			
+			
+			
+			<OffsetOrPositionX>65</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>64</Width><Height>64</Height>
+			
+			
+		</ZoneItem><ZoneItem>
+			<Name>Label</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row><ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleText>FontSize:16;FontStyle:Bold;TextAlign:MiddleLeft</StyleText>
+			
+			<DisplayName>=GetPhraseAnnexText;#1#</DisplayName><DataSource/>			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>25</OffsetOrPositionY><Width>400</Width><Height>24</Height>
+			
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row30</Name><TypeName>Control</TypeName>
+			<Row>-1</Row>
+			
+			
+			<ControlTypeName>Row</ControlTypeName><StyleClass/>
+			
+			<DisplayName/><DataSource/>
+			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>50</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine2</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName><StyleClass>Level2</StyleClass>
+			
+			<DisplayName/><DataSource/>
+			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>45</OffsetOrPositionY>			<Width>530</Width>
+			<Height>1</Height>
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

@@ -1,0 +1,218 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>-1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>SendToL</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Send To</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>20</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>60</Width>
+			<Height>-1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>SendTos</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>#EmailAddresses.v#</Value><LoadValueOnInitFlag>true</LoadValueOnInitFlag><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>500</Width>
+			<Height>-1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row20</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>28</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>TitleL</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Title</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>20</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>60</Width>
+			<Height>-1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Title</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>#Title.v#</Value><LoadValueOnInitFlag>true</LoadValueOnInitFlag><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>500</Width>
+			<Height>-1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row30</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>28</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>BodyL</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Body</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>20</OffsetOrPositionX>
+			<OffsetOrPositionY>6</OffsetOrPositionY>			<Width>60</Width>
+			<Height>-1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Clear</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Clear taboo identifiers</DisplayName><DataSource>images\clear.png</DataSource>			
+			<Value/><LoadValueOnInitFlag/><Action>ClearControlValue;$Body$</Action><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>440</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>26</Width>
+			<Height>26</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Send</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Send Email</DisplayName><DataSource>images\send-email.png</DataSource>			
+			<Value/><LoadValueOnInitFlag/><Action>SendLocalEmail;$SendTos.v$;$Title.v$;$Body.v$</Action><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>26</Width>
+			<Height>26</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row39</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>-4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>6</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine</Name><TypeName>Control</TypeName>
+			<Row>Row39</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>20</OffsetOrPositionX>
+			<OffsetOrPositionY>3</OffsetOrPositionY>			<Width>565</Width>
+			<Height>1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row40</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>6</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>300</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Body</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<StyleClass/><DisplayName/><DataSource/>			
+			<Value>=Combine;#Body1.v#/#Body2.v#</Value><LoadValueOnInitFlag>true</LoadValueOnInitFlag><Action/><ExecModeFlag/><ReplacedTabooIdentifiers/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>20</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>565</Width><Height>300</Height>
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

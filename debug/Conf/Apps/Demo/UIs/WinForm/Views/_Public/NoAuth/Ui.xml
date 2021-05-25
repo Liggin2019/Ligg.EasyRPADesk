@@ -1,0 +1,38 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Name>MainArea</Name><Container>MainSectionMainDivisionMidRegion</Container><TypeName>ContentArea</TypeName>
+			<Location/><InputVariables/><StyleClass/><StyleText>Padding:2</StyleText>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>NoAuth</Name><Container>MainArea</Container><TypeName>Zone</TypeName>
+			<Location>%cfgUiDir%\Zones\SystemMessage</Location><InputVariables>%cfgDir%\images\stop.png|You have no authorization</InputVariables><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName/><OffsetOrPositionX>300</OffsetOrPositionX><OffsetOrPositionY>80</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement>
+
+	</ArrayOfLayoutElement>

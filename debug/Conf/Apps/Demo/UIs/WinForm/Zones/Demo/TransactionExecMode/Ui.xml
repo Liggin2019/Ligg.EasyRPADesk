@@ -1,0 +1,963 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SleepL10</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Sleep 5 s</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>250</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>EmptyTextBox10</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag>true</InvisibleFlag><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>200</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Sync10</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Sync</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Sleep;5000</Action>
+			
+			
+			<ExecModeFlag>Sync</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>30</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Async10</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Async</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Sleep;5000</Action>
+			
+			
+			<ExecModeFlag>Async</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>40</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AsyncAwaited10</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>AsyncAwaited</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Sleep;5000</Action>
+			
+			
+			<ExecModeFlag>AsyncAwaited</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ManagedThread10</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>ManagedThread10</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Sleep;5000</Action>
+			
+			
+			<ExecModeFlag>ManagedThread</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>110</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row19</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine19</Name><TypeName>Control</TypeName>
+			<Row>Row19</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>750</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row20</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>TryCatchTestL20</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>TryCatch Test</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>250</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>EmptyTextBox20</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag>true</InvisibleFlag><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>200</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Sync20</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Sync</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Sleep1;5000</Action>
+			
+			
+			<ExecModeFlag>Sync</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>30</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Async20</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Async</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Sleep1;5000</Action>
+			
+			
+			<ExecModeFlag>Async</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>40</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AsynAwaited20</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>AsyncAwaited</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Sleep1;5000</Action>
+			
+			
+			<ExecModeFlag>AsyncAwaited</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ManagedThread20</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>ManagedThread20</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Sleep1;5000</Action>
+			
+			
+			<ExecModeFlag>ManagedThread</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>110</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row21</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine21</Name><TypeName>Control</TypeName>
+			<Row>Row21</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>750</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row25</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SetControlTestL25</Name><TypeName>Control</TypeName>
+			<Row>Row25</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Set Control Value Test</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>250</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>TextBox25</Name><TypeName>Control</TypeName>
+			<Row>Row25</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag></InvisibleFlag><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>200</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Sync25</Name><TypeName>Control</TypeName>
+			<Row>Row25</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Sync</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SetControlValue;$TextBox25$;abcd-Sync</Action>
+			
+			
+			<ExecModeFlag>Sync</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>30</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Async25</Name><TypeName>Control</TypeName>
+			<Row>Row25</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Async</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SetControlValue;$TextBox25$;abcd-Async</Action>
+			
+			
+			<ExecModeFlag>Async</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>40</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AsynAwaited25</Name><TypeName>Control</TypeName>
+			<Row>Row25</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>AsyncAwaited</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SetControlValue;$TextBox25$;abcd-AsyncAwaited</Action>
+			
+			
+			<ExecModeFlag>AsyncAwaited</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ManagedThread25</Name><TypeName>Control</TypeName>
+			<Row>Row25</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>ManagedThread25</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SetControlValue;$TextBox25$;abcd-ManagedThread</Action>
+			
+			
+			<ExecModeFlag>ManagedThread</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>110</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row26</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine26</Name><TypeName>Control</TypeName>
+			<Row>Row26</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>750</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row30</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ChooseFolderL</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Choose Folder</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>250</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Folder</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>=ChooseDirectory</Value><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>200</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Sync30</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Sync</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>RefreshControlValue;$Folder$</Action>
+			
+			
+			<ExecModeFlag>Sync</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>30</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Async30</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Async</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>RefreshControlValue;$Folder$</Action>
+			
+			
+			<ExecModeFlag>Async</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>40</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AsyncAwaited30</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>AsyncAwaited</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>RefreshControlValue;$Folder$</Action>
+			
+			
+			<ExecModeFlag>AsyncAwaited</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ManagedThread30</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>ManagedThread30</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>RefreshControlValue;$Folder$</Action>
+			
+			
+			<ExecModeFlag>ManagedThread</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>110</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row31</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine31</Name><TypeName>Control</TypeName>
+			<Row>Row31</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>750</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row40</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AppendToTextFileL</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Append [abcd] To Selected Text File</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>250</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>File</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>=ChooseFile;Any.txt File|*.txt;D:\</Value><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag>true</InvisibleFlag><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>200</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Sync40</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Sync</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Xrun;$ChooseFile$,$Save$</Action>
+			
+			
+			<ExecModeFlag>Sync</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>30</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Async40</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Async</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Xrun;$ChooseFile$,$Save$</Action>
+			
+			
+			<ExecModeFlag>Async</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>40</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AsyncAwaited40</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>AsyncAwaited</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Xrun;$ChooseFile$,$Save$</Action>
+			
+			
+			<ExecModeFlag>AsyncAwaited</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ManagedThread40</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>ManagedThread40</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>Xrun;$ChooseFile$,$Save$</Action>
+			
+			
+			<ExecModeFlag>ManagedThread</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>110</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ChooseFile</Name><TypeName>Transaction</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>ChooseFile</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>RefreshControlValue;$File$</Action>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>110</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Save</Name><TypeName>Transaction</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Save</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SaveContentToTextFile;$File.v$;abcd--;true</Action>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>110</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row41</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine41</Name><TypeName>Control</TypeName>
+			<Row>Row41</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>750</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row50</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AppendToTextFileL1</Name><TypeName>Control</TypeName>
+			<Row>Row50</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Append [abcd] To Selected Text File</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>250</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>File1</Name><TypeName>Control</TypeName>
+			<Row>Row50</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>D:\temp\abcd.txt</Value><LoadValueOnInitFlag>true</LoadValueOnInitFlag><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>200</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Sync50</Name><TypeName>Control</TypeName>
+			<Row>Row50</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Sync</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SaveContentToTextFile;$File1.v$;abcd--;true</Action>
+			
+			
+			<ExecModeFlag>Sync</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>30</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Async50</Name><TypeName>Control</TypeName>
+			<Row>Row50</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Async</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SaveContentToTextFile;$File1.v$;abcd--;true</Action>
+			
+			
+			<ExecModeFlag>Async</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>40</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AsyncAwaited50</Name><TypeName>Control</TypeName>
+			<Row>Row50</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>AsyncAwaited</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SaveContentToTextFile;$File1.v$;abcd--;true</Action>
+			
+			
+			<ExecModeFlag>AsyncAwaited</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ManagedThread50</Name><TypeName>Control</TypeName>
+			<Row>Row50</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>ManagedThread50</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>SaveContentToTextFile;$File1.v$;abcd--;true</Action>
+			
+			
+			<ExecModeFlag>ManagedThread</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>110</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row51</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine51</Name><TypeName>Control</TypeName>
+			<Row>Row51</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>750</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row80</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ThreadPoolL</Name><TypeName>Control</TypeName>
+			<Row>Row80</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Thread Pool</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>100</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>RefreshThreadPool</Name><TypeName>Control</TypeName>
+			<Row>Row80</Row>
+			
+			
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			<DisplayName>Refresh Thread Pool</DisplayName><StyleClass>CmdLabel</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action>RefreshControlValue;$ThreadPool$</Action>
+			
+			
+			<ExecModeFlag>Sync</ExecModeFlag><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>546</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>120</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row81</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine81</Name><TypeName>Control</TypeName>
+			<Row>Row81</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>760</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row90</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>300</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ThreadPool</Name><TypeName>Control</TypeName>
+			<Row>Row90</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<DisplayName>ThreadPool</DisplayName><StyleClass>FieldName</StyleClass><StyleText/>			
+			<Value>=GetThreadPoolInfo</Value><LoadValueOnInitFlag/><Action/>
+			
+			
+			<ExecModeFlag/><InvisibleFlag/><DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>760</Width><Height>300</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

@@ -1,0 +1,210 @@
+<ArrayOfAnnex>
+	<Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>Logon</MasterName>
+			<DisplayName>Logon</DisplayName>
+			
+			<Description/>
+			<Remark>用户登录</Remark>
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>Logon</MasterName>
+			<DisplayName>Logon</DisplayName>
+			
+			<Description/>
+			<Remark>User Logon</Remark>
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex>
+	<Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>Logon</MasterName>
+			<DisplayName>用户登录</DisplayName>
+			
+			<Description/>
+			<Remark>Anmeldung des Benutzers</Remark>
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>Help</MasterName>
+			<DisplayName>帮助</DisplayName>
+			
+			<Description/>
+			<Remark>帮助中心</Remark>
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>Help</MasterName>
+			<DisplayName>Help</DisplayName>
+			
+			<Description/>
+			<Remark>Help Center</Remark>
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>Help</MasterName>
+			<DisplayName>Hilfe</DisplayName>
+			
+			<Description/>
+			<Remark>Hilfe Center</Remark>
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>Goto</MasterName>
+			<DisplayName>转至</DisplayName>
+			
+			<Description/>
+			<Remark>转至</Remark>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>Goto</MasterName>
+			<DisplayName>Go to</DisplayName>
+			
+			<Description/>
+			<Remark>Go to</Remark>
+			
+			<LanguageCode>eng</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>Goto</MasterName>
+			<DisplayName>gehen</DisplayName>
+			
+			<Description/>
+			<Remark>gehen</Remark>
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex>
+	
+	
+	<Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>UserSetting</MasterName>
+			<DisplayName>个人设置</DisplayName>
+			
+			<Description/>
+			<Remark>个人设置</Remark>
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>UserSetting</MasterName>
+			<DisplayName>User Setting</DisplayName>
+			
+			<Description/>
+			<Remark>User Setting</Remark>
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex>
+	<Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>UserSetting</MasterName>
+			<DisplayName>benutzer, die </DisplayName>
+			
+			<Description/>
+			<Remark>benutzer, die </Remark>
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>CopyWindow</MasterName>
+			<DisplayName>复制窗口</DisplayName>
+			
+			<Description/>
+			<Remark>复制窗口</Remark>
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>CopyWindow</MasterName>
+			<DisplayName>Copy Window</DisplayName>
+			
+			<Description/>
+			<Remark>Copy Window</Remark>
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>CopyWindow</MasterName>
+			<DisplayName>Fenster kopieren</DisplayName>
+			
+			<Description/>
+			<Remark>Fenster kopieren</Remark>
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>RefreshWindow</MasterName>
+			<DisplayName>刷新窗口</DisplayName>
+			
+			<Description/>
+			<Remark>刷新窗口</Remark>
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>RefreshWindow</MasterName>
+			<DisplayName>Refresh Window</DisplayName>
+			
+			<Description/>
+			<Remark>Refresh Window</Remark>
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>200</AnnexId>
+			
+			
+			<MasterName>RefreshWindow</MasterName>
+			<DisplayName>Fenster aktualisieren</DisplayName>
+			
+			<Description/>
+			<Remark>Fenster aktualisieren</Remark>
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex>
+	
+	
+	
+		
+</ArrayOfAnnex>

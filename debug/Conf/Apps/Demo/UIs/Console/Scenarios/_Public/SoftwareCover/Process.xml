@@ -1,0 +1,11 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>Arch</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value/><Formula>=GetAnnexText;Abbrev;Arch</Formula>
+			<Condition/><ExecOnInitFlag>true</ExecOnInitFlag>
+		</Procedure><Procedure>
+			
+			<Name>App</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value/><Formula>=GetAnnexText;Abbrev;App</Formula>
+			<Condition/><ExecOnInitFlag>true</ExecOnInitFlag>
+		</Procedure>
+</ArrayOfProcedure>

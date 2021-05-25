@@ -1,0 +1,19 @@
+<SviViewFeature>
+	
+	<FormWidth>460</FormWidth>
+	<FormHeight>318</FormHeight>
+    
+    <FormWindowRadius>10</FormWindowRadius>
+    <FormCannotBeClosed>false</FormCannotBeClosed>
+    <FormHasNoControlBoxes>false</FormHasNoControlBoxes>
+    
+    <FormDrawIcon>true</FormDrawIcon>
+    <FormIconUrl>Icons\icon.ico</FormIconUrl>
+    
+    <FormHasTray>true</FormHasTray>
+    <FormTrayIconUrl>icons\icon1.ico</FormTrayIconUrl>
+    <FormTrayDataSource>TrayMenuItems.xml</FormTrayDataSource>
+    
+    <FormShowRunningStatus>true</FormShowRunningStatus>
+
+</SviViewFeature>

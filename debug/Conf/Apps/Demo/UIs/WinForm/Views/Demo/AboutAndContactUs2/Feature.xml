@@ -1,0 +1,10 @@
+<SviViewFeature>
+	
+	<FormWidth>606</FormWidth>
+	<FormHeight>320</FormHeight>
+	
+	<FormDrawIcon>true</FormDrawIcon>
+	<FormIconUrl>Icons\icon.ico</FormIconUrl>
+
+	<FormResizeParamsText>TopNavSection:0; ToolBarSection: 5,0,-1; MiddleNavSection: 0,0; DownNavSection: 0,0; MainSectionLeftNavDivision: 0,0,0; MainSectionRightNavDivision: 600,0,0; MainSectionMainDivision: 0,0; MainSectionRightDivision: 0,0,0; RunningMessageSection: 0; RunningStatusSection: 0,0; HorResizableDivisionStatus: show</FormResizeParamsText>
+</SviViewFeature>

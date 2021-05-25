@@ -1,0 +1,112 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ Open Folder ＃＃＃＃＃＃</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>1</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>JudgeDirExists</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>RefreshProcessVariables;#DirExists#</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>Crun@#DirExists.v#@$OpenFolder$@$Output$</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenFolder</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>OpenFolder;#0#</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Output</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>Xrun;$Xrun1$,$Xrun2$</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Xrun1</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>WriteLine;文件夹#0#不存在</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Xrun2</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>PressAnyKeyToExit</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

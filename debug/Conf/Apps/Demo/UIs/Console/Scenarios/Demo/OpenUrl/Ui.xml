@@ -1,0 +1,28 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>WebUrl</Name><TypeName>ReadLine</TypeName>
+			<DisplayName>网址</DisplayName>			
+			<Value/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenUrl</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>打开网址</DisplayName>			
+			<Value>OpenUrl;$WebUrl.v$</Value>
+			
+			
+			
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

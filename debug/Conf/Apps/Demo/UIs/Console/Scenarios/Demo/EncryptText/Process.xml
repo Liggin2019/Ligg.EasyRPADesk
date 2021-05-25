@@ -1,0 +1,10 @@
+<ArrayOfProcedure>
+		<Procedure>
+			<Name>Etext</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value/><Formula/>
+			<Condition/>
+		</Procedure>
+	<Procedure>
+		<Name>FileName</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value/><Formula>=UniqueCode;ByNow;etext</Formula>
+		<Condition/>
+	</Procedure>
+</ArrayOfProcedure>

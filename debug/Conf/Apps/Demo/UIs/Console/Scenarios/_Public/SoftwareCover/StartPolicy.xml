@@ -1,0 +1,10 @@
+<StartPolicy>
+
+	<VerifyPasswordAtStartFlag>false</VerifyPasswordAtStartFlag>
+	
+	<ShowSoftwareCoverAtStartFlag>false</ShowSoftwareCoverAtStartFlag>	
+	<LogonAtStartFlag>false</LogonAtStartFlag>
+	
+	<RunBootStrapperTasksAtStartFlag>false</RunBootStrapperTasksAtStartFlag>
+	
+</StartPolicy>

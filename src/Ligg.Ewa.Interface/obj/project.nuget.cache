@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QFAQM2Jhl0fx8mitf9jOBafDn10UC1E4YKGaXpBJBJIl81p239hkf7Ra4vUL8cwhlFbafhm1xeYFlfRir0Ch0A==",
+  "success": true,
+  "projectFilePath": "D:\\Doing\\coding\\project-git\\Ligg.Ewa\\3.52\\src\\Ligg.Ewa.Interface\\Ligg.Ewa.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adm-dev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

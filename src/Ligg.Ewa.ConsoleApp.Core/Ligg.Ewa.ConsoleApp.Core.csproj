@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>ConsoleApp</AssemblyName>
+    <RootNamespace>Ligg.EasyWinApp</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\debug\Program\Main</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\debug\Program\Main</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WeihanLi.Npoi" Version="1.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ligg.Ewa.Interface\Ligg.Ewa.Interface.csproj" />
+    <ProjectReference Include="..\Ligg.Ewa.Parser\Ligg.Ewa.Parser.csproj" />
+    <ProjectReference Include="..\Ligg.Infra\Ligg.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\EasyWinAppRes.Designer.cs">
+      <DependentUpon>EasyWinAppRes.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resources\EasyWinAppRes.zh-CN.Designer.cs">
+      <DependentUpon>EasyWinAppRes.zh-CN.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\EasyWinAppRes.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>EasyWinAppRes.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\EasyWinAppRes.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>EasyWinAppRes.zh-CN.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

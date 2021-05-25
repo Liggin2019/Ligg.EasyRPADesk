@@ -1,0 +1,277 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>LogoImage</Name><TypeName>Control</TypeName>
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource>\images\logo.png</DataSource>
+			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>6</OffsetOrPositionY><Width>48</Width><Height>32</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductShortName</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:11;FontStyle:Bold;FontColor:100,53,153</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Remark</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>58</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>80</Width><Height>32</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductDes</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:8;FontStyle:Bold;FontColor:100,53,153</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Remark2</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>155</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>400</Width><Height>32</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductImage</Name><TypeName>Control</TypeName>
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource>\images\product.png</DataSource>
+			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>16</OffsetOrPositionX><OffsetOrPositionY>53</OffsetOrPositionY><Width>120</Width><Height>120</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>BackgrdPanel</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ShadowPanel</ControlTypeName>
+			
+			
+			
+			<StyleClass>Default</StyleClass><StyleText/>
+			
+			<DisplayName/><DataSource/>
+			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>150</OffsetOrPositionX><OffsetOrPositionY>45</OffsetOrPositionY><Width>420</Width><Height>150</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250</StyleText>
+			
+			<DisplayName>Product</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>155</OffsetOrPositionX><OffsetOrPositionY>50</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Product</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Remark1</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>225</OffsetOrPositionX><OffsetOrPositionY>50</OffsetOrPositionY><Width>340</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ModuleL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250</StyleText>
+			
+			<DisplayName>Module</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>155</OffsetOrPositionX><OffsetOrPositionY>80</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Module</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Description</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>225</OffsetOrPositionX><OffsetOrPositionY>80</OffsetOrPositionY><Width>340</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>FunctionL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250</StyleText>
+			
+			<DisplayName>Function</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>155</OffsetOrPositionX><OffsetOrPositionY>110</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Function</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250</StyleText>
+			
+			<DisplayName>=GetAnnexText;Function;%FuncCode%</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>225</OffsetOrPositionX><OffsetOrPositionY>110</OffsetOrPositionY><Width>340</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>VersionL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250</StyleText>
+			
+			<DisplayName>Version</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>155</OffsetOrPositionX><OffsetOrPositionY>140</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>AppL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName>Application</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ArchL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName>Architecture</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Version</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250</StyleText>
+			
+			<DisplayName>%AppVersion%($AppL.t$)       %ArchVersion%($ArchL.t$)</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>225</OffsetOrPositionX><OffsetOrPositionY>140</OffsetOrPositionY><Width>340</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Org</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontStyle:Bold;FontSize:8.50;FontColor:10,40,150</StyleText>
+			
+			<DisplayName>Ligg Tech</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action>OpenUrl;https://www.github.com/liggin2019</Action>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>230</OffsetOrPositionX><OffsetOrPositionY>201</OffsetOrPositionY><Width>70</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>CopyRight</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontStyle:Bold;FontSize:8.50;FontColor:100,100,100</StyleText>
+			
+			<DisplayName>All Right Reserved</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/>
+			
+			
+			<Action/><DockTypeName/><OffsetOrPositionX>300</OffsetOrPositionX><OffsetOrPositionY>200</OffsetOrPositionY><Width>130</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ContactUs</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontStyle1:Bold;FontSize:8.50;FontColor:100,100,100</StyleText>
+			
+			<DisplayName>Contact Us</DisplayName><DataSource/>			
+			<InvalidFlag/><DefaultValue/><ValidationRules/><Action>PopupZoneDialog;\_Public\ContactUs</Action>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>430</OffsetOrPositionX><OffsetOrPositionY>200</OffsetOrPositionY><Width>80</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

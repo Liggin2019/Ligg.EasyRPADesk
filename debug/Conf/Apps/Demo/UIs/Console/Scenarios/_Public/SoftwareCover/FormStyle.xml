@@ -1,0 +1,6 @@
+<FormStyle>
+	<CannotBeClosed>false</CannotBeClosed>
+	<Invisible>false</Invisible>
+    <DrawIcon>true</DrawIcon>
+    <IconUrl>icons\icon.ico</IconUrl>
+</FormStyle>

@@ -1,0 +1,36 @@
+<ArrayOfAnnex>
+	<Annex>
+		
+		
+		
+		<MasterName>xxxx</MasterName>
+		<DisplayName>This function is under developing...</DisplayName>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+	
+	<MasterName>xxxx</MasterName>
+	<DisplayName>本功能正在开发当中...</DisplayName>
+	<Description/>
+	<Remark/>
+	
+	<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		
+		
+		
+		<MasterName>xxxx</MasterName>
+		<DisplayName>This function is under developing...</DisplayName>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>de</LanguageCode>
+	</Annex>
+	
+		
+		
+</ArrayOfAnnex>

@@ -1,0 +1,37 @@
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>Exit</MasterName>
+			<DisplayName>退出</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Show</MasterName>
+			<DisplayName>显示窗口</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Hide</MasterName>
+			<DisplayName>隐藏窗口</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

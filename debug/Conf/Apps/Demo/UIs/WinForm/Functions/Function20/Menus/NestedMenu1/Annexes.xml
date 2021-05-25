@@ -1,0 +1,584 @@
+<ArrayOfAnnex>
+	
+	
+	
+	
+	
+	
+	<Annex>
+			<AnnexId>110</AnnexId>
+			
+			
+			<MasterName>Admin</MasterName>
+			<DisplayName>管理工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex>
+	<Annex>
+			<AnnexId>110</AnnexId>
+			
+			
+			<MasterName>Admin</MasterName>
+			<DisplayName>verwaltung</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>120</AnnexId>
+			
+			
+			<MasterName>RoutingInsp</MasterName>
+			<DisplayName>巡检工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>120</AnnexId>
+			
+			
+			<MasterName>RoutingInsp</MasterName>
+			<DisplayName>- inspektion</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>130</AnnexId>
+			
+			
+			<MasterName>Mtn</MasterName>
+			<DisplayName>运维工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>130</AnnexId>
+			
+			
+			<MasterName>Mtn</MasterName>
+			<DisplayName>Maintenance</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>140</AnnexId>
+			
+			
+			<MasterName>Config</MasterName>
+			<DisplayName>配置管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>140</AnnexId>
+			
+			
+			<MasterName>Config</MasterName>
+			<DisplayName>konfiguration</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>150</AnnexId>
+			
+			
+			<MasterName>Console</MasterName>
+			<DisplayName>在线部署</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>150</AnnexId>
+			
+			
+			<MasterName>Console</MasterName>
+			<DisplayName>Console</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>SystemTool</MasterName>
+			<DisplayName>系统工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>SystemTool</MasterName>
+			<DisplayName>System Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>SystemTool</MasterName>
+			<DisplayName>System Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>NetworkTool</MasterName>
+			<DisplayName>网络工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>NetworkTool</MasterName>
+			<DisplayName>Network Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>NetworkTool</MasterName>
+			<DisplayName>Network Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>SystemSetting</MasterName>
+			<DisplayName>系统设置</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>SystemSetting</MasterName>
+			<DisplayName>System Setting</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>SystemSetting</MasterName>
+			<DisplayName>System Setting</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>RemoteTool</MasterName>
+			<DisplayName>远程工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>RemoteTool</MasterName>
+			<DisplayName>Remote Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>RemoteTool</MasterName>
+			<DisplayName>Remote Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>RunAsAdmin</MasterName>
+			<DisplayName>超级运行</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>RunAsAdmin</MasterName>
+			<DisplayName>Run As Admin</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>11000</AnnexId>
+			
+			
+			<MasterName>RunAsAdmin</MasterName><DisplayName>Run As Admin</DisplayName>
+			
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>12000</AnnexId>
+			
+			
+			<MasterName>Daily</MasterName>
+			<DisplayName>日检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>12000</AnnexId>
+			
+			
+			<MasterName>ServerRoom</MasterName>
+			<DisplayName>机房</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>12000</AnnexId>
+			
+			
+			<MasterName>Network</MasterName>
+			<DisplayName>网络</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>12000</AnnexId>
+			
+			
+			<MasterName>Server</MasterName>
+			<DisplayName>服务器</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>12000</AnnexId>
+			
+			
+			<MasterName>Application</MasterName>
+			<DisplayName>应用</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>12000</AnnexId><MasterName>Weekly</MasterName>
+			
+			
+			
+			<DisplayName>周检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>12000</AnnexId><MasterName>Monthly</MasterName>
+			
+			
+			
+			<DisplayName>月检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>12000</AnnexId><MasterName>Quarterly</MasterName>
+			
+			
+			
+			<DisplayName>季检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>12000</AnnexId>
+			
+			
+			<MasterName>Yearly</MasterName>
+			<DisplayName>年检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>ServerMtn</MasterName>
+			<DisplayName>服务器</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>NetworkMtn</MasterName>
+			<DisplayName>网络</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>DatabaseMtn</MasterName>
+			<DisplayName>数据库</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>ServerPerformance</MasterName>
+			<DisplayName>服务器性能</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>ServerSecurity</MasterName>
+			<DisplayName>服务器安全</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>FirewallPerformance</MasterName>
+			<DisplayName>防火墙性能</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>ExchanePerformance</MasterName><DisplayName>交换机性能</DisplayName>
+			
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>RoutePerformance</MasterName><DisplayName>路由器性能</DisplayName>
+			
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>FirewallSecurity</MasterName><DisplayName>防火墙安全</DisplayName>
+			
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>LinkMontoring</MasterName><DisplayName>线路监控</DisplayName>
+			
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>DbPerformance</MasterName><DisplayName>数据库性能</DisplayName>
+			
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>13000</AnnexId>
+			
+			
+			<MasterName>DbSecurity</MasterName><DisplayName>数据库安全</DisplayName>
+			
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			<AnnexId>14000</AnnexId>
+			
+			
+			<MasterName>CfConfig</MasterName>
+			<DisplayName>配置管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>14000</AnnexId>
+			
+			
+			<MasterName>CfConfigGroup</MasterName>
+			<DisplayName>配置组管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+	<Annex>
+			<AnnexId>15000</AnnexId>
+			
+			
+			<MasterName>CslTrans</MasterName>
+			<DisplayName>事务部署</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>15000</AnnexId>
+			
+			
+			<MasterName>CslConfig</MasterName>
+			<DisplayName>配置部署</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>15000</AnnexId>
+			
+			
+			<MasterName>CslConfigGroup</MasterName>
+			<DisplayName>配置组部署</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<AnnexId>15000</AnnexId>
+			
+			
+			<MasterName>CslManMachineConversation</MasterName>
+			<DisplayName>显示人机对话</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

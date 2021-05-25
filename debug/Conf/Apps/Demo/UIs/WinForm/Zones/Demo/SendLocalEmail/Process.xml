@@ -1,0 +1,19 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>EmailAddresses</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Formula/>
+			<Value>tom@qq.com,bill@qq.com,mary@qq.com, lisa@qq.com</Value><ExecOnInitFlag/>
+		</Procedure><Procedure>
+			
+			<Name>Title</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Formula/>
+			<Value>My friends: I love you so much</Value><ExecOnInitFlag/>
+		</Procedure><Procedure>
+			
+			<Name>Body1</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Formula/>
+			<Value>Dear Tom, Bill, Mary, Lisa:</Value><ExecOnInitFlag/>
+		</Procedure><Procedure>
+			
+			<Name>Body2</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Formula>=GetContentFromTextFile;%FormCfgDir%\Data\email-body.txt</Formula>
+			<Value/><ExecOnInitFlag>true</ExecOnInitFlag>
+		</Procedure>
+</ArrayOfProcedure>

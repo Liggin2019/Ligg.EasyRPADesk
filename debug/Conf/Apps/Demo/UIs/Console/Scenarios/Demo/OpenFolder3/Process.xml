@@ -1,0 +1,11 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>DirExists</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value/><Formula>=GetBool;DirectoryExists;#0#</Formula>
+			<Condition/><ExecOnInitFlag>true</ExecOnInitFlag>
+		</Procedure><Procedure>
+			
+			<Name>App</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value/><Formula>=GetAnnexText;Abbrev;App</Formula>
+			<Condition/><ExecOnInitFlag>true</ExecOnInitFlag>
+		</Procedure>
+</ArrayOfProcedure>

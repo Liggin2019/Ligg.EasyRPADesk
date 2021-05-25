@@ -1,0 +1,9 @@
+<ZoneFeature>
+	<Width>880</Width>
+	<Height>410</Height>
+	<CpntArrangementTypeFlag>RowLining</CpntArrangementTypeFlag>
+	<StyleText/>
+	
+	<SupportsMultipleThreads>true</SupportsMultipleThreads>
+	<ThreadPoolMaxNum>2</ThreadPoolMaxNum>
+</ZoneFeature>

@@ -1,0 +1,181 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ Open Folder ＃＃＃＃＃＃</DisplayName>			
+			<Value/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>2</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>key</Name><TypeName>ReadKey</TypeName>
+			<DisplayName>文件夹选项：a:CfgDir; b:AppCfgDir; c:AppUiDir; d:ScenariosDir; other:ScenarioDir</DisplayName>			
+			<Value/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun1</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>Crun^=GetBool;IfElse;$key.v$,Equal,a^$OpenFolder1$</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenFolder1</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>OpenFolder;%CfgDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun2</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>Crun^=GetBool;IfElse;$key.v$,Equal,b^$OpenFolder2$</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenFolder2</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>OpenFolder;%AppCfgDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun3</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>Crun^=IfElse;$key.v$,Equal,c;true;false^$OpenFolder3$</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenFolder3</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>OpenFolder;%AppUiDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun4</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>Crun^=GetBool;IfElse;$key.v$,Equal,d^$OpenFolder4$</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenFolder4</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>OpenFolder;%ScenariosDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun5</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>Crun^=GetBool;IfElse;$key.v$/NotIn/a,b,c,d^$OpenFolder5$</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenFolder5</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>OpenFolder;%ScenarioDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

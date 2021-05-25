@@ -1,0 +1,24 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			<Id>1</Id><ParentId>0</ParentId><Name>Avatar</Name>
+						
+			<ControlTypeName/><DisplayName>My Avatar</DisplayName>
+			<DisabledFlag/><InvisibleFlag/>
+			<Action>PopupMsg^=GetPhraseAnnexText;System Message^=GetPhraseAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\user.gif</ImageUrl><InvalidFlag/>
+		</LayoutElement><LayoutElement>
+			<Id>2</Id><ParentId>0</ParentId><Name>Style</Name>
+						
+			<ControlTypeName/><DisplayName>My Style</DisplayName>
+			<DisabledFlag/><InvisibleFlag/>
+			<Action>PopupMsg^=GetPhraseAnnexText;System Message^=GetPhraseAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>\images\style.gif</ImageUrl><InvalidFlag/>
+		</LayoutElement><LayoutElement>
+			<Id>3</Id><ParentId>0</ParentId><Name>FavoriteShortcuts</Name>
+						
+			<ControlTypeName/><DisplayName>Favorite Shortcuts</DisplayName>
+			<DisabledFlag/><InvisibleFlag/>
+			<Action>PopupMsg^=GetPhraseAnnexText;System Message^=GetPhraseAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\funcs.png</ImageUrl><InvalidFlag/>
+		</LayoutElement>
+</ArrayOfLayoutElement>

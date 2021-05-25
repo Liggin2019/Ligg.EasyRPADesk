@@ -1,0 +1,22 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>ImageTextButtonH</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>ImageTextButtonV</ControlTypeName><StyleClass/><StyleText>FontStyle:Bold</StyleText>
+			
+			<DisplayName>=GetPhraseAnnexText;#0#</DisplayName><DataSource>#1#</DataSource>			
+			<Action>#2#</Action>
+			
+			
+			<DockTypeName>Fill</DockTypeName>
+			<Width>30</Width>
+			<Height>-1</Height>
+			<ImageWidth>-1</ImageWidth>
+			<ImageHeight>-1</ImageHeight>
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

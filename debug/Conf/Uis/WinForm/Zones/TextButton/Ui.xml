@@ -1,0 +1,14 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			<TypeName>DisplayAndTransactionItem</TypeName><Name>TextButton</Name>
+			<RowId>-1</RowId>
+			<ControlTypeName>TextButton</ControlTypeName><StyleClass>Button</StyleClass><StyleText/>
+			<DisplayName>=GetPhraseAnnexText;#0#</DisplayName>			
+			<Action>#1#</Action>
+			
+			
+			<DockTypeName>Fill</DockTypeName>
+						
+			
+	</ZoneItem>
+</ArrayOfZoneItem>

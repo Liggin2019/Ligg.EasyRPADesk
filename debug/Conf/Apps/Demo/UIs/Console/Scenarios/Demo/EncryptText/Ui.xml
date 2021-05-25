@@ -1,0 +1,247 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ Encrpt Text ＃＃＃＃＃＃</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>1</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Text</Name><TypeName>ReadLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>要加密的文字</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>SetProcessVariableValue</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>SetProcessVariableValue@#Etext#@=EncryptText;Md5;$Text.v$</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Write</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>密文：</DisplayName>			
+			<Value>#Etext.v#</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Write1</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName> (加密算法: Md5)</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine1</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Write2</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>是否弹出相关信息？</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Confirm</Name><TypeName>ReadKey</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>y表示同意</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Crun@=GetBool;IfElse;$Confirm.v$,Equal,y@$Xrun$</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>WriteLine</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Xrun</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Xrun;$RefreshFileName$,$CreateTxtFile$,$PopupTxtFile$,$Sleep$,$DelTxtFile$</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>RefreshFileName</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>RefreshProcessVariables;#FileName#</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>CreateTxtFile</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>SaveContentToTextFile;%AppTempDir%\#FileName.v#.txt;明码: $Text.v$%r%密码: #Etext.v#%r%加密算法: Md5</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>PopupTxtFile</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>OpenFile;%AppTempDir%\#FileName.v#.txt</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Sleep</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Sleep;1000</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>DelTxtFile</Name><TypeName>SubTransaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>DeleteFile;%AppTempDir%\#FileName.v#.txt</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

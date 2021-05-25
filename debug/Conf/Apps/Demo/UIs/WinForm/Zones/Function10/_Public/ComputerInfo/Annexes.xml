@@ -1,0 +1,49 @@
+
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>MachineL</MasterName>
+			<DisplayName>机器</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>OsL</MasterName>
+			<DisplayName>操作系统</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>CurrentWinAcctL</MasterName>
+			<DisplayName>当前Windows帐号</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>SendMsg</MasterName>
+			<DisplayName>发送邮件</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

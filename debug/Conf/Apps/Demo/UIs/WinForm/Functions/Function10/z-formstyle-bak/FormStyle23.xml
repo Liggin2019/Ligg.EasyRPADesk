@@ -1,0 +1,24 @@
+<FormStyle>
+	
+	<Width>1024</Width>
+	<Height>768</Height>
+	
+	<HasNoControlBoxes>true</HasNoControlBoxes>
+	<CannotBeClosed>false</CannotBeClosed>
+	<CannotBeMaximized>false</CannotBeMaximized>
+	
+	<StartWindowState>maximized</StartWindowState>
+	<OrdinaryWindowStatus>maximized</OrdinaryWindowStatus>
+	<WindowRadius>0</WindowRadius>
+	
+	<DrawIcon>true</DrawIcon>
+	<IconUrl>icons\icon.ico</IconUrl>
+	
+	<HasTray>false</HasTray>
+	<TrayIconUrl>icons\icon.ico</TrayIconUrl>
+	<TrayDataSource>TrayMenuItems</TrayDataSource>
+	
+	<ShowRunningStatus>true</ShowRunningStatus>
+	<ResizeParamsText>TopNavSection:0;ToolBarSection:64,450,300;MiddleNavSection:0;DownNavSection:0;MainSectionLeftNavDivision:125,175,145;MainSectionRightNavDivision:0,0,0;MainSectionMainDivision:80,0;MainSectionRightDivision:180,360,30;RunningMessageSection:0;HasRunningStatus:true;HasRunningProgress:false;HorResizableDivisionStatus:none</ResizeParamsText>
+
+</FormStyle>

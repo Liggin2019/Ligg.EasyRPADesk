@@ -1,0 +1,17 @@
+<ZoneFeature>
+	<Width>680</Width>
+	<Height>280</Height>
+	<StyleText>BackColor:48, 145, 242</StyleText>
+	
+	<FormWindowRadius>10</FormWindowRadius>
+	<FormCannotBeClosed>false</FormCannotBeClosed>
+	<FormHasNoControlBoxes>true</FormHasNoControlBoxes>
+	
+	<FormDrawIcon>true</FormDrawIcon>
+	<FormIconUrl>Icons\icon.ico</FormIconUrl>
+	<FormHasTray>false</FormHasTray>
+
+	
+	<FormShowRunningStatus>false</FormShowRunningStatus>
+	
+</ZoneFeature>

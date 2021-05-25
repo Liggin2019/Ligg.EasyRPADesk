@@ -1,0 +1,37 @@
+<ArrayOfAnnex>
+	<Annex>
+		
+		
+		
+		<MasterName>xxxx</MasterName>
+		<DisplayName>IT Operation Tookit</DisplayName>
+		
+		<Description>Operation Center</Description>
+		<Remark>ITSMAOA</Remark><Remark1>IT Service Management And Operation Automation System</Remark1><Remark2>Build easy, precise, metrizable IT service and operation</Remark2>
+		
+		<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+	
+	<MasterName>xxxx</MasterName>
+	<DisplayName>IT运维工具箱</DisplayName>
+	
+	<Description>运维中心</Description>
+	<Remark>ITSMAOA</Remark><Remark1>IT服务管理和运维自动化系统</Remark1><Remark2>打造高效、精准、可测量的IT服务和运维管理</Remark2>
+	
+	<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		
+		
+		
+		<MasterName>xxxx</MasterName>
+		<DisplayName>IT Operation Tookit</DisplayName>
+		
+		<Description>Operation Center</Description>
+		<Remark>ITSMAOA</Remark><Remark1>IT Service Management und Operation Automation System</Remark1><Remark2>Build easy, precise, metrizable IT service and operation</Remark2>
+		
+		<LanguageCode>de</LanguageCode>
+	</Annex>
+	
+		
+		
+</ArrayOfAnnex>

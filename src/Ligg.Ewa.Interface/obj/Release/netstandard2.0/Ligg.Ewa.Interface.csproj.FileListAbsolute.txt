@@ -1,0 +1,9 @@
+D:\Doing\coding\project-git\Ligg.Ewa\3.52\src\Ligg.Ewa.Interface\bin\Release\netstandard2.0\Ligg.Ewa.Interface.deps.json
+D:\Doing\coding\project-git\Ligg.Ewa\3.52\src\Ligg.Ewa.Interface\bin\Release\netstandard2.0\Ligg.Ewa.Interface.dll
+D:\Doing\coding\project-git\Ligg.Ewa\3.52\src\Ligg.Ewa.Interface\bin\Release\netstandard2.0\Ligg.Ewa.Interface.pdb
+D:\Doing\coding\project-git\Ligg.Ewa\3.52\src\Ligg.Ewa.Interface\obj\Release\netstandard2.0\Ligg.Ewa.Interface.csprojAssemblyReference.cache
+D:\Doing\coding\project-git\Ligg.Ewa\3.52\src\Ligg.Ewa.Interface\obj\Release\netstandard2.0\Ligg.Ewa.Interface.AssemblyInfoInputs.cache
+D:\Doing\coding\project-git\Ligg.Ewa\3.52\src\Ligg.Ewa.Interface\obj\Release\netstandard2.0\Ligg.Ewa.Interface.AssemblyInfo.cs
+D:\Doing\coding\project-git\Ligg.Ewa\3.52\src\Ligg.Ewa.Interface\obj\Release\netstandard2.0\Ligg.Ewa.Interface.csproj.CoreCompileInputs.cache
+D:\Doing\coding\project-git\Ligg.Ewa\3.52\src\Ligg.Ewa.Interface\obj\Release\netstandard2.0\Ligg.Ewa.Interface.dll
+D:\Doing\coding\project-git\Ligg.Ewa\3.52\src\Ligg.Ewa.Interface\obj\Release\netstandard2.0\Ligg.Ewa.Interface.pdb

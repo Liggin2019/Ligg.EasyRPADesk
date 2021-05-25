@@ -1,0 +1,190 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>EntNetDisk</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><StyleClass/><StyleText>FontStyle:Bold</StyleText><DisplayName>Ent NetDrive</DisplayName><DataSource>Images\EntNetDisk.png</DataSource><Action>SwitchView;AboutAndContactUs1</Action><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine1</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName><StyleClass>Level2</StyleClass><StyleText/><DisplayName></DisplayName><DataSource/><Action/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>1</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>FileCleaner</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><StyleClass/><StyleText>FontStyle:Bold</StyleText><DisplayName>File Cleaner</DisplayName><DataSource>Images\FileCleaner.png</DataSource><Action>SwitchView;OpenUrl</Action><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine2</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName><StyleClass>Level2</StyleClass><StyleText/><DisplayName></DisplayName><DataSource/><Action/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>1</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>HyperRemote</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><StyleClass/><StyleText>FontStyle:Bold</StyleText><DisplayName>Hyper Remote</DisplayName><DataSource>Images\HyperRemote.png</DataSource><Action>PopupMsg^=GetPhraseAnnexText;System Message^=GetPhraseAnnexText;You have no authorization^^300</Action><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine3</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName><StyleClass>Level2</StyleClass><StyleText/><DisplayName></DisplayName><DataSource/><Action/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>1</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>HyperNetGate</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><StyleClass/><StyleText>FontStyle:Bold</StyleText><DisplayName>Hyper NetGate</DisplayName><DataSource>Images\HyperNetGate.png</DataSource><Action>PopupMsg^=GetPhraseAnnexText;System Message^=GetPhraseAnnexText;You have no authorization^^300</Action><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine4</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName><StyleClass>Level2</StyleClass><StyleText/><DisplayName></DisplayName><DataSource/><Action/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>1</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>EasyNetGate</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontStyle:Bold</StyleText>
+			
+			<DisplayName>Easy NetGate</DisplayName><DataSource>Images\EasyNetGate.png</DataSource>
+			
+			<Action>PopupMsg^=GetPhraseAnnexText;System Message^=GetPhraseAnnexText;You have no authorization^^300</Action>
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine5</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			
+			
+			<StyleClass>Level2</StyleClass><StyleText/>
+			
+			<DisplayName></DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>RemoteSeeDisplay</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontStyle:Bold</StyleText>
+			
+			<DisplayName>Remote Display</DisplayName><DataSource>Images\RemoteSeeDisplay.png</DataSource>
+			
+			<Action>PopupMsg^=GetPhraseAnnexText;System Message^=GetPhraseAnnexText;You have no authorization^^300</Action>
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine6</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			
+			
+			<StyleClass>Level2</StyleClass><StyleText/>
+			
+			<DisplayName></DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

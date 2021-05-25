@@ -1,0 +1,19 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>EmailAddresses</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value>tom@qq.com,bill@qq.com,mary@qq.com, lisa@qq.com</Value><Formula/>
+			
+		</Procedure><Procedure>
+			
+			<Name>Title</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value>My friends: I love you so much</Value><Formula/>
+			
+		</Procedure><Procedure>
+			
+			<Name>Body1</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value>Dear Tom, Bill, Mary, Lisa:</Value><Formula/>
+			
+		</Procedure><Procedure>
+			
+			<Name>Body2</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value>%n%Three years passed since we graduated, But my heart is still in the campus together with you； Tom, Bill, Mary； get more §, ＾＾  I love you so much!</Value><Formula/>
+			
+		</Procedure>
+</ArrayOfProcedure>

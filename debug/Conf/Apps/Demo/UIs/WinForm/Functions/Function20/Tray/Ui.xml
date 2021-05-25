@@ -1,0 +1,24 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			<Id>100</Id><Type>-1</Type><ControlTypeName/><ParentId>0</ParentId><Name>Show</Name>
+						
+			<DisplayName>Show</DisplayName><Description/>
+			
+			<Action>ShowForm</Action>
+			<ImageUrl>%CfgDir%\Images\show.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			<Id>101</Id><Type>-1</Type><ControlTypeName/><ParentId>0</ParentId><Name>Hide</Name>
+						
+			<DisplayName>Hide</DisplayName><Description/>
+			
+			<Action>MinimizeForm</Action>
+			<ImageUrl>%CfgDir%\Images\hide.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			<Id>200</Id><Type>-1</Type><ControlTypeName/><ParentId>0</ParentId><Name>Exit</Name>
+						
+			<DisplayName>Exit</DisplayName><Description/>
+			
+			<Action>ExitApp</Action>
+			<ImageUrl>%CfgDir%\Images\cancel.png</ImageUrl>
+		</LayoutElement>
+</ArrayOfLayoutElement>

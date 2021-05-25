@@ -1,0 +1,66 @@
+<ArrayOfViewFeature>
+		<ViewFeature>
+			<Name>Public</Name><Location>Func10\Public</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><IsPublic>true</IsPublic><IsDefault>false</IsDefault><InvalidFlag/>
+		</ViewFeature><ViewFeature>
+			<Name>AboutAndContactUs</Name><Location>Demo\AboutAndContactUs</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><IsPublic>false</IsPublic><IsDefault>true</IsDefault><InvalidFlag/>
+		</ViewFeature><ViewFeature>
+			<Name>AboutAndContactUs1</Name><Location>Demo\AboutAndContactUs1</Location>
+						
+			
+			
+			
+			<ResizeParamsText>TopNavSection:0;ToolBarSection:64,450,300;MiddleNavSection:0;DownNavSection:0;MainSectionLeftNavDivision:200,30,0;MainSectionRightNavDivision:600,80,0;MainSectionMainDivision:80,0;MainSectionRightDivision:180,380,30;RunningMessageSection:0;HasRunningStatus:true;HasRunningProgress:false;HorResizableDivisionStatus:none</ResizeParamsText><IsPublic>false</IsPublic><IsDefault>false</IsDefault><InvalidFlag/>
+		</ViewFeature><ViewFeature>
+			<Name>AboutAndContactUs2</Name><Location>Demo\AboutAndContactUs2</Location>
+						
+			
+			
+			
+			<ResizeParamsText>TopNavSection:0;ToolBarSection:64,450,300;MiddleNavSection:0;DownNavSection:0;MainSectionLeftNavDivision:200,30,0;MainSectionRightNavDivision:600,80,0;MainSectionMainDivision:80,0;MainSectionRightDivision:180,380,30;RunningMessageSection:0;HasRunningStatus:true;HasRunningProgress:false;HorResizableDivisionStatus:show</ResizeParamsText><IsPublic>false</IsPublic><IsDefault>false</IsDefault><InvalidFlag/>
+		</ViewFeature><ViewFeature>
+			<Name>OpenUrl</Name><Location>Demo\OpenUrl</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><IsPublic>false</IsPublic><IsDefault>false</IsDefault><InvalidFlag/>
+		</ViewFeature><ViewFeature>
+			<Name>UnderDev</Name><Location>_Public\UnderDev</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><IsPublic>false</IsPublic><IsDefault>false</IsDefault><InvalidFlag/>
+		</ViewFeature><ViewFeature>
+			<Name>NoAuth</Name><Location>_Public\NoAuth</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><IsPublic>false</IsPublic><IsDefault>false</IsDefault><InvalidFlag/>
+		</ViewFeature><ViewFeature>
+			<Name>NoServer</Name><Location>_Public\NoServer</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><IsPublic>false</IsPublic><IsDefault>false</IsDefault><InvalidFlag/>
+		</ViewFeature><ViewFeature>
+			<Name>NoServer1</Name><Location>_Public\NoServer</Location>
+						
+			
+			
+			
+			<ResizeParamsText>TopNavSection:0;ToolBarSection:64,450,300;MiddleNavSection:0;DownNavSection:0;MainSectionLeftNavDivision:200,30,0;MainSectionRightNavDivision:0,0,0;MainSectionMainDivision:80,0;MainSectionRightDivision:180,380,30;RunningMessageSection:0;HasRunningStatus:true;HasRunningProgress:false;HorResizableDivisionStatus:none</ResizeParamsText><IsPublic>false</IsPublic><IsDefault>false</IsDefault><InvalidFlag/>
+		</ViewFeature>
+</ArrayOfViewFeature>

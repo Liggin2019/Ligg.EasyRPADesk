@@ -1,0 +1,13 @@
+<GlobalSetting>
+
+	<HelpdeskEmail>LiggHelpdesk@outlook.com</HelpdeskEmail>
+	
+	<DefaultCulture>en-US</DefaultCulture>
+	
+	<BootStrapperTasksDllPath>netstandard2.0\BootStrapperTasks.dll</BootStrapperTasksDllPath>
+	<BootStrapperTaskNameSpace/>
+
+	
+	<PhythonExePath>C:\\Python38\\Python.exe</PhythonExePath>	
+	
+</GlobalSetting>

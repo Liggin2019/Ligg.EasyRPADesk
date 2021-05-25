@@ -1,0 +1,46 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ Open Folder ＃＃＃＃＃＃</DisplayName>			
+			<Value/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>2</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Dir</Name><TypeName>ReadLine</TypeName>
+			<DisplayName>文件夹</DisplayName>			
+			<Value/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenFolder</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>打开文件夹</DisplayName>			
+			<Value>OpenFolder;$Dir.v$</Value>
+			
+			
+			
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

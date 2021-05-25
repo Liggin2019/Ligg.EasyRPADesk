@@ -1,0 +1,118 @@
+<ArrayOfZoneItem>
+
+		<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/>
+			
+			<Popup>false</Popup><DisplayName/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>40</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>MachineL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row10</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<Popup>false</Popup><DisplayName>Machine</DisplayName>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>1</OffsetOrPositionY>			<Width>80</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Machine</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName><Row>Row10</Row><StyleClass/><StyleText/>
+			
+			<Popup>false</Popup><DisplayName/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>80</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>OsL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row10</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<Popup>false</Popup><DisplayName>Os</DisplayName>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>1</OffsetOrPositionY>			<Width>60</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Os</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName><Row>Row10</Row><StyleClass/><StyleText/>
+			
+			<Popup>false</Popup><DisplayName/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>220</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>IpsL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row10</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<Popup>false</Popup><DisplayName>IP</DisplayName>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>1</OffsetOrPositionY>			<Width>30</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ips</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName><Row>Row10</Row><StyleClass/><StyleText/>
+			
+			<Popup>false</Popup><DisplayName/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>-1</OffsetOrPositionY>			<Width>120</Width>
+			<Height>24</Height>
+		</ZoneItem>
+		
+		
+		
+		
+				
+		
+		
+		
+</ArrayOfZoneItem>

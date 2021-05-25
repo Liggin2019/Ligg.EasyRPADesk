@@ -1,0 +1,340 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>LogoImage</Name><TypeName>Control</TypeName>
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource>\images\logo.png</DataSource><Action/><ExecModeFlag/>
+			
+			
+			
+			
+			<OffsetOrPositionX>15</OffsetOrPositionX><OffsetOrPositionY>14</OffsetOrPositionY><Width>46</Width><Height>32</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductShortNameName</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:17;FontStyle:Bold;ForeColor:10,40,150</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Remark</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>65</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>127</Width><Height>45</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductDes</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:12;ForeColor:255,255,255</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Remark2</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>200</OffsetOrPositionX><OffsetOrPositionY>16</OffsetOrPositionY><Width>450</Width><Height>32</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductImage</Name><TypeName>Control</TypeName>
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource>\images\product.png</DataSource><Action/><ExecModeFlag/>
+			
+			
+			
+			
+			<OffsetOrPositionX>30</OffsetOrPositionX><OffsetOrPositionY>60</OffsetOrPositionY><Width>140</Width><Height>140</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Blank1</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName/><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>200</OffsetOrPositionX><OffsetOrPositionY>60</OffsetOrPositionY><Width>452</Width><Height>9</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName>Product</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>200</OffsetOrPositionX><OffsetOrPositionY>70</OffsetOrPositionY><Width>71</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Product</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Remark1</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>272</OffsetOrPositionX><OffsetOrPositionY>70</OffsetOrPositionY><Width>380</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ModuleL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName>Module</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>200</OffsetOrPositionX><OffsetOrPositionY>100</OffsetOrPositionY><Width>71</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Module</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Description</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>272</OffsetOrPositionX><OffsetOrPositionY>100</OffsetOrPositionY><Width>380</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>AppL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName>Application</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>200</OffsetOrPositionX><OffsetOrPositionY>130</OffsetOrPositionY><Width>71</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Application</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>272</OffsetOrPositionX><OffsetOrPositionY>130</OffsetOrPositionY><Width>380</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>VersionL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName>Version</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>200</OffsetOrPositionX><OffsetOrPositionY>160</OffsetOrPositionY><Width>71</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ArchL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName>Architecture</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight><InvalidFlag/>
+		</ZoneItem><ZoneItem>
+			<Name>Version</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName>%AppVersion%($AppL.t$)       %ArchVersion%($ArchL.t$)</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>272</OffsetOrPositionX><OffsetOrPositionY>160</OffsetOrPositionY><Width>380</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Blank2</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;BackColor:250,250,250</StyleText>
+			
+			<DisplayName/><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>200</OffsetOrPositionX><OffsetOrPositionY>191</OffsetOrPositionY><Width>452</Width><Height>9</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Org</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;FontStyle:Bold;FontSize:8.50;ForeColor:250,250,250</StyleText>
+			
+			<DisplayName>Ligg Tech</DisplayName><DataSource/><Action>OpenUrl;https://www.github.com/liggin2019</Action><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>330</OffsetOrPositionX><OffsetOrPositionY>225</OffsetOrPositionY><Width>80</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>CopyRight</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:10;FontStyle:Bold;FontSize:8.50;ForeColor:250,250,250</StyleText>
+			
+			<DisplayName>All Right Reserved</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>412</OffsetOrPositionX><OffsetOrPositionY>225</OffsetOrPositionY><Width>230</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>RunningStatusTip</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName>Bootstrapper Tasks</DisplayName><DataSource/><Action/><ExecModeFlag/>			
+			
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight><InvalidFlag/>
+		</ZoneItem><ZoneItem>
+			<Name>RefreshRunningStatus</Name><TypeName>AfterZoneRenderHandler</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/><Action>RefreshRunningStatus;$RunningStatusTip.t$</Action><ExecModeFlag/>
+			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>FadeIn</Name><TypeName>AfterZoneRenderHandler</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/><Action>FadeIn;800</Action><ExecModeFlag>AwaitedAsync</ExecModeFlag>
+			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ExecBootStrapperTasks</Name><TypeName>AfterZoneRenderHandler</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/><Action>Sleep;3000</Action><ExecModeFlag>AwaitedAsync</ExecModeFlag>
+			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>FadeOut</Name><TypeName>AfterZoneRenderHandler</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/><Action>FadeOut;100</Action><ExecModeFlag>AwaitedAsync</ExecModeFlag>
+			
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

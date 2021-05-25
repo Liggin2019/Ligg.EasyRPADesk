@@ -1,0 +1,9 @@
+<ArrayOfMenuFeature>
+		<MenuFeature>
+			<Id>1</Id><Name>MainMenu</Name><MenuTypeName>Nested</MenuTypeName><Location>NestedMenu1</Location>
+			
+		</MenuFeature><MenuFeature>
+			<Id>2</Id><Name>ToolBarMenu</Name><MenuTypeName>ToolBar</MenuTypeName><Location>ToolBarMenu1</Location>
+			
+		</MenuFeature>
+</ArrayOfMenuFeature>

@@ -1,0 +1,118 @@
+<ArrayOfAnnex>
+	<Annex>
+		
+		
+		
+		<MasterName>**for SoftwareCover**</MasterName>
+		<DisplayName/>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+		
+		
+		
+		<MasterName>Arch</MasterName>
+		<DisplayName>Architecture</DisplayName>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+	
+	<MasterName>Arch</MasterName>
+	<DisplayName>架构</DisplayName>
+	<Description/>
+	<Remark/>
+	
+	<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		
+		
+		
+		<MasterName>Arch</MasterName>
+		<DisplayName>Architecture</DisplayName>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+		
+		
+		
+		<MasterName>App</MasterName>
+		<DisplayName>Application</DisplayName>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+	
+	<MasterName>App</MasterName>
+	<DisplayName>应用</DisplayName>
+	<Description/>
+	<Remark/>
+	
+	<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		
+		
+		
+		<MasterName>App</MasterName>
+		<DisplayName>Application</DisplayName>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+		
+		
+		
+		<MasterName>**Funcs**</MasterName>
+		<DisplayName/>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+		
+		
+		
+		<MasterName>AdmTk</MasterName>
+		<DisplayName>IT Service And Operation Administrator Toolkit</DisplayName>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>eng</LanguageCode>
+	</Annex><Annex>
+	
+	<MasterName>AdmTk</MasterName>
+	<DisplayName>IT服务和运维管理工具箱</DisplayName>
+	<Description/>
+	<Remark/>
+	
+	<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		
+		
+		
+		<MasterName>AdmTk</MasterName>
+		<DisplayName>IT Service Und Operation Administrator Toolkit</DisplayName>
+		
+		<Description/>
+		<Remark/>
+		
+		<LanguageCode>de</LanguageCode>
+	</Annex>
+	
+		
+		
+</ArrayOfAnnex>

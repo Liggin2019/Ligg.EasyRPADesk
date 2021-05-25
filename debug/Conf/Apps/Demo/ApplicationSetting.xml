@@ -1,0 +1,29 @@
+<ApplicationSetting>
+	<HelpdeskEmail>LiggHelpdesk@outlook.com</HelpdeskEmail>
+	<SupportMultiCultures>true</SupportMultiCultures>
+	<DefaultCulture>zh-CN</DefaultCulture>
+	<PhythonExecPath/>	
+	
+	<ApplicationVersion>3.1.4</ApplicationVersion>
+	
+	<HasCblpComponent>false</HasCblpComponent>
+	<CblpDllPath/>
+	<CblpAdapterClassFullName/>
+	<CblpLibDir>d:\mdl\green</CblpLibDir>
+	<CblpDataDir/>
+	
+	<RunBootStrapperTasksAtStart>false</RunBootStrapperTasksAtStart>
+	<BootStrapperTasks>CheckHostingServer,CheckLicenseAvailability,CheckPublicationValidity,CheckSoftwareVersion</BootStrapperTasks>
+	
+	<VerifyPasswordAtStart>false</VerifyPasswordAtStart>
+	<PasswordVerificationRule>Type:ClearPassword;Params:www</PasswordVerificationRule>
+	
+	
+	
+	
+	<ShowSoftwareCoverAtStart>false</ShowSoftwareCoverAtStart>	
+	<SoftwareCoverLocation>_Public\SoftwareCover</SoftwareCoverLocation>
+	<LogonAtStart>false</LogonAtStart>
+	<LogonLocation>\_Public\Logon</LogonLocation>
+	
+</ApplicationSetting>

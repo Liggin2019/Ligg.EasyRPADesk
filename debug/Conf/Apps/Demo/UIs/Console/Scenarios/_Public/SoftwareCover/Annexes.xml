@@ -1,0 +1,56 @@
+
+<ArrayOfAnnex>
+		<Annex>
+			
+			<MasterName>Product</MasterName>
+			<DisplayName>产品</DisplayName>
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			<MasterName>Module</MasterName>
+			<DisplayName>模块</DisplayName>
+			<Description>运维中心</Description>
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Application</MasterName>
+			<DisplayName>应用</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			<MasterName>Version</MasterName>
+			<DisplayName>版本</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ArchL</MasterName>
+			<DisplayName>架构</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Org</MasterName>
+			<DisplayName>理格科技</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>CopyRight</MasterName>
+			<DisplayName>版权所有</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ContactUs</MasterName>
+			<DisplayName>联系我们</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

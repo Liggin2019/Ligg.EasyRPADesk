@@ -1,0 +1,89 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Name>MainArea</Name><Container>MainSectionMainDivisionMidRegion</Container><TypeName>ContentArea</TypeName>
+			<Trigger/><Location/><Action/><InputVariables/><StyleClass/><StyleText>Padding:2</StyleText>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>ChooseUrl</Name><Container>MainArea</Container><TypeName>Zone</TypeName>
+			<Trigger/><Location>Demo\OpenUrlByChoice</Location><Action/><InputVariables/><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>SetUrl</Name><Container/><TypeName>FollowingTransaction</TypeName>
+			<Trigger>ChooseUrl_UrlOption</Trigger><Location/><Action>SetControlValue;$OpenUrl_Url$;$ChooseUrl_UrlOption.v$</Action><InputVariables/><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>SetUrl1</Name><Container/><TypeName>FollowingTransaction</TypeName>
+			<Trigger>ChooseUrl_UrlOption</Trigger><Location/><Action>SetControlValue;$OpenUrl_Url1$;$ChooseUrl_UrlOption.v$</Action><InputVariables/><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>OpenUrl</Name><Container>MainArea</Container><TypeName>Zone</TypeName>
+			<Trigger/><Location>Demo\OpenUrl2</Location><Action/><InputVariables/><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement>
+
+	</ArrayOfLayoutElement>

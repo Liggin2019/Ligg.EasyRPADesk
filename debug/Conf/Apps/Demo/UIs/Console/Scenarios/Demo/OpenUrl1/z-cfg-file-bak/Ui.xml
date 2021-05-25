@@ -1,0 +1,46 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃  Open Url ＃＃＃＃＃＃</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>2</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>WebUrl</Name><TypeName>ReadLine</TypeName>
+			<DisplayName>网址</DisplayName>			
+			<Value/><ValidationRules>WebUrl</ValidationRules>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenUrl</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>打开网址</DisplayName>			
+			<Value>OpenUrl;$WebUrl.v$</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

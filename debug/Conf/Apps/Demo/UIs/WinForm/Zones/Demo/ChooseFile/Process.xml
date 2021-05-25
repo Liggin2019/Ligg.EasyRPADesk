@@ -1,0 +1,11 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>FilePath</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Formula>=ChooseFile;txt file|*.txt</Formula>
+			
+		</Procedure><Procedure>
+			
+			<Name>IsPathValid</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Formula>=GetBool;IsFileExisting;#FilePath.v#</Formula>
+			
+		</Procedure>
+</ArrayOfProcedure>

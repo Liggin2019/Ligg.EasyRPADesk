@@ -1,0 +1,277 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>LogoImage</Name><TypeName>Control</TypeName>
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<Container/><ControlTypeName>PictureBox</ControlTypeName><StyleText/>
+			
+			<DisplayName/><DataSource>\images\logo.png</DataSource>
+			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>6</OffsetOrPositionY><Width>48</Width><Height>32</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ProductCode</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container/><ControlTypeName>Label</ControlTypeName><StyleText>FontSize:11;FontStyle:Bold;FontColor:100,53,153</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Remark</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>58</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>80</Width><Height>32</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ProductDes</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container/><ControlTypeName>Label</ControlTypeName><StyleText>FontSize:8;FontStyle:Bold;FontColor:100,53,153</StyleText>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Remark2</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>155</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>400</Width><Height>32</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ProductImage</Name><TypeName>Control</TypeName>
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<Container/><ControlTypeName>PictureBox</ControlTypeName><StyleText/>
+			
+			<DisplayName/><DataSource>\images\product.png</DataSource>
+			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>16</OffsetOrPositionX><OffsetOrPositionY>53</OffsetOrPositionY><Width>120</Width><Height>120</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>BackgrdPanel</Name><TypeName>ControlContainer</TypeName>
+			<ControlTypeName>ShadowPanel</ControlTypeName>
+			
+			
+			
+			<Container/><ControlTypeName>ShadowPanel</ControlTypeName><StyleText/>
+			
+			<DisplayName/><DataSource/>
+			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>150</OffsetOrPositionX><OffsetOrPositionY>45</OffsetOrPositionY><Width>420</Width><Height>150</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ProductL</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>Product</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Product</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Remark1</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>78</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>300</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ModuleL</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>Module</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>40</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Module</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>=GetAnnexText;Application;%AppCode%;Description</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>78</OffsetOrPositionX><OffsetOrPositionY>40</OffsetOrPositionY><Width>300</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>FunctionL</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>Function</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>70</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Function</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>=GetAnnexText;Function;%FuncCode%</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>78</OffsetOrPositionX><OffsetOrPositionY>70</OffsetOrPositionY><Width>300</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>VersionL</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>Version</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>100</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>AppL</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>Application</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ArchL</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>Architecture</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Version</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container>BackgrdPanel</Container><ControlTypeName>Label</ControlTypeName><StyleText/>
+			
+			<DisplayName>%AppVersion%($AppL.t$)       %ArchVersion%($ArchL.t$)</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>78</OffsetOrPositionX><OffsetOrPositionY>100</OffsetOrPositionY><Width>300</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Org</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Container/><ControlTypeName>CommandLabel</ControlTypeName><StyleText>FontStyle:Bold;FontSize:8.50;FontColor:10,40,150</StyleText>
+			
+			<DisplayName>Ligg Tech</DisplayName><DataSource/>			
+			<Action>OpenUrl;https://www.github.com/liggin2019</Action>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>230</OffsetOrPositionX><OffsetOrPositionY>201</OffsetOrPositionY><Width>70</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CopyRight</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Container/><ControlTypeName>Label</ControlTypeName><StyleText>FontStyle:Bold;FontSize:8.50;FontColor:100,100,100</StyleText>
+			
+			<DisplayName>All Right Reserved</DisplayName><DataSource/>			
+			
+			
+			
+			<Action/><DockTypeName/><OffsetOrPositionX>300</OffsetOrPositionX><OffsetOrPositionY>200</OffsetOrPositionY><Width>130</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ContactUs</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Container/><ControlTypeName>CommandLabel</ControlTypeName><StyleText>FontStyle1:Bold;FontSize:8.50;FontColor:100,100,100</StyleText>
+			
+			<DisplayName>Contact Us</DisplayName><DataSource/>			
+			<Action>PopupZoneDialog;\_Public\ContactUs</Action>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>430</OffsetOrPositionX><OffsetOrPositionY>200</OffsetOrPositionY><Width>80</Width><Height>30</Height>
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

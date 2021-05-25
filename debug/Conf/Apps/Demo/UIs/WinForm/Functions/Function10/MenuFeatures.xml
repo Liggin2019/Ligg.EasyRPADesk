@@ -1,0 +1,9 @@
+<ArrayOfMenuFeature>
+	<MenuFeature>
+		<Id>1</Id><MenuTypeName>Horizontal</MenuTypeName><Name>MainMenu</Name><Container>ToolBarSectionCenterRegion</Container><Location>HorMenu1</Location><ImageUrl/><InvalidFlag/>
+		
+	</MenuFeature><MenuFeature>
+		<Id>2</Id><MenuTypeName>Vertical</MenuTypeName><Name>MainMenu1</Name><Container>MainSectionLeftNavDivisionMidRegion</Container><Location>VerMenu1</Location><ImageUrl>%cfgDir%\\Images;schedule.gif,task.gif</ImageUrl><InvalidFlag></InvalidFlag>
+		
+	</MenuFeature><MenuFeature><Id>3</Id><MenuTypeName>ToolBar</MenuTypeName><Name>ToolBar1</Name><Container>-1</Container><Location>ToolBarMenu1</Location><ImageUrl></ImageUrl><InvalidFlag/></MenuFeature>
+</ArrayOfMenuFeature>

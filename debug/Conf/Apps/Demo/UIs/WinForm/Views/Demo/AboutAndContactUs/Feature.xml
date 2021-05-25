@@ -1,0 +1,9 @@
+<SviViewFeature>
+	
+	<FormWidth>600</FormWidth>
+	<FormHeight>600</FormHeight>
+    
+    <FormDrawIcon>true</FormDrawIcon>
+    <FormIconUrl>Icons\icon.ico</FormIconUrl>
+	
+</SviViewFeature>

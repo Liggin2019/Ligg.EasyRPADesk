@@ -1,0 +1,37 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ Send Emails ＃＃＃＃＃＃</DisplayName>			
+			<Value/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>2</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Send</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>发送邮件</DisplayName>			
+			<Value>SendLocalEmail@#EmailAddresses.v#@#Title.v#@=Combine;#Body1.v#/#Body2.v#</Value><ReplacedTabooIdentifiers>$,^,;</ReplacedTabooIdentifiers>
+			
+			
+			
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

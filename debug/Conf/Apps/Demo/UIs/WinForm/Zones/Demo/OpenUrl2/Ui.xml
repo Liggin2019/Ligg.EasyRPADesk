@@ -1,0 +1,581 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrlsL</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Open Urls</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>20</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>6</OffsetOrPositionY><Width>80</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Clear</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Clear Urls</DisplayName><DataSource>images\clear.png</DataSource>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>258</ValidationRules><Action>ClearControlsValues;$Url$,$Url1$,$Url2$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>258</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>26</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>UrlsValidator</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<StyleClass>Error</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Value>=ValidateInput^$Url$,$Url1$,$Url2$</Value><LoadValueOnInitFlag/><ValidationRules/><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrlsXrun</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>8</ValidationRules><Action>Xrun;$ValidateUrls$,$OpenUrlsCrun$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>26</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ValidateUrls</Name><TypeName>Transaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>RefreshControlValue;$UrlsValidator$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrlsCrun</Name><TypeName>Transaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>Crun^$UrlsValidator.v$^$OpenUrls$^$PopupError$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrls</Name><TypeName>Transaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>Xrun;$OpenUrl$,$OpenUrl1$,$OpenUrl2$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>PopupError</Name><TypeName>Transaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>PopupMsg;Validation Error;$UrlsValidator.v$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row19</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>6</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine</Name><TypeName>Control</TypeName>
+			<Row>Row19</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>20</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>398</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row20</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>UrlL</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>20</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>60</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>https://www.qq.com</Value><LoadValueOnInitFlag>true</LoadValueOnInitFlag><ValidationRules>StringMinLength;10,WebUrl</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>300</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrlXrun</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>Xrun;$ValidateUrl$,$OpenUrlCrun$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ValidateUrl</Name><TypeName>Transaction</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>RefreshControlValue;$UrlValidator$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrlCrun</Name><TypeName>Transaction</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>Crun^$UrlValidator.v$^$OpenUrl$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl</Name><TypeName>Transaction</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>OpenUrl;$Url.v$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row21</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>23</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>UrlValidator</Name><TypeName>Control</TypeName>
+			<Row>Row21</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<StyleClass>Error</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Value>=ValidateInput^$Url$</Value><LoadValueOnInitFlag/><ValidationRules/><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>88</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>300</Width><Height>23</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row30</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url1L</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Url1</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>20</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>60</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url1</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>https://www.baidu.com</Value><LoadValueOnInitFlag>true</LoadValueOnInitFlag><ValidationRules>StringMinLength;10,WebUrl</ValidationRules><Action/>
+			
+			
+			<DisabledFlag>true</DisabledFlag><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>300</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl1Xrun</Name><TypeName>Control</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>Xrun;$ValidateUrl1$,$OpenUrl1Crun$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ValidateUrl1</Name><TypeName>Transaction</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>RefreshControlValue;$Url1Validator$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl1Crun</Name><TypeName>Transaction</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>Crun^$Url1Validator.v$^$OpenUrl1$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl1</Name><TypeName>Transaction</TypeName>
+			<Row>Row30</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>OpenUrl;$Url1.v$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row31</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>23</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url1Validator</Name><TypeName>Control</TypeName>
+			<Row>Row31</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName><StyleClass>Error</StyleClass>
+			
+			<StyleText/><DisplayName/><DataSource/>			
+			<Value>=ValidateInput^$Url1$</Value><LoadValueOnInitFlag/><ValidationRules/><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>88</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>300</Width><Height>23</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row40</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url2L</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Url2</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>20</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>60</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url2</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>https://fanyi.baidu.com</Value><LoadValueOnInitFlag>true</LoadValueOnInitFlag><ValidationRules>StringMinLength;10,WebUrl</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>300</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl2Xrun</Name><TypeName>Control</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>Xrun;$ValidateUrl2$,$OpenUrl2Crun$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ValidateUrl2</Name><TypeName>Transaction</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>RefreshControlValue;$Url2Validator$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl2Crun</Name><TypeName>Transaction</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>Crun^$Url2Validator.v$^$OpenUrl2$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl2</Name><TypeName>Transaction</TypeName>
+			<Row>Row40</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action>OpenUrl;$Url2.v$</Action>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row41</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><ValidationRules>-1</ValidationRules><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-4</OffsetOrPositionY><Width>-1</Width><Height>23</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url2Validator</Name><TypeName>Control</TypeName>
+			<Row>Row41</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName><StyleClass>Error</StyleClass>
+			
+			<StyleText/><DisplayName/><DataSource/>			
+			<Value>=ValidateInput^$Url2$</Value><LoadValueOnInitFlag/><ValidationRules/><Action/>
+			
+			
+			<DisabledFlag/><OffsetOrPositionX>88</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>300</Width><Height>23</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>
