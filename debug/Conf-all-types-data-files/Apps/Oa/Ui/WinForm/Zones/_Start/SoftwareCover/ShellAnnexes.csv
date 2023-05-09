@@ -1,0 +1,7 @@
+MasterName,DisplayName,LanguageCode
+Arch,架构,szh
+App,应用,szh
+Action1,检查宿主服务器位置,szh
+Action2,检查软件版本,szh
+Action3,检查许可有效性,szh
+Action4,检查软件发布包有效性,szh

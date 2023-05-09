@@ -1,0 +1,203 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			<Name>FormHeaderArea</Name><TypeName>ContentArea</TypeName><Container>ToolBarSectionLeftRegion</Container>
+			<Location/><ShellArgs/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			
+			
+			<Action/><DockOrder/><DockTypeName>Fill</DockTypeName>
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>FormHeader</Name><TypeName>Zone</TypeName><Container>FormHeaderArea</Container>
+			<Location>Public\FormHeader</Location><ShellArgs/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			<DockOrder/><DockTypeName>Fill</DockTypeName>
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>ComAndSysInfoArea</Name><TypeName>ContentArea</TypeName><Container>MainSectionMainDivisionUpRegion</Container>
+			<Location/><ShellArgs/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			
+			
+			
+			
+			<DockOrder/><DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>ComputerAndSystemInfoL</Name><TypeName>Zone</TypeName><Container>ComAndSysInfoArea</Container>
+			<Location>%GlbUiDir%\Zones\TitleLabel</Location><ShellArgs>Computer and System Info.,Level1,,TextAlign:MiddleLeft</ShellArgs><StyleClass/><StyleText>BackColor:Transparent</StyleText>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			
+			
+			
+			
+			<DockOrder/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>ComputerInfo</Name><TypeName>Zone</TypeName><Container>ComAndSysInfoArea</Container>
+			<Location>Public\ComputerInfo</Location><ShellArgs/><StyleClass/><StyleText>Style:Rounded|Radius:20</StyleText>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			
+			
+			
+			
+			<DockOrder/><DockTypeName/><OffsetOrPositionX>6</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>TansactionArea</Name><TypeName>ContentArea</TypeName><Container>MainSectionRightDivisionUpRegion</Container>
+			<Location/><ShellArgs/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			
+			
+			
+			
+			<DockOrder/><DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>RecmdTransL</Name><TypeName>Zone</TypeName><Container>TansactionArea</Container>
+			<Location>%GlbUiDir%\Zones\TitleLabel</Location><ShellArgs>Recmd Tansactions,Level1,TextAlign:MiddleLeft</ShellArgs><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			
+			
+			
+			
+			<DockOrder/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>RecmdTrans</Name><TypeName>Zone</TypeName><Container>TansactionArea</Container>
+			<Location>Public\RecmdTransactions</Location><ShellArgs/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			<DockOrder/><DockTypeName>Top</DockTypeName>
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>FavTransL</Name><TypeName>Zone</TypeName><Container>TansactionArea</Container>
+			<Location>%GlbUiDir%\Zones\TitleLabel</Location><ShellArgs>Favorite Tansactions,Level1,TextAlign:MiddleLeft</ShellArgs><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			
+			
+			
+			
+			<DockOrder>2</DockOrder><DockTypeName>Bottom</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>FavTrans</Name><TypeName>Zone</TypeName><Container>TansactionArea</Container>
+			<Location>Public\FavoriteTransactions</Location><ShellArgs/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			<DockOrder>1</DockOrder><DockTypeName>Bottom</DockTypeName>
+			
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>SysAdmToolkitArea</Name><TypeName>ContentArea</TypeName><Container>MainSectionRightDivisionDownRegion</Container>
+			<Location/><ShellArgs/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			
+			
+			
+			
+			<DockOrder/><DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>DeveloperToolkit</Name><TypeName>Zone</TypeName><Container>SysAdmToolkitArea</Container>
+			<Location>%GlbUiDir%\Zones\ImageTextButtonH</Location><ShellArgs>Developer Toolkit|%GlbSharedDir%\Images\tools-red-blue.png|PopupMsg@=GetSharedAnnexText;System Message@=GetSharedAnnexText;You have no authorization</ShellArgs><StyleClass/><StyleText/>
+			
+			<DisplayName/><Remark/>
+			
+			<Action/>
+			
+			
+			
+			
+			
+			<DockOrder/><DockTypeName>Bottom</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><Invalid/>
+		</LayoutElement>
+</ArrayOfLayoutElement>

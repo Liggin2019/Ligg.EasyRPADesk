@@ -1,0 +1,19 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>Action1</Name><TypeName>Transaction</TypeName><DisplayName>Check Hosting Location</DisplayName><Expression>Sleep;800</Expression><ShowRunningStatus>true</ShowRunningStatus><SkipOnInit>true</SkipOnInit>
+			
+		</Procedure><Procedure>
+			
+			<Name>Action2</Name><TypeName>Transaction</TypeName><DisplayName>Check Software Version</DisplayName><Expression>Sleep;800</Expression><ShowRunningStatus>true</ShowRunningStatus><SkipOnInit>true</SkipOnInit>
+			
+		</Procedure><Procedure>
+			
+			<Name>Action3</Name><TypeName>Transaction</TypeName><DisplayName>Check License Availability</DisplayName><Expression>Sleep;800</Expression><ShowRunningStatus>true</ShowRunningStatus><SkipOnInit>true</SkipOnInit>
+			
+		</Procedure><Procedure>
+			
+			<Name>Action4</Name><TypeName>Transaction</TypeName><DisplayName>Check Publishment Validity</DisplayName><Expression>Sleep;800</Expression><ShowRunningStatus>true</ShowRunningStatus><SkipOnInit>true</SkipOnInit>
+			
+		</Procedure>
+</ArrayOfProcedure>

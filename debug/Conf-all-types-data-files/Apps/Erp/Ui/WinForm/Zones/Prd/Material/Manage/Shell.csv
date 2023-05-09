@@ -1,0 +1,6 @@
+Name,TypeName,GroupId,Expression,SkipOnInit,Condition
+Month,Variable,0,,true,
+DataToDelete,Variable,0,,true,
+DeleteParams,Variable,0,=Join;ids=;#DataToDelete.v#;|,true,
+DeleteResult,Variable,0,=HttpClientPost@Prd/Material/DeleteSelected@@#DeleteParams.v#,true,
+UnavailableBtns,Variable,0,=HttpClientGet@sys/Permission/GetUnavailableClientViewButtons@View:mngMaterialAm,false,

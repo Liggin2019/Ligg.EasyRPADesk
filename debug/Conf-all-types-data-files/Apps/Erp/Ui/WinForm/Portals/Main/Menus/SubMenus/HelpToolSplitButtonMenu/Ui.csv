@@ -1,0 +1,4 @@
+Id,ParentId,Name,ControlTypeName,DisplayName,Invisible,Disabled,Action,ImageUrl,Invalid
+10,0,About,,About,,,ShowDialog^Svi;Dashboard,images\about.png,
+20,0,ContactUs,,Contact Us,,,ShowDialog^Szi;About\Contact,images\email.gif,
+30,0,HelpCenter,,Help Center,,,ShowDialog^Szi;About\Docs,images\help.png,

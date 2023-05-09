@@ -1,0 +1,5 @@
+<FormStyle>
+	<CannotBeClosed>true</CannotBeClosed>
+    <DrawIcon>true</DrawIcon>
+    <IconUrl>%GlbSharedDir%\Icos\logo.ico</IconUrl>
+</FormStyle>

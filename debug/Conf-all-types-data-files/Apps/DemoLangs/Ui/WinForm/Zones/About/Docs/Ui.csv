@@ -1,0 +1,9 @@
+Name,TypeName,Container,ControlTypeName,Row,StyleClass,StyleText,DisplayName,Value,DataSource,Action,Invisible,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+DocsImageL,Control,,Label,,,,docs-en.png,,,,true,,0,0,0,0
+DocsImage,Control,,PictureBox,,,ShowImageByLang:true,,,=Combine;;%ZonesDir%\About\Docs\Images\;$DocsImageL.t$,,,,47,16,1012,740
+GoPanel,ControlContainer,,ContainerPanel,,,CpntArrangeType:RowLining|Style:Rounded|Radius:40|,,,,,,,730,28,364,40
+LogoImage,Control,,PictureBox,,,,,,%GlbCfgDir%\Shared\Images\Logo\logo-1.png,,,,260,-10,100,100
+Row10,SubControl,GoPanel,Row,,,,,,,,,,-1,4,-1,32
+UrlL,SubControl,GoPanel,Label,Row10,,"ForeColor:16,16,16|FontStyle:Bold|FontSize:12.00",Url:,,,,,,10,0,38,32
+Url,SubControl,GoPanel,TextBox,Row10,,"DisplayByLang:true|HasNoBorder:true|ForeColor:160,160,160|FontSize:12.8",,=GetAnnexText;ZoneItem;$Url$,,,,,0,5,266,32
+Go,SubControl,GoPanel,PictureBox,Row10,,,Click to visit docs site...,%GlbCfgDir%\Shared\Images\go.jpg,%GlbCfgDir%\Shared\Images\go.jpg,OpenUrl;$Url.v$,,,4,0,32,32

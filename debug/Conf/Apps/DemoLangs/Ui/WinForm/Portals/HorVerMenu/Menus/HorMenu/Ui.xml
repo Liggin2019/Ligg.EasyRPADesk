@@ -1,0 +1,145 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Id>110</Id><ParentId>0</ParentId><Name>Dashboard</Name><DisplayName>Dashboard</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName>
+			
+						
+			
+			
+			
+			
+						
+			<View>Dashboard</View><ImageUrl>%GlbSharedDir%\Images\Home.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>120</Id><ParentId>0</ParentId><Name>File</Name><DisplayName>File</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View/><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>%GlbSharedDir%\Images\folder-close.gif</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12010</Id><ParentId>120</ParentId><Name>Open</Name><DisplayName>Open</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12020</Id><ParentId>120</ParentId><Name>Save</Name><DisplayName>Save</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12030</Id><ParentId>120</ParentId><Name>SaveAs</Name><DisplayName>Save As</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12040</Id><ParentId>120</ParentId><Name>Exit</Name><DisplayName>Performance</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>130</Id><ParentId>0</ParentId><Name>Preference</Name><DisplayName>Preference</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View/>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>%GlbSharedDir%\Images\run.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>140</Id><ParentId>0</ParentId><Name>Tool</Name><DisplayName>Tool Box</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View/>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>%GlbSharedDir%\Images\tools-red-blue.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>150</Id><ParentId>0</ParentId><Name>Help</Name><DisplayName>Help</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View/>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>%GlbSharedDir%\Images\help.png</ImageUrl>
+		</LayoutElement>
+
+</ArrayOfLayoutElement>

@@ -1,0 +1,35 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>Option</Name><TypeName>Variable</TypeName><Condition/><Expression/><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>Image</Name><TypeName>Variable</TypeName><Condition/><Expression/><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>Text</Name><TypeName>Variable</TypeName><Condition/><Expression>Text not defined</Expression><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>UnderDevRun</Name><TypeName>Transaction</TypeName><Condition>=Judge;IfElse;#0#;Equal;UnderDev</Condition><Expression>SetVariableValue;#Text#;This function is under developing...</Expression><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>UnderDevReturn</Name><TypeName>Return</TypeName><Condition>=Judge;IfElse;#0#;Equal;UnderDev</Condition><Expression></Expression><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>NoAuthRun</Name><TypeName>Transaction</TypeName><Condition>=Judge;IfElse;#0#;Equal;NoAuth</Condition><Expression>SetVariableValue;#Text#;You have no authorization</Expression><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>NoAuthReturn</Name><TypeName>Return</TypeName><Condition>=Judge;IfElse;#0#;Equal;NoAuth</Condition><Expression></Expression><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>NoServerRun</Name><TypeName>Transaction</TypeName><Condition>=Judge;IfElse;#0#;Equal;NoServer</Condition><Expression>SetVariableValue;#Text#;Connecting server failed...</Expression><SkipOnInitFlag/>
+			
+		</Procedure>
+</ArrayOfProcedure>

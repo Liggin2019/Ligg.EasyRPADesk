@@ -1,0 +1,19 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>TopLabel</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass></StyleClass><StyleText>BackColor:255,0,255|TextAlign:MiddleCenter</StyleText><DisplayName>Top Label </DisplayName>			
+			<Action/>
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>200</Height>
+						
+			
+	</ZoneItem>
+	
+</ArrayOfZoneItem>

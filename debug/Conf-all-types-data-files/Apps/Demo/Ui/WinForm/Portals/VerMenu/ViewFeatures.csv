@@ -1,0 +1,8 @@
+IsPublic,IsDefault,Name,Location,ResizeParamsText,Invalid
+true,false,Public,FuncsShared\Public,,
+false,true,Dashboard,FuncsShared\Dashboard,"ToolBarSection:64,460,300|MainSectionLeftNavDivision:185,0,0|MainSectionLeftNavDivision1:590,0,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30|HorResizableDivisionStatus:hide|HorResizableDivision1Status:show|",
+false,false,About,FuncsShared\About,,
+false,false,OpenUrls,Basic\OpenUrls,,
+false,false,UnderDev,_Shared\UnderDev,,
+false,false,NoAuth,_Shared\NoAuth,,
+false,false,NoServer,_Shared\NoServer,,

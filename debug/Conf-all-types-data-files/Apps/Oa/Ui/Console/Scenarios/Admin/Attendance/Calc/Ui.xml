@@ -1,0 +1,272 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>NewLineTop</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>1</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Title</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ CALCUTE ATTENDANCES OF THIS MONTH ＃＃＃＃＃＃</DisplayName>			
+			<Value/><ValidationRules/><Condition/>
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>1</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>WriteNoPemission</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>WriteNoPemission</DisplayName>			
+			<Value>Crun@#HasNoPermission.v#@WriteLine;You have no permission</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Beep</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Beep</DisplayName>			
+			<Value>Crun@#HasNoPermission.v#@Beep;2</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Sleep</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Crun@#HasNoPermission.v#@Sleep;500</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Break</Name><TypeName>Break</TypeName>
+			<DisplayName>Break</DisplayName>			
+			<Value></Value><ValidationRules></ValidationRules><Condition>#HasNoPermission.v#</Condition>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>GetLocalData</Name><TypeName>Transaction</TypeName>
+			<DisplayName>GetLocalData</DisplayName>			
+			<Value>RefreshProcedures;#DataToUpload#</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem>
+	
+	<UiItem>
+		
+		<Name>NewLineBegin</Name>
+		
+		<TypeName>NewLine</TypeName>
+		
+		<DisplayName>1</DisplayName>
+		
+		<Value/>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+		
+		<Name>WriteLineBegin</Name>
+		
+		<TypeName>WriteLine</TypeName>
+		
+		<DisplayName>Now begin to calculate...</DisplayName>
+		
+		<Value/>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+			<Name>SleepCalc1</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Sleep@1000</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+		
+		<Name>WriteLineCalc1</Name>
+		
+		<TypeName>WriteLine</TypeName>
+		
+		<DisplayName>.....................................................</DisplayName>
+		
+		<Value/>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+			<Name>SleepCalc2</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Sleep@1000</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+		
+		<Name>WriteLineCalc2</Name>
+		
+		<TypeName>WriteLine</TypeName>
+		
+		<DisplayName>.....................................................</DisplayName>
+		
+		<Value/>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+			<Name>SleepCalc3</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Sleep@1000</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+		
+		<Name>WriteLineCalc3</Name>
+		
+		<TypeName>WriteLine</TypeName>
+		
+		<DisplayName>.....................................................</DisplayName>
+		
+		<Value/>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+			<Name>SleepCalc4</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Sleep@1000</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+		
+		<Name>WriteLineCalc4</Name>
+		
+		<TypeName>WriteLine</TypeName>
+		
+		<DisplayName>...................................</DisplayName>
+		
+		<Value/>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+		
+		<Name>WriteLineEnd</Name>
+		
+		<TypeName>WriteLine</TypeName>
+		
+		<DisplayName>Calculation accomplished!</DisplayName>
+		
+		<Value/>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+		
+		<Name>NewLineEnd</Name>
+		
+		<TypeName>NewLine</TypeName>
+		
+		<DisplayName/>
+		
+		<Value/>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+		
+		<Name>WriteLineEnd1</Name>
+		
+		<TypeName>WriteLine</TypeName>
+		
+		<DisplayName>Following is caculated attendance data:</DisplayName>
+		
+		<Value/>
+		
+	</UiItem><UiItem>
+		
+		<Name>WriteData</Name>
+		
+		<TypeName>WriteLine</TypeName>
+		
+		<DisplayName/>
+		
+		<Value>#DataToUpload.v#</Value>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+		
+		<Name>NewLineLast</Name>
+		
+		<TypeName>NewLine</TypeName>
+		
+		<DisplayName/>
+		
+		<Value/>
+		
+	<ValidationRules/><Condition/></UiItem><UiItem>
+		
+		<Name>PressAnyKeyToExit</Name>
+		
+		<TypeName>Transaction</TypeName>
+		
+		<DisplayName/>
+		
+		<Value>PressAnyKeyToExit</Value>
+		
+	<ValidationRules/><Condition/></UiItem>
+		
+</ArrayOfUiItem>

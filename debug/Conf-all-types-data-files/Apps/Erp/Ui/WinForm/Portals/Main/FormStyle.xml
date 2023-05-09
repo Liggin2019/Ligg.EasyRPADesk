@@ -1,0 +1,25 @@
+<FormStyle>
+	<Draggable>false</Draggable>
+	<Width>1024</Width>
+	<Height>768</Height>
+	
+	<HasNoControlBoxes>false</HasNoControlBoxes>
+	<CannotBeClosed>false</CannotBeClosed>
+	<HasMaximizeBox>false</HasMaximizeBox>
+	<HasMinimizeBox>true</HasMinimizeBox>
+	
+	<StartWindowState>maximized</StartWindowState>
+	<OrdinaryWindowStatus>maximized</OrdinaryWindowStatus>
+	<WindowRadius>0</WindowRadius>
+	
+	<DrawIcon>true</DrawIcon>
+	<IconUrl>%GlbSharedDir%\icos\ligg-1.ico</IconUrl>
+	<ShowInTaskbar>true</ShowInTaskbar>
+	<HasTray>false</HasTray>
+	<TrayIconUrl>%GlbSharedDir%\icos\ligg-1.ico</TrayIconUrl>
+	
+	<SupportsMultipleThreads>true</SupportsMultipleThreads>
+	<ThreadPoolMaxNum>10</ThreadPoolMaxNum>
+	<ResizeParamsText>TopNavSection:28,5,0|ToolBarSection:64,520,482|MainSectionLeftNavDivision:185,0,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30</ResizeParamsText>
+	
+</FormStyle>

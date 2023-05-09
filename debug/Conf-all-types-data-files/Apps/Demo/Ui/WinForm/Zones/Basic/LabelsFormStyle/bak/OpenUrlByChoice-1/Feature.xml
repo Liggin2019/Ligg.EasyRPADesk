@@ -1,0 +1,22 @@
+<ZoneFeature>
+	<Width>460</Width>
+	<Height>85</Height>
+	
+	<FormWindowRadius>10</FormWindowRadius>
+	<FormCannotBeClosed>false</FormCannotBeClosed>
+	<FormHasNoControlBoxes>false</FormHasNoControlBoxes>
+	
+	<FormDrawIcon>true</FormDrawIcon>
+	<FormIconUrl>Icons\icon.ico</FormIconUrl>
+	
+	<FormHasTray>true</FormHasTray>
+	<FormTrayIconUrl>icons\icon1.ico</FormTrayIconUrl>
+	<FormTrayDataSource>TrayMenuItems.xml</FormTrayDataSource>
+	
+	<FormShowRunningStatus>true</FormShowRunningStatus>
+	
+	
+	
+	<CpntArrangementType>RowLining</CpntArrangementType>
+	<StyleText/>
+</ZoneFeature>

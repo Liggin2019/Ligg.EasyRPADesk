@@ -1,0 +1,256 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>DailyBackup</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><Row>Row10</Row><StyleClass></StyleClass><StyleText>CheckType:Focus|FontStyle:Bold</StyleText><DisplayName>Daily Backup</DisplayName><DataSource>Images\DailyBackup.png</DataSource><Invalid/><DefaultValue/><ValidationRules/><Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>180</Width><Height>30</Height>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row11</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine1</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName><Row>Row11</Row><StyleClass>Level2</StyleClass><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>180</Width><Height>1</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row20</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>WinUpdator</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><Row>Row20</Row><StyleClass></StyleClass><StyleText>CheckType:Focus|FontStyle:Bold</StyleText><DisplayName>Win Updator</DisplayName><DataSource>Images\WinUpdator.png</DataSource><Invalid/><DefaultValue/><ValidationRules/><Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>180</Width><Height>30</Height>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row21</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine2</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName><Row>Row21</Row><StyleClass>Level2</StyleClass><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>180</Width><Height>1</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row30</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>AutoInstaller</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><Row>Row30</Row><StyleClass></StyleClass><StyleText>CheckType:Focus|FontStyle:Bold</StyleText><DisplayName>Auto Installer</DisplayName><DataSource>Images\AutoInstaller.png</DataSource><Invalid/><DefaultValue/><ValidationRules/><Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>180</Width><Height>30</Height>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row31</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine3</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName><Row>Row31</Row><StyleClass>Level2</StyleClass><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>180</Width><Height>1</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row40</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>FileConvertor</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><Row>Row40</Row><StyleClass></StyleClass><StyleText>CheckType:Focus|FontStyle:Bold</StyleText><DisplayName>File Convertor</DisplayName><DataSource>Images\FileConvertor.png</DataSource><Invalid/><DefaultValue/><ValidationRules/><Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>180</Width><Height>30</Height>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row41</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>SplitterLine4</Name><TypeName>Control</TypeName>
+			<ControlTypeName>SplitRectangle</ControlTypeName><Row>Row41</Row><StyleClass>Level2</StyleClass><StyleText/><DisplayName/><DataSource/><Invalid/><DefaultValue/><ValidationRules/><Action/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>180</Width><Height>1</Height>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

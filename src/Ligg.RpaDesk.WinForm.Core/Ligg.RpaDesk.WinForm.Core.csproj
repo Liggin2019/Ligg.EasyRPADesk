@@ -1,0 +1,259 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Ligg.RpaDesk.WinForm</RootNamespace>
+    <AssemblyName>WinForm</AssemblyName>
+    <Authors>Liggit</Authors>
+    <Product>Ligg.EasyRpaDesk</Product>
+    <PackageId>Ligg.EasyRpaDesk.WinForm.Core</PackageId>
+    <AssemblyVersion>4.3.7.0</AssemblyVersion>
+    <FileVersion>4.3.7.0</FileVersion>
+    <Version>4.3.7.0</Version>
+    <Company>Liggit</Company>
+    <Description>Ligg.EasyRpaDesk.WinForm.Core</Description>
+    <Copyright>Copyright © Liggit 2023</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\debug-lib\WinForm</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\release-lib\WinForm</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controls\ShadowPanel\Images\shadowdown.png" />
+    <None Remove="Controls\ShadowPanel\Images\shadowdownleft.png" />
+    <None Remove="Controls\ShadowPanel\Images\shadowdownright.png" />
+    <None Remove="Controls\ShadowPanel\Images\shadowright.png" />
+    <None Remove="Controls\ShadowPanel\Images\shadowtopright.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ShadowPanel\Images\shadowdown.png" />
+    <EmbeddedResource Include="Controls\ShadowPanel\Images\shadowdownleft.png" />
+    <EmbeddedResource Include="Controls\ShadowPanel\Images\shadowdownright.png" />
+    <EmbeddedResource Include="Controls\ShadowPanel\Images\shadowright.png" />
+    <EmbeddedResource Include="Controls\ShadowPanel\Images\shadowtopright.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ligg.Infrastructure\Ligg.Infra.Std\Ligg.Infrastructure.Std.csproj" />
+    <ProjectReference Include="..\Ligg.RpaDesk.Parser\.Ligg.RpaDesk.Parser.csproj" />
+    <ProjectReference Include="..\Ligg.WinFormBase.Core\Ligg.WinFormBase.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Controls\CommandLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\ContainerPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DataGridViewEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\DataGridViewEx.Designer.cs">
+      <DependentUpon>DataGridViewEx.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\DateTimePickEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\DateTimePickEx.Designer.cs">
+      <DependentUpon>DateTimePickEx.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\ImageTextButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\ShadowPanel\ShadowPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\SplitRectangle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\SplitRectangle.Designer.cs">
+      <DependentUpon>SplitRectangle.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\StatusLight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\StatusLight.Designer.cs">
+      <DependentUpon>StatusLight.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\TextButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\TitleLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\ToolStripSplitButtonEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\TreeViewEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\TreeViewEx.Designer.cs">
+      <DependentUpon>TreeViewEx.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dialogs\DateTimeInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dialogs\DateTimeInputDialog.designer.cs">
+      <DependentUpon>DateTimeInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dialogs\RichTextEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dialogs\RichTextEditor.designer.cs">
+      <DependentUpon>RichTextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dialogs\RichTextViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dialogs\RichTextViewer.designer.cs">
+      <DependentUpon>RichTextViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dialogs\RunningErrorViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dialogs\RunningErrorViewer.Designer.cs">
+      <DependentUpon>RunningErrorViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dialogs\TextInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dialogs\TextInputDialog.designer.cs">
+      <DependentUpon>TextInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\DilalogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DilalogForm.designer.cs">
+      <DependentUpon>DilalogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\FrameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FrameForm.designer.cs">
+      <DependentUpon>FrameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\FunctionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FunctionForm.Designer.cs">
+      <DependentUpon>FunctionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\GroundForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\GroundForm.designer.cs">
+      <DependentUpon>GroundForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="GroundForm.designer.cs">
+      <DependentUpon>GroundForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\ValidationRes - Copy.Designer.cs">
+      <DependentUpon>ValidationRes.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resources\ValidationRes.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ValidationRes.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\TextRes.Designer.cs">
+      <DependentUpon>TextRes.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resources\TextRes.zh-CN.Designer.cs">
+      <DependentUpon>TextRes.zh-CN.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resources\ValidationRes.zh-CN.Designer.cs">
+      <DependentUpon>ValidationRes.zh-CN.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Controls\DataGridViewEx.resx">
+      <DependentUpon>DataGridViewEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Controls\DateTimePickEx.resx">
+      <DependentUpon>DateTimePickEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Controls\SplitRectangle.resx">
+      <DependentUpon>SplitRectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Controls\StatusLight.resx">
+      <DependentUpon>StatusLight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Controls\TreeViewEx.resx">
+      <DependentUpon>TreeViewEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Dialogs\DateTimeInputDialog.resx">
+      <DependentUpon>DateTimeInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Dialogs\RichTextEditor.resx">
+      <DependentUpon>RichTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Dialogs\RichTextViewer.resx">
+      <DependentUpon>RichTextViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Dialogs\RunningErrorViewer.resx">
+      <DependentUpon>RunningErrorViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Dialogs\TextInputDialog.resx">
+      <DependentUpon>TextInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\DilalogForm.resx">
+      <DependentUpon>DilalogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\FrameForm.resx">
+      <DependentUpon>FrameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\FunctionForm.resx">
+      <DependentUpon>FunctionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\GroundForm.resx">
+      <DependentUpon>GroundForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ValidationRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ValidationRes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\TextRes.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>TextRes.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\TextRes.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>TextRes.zh-CN.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ValidationRes.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>ValidationRes.zh-CN.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

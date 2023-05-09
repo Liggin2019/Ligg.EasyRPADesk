@@ -1,0 +1,73 @@
+lv,MasterName,DisplayName,LanguageCode
+101,Dashboard,首页,szh
+110,Administration,管理工具,szh
+-,Administration,verwaltung,de
+--,SystemTool,系统工具,szh
+--,SystemTool,System Tool,en
+--,SystemTool,System Tool,de
+--,NetworkTool,网络工具,szh
+--,NetworkTool,Network Tool,en
+--,NetworkTool,Network Tool,de
+--,SystemSetting,系统设置,szh
+--,SystemSetting,System Setting,en
+--,SystemSetting,System Setting,de
+--,RemoteTool,远程工具,szh
+--,RemoteTool,Remote Tool,en
+--,RemoteTool,Remote Tool,de
+--,RunAsAdmin,超级运行,szh
+--,RunAsAdmin,Run As Admin,en
+--,RunAsAdmin,Run As Admin,de
+115,Operation,运维工具,szh
+115,Information,机器信息,szh
+115,Registry,注册表工具,szh
+115,Process,进程工具,szh
+115,Service,服务工具,szh
+115,Installation,安装工具,szh
+115,Performance,性能工具,szh
+120,Management,运维管理,szh
+-,Management,Management,de
+--,Asset,资产管理,szh
+--,Asset,Asset,de
+--,License,软件授权,szh
+--,License,License,de
+--,ServiceDesk,服务台,szh
+--,ServiceDesk,Service Desk,de
+--,Performance,性能分析,szh
+--,Performance,Performance,de
+---,Server,服务器,szh
+---,Server,Server,de
+---,Database,数据库,szh
+---,Database,Database,de
+---,Network,网络,szh
+---,Network,Network,de
+---,Storage,存储,szh
+---,Storage,Storage,de
+--,Monitoring,监控管理,szh
+--,Monitoring,Monitoring,de
+--,RoutingInsp,巡检管理,szh
+---,Server1,服务器,szh
+---,Server1,Server,de
+---,Database1,数据库,szh
+---,Database1,Database,de
+---,Network1,网络,szh
+---,Network1,Network,de
+---,Storage1,存储,szh
+---,Storage1,Storage,de
+--,RoutingInsp,巡检工具,szh
+--,RoutingInsp,- inspektion,de
+---,Daily,日检,szh
+---,Daily,Daily,de
+---,Weekly,周检,szh
+---,Weekly,Weekly,de
+---,Monthly,月检,szh
+---,Monthly,Monthly,de
+---,Quarterly,季检,szh
+---,Quarterly,Quarterly,de
+---,Yearly,年检,szh
+---,Yearly,Yearly,de
+-,Deployment,部署管理,szh
+-,Deployment,Einsatz,de
+-,Configuration,配置管理,szh
+-,Configuration,konfiguration,de
+-,Console,在线部署,szh
+-,Console,Console,de

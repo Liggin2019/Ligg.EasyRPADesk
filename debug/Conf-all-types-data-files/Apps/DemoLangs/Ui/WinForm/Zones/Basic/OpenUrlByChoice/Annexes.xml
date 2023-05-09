@@ -1,0 +1,16 @@
+<ArrayOfAnnex>
+	
+	<Annex>
+		<MasterName>UrlL</MasterName><DisplayName>网页</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>OpenUrl</MasterName><DisplayName>打开网页</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex>
+		
+		
+</ArrayOfAnnex>

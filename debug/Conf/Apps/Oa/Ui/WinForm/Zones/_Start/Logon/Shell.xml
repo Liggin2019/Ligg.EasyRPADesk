@@ -1,0 +1,15 @@
+<ArrayOfProcedure>
+	<Procedure>
+			
+			<Name>IsDialog</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression></Expression>
+			<SkipOnInit/><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>IsModal</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Judge;IsFormModal</Expression>
+			<SkipOnInit/><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>GetCurrentUser</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=HttpClientGet;Sys/User/GetCurrentUser</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+	</Procedure>
+</ArrayOfProcedure>

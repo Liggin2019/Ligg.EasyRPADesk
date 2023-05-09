@@ -1,0 +1,17 @@
+Name,TypeName,ControlTypeName,Row,StyleClass,StyleText,DisplayName,DataSource,Invalid,DefaultValue,ValidationRules,Action,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+Row10,Control,Row,,,,,,,,,,-1,0,-1,30
+DailyBackup,Control,ImageTextButtonH,Row10,,CheckType:Focus|FontStyle:Bold,Daily Backup,Images\DailyBackup.png,,,,PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300,0,0,180,30
+Row11,Control,Row,,,,,,,,,,-1,0,-1,1
+SplitterLine1,Control,SplitRectangle,Row11,Level2,,,,,,,,0,0,180,1
+Row20,Control,Row,,,,,,,,,,-1,0,-1,30
+WinUpdator,Control,ImageTextButtonH,Row20,,CheckType:Focus|FontStyle:Bold,Win Updator,Images\WinUpdator.png,,,,PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300,0,0,180,30
+Row21,Control,Row,,,,,,,,,,-1,0,-1,1
+SplitterLine2,Control,SplitRectangle,Row21,Level2,,,,,,,,0,0,180,1
+Row30,Control,Row,,,,,,,,,,-1,0,-1,30
+AutoInstaller,Control,ImageTextButtonH,Row30,,CheckType:Focus|FontStyle:Bold,Auto Installer,Images\AutoInstaller.png,,,,PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300,0,0,180,30
+Row31,Control,Row,,,,,,,,,,-1,0,-1,1
+SplitterLine3,Control,SplitRectangle,Row31,Level2,,,,,,,,0,0,180,1
+Row40,Control,Row,,,,,,,,,,-1,0,-1,30
+FileConvertor,Control,ImageTextButtonH,Row40,,CheckType:Focus|FontStyle:Bold,File Convertor,Images\FileConvertor.png,,,,PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300,0,0,180,30
+Row41,Control,Row,,,,,,,,,,-1,0,-1,1
+SplitterLine4,Control,SplitRectangle,Row41,Level2,,,,,,,,0,0,180,1

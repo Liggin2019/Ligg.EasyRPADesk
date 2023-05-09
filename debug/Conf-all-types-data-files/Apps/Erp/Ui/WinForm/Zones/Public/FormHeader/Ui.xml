@@ -1,0 +1,50 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>LogoImage</Name><TypeName>Control</TypeName>
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource>%GlbCfgDir%\Shared\Images\logo\logo.png</DataSource>
+			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>1</OffsetOrPositionX><OffsetOrPositionY>11</OffsetOrPositionY><Width>46</Width><Height>32</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductShortName</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:17|FontStyle:Bold|ForeColor:10,40,150</StyleText>
+			
+			<DisplayName>=GetApplicationAnnexText;Remark</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>48</OffsetOrPositionX><OffsetOrPositionY>7</OffsetOrPositionY><Width>130</Width><Height>45</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ProductDes</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>FontSize:8|ForeColor:255,255,255|</StyleText>
+			
+			<DisplayName>=GetApplicationAnnexText;Remark2</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<DockTypeName/><OffsetOrPositionX>110</OffsetOrPositionX><OffsetOrPositionY>14</OffsetOrPositionY><Width>400</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

@@ -1,0 +1,46 @@
+Name,TypeName,Container,Row,ControlTypeName,StyleClass,StyleText,ValidationRules,DisplayName,DataSource,Value,Action,Invisible,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+Row10,Control,,,Row,,,,,,,,,-1,12,-1,20
+AddEditL,Control,,Row10,Label,Level1,,,Add material,,,,,8,0,140,20
+ValidatorTotal,Control,,Row10,TextBox,Validator,NotInitValue:true,,,,=Judge;And;$ValidatorName.v$;$ValidatorDes.v$,,true,0,2,552,20
+TextBoxAdd,Control,,Row10,TextBox,,NotInitValue:true,,,,"=Join;Type:;$Type.v$;,;Name:;$Name.v$;,;Description:;$Des.v$;,;BasicUnit:;$BasicUnit.v$",,true,0,0,0,0
+AddResult,Control,,Row10,StatusLight,Validator,"DataSourceType:Json,NotInitDataSource:true",,,=HttpClientPost;Prd/Material/Add;;$TextBoxAdd.v$,,,true,0,0,0,0
+Add,Control,,Row10,PictureBox,,,,Add data,images\add.png,,"Xrun;$Add1$,$Add2$,$InitData$",=Judge;IsInLarry;btnAdd;#UnavailableBtns.v#,40,0,20,20
+Add1,SubTransaction,,,,,,,,,,RefreshControlValue;$ValidatorTotal$,,-1,-1,-1,-1
+Add2,SubTransaction,,,,,,,,,,"Crun@$ValidatorTotal.v$@Xrun;$Add3$,$Add4$,$Add5$",,-1,-1,-1,-1
+Add3,SubTransaction,,,,,,,,,,RefreshControlValue;$TextBoxAdd$,,-1,-1,-1,-1
+Add4,SubTransaction,,,,,,,,,,RefreshControlDataSource;$AddResult$,,-1,-1,-1,-1
+Add5,SubTransaction,,,,,,,,,,PopupMsg;$AddResult.t$;$AddResult.t$,,-1,-1,-1,-1
+Row19,Control,,,Row,,,,,,,,,-1,4,-1,1
+SplitLine19,Control,,Row19,SplitRectangle,Level1,,,,,,,,8,0,760,1
+Row20,Control,,,Row,,,,,,,,,-1,12,-1,180
+CtrlGroup,ControlContainer,,Row20,ContainerPanel,,CpntArrangeType:RowLining|Style:Rounded|Radius:40|,,,,,,,8,0,760,180
+Row2001,SubControl,CtrlGroup,,Row,,,,,,,,,-1,20,-1,20
+TypeL,SubControl,CtrlGroup,Row2001,Label,FieldName,,,Type,,,,,8,0,80,20
+Type,SubControl,CtrlGroup,Row2001,ComboBox,,DataSourceType:Json,,,=HttpClientGet@Prd/Material/GetMaterialTypeDictItems,,,,4,0,280,20
+Row2002,SubControl,CtrlGroup,,Row,,,,,,,,,-1,20,-1,20
+NameL,SubControl,CtrlGroup,Row2002,Label,FieldName,,,Name,,,,,8,0,80,20
+Id,SubControl,CtrlGroup,Row2002,TextBox,,,,,,10000088,,,0,0,0,0
+Name,SubControl,CtrlGroup,Row2002,TextBox,,,"Mandatory|StringMaxLength,64",,,,RefreshControlDataSource;$ValidatorName$,,4,0,280,20
+ValidatorName,SubControl,CtrlGroup,Row2002,StatusLight,Validator,DataSourceType:Json,,,=ValidateInput;$Name$,,,,0,2,380,20
+Row2003,SubControl,CtrlGroup,,Row,,,,,,,,,-1,20,-1,20
+DesL,SubControl,CtrlGroup,Row2003,Label,FieldName,,,Description,,,,,8,0,80,20
+Des,SubControl,CtrlGroup,Row2003,TextBox,,,"Mandatory|StringMaxLength,128",,,,RefreshControlDataSource;$ValidatorDes$,,4,0,280,20
+ValidatorDes,SubControl,CtrlGroup,Row2003,StatusLight,Validator,DataSourceType:Json,,,=ValidateInput;$Des$,,,,0,2,380,20
+Row2004,SubControl,CtrlGroup,,Row,,,,,,,,,-1,20,-1,20
+BasicUnitL,SubControl,CtrlGroup,Row2004,Label,FieldName,,,Basic unit,,,,,8,0,80,20
+BasicUnit,SubControl,CtrlGroup,Row2004,ComboBox,,DataSourceType:Larray,,,"PCs,Kg,M,M2,M3",,,,4,0,280,20
+ValidatorBasicUnit,SubControl,CtrlGroup,Row2004,StatusLight,Validator,"DataSourceType:Json,NotInitDataSource:true",,,,,,,0,2,380,20
+Row100,Control,,,Row,,,,,,,,,-1,12,-1,20
+DelL,Control,,Row100,Label,Level1,,,Delete materials,,,,,8,0,140,20
+ValidatorDel,Control,,Row100,StatusLight,Validator,"DataSourceType:Json,NotInitDataSource:true",,,#DeleteResult.v#,,,,0,2,552,20
+Get,Control,,Row100,PictureBox,,,,Get data,images\download.png,,RefreshControlDataSource;$Data$,,8,0,24,24
+Delete,Control,,Row100,PictureBox,,,,Delete,images\delete.png,,"Xrun;$Delete1$,$Delete2$,$Delete3$,$InitData$",=Judge;IsInLarry;btnDelete;#UnavailableBtns.v#,8,2,20,20
+Delete1,SubTransaction,,,,,,,Delete,,,SetVariableValue;#DataToDelete#;$Data.v$,,-1,-1,-1,-1
+Delete2,SubTransaction,,,,,,,Delete,,,"RefreshProcedures;#DeleteParams#,#DeleteResult#",,-1,-1,-1,-1
+Delete3,SubTransaction,,,,,,,Delete,,,RefreshControlDataSource;$ValidatorDel$,,-1,-1,-1,-1
+Test,Control,,Row100,Button,,,,Test,,,PopupMsg;$Data.v$;,true,8,2,20,20
+Row199,Control,,,Row,,,,,,,,,-1,4,-1,1
+SplitLine199,Control,,Row199,SplitRectangle,Level1,,,,,,,,8,0,760,1
+Row200,Control,,,Row,,,,,,,,,-1,12,-1,500
+Data,Control,,Row200,DataGridViewEx,,"DataSourceType:Json,NotInitDataSource:true,GetValueType:SelectededRowsIds",,,"=HttpClientGet@Prd/Material/GetPagedManageDtos@Type=888,PageIndex=8,PageSize=15",,,,8,0,760,500
+InitData,AfterZoneRenderHandler,,Row200,,,,,,,,RefreshControlDataSource;$Data$,,0,0,0,0

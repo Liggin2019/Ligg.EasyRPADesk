@@ -1,0 +1,32 @@
+<ArrayOfLanguage>
+		<Language>
+			<CultureName>en-US</CultureName>
+			<LanguageCode>en</LanguageCode>
+			<LanguageName>English</LanguageName>
+			<ImageUrl>\Images\us.png</ImageUrl>
+			
+			
+		</Language><Language>
+			<CultureName>zh-CN</CultureName>
+			<LanguageCode>en</LanguageCode>
+			<LanguageName>English</LanguageName>
+			<ImageUrl>\Images\cn.png</ImageUrl>
+			
+			
+		</Language>
+		<Language>
+			<CultureName>zh-CN</CultureName>
+			<LanguageCode>szh</LanguageCode>
+			<LanguageName>简体中文</LanguageName>
+			<ImageUrl>\Images\cn.png</ImageUrl>
+			
+			
+		</Language><Language>
+			<CultureName>de-DE</CultureName>
+			<LanguageCode>de</LanguageCode>
+			<LanguageName>Deutsch</LanguageName>
+			<ImageUrl>\Images\de.png</ImageUrl>
+			
+			
+		</Language>
+</ArrayOfLanguage>

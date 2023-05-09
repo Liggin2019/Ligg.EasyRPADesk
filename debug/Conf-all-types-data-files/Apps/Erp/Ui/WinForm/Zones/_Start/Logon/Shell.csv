@@ -1,0 +1,4 @@
+Name,TypeName,GroupId,Expression,SkipOnInit,Condition
+IsDialog,Variable,0,,,
+IsModal,Variable,0,=Judge;IsFormModal,,
+GetCurrentUser,Variable,0,=HttpClientGet;Sys/User/GetCurrentUser,true,

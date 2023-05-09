@@ -1,0 +1,82 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ Open Folder ＃＃＃＃＃＃</DisplayName>			
+			<Value/><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>2</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Dir</Name><TypeName>ReadLine</TypeName>
+			<DisplayName>a existing folder</DisplayName>			
+			<Value/><ValidationRules>Directory</ValidationRules>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>OpenFolder</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Open Folder</DisplayName>			
+			<Value>OpenFolder;$Dir.v$</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Goto</Name><TypeName>GoTo</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName></DisplayName>			
+			<Value>NewLine</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine1</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>2</Value><ValidationRules/>
+			
+			
+			
+						
+			
+		</UiItem>
+	
+	<UiItem>
+		
+		<Name>PressAnyKeyToExit</Name>
+		
+		<TypeName>Transaction</TypeName>
+		
+		<DisplayName/>
+		
+		<Value>PressAnyKeyToExit</Value>
+		
+	</UiItem>
+		
+</ArrayOfUiItem>

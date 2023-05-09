@@ -1,0 +1,1 @@
+[{"Name":"FilePath","TypeName":"Variable","DisplayName":"","GroupId":"1","Value":"","Expression":"=ChooseFile;txt file|*.txt;%RootDir%"},{"Name":"IsPathValid","TypeName":"Variable","DisplayName":"","GroupId":"1","Value":"","Expression":"=Judge;IsFileExisting;#FilePath.v#"}]

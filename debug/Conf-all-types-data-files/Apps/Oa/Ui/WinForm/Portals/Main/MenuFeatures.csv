@@ -1,0 +1,3 @@
+Id,Name,MenuTypeName,Location,UnavailableServerViews
+1,MainMenu,Nested,NestedMenu,=HttpClientGet;Sys/Permission/GetUnavailableClientViews;portal:Oa
+2,ToolBarMenu,ToolBar,ToolBarMenu,

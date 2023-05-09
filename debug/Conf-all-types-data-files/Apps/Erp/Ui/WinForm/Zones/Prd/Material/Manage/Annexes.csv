@@ -1,0 +1,11 @@
+MasterName,DisplayName,LanguageCode
+UploadL,计算并上传上月考勤,szh
+Calc,计算考勤,szh
+GetUploadData,获取本地数据,szh
+Upload,上传,szh
+UploadedDataL,待上传数据,szh
+ApproveL,批准上月考勤,szh
+GetApproveData,下载考勤,szh
+Approve,批准,szh
+InputMonthL,选择月份,szh
+DataToApproveL,待批准数据,szh

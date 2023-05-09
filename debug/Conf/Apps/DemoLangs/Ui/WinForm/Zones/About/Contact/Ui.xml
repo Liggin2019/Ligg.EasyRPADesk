@@ -1,0 +1,415 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>LogoImage</Name><TypeName>Control</TypeName>
+			<Container/><ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/>
+			
+			<DataSource>%GlbCfgDir%\Shared\Images\logo\logo.png</DataSource>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>6</OffsetOrPositionY><Width>48</Width><Height>32</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ProductShortName</Name><TypeName>Control</TypeName>
+			<Container/><ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText>FontSize:11|FontStyle:Bold|ForeColor:10,40,150|</StyleText><DisplayName>=GetApplicationAnnexText;Remark</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>58</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>80</Width><Height>32</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ProductDes</Name><TypeName>Control</TypeName>
+			<Container/><ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText>FontSize:8|FontStyle:Bold|</StyleText><DisplayName>=GetApplicationAnnexText;Remark2</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>155</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>400</Width><Height>32</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ProductImage</Name><TypeName>Control</TypeName>
+			<Container/><ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/>
+			
+			<DataSource>%AppSharedDir%\Images\product-1.png</DataSource>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>16</OffsetOrPositionX><OffsetOrPositionY>53</OffsetOrPositionY><Width>120</Width><Height>120</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>BackgrdPanel</Name><TypeName>ControlContainer</TypeName>
+			<Container/><ControlTypeName>ShadowPanel</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass>Default</StyleClass><StyleText>CpntArrangeType:RowLining|</StyleText><DisplayName/>
+			
+			<DataSource/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>150</OffsetOrPositionX><OffsetOrPositionY>45</OffsetOrPositionY><Width>420</Width><Height>240</Height>
+						
+			
+		</ZoneItem>
+	<ZoneItem>
+		<Name>Row10</Name><TypeName>SubControl</TypeName>
+		<Container>BackgrdPanel</Container><ControlTypeName>Row</ControlTypeName>
+
+		<Row/><StyleClass/><StyleText/><DisplayName/>
+		
+		<DataSource/>			
+		<Action/>
+		
+		
+		<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+		
+		
+	</ZoneItem>
+	<ZoneItem>
+			<Name>EmailL</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row10</Row><StyleClass/><StyleText>BackColor:250,250,250|</StyleText><DisplayName>Email</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Email1</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			
+			
+			<Row>Row10</Row><StyleClass/><StyleText>BackColor:250,250,250|TextAlign:MiddleLeft</StyleText><DisplayName>liggin2019@126.com</DisplayName>
+			
+			<DataSource/>			
+			<Action>SendLocalEmail^liggin2019@126.com^I am a user of ITSAOM, I am very interesting in your product.</Action>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>172</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Email2</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>TextButton</ControlTypeName><Row>Row10</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|TextAlign:MiddleLeft</StyleText><DisplayName>liggin2019@outlook.com</DisplayName>
+			
+			<DataSource/>			
+			<Action>SendLocalEmail^liggin2019@outlook.com^I am a user of ITSAOM, Iam very interesting in your product.</Action>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>172</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+		<Name>Row20</Name><TypeName>SubControl</TypeName>
+		<Container>BackgrdPanel</Container><ControlTypeName>Row</ControlTypeName>
+
+		<Row/><StyleClass/><StyleText/><DisplayName/>
+		
+		<DataSource/>			
+		<Action/>
+		
+		
+		<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+		
+		
+	</ZoneItem><ZoneItem>
+			<Name>Sns1L</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>Label</ControlTypeName><Row>Row20</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|</StyleText><DisplayName>SNS</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Sns11</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>TextButton</ControlTypeName><Row>Row20</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|TextAlign:MiddleLeft</StyleText><DisplayName>Toutiao@liggitin2019</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>172</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Sns12</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>TextButton</ControlTypeName><Row>Row20</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|TextAlign:MiddleLeft</StyleText><DisplayName>Twitter@liggitin2019</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>172</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+		<Name>Row30</Name><TypeName>SubControl</TypeName>
+		<Container>BackgrdPanel</Container><ControlTypeName>Row</ControlTypeName>
+
+		<Row/><StyleClass/><StyleText/><DisplayName/>
+		
+		<DataSource/>			
+		<Action/>
+		
+		
+		<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+		
+		
+	</ZoneItem><ZoneItem>
+			<Name>Sns2L</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>Label</ControlTypeName><Row>Row30</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|</StyleText><DisplayName>SNS</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Sns21</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>TextButton</ControlTypeName><Row>Row30</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|TextAlign:MiddleLeft</StyleText><DisplayName>WeChat@liggitin2019</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>348</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+		<Name>Row40</Name><TypeName>SubControl</TypeName>
+		<Container>BackgrdPanel</Container><ControlTypeName>Row</ControlTypeName>
+
+		<Row/><StyleClass/><StyleText/><DisplayName/>
+		
+		<DataSource/>			
+		<Action/>
+		
+		
+		<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+		
+		
+	</ZoneItem><ZoneItem>
+			<Name>OpenSrcAddressL</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>Label</ControlTypeName><Row>Row40</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|</StyleText><DisplayName>OpenSrc</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>OpenSrcAddress</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>TextButton</ControlTypeName><Row>Row40</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|TextAlign:MiddleLeft</StyleText><DisplayName>https://www.github.com/liggin2019</DisplayName>
+			
+			<DataSource/>			
+			<Action>OpenUrl;https://www.github.com/liggin2019</Action>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>348</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+		<Name>Row50</Name><TypeName>SubControl</TypeName>
+		<Container>BackgrdPanel</Container><ControlTypeName>Row</ControlTypeName>
+
+		<Row/><StyleClass/><StyleText/><DisplayName>Product</DisplayName>
+		
+		<DataSource/>			
+		<Action/>
+		
+		
+		<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+		
+		
+	</ZoneItem><ZoneItem>
+			<Name>OpenSrcAddress1L</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row50</Row><StyleClass/><StyleText>BackColor:250,250,250|</StyleText><DisplayName>OpenSrc</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>OpenSrcAddress1</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>TextButton</ControlTypeName><Row>Row50</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|TextAlign:MiddleLeft</StyleText><DisplayName>https://www.gitee.com/liggin2019</DisplayName>
+			
+			<DataSource/>			
+			<Action>OpenUrl;https://www.gitee.com/liggin2019</Action>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>348</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+		<Name>Row60</Name><TypeName>SubControl</TypeName>
+		<Container>BackgrdPanel</Container><ControlTypeName>Row</ControlTypeName>
+
+		<Row/><StyleClass/><StyleText/><DisplayName>Product</DisplayName>
+		
+		<DataSource/>			
+		<Action/>
+		
+		
+		<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+		
+		
+	</ZoneItem><ZoneItem>
+			<Name>BlogAddressL</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>Label</ControlTypeName><Row>Row60</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|</StyleText><DisplayName>Blog</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>BlogAddress</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>TextButton</ControlTypeName><Row>Row60</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|TextAlign:MiddleLeft</StyleText><DisplayName>https://www.cnblogs.com/liggin2019</DisplayName>
+			
+			<DataSource/>			
+			<Action>OpenUrl;https://www.cnblogs.com/liggin2019</Action>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>348</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+		<Name>Row70</Name><TypeName>SubControl</TypeName>
+		<Container>BackgrdPanel</Container><ControlTypeName>Row</ControlTypeName>
+
+		<Row/><StyleClass/><StyleText/><DisplayName>Product</DisplayName>
+		
+		<DataSource/>			
+		<Action/>
+		
+		
+		<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>30</Height>
+		
+		
+	</ZoneItem><ZoneItem>
+			<Name>HelpDocL</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>Label</ControlTypeName><Row>Row70</Row>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,250|</StyleText><DisplayName>Docs</DisplayName>
+			
+			<DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>55</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>HelpDoc</Name><TypeName>SubControl</TypeName><Container>BackgrdPanel</Container>
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			
+			
+			<Row>Row70</Row><StyleClass/><StyleText>BackColor:250,250,250|TextAlign:MiddleLeft</StyleText><DisplayName>https://liggin2019.github.io/docs</DisplayName>
+			
+			<DataSource/>			
+			<Action>OpenUrl;https://liggin2019.github.io/docs</Action>
+			
+			
+			<OffsetOrPositionX>5</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>348</Width><Height>30</Height>
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

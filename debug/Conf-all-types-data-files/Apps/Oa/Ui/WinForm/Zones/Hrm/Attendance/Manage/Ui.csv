@@ -1,0 +1,42 @@
+Name,TypeName,Row,ControlTypeName,StyleClass,StyleText,ValidationRules,DisplayName,DataSource,Value,Action,Invisible,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+Row100,Control,,Row,,,,,,,,,-1,12,-1,26
+UploadL,Control,Row100,Label,Level1,,,Upload attendance data of last month,,,,,8,0,258,26
+Validator100,Control,Row100,StatusLight,Validator,"DataSourceType:Json,NotInitDataSource:true",,,#UploadResult.v#,,,,0,2,400,22
+Calc,Control,Row100,PictureBox,,,,Calculate attendance,images\calc.png,,RunSenario@Oa@Admin\Attendance\Calc,=Judge;IsInLarry;btnImport;#UnavailableBtns.v#,8,0,26,26
+GetUploadData,Control,Row100,PictureBox,,,,Get upload data,images\download.png,,"Xrun;$GetLocalData$,$SetUploadData$",=Judge;IsInLarry;btnImport;#UnavailableBtns.v#,8,0,26,26
+GetLocalData,SubTransaction,,,,,,Get data from local,,,RefreshProcedures;#DataToUpload#,,-1,-1,-1,-1
+SetUploadData,SubTransaction,,,,,,Set upload data,,,RefreshControlDataSource;$DataToUpload$,,-1,-1,-1,-1
+Upload,Control,Row100,PictureBox,,,,Upload data to server,images\upload.png,,"Xrun;$Upload1$,$Upload2$,$Upload3$",=Judge;IsInLarry;btnImport;#UnavailableBtns.v#,8,0,26,26
+Upload1,SubTransaction,,,,,,,,,RefreshControlDataSource;$Validator200$,,-1,-1,-1,-1
+Upload2,SubTransaction,,,,,,,,,"Crun^$Validator200.v$^RefreshProcedures;#UploadParams#,#UploadResult#",,-1,-1,-1,-1
+Upload3,SubTransaction,,,,,,,,,RefreshControlDataSource;$Validator100$,,-1,-1,-1,-1
+Row199,Control,,Row,,,,,,,,,-1,4,-1,1
+SplitLine199,Control,Row199,SplitRectangle,Level1,,,,,,,,8,0,760,1
+Row200,Control,,Row,,,,,,,,,-1,6,-1,24
+UploadedDataL,Control,Row200,Label,Level2,,,Data to import,,,,,8,0,100,24
+Validator200,Control,Row200,StatusLight,Validator,"DataSourceType:Json,NotInitDataSource:true",,,=ValidateInput;$DataToUpload$,,,,0,2,760,22
+Row210,Control,,Row,,,,,,,,,-1,4,-1,120
+DataToUpload,Control,Row210,DataGridViewEx,,"DataSourceType:Json,NotInitDataSource:true,BackColor:25 25 25",Mandatory,,#DataToUpload.v#,,,,8,0,760,120
+Row500,Control,,Row,,,,,,,,,-1,24,-1,26
+ApproveL,Control,Row500,Label,Level1,,,Approve attendance data of last month,,,,,8,0,258,26
+Validator500,Control,Row500,StatusLight,Validator,"DataSourceType:Json,NotInitDataSource:true",,,#ApproveResult.v#,,,,3,2,431,22
+GetApproveData,Control,Row500,PictureBox,,,,Get approve attendance,images\download.png,,"Xrun;$SetMonth$,$GetServerData$,$SetApproveData$",=Judge;IsInLarry;btnApprove;#UnavailableBtns.v#,8,0,26,26
+SetMonth,SubTransaction,,,,,,Set month,,,SetVariableValue;#Month#;$Month.v$,,-1,-1,-1,-1
+GetServerData,SubTransaction,,,,,,Get data from server,,,"RefreshProcedures;#DataToApproveParams#,#DataToApprove#",,-1,-1,-1,-1
+SetApproveData,SubTransaction,,,,,,Set approve data,,,RefreshControlDataSource;$DataToApprove$,,-1,-1,-1,-1
+Approve,Control,Row500,PictureBox,,,,Approve,images\approve.gif,,"Xrun;$Approve1$,$Approve2$,$Approve3$,$Approve4$",=Judge;IsInLarry;btnApprove;#UnavailableBtns.v#,8,0,26,26
+Approve1,SubTransaction,,,,,,,,,RefreshControlDataSource;$Validator600$,,-1,-1,-1,-1
+Approve2,SubTransaction,,,,,,,,,"Crun^$Validator600.v$^RefreshProcedures;#ApproveResultParams#,#ApproveResult#^PopupMsg;Error;%OnlyLastMonthCanBeApproved%",,-1,-1,-1,-1
+Approve3,SubTransaction,,,,,,,,,Crun^$Validator600.v$@RefreshControlDataSource;$Validator500$,,-1,-1,-1,-1
+Approve4,SubTransaction,,,,,,,,,RefreshControlDataSource;$Validator500$,,-1,-1,-1,-1
+Row599,Control,,Row,,,,,,,,,-1,4,-1,1
+SplitLine599,Control,Row599,SplitRectangle,Level1,,,,,,,,8,0,760,1
+Row600,Control,,Row,,,,,,,,,-1,6,-1,26
+InputMonthL,Control,Row600,Label,Level2,,,Select Month,,,,,8,0,82,24
+OnlyLastMonthL,Control,Row600,Label,Level2,,,(%OnlyLastMonthCanBeApproved%),,,,,8,0,220,24
+Month,Control,Row600,DateTimePickerEx,,CustomFormat:yyyy-MM|,LastMonth,,,,,,8,3,100,24
+Validator600,Control,Row600,StatusLight,Validator,"DataSourceType:Json,NotInitDataSource:true",,,=ValidateInput;$Month$,,,,3,2,357,22
+Row700,Control,,Row,,,,,,,,,-1,6,-1,24
+DataToApproveL,Control,Row700,Label,Level2,,,Data to approve,,,,,8,0,100,24
+Row710,Control,,Row,,,,,,,,,-1,4,-1,140
+DataToApprove,Control,Row710,DataGridViewEx,,"DataSourceType:Json,NotInitDataSource:true,BackColor:25 25 25,ReadOnly:true",Mandatory,,#DataToApprove.v#,,,,8,0,760,120

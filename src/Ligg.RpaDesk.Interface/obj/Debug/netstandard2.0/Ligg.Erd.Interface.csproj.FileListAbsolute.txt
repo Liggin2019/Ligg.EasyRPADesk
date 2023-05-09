@@ -1,0 +1,16 @@
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Ewa.Interface\bin\Debug\netstandard2.0\Ligg.Ewa.Interface.deps.json
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Ewa.Interface\bin\Debug\netstandard2.0\Ligg.Ewa.Interface.dll
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Ewa.Interface\bin\Debug\netstandard2.0\Ligg.Ewa.Interface.pdb
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Ewa.Interface\obj\Debug\netstandard2.0\Ligg.Erd.Interface.AssemblyInfoInputs.cache
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Ewa.Interface\obj\Debug\netstandard2.0\Ligg.Erd.Interface.AssemblyInfo.cs
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Ewa.Interface\obj\Debug\netstandard2.0\Ligg.Erd.Interface.csproj.CoreCompileInputs.cache
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Ewa.Interface\obj\Debug\netstandard2.0\Ligg.Ewa.Interface.dll
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Ewa.Interface\obj\Debug\netstandard2.0\Ligg.Ewa.Interface.pdb
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Erd.Interface\bin\Debug\netstandard2.0\Ligg.Ewa.Interface.deps.json
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Erd.Interface\bin\Debug\netstandard2.0\Ligg.Ewa.Interface.dll
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Erd.Interface\bin\Debug\netstandard2.0\Ligg.Ewa.Interface.pdb
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Erd.Interface\obj\Debug\netstandard2.0\Ligg.Erd.Interface.AssemblyInfoInputs.cache
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Erd.Interface\obj\Debug\netstandard2.0\Ligg.Erd.Interface.AssemblyInfo.cs
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Erd.Interface\obj\Debug\netstandard2.0\Ligg.Erd.Interface.csproj.CoreCompileInputs.cache
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Erd.Interface\obj\Debug\netstandard2.0\Ligg.Ewa.Interface.dll
+D:\Doing\coding\project-doing\Ligg.Erd\3.5.3\src\Ligg.Erd.Interface\obj\Debug\netstandard2.0\Ligg.Ewa.Interface.pdb

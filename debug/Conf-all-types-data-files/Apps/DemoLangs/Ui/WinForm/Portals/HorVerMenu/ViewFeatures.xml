@@ -1,0 +1,66 @@
+<ArrayOfViewFeature>
+		<ViewFeature>
+			<IsPublic>true</IsPublic><IsDefault>false</IsDefault><Name>Public</Name><Location>FuncsShared\Public</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>true</IsDefault><Name>Dashboard</Name><Location>FuncsShared\Dashboard</Location>
+						
+			
+			
+			
+			<ResizeParamsText>TopNavSection:28,5,0|ToolBarSection:64,460,300|MainSectionLeftNavDivision:185,0,0|MainSectionLeftNavDivision1:590,0,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30|HorResizableDivisionStatus:hide|HorResizableDivision1Status:show|</ResizeParamsText><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>About</Name><Location>FuncsShared\About</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>OpenUrls</Name><Location>Basic\OpenUrls</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>UnderDev</Name><Location>_Shared\UnderDev</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>NoAuth</Name><Location>_Shared\NoAuth</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>NoServer</Name><Location>_Shared\NoServer</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>UnderDevNoMenu</Name><Location>_Shared\UnderDev</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>NoAuthNoMenu</Name><Location>_Shared\NoAuth</Location>
+						
+			
+			
+			
+			<ResizeParamsText>TopNavSection:28,5,0|ToolBarSection:64,460,300|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30</ResizeParamsText><Invalid/>
+		</ViewFeature>
+</ArrayOfViewFeature>

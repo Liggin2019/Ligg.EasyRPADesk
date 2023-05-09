@@ -1,0 +1,225 @@
+<ArrayOfZoneItem>
+
+		<ZoneItem>
+			
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>
+			
+			<Value/><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>24</Height><Disabled/>
+		</ZoneItem><ZoneItem>
+			
+			<Name>ApplicationL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row100</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>Application</DisplayName>			
+			<Value/><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>86</Width>
+			<Height>24</Height><Disabled/>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Application</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TitleLabel</ControlTypeName><Row>Row100</Row><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<DisplayName>=GetApplicationAnnexText;Remark</DisplayName>			
+			<Value></Value><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>50</Width>
+			<Height>24</Height><Disabled>true</Disabled>
+		</ZoneItem><ZoneItem>
+			
+			<Name>ModuleL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row100</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>Module</DisplayName>			
+			<Value/><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>62</Width>
+			<Height>24</Height><Disabled/>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Module</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TitleLabel</ControlTypeName><Row>Row100</Row><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<DisplayName>=GetApplicationAnnexText;Description</DisplayName>			
+			<Value></Value><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>160</Width>
+			<Height>24</Height><Disabled>true</Disabled>
+		</ZoneItem><ZoneItem>
+			
+			<Name>FunctionL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row100</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>Function</DisplayName>			
+			<Value/><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>128</Width>
+			<Height>24</Height><Disabled/>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Function</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TitleLabel</ControlTypeName><Row>Row100</Row><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<DisplayName>=GetApplicationAnnexText</DisplayName>			
+			<Value></Value><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>184</Width>
+			<Height>24</Height><Disabled>true</Disabled>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row101</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>
+			
+			<Value/><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>1</Height><Disabled/>
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName><Row>Row101</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName/>			
+			<Value/><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>760</Width>
+			<Height>1</Height><Disabled/>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>
+			
+			<Value/><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>24</Height><Disabled/>
+		</ZoneItem><ZoneItem>
+			
+			<Name>AppVersionL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row200</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>Application Version</DisplayName>			
+			<Value/><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>210</Width>
+			<Height>24</Height><Disabled/>
+		</ZoneItem><ZoneItem>
+			
+			<Name>AppVersion</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TitleLabel</ControlTypeName><Row>Row200</Row><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<DisplayName>=Join;%AppCode%-%AppVersion%</DisplayName>			
+			<Value></Value><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>160</Width>
+			<Height>24</Height><Disabled>true</Disabled>
+		</ZoneItem><ZoneItem>
+			
+			<Name>ArchVersionL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row200</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>Architeture Version</DisplayName>			
+			<Value/><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>128</Width>
+			<Height>24</Height><Disabled/>
+		</ZoneItem><ZoneItem>
+			
+			<Name>ArchVersion</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TitleLabel</ControlTypeName><Row>Row200</Row><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<DisplayName>=Join;%ArchCode%-%ArchVersion%</DisplayName>			
+			<Value></Value><Location/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>184</Width>
+			<Height>24</Height><Disabled>true</Disabled>
+		</ZoneItem>
+		
+		
+		
+		
+				
+		
+		
+		
+</ArrayOfZoneItem>

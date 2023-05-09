@@ -1,0 +1,5 @@
+Name,TypeName,GroupId,Expression,SkipOnInit,Condition
+Account,Variable,0,,true,
+Password,Variable,0,,true,
+LogonResult,Variable,0,=HttpClientLogon;Sys/User/Logon;#Account.v#;#Password.v#,true,
+LogonResult1,Variable,0,=Judge;UniversalResult;#LogonResult.v#,true,

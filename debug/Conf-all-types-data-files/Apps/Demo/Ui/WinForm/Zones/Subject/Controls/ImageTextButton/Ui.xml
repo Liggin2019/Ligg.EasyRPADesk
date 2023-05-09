@@ -1,0 +1,567 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>5</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonHL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row10</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>ImageTextButton</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row11</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine11</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row11</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>408</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CheckTypeL100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row100</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>CheckType:None</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row101</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine101</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row101</Row><StyleClass>Level1</StyleClass><StyleText/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>392</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row102</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonH1a100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName>
+			
+			
+			
+			<Row>Row102</Row><StyleText>Offset:5,3,3|</StyleText>
+			
+			<DisplayName>ImageTextButtonH1</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>160</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonH2a100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName>
+			
+			
+			
+			<Row>Row102</Row><StyleText>CheckType:None</StyleText>
+			
+			<DisplayName>ImageTextButtonH2</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>160</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonV3a100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonV</ControlTypeName>
+			
+			
+			
+			<Row>Row102</Row><StyleClass/><StyleText>Offset:5,3,6|</StyleText>
+			
+			<DisplayName>Do</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>30</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonV4a100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonV</ControlTypeName>
+			
+			
+			
+			<Row>Row102</Row><StyleClass/><StyleText>CheckType:None|BackColor:191,219,255|Font:Arial|FontSize:8.7|TextAlign:MiddleCenter|HasBorder:false</StyleText>
+			
+			<DisplayName>Do</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>30</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row103</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine103</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row103</Row><StyleClass>Level1</StyleClass><StyleText/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>392</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CheckTypeL200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row200</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>CheckType:Focus</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row201</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine201</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row201</Row><StyleClass>Level1</StyleClass><StyleText/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>392</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row202</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonH1a200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName>
+			
+			
+			
+			<Row>Row202</Row><StyleClass>Button</StyleClass><StyleText/>
+			
+			<DisplayName>ImageTextButtonH1</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>160</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonH2a200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName>
+			
+			
+			
+			<Row>Row202</Row><StyleClass/><StyleText>CheckType:Focus|BackColor:222, 242, 252 |FontStyle:bold;Font:Arial|FontSize:8.7|TextAlign:MiddleLeft|HasBorder:true|Offset:3,3</StyleText>
+			
+			<DisplayName>ImageTextButtonH2</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>160</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonV3a200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonV</ControlTypeName>
+			
+			
+			
+			<Row>Row202</Row><StyleClass/><StyleText>CheckType:Focus</StyleText>
+			
+			<DisplayName>Do</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>30</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonV4a200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonV</ControlTypeName>
+			
+			
+			
+			<Row>Row202</Row><StyleClass/><StyleText>CheckType:Focus</StyleText>
+			
+			<DisplayName>Do</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>30</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row203</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine203</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row203</Row><StyleClass>Level1</StyleClass><StyleText/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>392</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/>
+			
+			<DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CheckTypeL300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row300</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>CheckType:Click</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row301</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine301</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row301</Row><StyleClass>Level1</StyleClass><StyleText/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>392</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row302</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonH1a300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName>
+			
+			
+			
+			<Row>Row302</Row><StyleClass/><StyleText>CheckType:Click</StyleText>
+			
+			<DisplayName>ImageTextButtonH1</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>160</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonH2a300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName>
+			
+			
+			
+			<Row>Row302</Row><StyleClass/><StyleText>CheckType:Click|BackColor:222, 242, 252 |FontStyle:bold;Font:Arial|FontSize:8.7|TextAlign:MiddleLeft|HasBorder:true|Offset:3,3</StyleText>
+			
+			<DisplayName>ImageTextButtonH2</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>160</Width><Height>30</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonV3a300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonV</ControlTypeName>
+			
+			
+			
+			<Row>Row302</Row><StyleClass/><StyleText>CheckType:Click</StyleText>
+			
+			<DisplayName>Do</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>30</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ImageTextButtonV4a300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ImageTextButtonV</ControlTypeName>
+			
+			
+			
+			<Row>Row302</Row><StyleClass/><StyleText>CheckType:Click</StyleText>
+			
+			<DisplayName>Do</DisplayName><DataSource>%GlbCfgDir%\Shared\Images\help.png</DataSource>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>30</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row1000</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine1000</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row1000</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>408</Width><Height>1</Height>
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

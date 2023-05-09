@@ -1,0 +1,1 @@
+[{"Name":"IsDialog","TypeName":"Variable","GroupId":"0","Expression":"","SkipOnInit":"","Condition":""},{"Name":"IsModal","TypeName":"Variable","GroupId":"0","Expression":"=Judge;IsFormModal","SkipOnInit":"","Condition":""},{"Name":"GetCurrentUser","TypeName":"Variable","GroupId":"0","Expression":"=HttpClientGet;Sys/User/GetCurrentUser","SkipOnInit":"true","Condition":""}]

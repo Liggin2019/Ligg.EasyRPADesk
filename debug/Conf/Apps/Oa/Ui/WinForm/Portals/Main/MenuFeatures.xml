@@ -1,0 +1,9 @@
+<ArrayOfMenuFeature>
+		<MenuFeature>
+			<Id>1</Id><Name>MainMenu</Name><MenuTypeName>Nested</MenuTypeName><Location>NestedMenu</Location><UnavailableServerViews>=HttpClientGet;Sys/Permission/GetUnavailableClientViews;portal:Oa</UnavailableServerViews>
+			
+		</MenuFeature><MenuFeature>
+			<Id>2</Id><Name>ToolBarMenu</Name><MenuTypeName>ToolBar</MenuTypeName><Location>ToolBarMenu</Location><UnavailableServerViews/>
+			
+		</MenuFeature>
+</ArrayOfMenuFeature>

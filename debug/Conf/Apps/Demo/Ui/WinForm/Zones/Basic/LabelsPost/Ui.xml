@@ -1,0 +1,41 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Label1</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			<StyleClass/><StyleText>BackColor:255,0,0|TextAlign:MiddleCenter</StyleText><DisplayName>Label1</DisplayName>			
+			<Action/>
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>50</Height>
+	</ZoneItem>
+	<ZoneItem>
+		
+		<Name>Label2</Name><TypeName>Control</TypeName>
+		<ControlTypeName>Label</ControlTypeName>
+		<StyleClass/><StyleText>BackColor:0,255,0|TextAlign:MiddleCenter</StyleText><DisplayName>Label2</DisplayName>			
+		<Action/>
+		<DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>105</OffsetOrPositionY><Width>100</Width><Height>100</Height>
+	</ZoneItem>
+	<ZoneItem>
+		
+		<Name>Label3</Name><TypeName>Control</TypeName>
+		<ControlTypeName>Label</ControlTypeName>
+		<StyleClass/><StyleText>BackColor:0,0,255|TextAlign:MiddleCenter|ForeColor:255,255,255</StyleText><DisplayName>Label3</DisplayName>			
+		<Action/>
+		<DockTypeName/><OffsetOrPositionX>105</OffsetOrPositionX><OffsetOrPositionY>105</OffsetOrPositionY><Width>100</Width><Height>100</Height>
+	</ZoneItem><ZoneItem>
+		
+		<Name>Label4</Name><TypeName>Control</TypeName>
+		<ControlTypeName>Label</ControlTypeName>
+		<StyleClass/><StyleText>BackColor:255,255,0|TextAlign:MiddleCenter|</StyleText><DisplayName>Label4</DisplayName>			
+		<Action/>
+		<DockTypeName/><OffsetOrPositionX>210</OffsetOrPositionX><OffsetOrPositionY>105</OffsetOrPositionY><Width>100</Width><Height>100</Height>
+	</ZoneItem><ZoneItem>
+		
+		<Name>Label5</Name><TypeName>Control</TypeName>
+		<ControlTypeName>Label</ControlTypeName>
+		<StyleClass/><StyleText>BackColor:255,0,255|TextAlign:MiddleCenter|ForeColor:255,255,255</StyleText><DisplayName>Label5</DisplayName>			
+		<Action/>
+		<DockTypeName>Bottom</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>50</Height>
+	</ZoneItem>
+	
+</ArrayOfZoneItem>

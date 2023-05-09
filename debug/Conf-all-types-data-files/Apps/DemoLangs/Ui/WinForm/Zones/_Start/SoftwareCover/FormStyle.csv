@@ -1,0 +1,9 @@
+FieldName,FieldValue
+HasNoControlBoxes,true
+WindowRadius,12
+CannotBeClosed,false
+DrawIcon,true
+IconUrl,%GlbSharedDir%\Icos\logo.ico
+RunningMessageHeight,0
+ShowRunningStatus,true
+ShowRunningProgress,false

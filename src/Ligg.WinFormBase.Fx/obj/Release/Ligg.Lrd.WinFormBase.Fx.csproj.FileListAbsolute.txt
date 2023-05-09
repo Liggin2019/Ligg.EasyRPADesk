@@ -1,0 +1,16 @@
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\release-lib\WinFormBase\Fx\WinFormBase.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\release-lib\WinFormBase\Fx\WinFormBase.pdb
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\release-lib\WinFormBase\Fx\zh-CN\WinFormBase.resources.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\release-lib\WinFormBase\netfxapp4.7.2\WinFormBase.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\release-lib\WinFormBase\netfxapp4.7.2\WinFormBase.pdb
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\release-lib\WinFormBase\netfxapp4.7.2\zh-CN\WinFormBase.resources.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\Ligg.WinFormBase.BaseForm.resources
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\Ligg.RpaDesk.WinFormBase.Properties.Resources.resources
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\Ligg.RpaDesk.WinFormBase.Resources.TextRes.resources
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\Ligg.RpaDesk.WinFormBase.Resources.TextRes.zh-CN.resources
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\Ligg.Lrd.WinFormBase.Fx.csproj.GenerateResource.cache
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\Ligg.Lrd.WinFormBase.Fx.csproj.CoreCompileInputs.cache
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\zh-CN\WinFormBase.resources.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\WinFormBase.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\WinFormBase.pdb
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Release\Ligg.Lrd.WinFormBase.Fx.csprojAssemblyReference.cache

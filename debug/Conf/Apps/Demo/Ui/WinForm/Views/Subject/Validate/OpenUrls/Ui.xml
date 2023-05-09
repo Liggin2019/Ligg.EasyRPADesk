@@ -1,0 +1,89 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Name>MainArea</Name><Container>MainSectionMainDivisionMiddleRegion</Container><TypeName>ContentArea</TypeName>
+			<Trigger/><Location/><Action/><StyleText>Padding:2|</StyleText>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>ChooseUrl</Name><Container>MainArea</Container><TypeName>Zone</TypeName>
+			<Trigger/><Location>Subject\Validate\OpenUrlByChoice</Location><Action/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>60</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>SetUrl</Name><Container/><TypeName>ActionWatcher</TypeName>
+			<Trigger>$ChooseUrl_UrlOption$</Trigger><Location/><Action>SetControlValue;$OpenUrls_Url200$;$ChooseUrl_UrlOption.v$</Action><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>SetUrl1</Name><Container/><TypeName>ActionWatcher</TypeName>
+			<Trigger>$ChooseUrl_UrlOption$</Trigger><Location/><Action>SetControlValue;$OpenUrls_Url300$;$ChooseUrl_UrlOption.v$</Action><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>OpenUrls</Name><Container>MainArea</Container><TypeName>Zone</TypeName>
+			<Trigger/><Location>Subject\Validate\OpenUrls</Location><Action/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement>
+
+	</ArrayOfLayoutElement>

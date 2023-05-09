@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Doing\\coding\\project-doing\\Ligg.Ewa\\3.5.3\\.OeStdServGen\\src\\Ligg.Ewa.StdService.PageShoter.NetFx\\Ligg.StdService.WebRobot.NetFx.csproj": {}
+  },
+  "projects": {
+    "D:\\Doing\\coding\\project-doing\\Ligg.Ewa\\3.5.3\\.OeStdServGen\\src\\Ligg.Ewa.StdService.PageShoter.NetFx\\Ligg.StdService.WebRobot.NetFx.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Doing\\coding\\project-doing\\Ligg.Ewa\\3.5.3\\.OeStdServGen\\src\\Ligg.Ewa.StdService.PageShoter.NetFx\\Ligg.StdService.WebRobot.NetFx.csproj",
+        "projectName": "Ligg.StdService.WebRobot.NetFx",
+        "projectPath": "D:\\Doing\\coding\\project-doing\\Ligg.Ewa\\3.5.3\\.OeStdServGen\\src\\Ligg.Ewa.StdService.PageShoter.NetFx\\Ligg.StdService.WebRobot.NetFx.csproj",
+        "packagesPath": "C:\\Users\\adm-dev\\.nuget\\packages\\",
+        "outputPath": "D:\\Doing\\coding\\project-doing\\Ligg.Ewa\\3.5.3\\.OeStdServGen\\src\\Ligg.Ewa.StdService.PageShoter.NetFx\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adm-dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://39.100.64.24:1000/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "CefSharp.WinForms": {
+              "target": "Package",
+              "version": "[96.0.180, )"
+            },
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.39, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "WeihanLi.Npoi": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

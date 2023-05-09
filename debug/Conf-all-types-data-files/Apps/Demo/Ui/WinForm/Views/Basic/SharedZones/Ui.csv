@@ -1,0 +1,7 @@
+Name,Container,TypeName,Location,ShellArgs,StyleText,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height,Invalid
+MainArea,MainSectionMainDivisionMiddleRegion,ContentArea,,,Padding:2|,Fill,-1,-1,-1,-1,
+TitleLabel,MainArea,Zone,%GlbUiDir%\Zones\TitleLabel,"TitleLabel,Level1,TextAlign:MiddleLeft",,Top,-1,-1,-1,30,
+TitleLabel1,MainArea,Zone,%GlbUiDir%\Zones\TitleLabel,"Recmd Tansactions,Level1,TextAlign:MiddleLeft",,Top,-1,-1,-1,30,
+TextButton,MainArea,Zone,%GlbUiDir%\Zones\TextButton,TextButton|DoNothing,,Top,-1,-1,-1,30,
+TextButton1,MainArea,Zone,%GlbUiDir%\Zones\TextButton,TextButton|DoNothing,,Top,-1,-1,-1,30,
+TextButton3,MainArea,Zone,%GlbUiDir%\Zones\ImageTextButtonV,TextButton|DoNothing,,Top,-1,-1,-1,30,

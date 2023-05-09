@@ -1,0 +1,59 @@
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>About</MasterName>
+			<DisplayName>关于我们</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Usage</MasterName>
+			<DisplayName>使用指南</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>History</MasterName>
+			<DisplayName>开发历史</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Repo</MasterName>
+			<DisplayName>开源仓库</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Contact</MasterName>
+			<DisplayName>联系我们</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

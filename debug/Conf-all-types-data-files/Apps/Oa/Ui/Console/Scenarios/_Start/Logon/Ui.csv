@@ -1,0 +1,13 @@
+Name,TypeName,DisplayName,Value,ValidationRules,Condition
+Title,WriteLine,££££££££££££ LOGON ££££££££££££,,,
+Tip,WriteLine,Please input account and password,,,
+NewLine,NewLine,,1,,
+Account,ReadLine,account,,"Mandatory|StringMinLength,3",
+Password,ReadLine,password,,"Mandatory|StringMinLength,3",
+SetAcctVar,Transaction,,SetVariableValue;#Account#;$Account.v$,,
+SetPwVar,Transaction,,SetVariableValue;#Password#;$Password.v$,,
+Logon,Transaction,,"RefreshProcedures;#LogonResult#,#LogonResult1#",,
+Crun,Transaction,,Crun@#LogonResult1.v#@ReturnTrue,,
+Break,Break,,,,#LogonResult1.v#
+WriteLine,Transaction,,WriteLine@Account or password incorrect@Red,,
+GoTo,GoTo,,NewLine,,

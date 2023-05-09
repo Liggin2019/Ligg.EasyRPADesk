@@ -1,0 +1,6 @@
+<ArrayOfMenuFeature>
+	<MenuFeature>
+		<Id>2</Id><MenuTypeName>Vertical</MenuTypeName><Name>MainMenu1</Name><Container>MainSectionLeftNavDivisionMiddleRegion</Container><Location>VerMenu</Location><ImageUrls>%GlbSharedDir%\Images\schedule.gif,%GlbSharedDir%\Images\task.gif</ImageUrls><Invalid/>
+		
+	</MenuFeature><MenuFeature><Id>3</Id><MenuTypeName>ToolBar</MenuTypeName><Name>ToolBarMenu</Name><Container/><Location>ToolBarMenu</Location><ImageUrls/><Invalid/></MenuFeature>
+</ArrayOfMenuFeature>

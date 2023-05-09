@@ -1,0 +1,479 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Id>110</Id><ParentId>0</ParentId><Name>Administration</Name><DisplayName>Administration</DisplayName>
+			
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11010</Id><ParentId>110</ParentId><Name>SystemTool</Name><DisplayName>System Tool</DisplayName><View>About</View>
+			
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11020</Id><ParentId>110</ParentId><Name>NetworkTool</Name><DisplayName>Network Tool</DisplayName><View>OpenUrls</View>
+			
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11030</Id><ParentId>110</ParentId><Name>RemoteTool</Name><DisplayName>Remote Tool</DisplayName><View>UnderDev</View>
+			
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11050</Id><ParentId>110</ParentId><Name>SystemSetting</Name><DisplayName>System Setting</DisplayName>
+			<View>NoServer</View>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11060</Id><ParentId>110</ParentId><Name>RunAsAdmin</Name><DisplayName>Run As Admin</DisplayName>
+			<View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>115</Id><ParentId>0</ParentId><Name>Operation</Name><DisplayName>Operation</DisplayName>
+			<View></View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11510</Id><ParentId>115</ParentId><Name>Information</Name><DisplayName>Information</DisplayName>
+			<View>UnderDev</View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11520</Id><ParentId>115</ParentId><Name>Registry</Name><DisplayName>Registry</DisplayName>
+			<View>NoServer</View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11530</Id><ParentId>115</ParentId><Name>Process</Name><DisplayName>Process</DisplayName>
+			<View>NoAuth</View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11540</Id><ParentId>115</ParentId><Name>Service</Name><DisplayName>Service</DisplayName>
+			<View>UnderDev</View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11550</Id><ParentId>115</ParentId><Name>Installation</Name><DisplayName>Installation</DisplayName>
+			<View>NoServer</View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11560</Id><ParentId>115</ParentId><Name>Performance</Name><DisplayName>Performance</DisplayName>
+			<View>NoAuth</View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>120</Id><ParentId>0</ParentId><Name>Management</Name><DisplayName>Management</DisplayName>
+			<View></View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12010</Id><ParentId>120</ParentId><Name>ServiceDesk</Name><DisplayName>Service Desk</DisplayName>
+			<View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12020</Id><ParentId>120</ParentId><Name>License</Name><DisplayName>License</DisplayName>
+			<View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12030</Id><ParentId>120</ParentId><Name>Asset</Name><DisplayName>Asset</DisplayName>
+			<View>NoServer</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12050</Id><ParentId>120</ParentId><Name>Monitoring</Name><DisplayName>Monitoring</DisplayName>
+			<View/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205010</Id><ParentId>12050</ParentId><Name>Server1</Name><DisplayName>Server</DisplayName>
+			<View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205020</Id><ParentId>12050</ParentId><Name>Database1</Name><DisplayName>Database</DisplayName>
+			<View>NoServer</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205030</Id><ParentId>12050</ParentId><Name>Network1</Name><DisplayName>Network</DisplayName>
+			<View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205040</Id><ParentId>12050</ParentId><Name>Storage1</Name><DisplayName>Storage</DisplayName>
+			<View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12060</Id><ParentId>120</ParentId><Name>RoutingInsp</Name><DisplayName>Routing Insp.</DisplayName>
+			<View/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206010</Id><ParentId>12060</ParentId><Name>Daily</Name><DisplayName>Daily</DisplayName>
+			<View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206020</Id><ParentId>12060</ParentId><Name>Weekly</Name><DisplayName>Weekly</DisplayName>
+			<View>NoServer</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206030</Id><ParentId>12060</ParentId><Name>Monthly</Name><DisplayName>Monthly</DisplayName>
+			<View>NoAuth</View>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206040</Id><ParentId>12060</ParentId><Name>Quarterly</Name><DisplayName>Quarterly</DisplayName>
+			<View/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206050</Id><ParentId>12060</ParentId><Name>Yearly</Name><DisplayName>Yearly</DisplayName>
+			<View/><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>130</Id><ParentId>0</ParentId><Name>Deployment</Name><DisplayName>Deployment</DisplayName>
+			<View>NoServer</View>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>140</Id><ParentId>0</ParentId><Name>Configuration</Name><DisplayName>Configuration</DisplayName>
+			<View>NoAuth</View>
+			
+			
+			
+			
+			
+			<Action></Action>
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>150</Id><ParentId>0</ParentId><Name>Console</Name><DisplayName>Console</DisplayName>
+			<View>UnderDev</View>
+			
+			
+			
+			
+			
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;Connecting server failed...^^300</Action>
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement>
+
+</ArrayOfLayoutElement>

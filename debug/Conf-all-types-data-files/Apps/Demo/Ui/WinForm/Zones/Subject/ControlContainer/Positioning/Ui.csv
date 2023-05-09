@@ -1,0 +1,9 @@
+Name,TypeName,Container,Row,ControlTypeName,StyleClass,StyleText,ValidationRules,DisplayName,DataSource,Value,Action,Invisible,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+CtrlCtn,ControlContainer,,,ContainerPanel,,CpntArrangeType:RowLining|Style:Rounded|Radius:2|,,eeeee,,,PopupMsg;ooo;ooo,,Top,-1,-1,500,100
+Row10,SubControl,CtrlCtn,,Row,,,,,,,,,,-1,5,-1,20
+Ctrl1,SubControl,CtrlCtn,Row10,TextButton,,,,Ctrl1,,,PopupMsg;ooo;ooo,,,90,0,50,20
+Ctrl2,SubControl,CtrlCtn,Row10,TextButton,,,,Ctrl2,,,PopupMsg;ooo;ooo,,,130,0,50,20
+CtrlCtn2,ControlContainer,,,ContainerPanel,,Style:Rounded|Radius:2|,,eeeee,,,PopupMsg;ooo;ooo,,Top,10,0,500,100
+Ctrl21,SubControl,CtrlCtn2,,TextButton,,,,Ctrl21,,,PopupMsg;ooo;ooo,,None,90,10,50,20
+Ctrl22,SubControl,CtrlCtn2,,TextButton,,,,Ctrl22,,,PopupMsg;ooo;ooo,,None,130,10,50,20
+Ctrl100,Control,,,TextButton,,,,ddds,,,PopupMsg;ooo;ooo,,Bottom,-1,-1,50,20

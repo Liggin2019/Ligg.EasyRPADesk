@@ -1,0 +1,1 @@
+[{"Name":"InitDir","TypeName":"Variable","DisplayName":"","GroupId":"1","StartValue":"D:\\","Expression":""},{"Name":"Dir","TypeName":"Variable","DisplayName":"","GroupId":"1","StartValue":"","Expression":"=ChooseDirectory;#InitDir.v#"},{"Name":"IsDirValid","TypeName":"Variable","DisplayName":"","GroupId":"1","StartValue":"","Expression":"=Judge;IsDirectoryExisting;#Dir.v#"}]

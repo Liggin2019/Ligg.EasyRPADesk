@@ -1,0 +1,52 @@
+<ArrayOfViewFeature>
+		<ViewFeature>
+			<IsPublic>true</IsPublic><IsDefault>false</IsDefault><Name>Public</Name><Alias></Alias><Location>Public</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>true</IsDefault><Name>Dashboard</Name><Alias></Alias><Location>Dashboard</Location>
+						
+			
+			
+			
+			<ResizeParamsText>TopNavSection:28,5,0|ToolBarSection:64,520,482|MainSectionLeftNavDivision:185,0,0|MainSectionLeftNavDivision1:590,0,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30|HorResizableDivisionStatus:hide|HorResizableDivision1Status:show|</ResizeParamsText><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>MngMaterial</Name><Alias>MngMaterialAm</Alias><Location>Prd\Material</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>Demo</Name><Alias></Alias><Location>_Shared\Demo</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>Demo1</Name><Alias></Alias><Location>_Shared\Demo1</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>DemoNoMenu</Name><Alias></Alias><Location>_Shared\Demo1</Location>
+						
+			
+			
+			
+			<ResizeParamsText>TopNavSection:28,5,0|ToolBarSection:64,520,482|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30</ResizeParamsText><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><IsDefault>false</IsDefault><Name>Demo1NoMenu</Name><Alias></Alias><Location>_Shared\Demo</Location>
+						
+			
+			
+			
+			<ResizeParamsText>TopNavSection:28,5,0|ToolBarSection:64,520,482|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30</ResizeParamsText><Invalid/>
+		</ViewFeature>
+</ArrayOfViewFeature>

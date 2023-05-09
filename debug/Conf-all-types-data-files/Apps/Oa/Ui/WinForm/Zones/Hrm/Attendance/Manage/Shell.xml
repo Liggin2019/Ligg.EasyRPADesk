@@ -1,0 +1,39 @@
+<ArrayOfProcedure>
+	<Procedure>
+			
+			<Name>DataToUpload</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Cblpc-AttendanceService-Get-GetData;ThisMonth</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>UploadParams</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Join;Month=;2023-03-13;,;OrgId=;888</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>UploadResult</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=HttpClientPost@Hrm/Attendance/AddMany@#DataToUpload.v#@#UploadParams.v#</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>Month</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression/>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>DataToApproveParams</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Join;Month=;#Month.v#;,;PageIndex=8,PageSize=15</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>DataToApprove</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=HttpClientGet@Hrm/Attendance/GetPagedApproveModels@#DataToApproveParams.v#</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>ApproveResultParamms</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Join;Month=;#Month.v#;,;OrgId=;888</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>ApproveResult</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=HttpClientPost@Hrm/Attendance/Approve@#ApproveResultParamms.v#</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>UnavailableBtns</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=HttpClientGet@sys/Permission/GetUnavailableClientViewButtons@View:mngAttendanceAm</Expression>
+			<SkipOnInit>false</SkipOnInit><Condition/>
+		</Procedure>
+</ArrayOfProcedure>

@@ -1,0 +1,14 @@
+FieldName,FieldValue
+PhythonExecPath,
+HelpdeskEmail,LiggHelpdesk@outlook.com
+SupportMultiLanguages,true
+DefaultCulture,zh-CN
+DefaultLanguageCode,szh
+IncludedLanguages,"zh-CN:en, zh-CN:szh, en-US:en, de-DE:de"
+ApplicationVersion,1.1.1.0
+ApplicationDataDir,
+ApplicationLibDir,
+ApplicationOutputDir,
+HasCblpComponent,true
+ShowSoftwareCoverAtStart,true
+LogonAtStart,true

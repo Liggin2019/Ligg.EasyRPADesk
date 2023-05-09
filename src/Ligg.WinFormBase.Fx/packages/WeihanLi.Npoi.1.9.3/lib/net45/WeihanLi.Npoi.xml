@@ -1,0 +1,1475 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WeihanLi.Npoi</name>
+    </assembly>
+    <members>
+        <member name="P:WeihanLi.Npoi.Abstract.IRow.CellsCount">
+            <summary>
+            Gets the number of defined cells (NOT number of cells in the actual row!).
+            That is to say if only columns 0,4,5 have values then there would be 3.
+            </summary>
+            <returns>int representing the number of defined cells in the row.</returns>
+        </member>
+        <member name="P:WeihanLi.Npoi.Abstract.IRow.FirstCellNum">
+            <summary>
+              1-based column number of the first cell
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Abstract.IRow.LastCellNum">
+            <summary>
+             1-based column number of the last cell
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.Abstract.IRow.CreateCell(System.Int32)">
+            <summary>
+            Create a cell
+            </summary>
+            <param name="cellIndex"> cellIndex
+            maxValue: (255 for *.xls, 1048576 for *.xlsx)
+            </param>
+            <returns></returns>
+        </member>
+        <member name="P:WeihanLi.Npoi.Abstract.IRow.UnderlyingValue">
+            <summary>
+            UnderlyingValue
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Abstract.ISheet.FirstRowNum">
+            <summary>
+            FirstRowNum, 1 based rowNum
+            0 if no rows here
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Abstract.ISheet.LastRowNum">
+            <summary>
+            lastRowIndex +1, 1 based rowNum
+            0 if no rows here
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.ColumnAttribute.Index">
+            <summary>
+            ColumnIndex
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.ColumnAttribute.Title">
+            <summary>
+            ColumnTitle
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.ColumnAttribute.Formatter">
+            <summary>
+            Formatter
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.ColumnAttribute.IsIgnored">
+            <summary>
+            IsIgnored
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.ColumnAttribute.Width">
+            <summary>
+            ColumnWidth
+            Characters Count
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.FilterAttribute.FirstColumn">
+            <summary>
+            Gets or sets the first column index.
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.FilterAttribute.LastColumn">
+            <summary>
+            Gets or sets the last column index.
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.FreezeAttribute.ColSplit">
+            <summary>
+            Horizontal position of split
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.FreezeAttribute.RowSplit">
+            <summary>
+            Vertical position of split
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.FreezeAttribute.LeftMostColumn">
+            <summary>
+            Top row visible in bottom pane
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Attributes.FreezeAttribute.TopRow">
+            <summary>
+            Left column visible in right pane
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.ConfigurationExtensions.HasSheetConfiguration(WeihanLi.Npoi.Configurations.IExcelConfiguration,System.Int32,System.String)">
+            <summary>
+            Sheet Configuration
+            </summary>
+            <param name="configuration">excel configuration</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <param name="sheetName">sheetName</param>
+            <returns>current excel configuration</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ConfigurationExtensions.HasSheetConfiguration(WeihanLi.Npoi.Configurations.IExcelConfiguration,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Sheet Configuration
+            </summary>
+            <param name="configuration">excel configuration</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <param name="sheetName">sheetName</param>
+            <param name="enableAutoColumnWidth">enable auto column width if true otherwise false</param>
+            <returns>current excel configuration</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ConfigurationExtensions.HasSheetConfiguration(WeihanLi.Npoi.Configurations.IExcelConfiguration,System.Int32,System.String,System.Int32)">
+            <summary>
+            Sheet Configuration
+            </summary>
+            <param name="configuration">excel configuration</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <param name="sheetName">sheetName</param>
+            <param name="startRowIndex">startRowIndex</param>
+            <returns>current excel configuration</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ConfigurationExtensions.Property``1(WeihanLi.Npoi.Configurations.IExcelConfiguration{``0},System.String)">
+            <summary>
+            property configuration
+            </summary>
+            <typeparam name="TEntity">TEntity</typeparam>
+            <param name="excelConfiguration">excelConfiguration</param>
+            <param name="propertyName">propertyName</param>
+            <returns>PropertyConfiguration</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ConfigurationExtensions.HasColumnOutputFormatter``2(WeihanLi.Npoi.Configurations.IPropertyConfiguration{``0,``1},System.Func{``1,System.Object})">
+            <summary>
+            has column output formatter
+            </summary>
+            <typeparam name="TEntity">entity type</typeparam>
+            <typeparam name="TProperty">property type</typeparam>
+            <param name="configuration">property configuration</param>
+            <param name="formatter">column output formatter</param>
+            <returns>property configuration</returns>
+        </member>
+        <member name="P:WeihanLi.Npoi.Configurations.ExcelConfiguration`1.EntityType">
+            <summary>
+            EntityType
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Configurations.ExcelConfiguration`1.PropertyConfigurationDictionary">
+            <summary>
+            PropertyConfigurationDictionary
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.ExcelConfiguration`1.Property``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+            <summary>
+            Gets the property configuration by the specified property expression for the specified <typeparamref name="TEntity"/> and its <typeparamref name="TProperty"/>.
+            </summary>
+            <returns>The <see cref="T:WeihanLi.Npoi.Configurations.IPropertyConfiguration"/>.</returns>
+            <param name="propertyExpression">The property expression.</param>
+            <typeparam name="TProperty">The type of parameter.</typeparam>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasSheetConfiguration(System.Int32,System.String,System.Int32,System.Boolean)">
+            <summary>
+            Sheet Configuration
+            </summary>
+            <param name="sheetIndex">sheetIndex</param>
+            <param name="sheetName">sheetName</param>
+            <param name="startRowIndex">startRowIndex</param>
+            <param name="enableAutoColumnWidth">enable auto column width if true otherwise false</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasFreezePane(System.Int32,System.Int32)">
+            <summary>
+            setting freeze pane
+            Creates a split (freeze pane). Any existing freeze pane or split pane is overwritten.
+            </summary>
+            <param name="colSplit">Horizontal position of split</param>
+            <param name="rowSplit">Vertical position of split</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasFreezePane(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            setting freeze pane
+            Creates a split (freeze pane). Any existing freeze pane or split pane is overwritten.
+            </summary>
+            <param name="colSplit">Horizontal position of split</param>
+            <param name="rowSplit">Vertical position of split</param>
+            <param name="leftmostColumn">Top row visible in bottom pane</param>
+            <param name="topRow">Left column visible in right pane</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasFilter(System.Int32)">
+            <summary>
+            setting filter
+            </summary>
+            <param name="firstColumn">firstCol Index of first column</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasFilter(System.Int32,System.Nullable{System.Int32})">
+            <summary>
+            setting filter
+            </summary>
+            <param name="firstColumn">firstCol Index of first column</param>
+            <param name="lastColumn">lastCol Index of last column (inclusive), must be equal to or larger than {@code firstCol}</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasAuthor(System.String)">
+            <summary>
+            set excel Author
+            </summary>
+            <param name="author">author</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasTitle(System.String)">
+            <summary>
+            set excel title
+            </summary>
+            <param name="title">title</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasDescription(System.String)">
+            <summary>
+            set excel description
+            </summary>
+            <param name="description">description</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasSubject(System.String)">
+            <summary>
+            set excel subject
+            </summary>
+            <param name="subject">subject</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasCompany(System.String)">
+            <summary>
+            set excel company
+            </summary>
+            <param name="company">company</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration.HasCategory(System.String)">
+            <summary>
+            set excel category
+            </summary>
+            <param name="category">category</param>
+            <returns>current excel configuration<see cref="T:WeihanLi.Npoi.Configurations.IExcelConfiguration"/></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration`1.Property``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+            <summary>
+            property configuration
+            </summary>
+            <typeparam name="TProperty">PropertyType</typeparam>
+            <param name="propertyExpression">propertyExpression to get property info</param>
+            <returns>current excel configuration</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IExcelConfiguration`1.Property``1(System.String)">
+            <summary>
+            property configuration
+            </summary>
+            <typeparam name="TProperty">PropertyType</typeparam>
+            <param name="propertyName">propertyName</param>
+            <returns>current excel configuration</returns>
+        </member>
+        <member name="T:WeihanLi.Npoi.Configurations.IPropertyConfiguration">
+            <summary>
+            PropertyConfiguration
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IPropertyConfiguration`2.HasColumnIndex(System.Int32)">
+            <summary>
+            HasColumnIndex
+            </summary>
+            <param name="index">index</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IPropertyConfiguration`2.HasColumnWidth(System.Int32)">
+            <summary>
+            HasColumnWidth
+            </summary>
+            <param name="width">width</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IPropertyConfiguration`2.HasColumnTitle(System.String)">
+            <summary>
+            HasColumnTitle
+            </summary>
+            <param name="title">title</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IPropertyConfiguration`2.HasColumnFormatter(System.String)">
+            <summary>
+            HasColumnFormatter
+            </summary>
+            <param name="formatter">formatter</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IPropertyConfiguration`2.Ignored(System.Boolean)">
+            <summary>
+            Ignored
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IPropertyConfiguration`2.HasColumnInputFormatter(System.Func{System.String,`1})">
+            <summary>
+            HasColumnInputFormatter
+            </summary>
+            <param name="formatterFunc">formatterFunc</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IPropertyConfiguration`2.HasOutputFormatter(System.Func{`0,`1,System.Object})">
+            <summary>
+            HasOutputFormatter
+            </summary>
+            <param name="formatterFunc">columnFormatter</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.Configurations.IPropertyConfiguration`2.HasInputFormatter(System.Func{`0,`1,`1})">
+            <summary>
+            HasInputFormatter
+            </summary>
+            <param name="formatterFunc">columnFormatter</param>
+            <returns></returns>
+        </member>
+        <member name="P:WeihanLi.Npoi.Configurations.PropertyConfiguration.ColumnIndex">
+            <summary>
+            ColumnIndex
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Configurations.PropertyConfiguration.ColumnWidth">
+            <summary>
+            ColumnWidth
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Configurations.PropertyConfiguration.ColumnTitle">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Configurations.PropertyConfiguration.ColumnFormatter">
+            <summary>
+            Formatter
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Configurations.PropertyConfiguration.IsIgnored">
+            <summary>
+            the property is ignored.
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Configurations.PropertyConfiguration.PropertyName">
+            <summary>
+            PropertyName
+            </summary>
+        </member>
+        <member name="T:WeihanLi.Npoi.CsvHelper">
+            <summary>
+            CsvHelper
+            </summary>
+        </member>
+        <member name="F:WeihanLi.Npoi.CsvHelper.CsvSeparatorCharacter">
+            <summary>
+            CsvSeparatorCharacter, ',' by default
+            </summary>
+        </member>
+        <member name="F:WeihanLi.Npoi.CsvHelper.CsvQuoteCharacter">
+            <summary>
+            CsvQuoteCharacter, '"' by default
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToCsvFile(System.Data.DataTable,System.String)">
+            <summary>
+            save to csv file
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToCsvFile(System.Data.DataTable,System.String,System.Boolean)">
+            <summary>
+            save to csv file
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToCsvBytes(System.Data.DataTable)">
+            <summary>
+            to csv bytes
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToCsvBytes(System.Data.DataTable,System.Boolean)">
+            <summary>
+            to csv bytes
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToDataTable(System.Byte[])">
+            <summary>
+            convert csv file data to dataTable
+            </summary>
+            <param name="csvBytes">csv bytes</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToDataTable(System.IO.Stream)">
+            <summary>
+            convert csv stream data to dataTable
+            </summary>
+            <param name="stream">stream</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToDataTable(System.String)">
+            <summary>
+            convert csv file data to dataTable
+            </summary>
+            <param name="filePath">csv file path</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToEntityList``1(System.String)">
+            <summary>
+            convert csv file data to entity list
+            </summary>
+            <param name="filePath">csv file path</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToEntityList``1(System.Byte[])">
+            <summary>
+            convert csv file data to entity list
+            </summary>
+            <param name="csvBytes">csv bytes</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToEntityList``1(System.IO.Stream)">
+            <summary>
+            convert csv file data to entity list
+            </summary>
+            <param name="csvStream">csv Stream</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToCsvFile``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+            save to csv file
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToCsvFile``1(System.Collections.Generic.IEnumerable{``0},System.String,System.Boolean)">
+            <summary>
+            save to csv file
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToCsvBytes``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            to csv bytes
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.CsvHelper.ToCsvBytes``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)">
+            <summary>
+            to csv bytes
+            </summary>
+        </member>
+        <member name="T:WeihanLi.Npoi.ExcelFormat">
+            <summary>
+            ExcelFormat
+            </summary>
+        </member>
+        <member name="F:WeihanLi.Npoi.ExcelFormat.Xls">
+            <summary>
+            xls by default
+            </summary>
+        </member>
+        <member name="F:WeihanLi.Npoi.ExcelFormat.Xlsx">
+            <summary>
+            xlsx
+            </summary>
+        </member>
+        <member name="T:WeihanLi.Npoi.ExcelHelper">
+            <summary>
+            ExcelHelper
+            </summary>
+        </member>
+        <member name="F:WeihanLi.Npoi.ExcelHelper.DefaultExcelSetting">
+            <summary>
+            Default excel setting for export excel files
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ValidateExcelFilePath(System.String,System.String@,System.Boolean)">
+            <summary>
+            Validate is a excel path valid
+            </summary>
+            <param name="excelPath">excel path</param>
+            <param name="msg">error message</param>
+            <param name="isExport">is export operation</param>
+            <returns>is valid excel path</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.LoadExcel(System.String)">
+            <summary>
+            load excel from filepath
+            </summary>
+            <param name="excelPath">excel file path</param>
+            <returns>workbook</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.LoadExcel(System.Byte[])">
+            <summary>
+            load excel from excelBytes
+            </summary>
+            <param name="excelBytes">excel file bytes</param>
+            <returns>workbook</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.LoadExcel(System.Byte[],WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+            load excel from excelBytes
+            </summary>
+            <param name="excelBytes">excel file bytes</param>
+            <param name="excelFormat">excelFormat</param>
+            <returns>workbook</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.LoadExcel(System.IO.Stream)">
+            <summary>
+            load excel from excelBytes
+            </summary>
+            <param name="excelStream">excel file stream</param>
+            <returns>workbook</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.LoadExcel(System.IO.Stream,WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+            load excel from excelBytes
+            </summary>
+            <param name="excelStream">excel file stream</param>
+            <param name="excelFormat">excelFormat</param>
+            <returns>workbook</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.PrepareWorkbook(System.String)">
+            <summary>
+            prepare a workbook for export
+            </summary>
+            <param name="excelPath">excelPath</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.PrepareWorkbook(System.String,WeihanLi.Npoi.Settings.ExcelSetting)">
+            <summary>
+            prepare a workbook for export
+            </summary>
+            <param name="excelPath">excelPath</param>
+            <param name="excelSetting">excelSetting</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.PrepareWorkbook(WeihanLi.Npoi.ExcelFormat,WeihanLi.Npoi.Settings.ExcelSetting)">
+            <summary>
+            prepare a workbook for export
+            </summary>
+            <param name="excelFormat">excelFormat</param>
+            <param name="excelSetting">excelSetting</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.PrepareWorkbook">
+            <summary>
+            get a excel workbook(*.xlsx)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.PrepareWorkbook(WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+            get a excel workbook
+            </summary>
+            <param name="excelFormat">excelFormat</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.PrepareWorkbook(System.Boolean)">
+            <summary>
+            get a excel workbook
+            </summary>
+            <param name="isXlsx">is for *.xlsx file</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.PrepareWorkbook(System.Boolean,WeihanLi.Npoi.Settings.ExcelSetting)">
+            <summary>
+            get a excel workbook
+            </summary>
+            <param name="isXlsx">is for *.xlsx file</param>
+            <param name="excelSetting">excelSettings</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.Byte[])">
+            <summary>
+            read first sheet of excel from excel file bytes to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelBytes">excelBytes</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.Byte[],System.Int32)">
+            <summary>
+            read (sheetIndex) sheet of excel from excel file bytes to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelBytes">excelBytes</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.Byte[],WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+            read first sheet of excel from excel file bytes to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelBytes">excelBytes</param>
+            <param name="excelFormat">excelFormat</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.Byte[],WeihanLi.Npoi.ExcelFormat,System.Int32)">
+            <summary>
+            read (sheetIndex) sheet of excel from excel bytes path to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelBytes">excelBytes</param>
+            <param name="excelFormat">excelFormat</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.IO.Stream)">
+            <summary>
+            read first sheet of excel from excel file bytes to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelStream">excelStream</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.IO.Stream,System.Int32)">
+            <summary>
+            read (sheetIndex) sheet of excel from excel file bytes to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelStream">excelStream</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.IO.Stream,WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+            read first sheet of excel from excel file bytes to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelStream">excelStream</param>
+            <param name="excelFormat">excelFormat</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.IO.Stream,WeihanLi.Npoi.ExcelFormat,System.Int32)">
+            <summary>
+            read (sheetIndex) sheet of excel from excel bytes path to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelStream">excelStream</param>
+            <param name="excelFormat">excelFormat</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.String)">
+            <summary>
+            read first sheet of excel from excel file path to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelPath">excelPath</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToEntityList``1(System.String,System.Int32)">
+            <summary>
+            read (sheetIndex) sheet of excel from excel file path to a list
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelPath">excelPath</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataTable``1(System.String)">
+            <summary>
+            read first sheet of excel from excel file path to a data table
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelPath">excelPath</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataTable``1(System.String,System.Int32)">
+            <summary>
+            read (sheetIndex) sheet of excel from excel file path to a list(for specific class type)
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="excelPath">excelPath</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataTable(System.String)">
+            <summary>
+            read first sheet of excel from excel file path to a data table
+            </summary>
+            <param name="excelPath">excelPath</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataTable(System.String,System.Int32)">
+            <summary>
+            read first sheet of excel from excel file path to a data table
+            </summary>
+            <param name="excelPath">excelPath</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataTable(System.String,System.Int32,System.Int32)">
+            <summary>
+            read (sheetIndex) sheet of excel from excel file path to a data table
+            </summary>
+            <param name="excelPath">excelPath</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <param name="headerRowIndex">headerRowIndex</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataTable(System.Byte[],WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+            read first sheet of excel from excelBytes to a data table
+            </summary>
+            <param name="excelBytes">excelBytes</param>
+            <param name="excelFormat"></param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataTable(System.Byte[],WeihanLi.Npoi.ExcelFormat,System.Int32)">
+            <summary>
+            read (sheetIndex) sheet of excel from excelBytes to a data table
+            </summary>
+            <param name="excelBytes">excelBytes</param>
+            <param name="excelFormat"></param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataTable(System.Byte[],WeihanLi.Npoi.ExcelFormat,System.Int32,System.Int32)">
+            <summary>
+            read (sheetIndex) sheet of excel from excelBytes to a data table
+            </summary>
+            <param name="excelBytes">excelBytes</param>
+            <param name="excelFormat"></param>
+            <param name="sheetIndex">sheetIndex</param>
+            <param name="headerRowIndex">headerRowIndex</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataSet(System.String)">
+            <summary>
+            read first sheet of excel from excel file path to a DataSet from second row
+            </summary>
+            <param name="excelPath">excelPath</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.ToDataSet(System.String,System.Int32)">
+            <summary>
+            read first sheet of excel from excel file path to a DataSet from (headerRowIndex+1) row
+            </summary>
+            <param name="excelPath">excelPath</param>
+            <param name="headerRowIndex">headerRowIndex</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.ExcelHelper.SettingFor``1">
+            <summary>
+            SettingFor
+            Fluent Settings
+            </summary>
+            <typeparam name="TEntity">TEntity</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.FluentSettings.For``1">
+            <summary>
+            Fluent Setting For TEntity
+            </summary>
+            <typeparam name="TEntity">TEntity</typeparam>
+            <returns></returns>
+        </member>
+        <member name="F:WeihanLi.Npoi.InternalCache.TypeExcelConfigurationDictionary">
+            <summary>
+            TypeExcelConfigurationCache
+            </summary>
+        </member>
+        <member name="F:WeihanLi.Npoi.InternalConstants.MaxSheetNum">
+            <summary>
+            Workbook中最多Sheet
+            </summary>
+        </member>
+        <member name="F:WeihanLi.Npoi.InternalConstants.DefaultPropertyNameForBasicType">
+            <summary>
+            DefaultPropertyNameForBasicType
+            </summary>
+        </member>
+        <member name="F:WeihanLi.Npoi.InternalConstants.ApplicationName">
+            <summary>
+            ApplicationName
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalExtensions.ParseParamInfo(System.Object)">
+            <summary>
+            Parse obj to paramDictionary
+            </summary>
+            <param name="paramInfo">param object</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalExtensions.GetCellValue(WeihanLi.Npoi.Abstract.ICell,System.Type)">
+            <summary>
+                GetCellValue
+            </summary>
+            <param name="cell">cell</param>
+            <param name="propertyType">propertyType</param>
+            <returns>cellValue</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalExtensions.GetCellValue``1(WeihanLi.Npoi.Abstract.ICell)">
+            <summary>
+                GetCellValue
+            </summary>
+            <typeparam name="T">Type</typeparam>
+            <param name="cell">cell</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalExtensions.SetCellValue(WeihanLi.Npoi.Abstract.ICell,System.Object)">
+            <summary>
+                SetCellValue
+            </summary>
+            <param name="cell">ICell</param>
+            <param name="value">value</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalExtensions.SetCellValue(WeihanLi.Npoi.Abstract.ICell,System.Object,System.String)">
+            <summary>
+                SetCellValue
+            </summary>
+            <param name="cell">ICell</param>
+            <param name="value">value</param>
+            <param name="formatter">formatter</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalExtensions.GetPropertySettingByPropertyName(System.Collections.Generic.IDictionary{System.Reflection.PropertyInfo,WeihanLi.Npoi.Configurations.PropertyConfiguration},System.String)">
+            <summary>
+            GetPropertySettingByPropertyName
+            </summary>
+            <param name="mappingDictionary">mappingDictionary</param>
+            <param name="propertyName">propertyName</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalExtensions.GetPropertySetting(System.Collections.Generic.IDictionary{System.Reflection.PropertyInfo,WeihanLi.Npoi.Configurations.PropertyConfiguration},System.String)">
+            <summary>
+            GetPropertyConfigurationByColumnName
+            </summary>
+            <param name="mappingDictionary">mappingDictionary</param>
+            <param name="columnTitle">columnTitle</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalHelper.GetExcelConfigurationMapping``1">
+            <summary>
+            GetExcelConfigurationMapping
+            </summary>
+            <typeparam name="TEntity">TEntity</typeparam>
+            <returns>IExcelConfiguration</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalHelper.AdjustColumnIndex``1(WeihanLi.Npoi.Configurations.ExcelConfiguration{``0})">
+            <summary>
+            Adjust Column Index
+            </summary>
+            <typeparam name="TEntity">TEntity</typeparam>
+            <param name="excelConfiguration">excelConfiguration</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalHelper.GetPropertyColumnDictionary``1">
+            <summary>
+            GetPropertyColumnDictionary
+            </summary>
+            <typeparam name="TEntity">TEntity Type</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalHelper.GetPropertyColumnDictionary``1(WeihanLi.Npoi.Configurations.ExcelConfiguration{``0})">
+            <summary>
+            GetPropertyColumnDictionary
+            </summary>
+            <typeparam name="TEntity">TEntity Type</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.InternalHelper.GetPropertiesForCsvHelper``1">
+            <summary>
+            GetProperties
+            </summary>
+            <typeparam name="TEntity">TEntity Type</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToEntityList``1(NPOI.SS.UserModel.IWorkbook)">
+            <summary>
+                Workbook2EntityList
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="workbook">excel workbook</param>
+            <returns>entity list</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToEntityList``1(NPOI.SS.UserModel.IWorkbook,System.Int32)">
+            <summary>
+                Workbook2EntityList
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="workbook">excel workbook</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>entity list</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToEntityList``1(NPOI.SS.UserModel.ISheet)">
+            <summary>
+                Sheet2EntityList
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="sheet">excel sheet</param>
+            <returns>entity list</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToEntityList``1(NPOI.SS.UserModel.ISheet,System.Int32)">
+            <summary>
+                Sheet2EntityList
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="sheet">excel sheet</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>entity list</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToDataTable(NPOI.SS.UserModel.IWorkbook)">
+            <summary>
+                Workbook2ToDataTable
+            </summary>
+            <param name="workbook">excel workbook</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToDataSet(NPOI.SS.UserModel.IWorkbook)">
+            <summary>
+                Workbook2ToDataSet
+            </summary>
+            <param name="workbook">excel workbook</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToDataSet(NPOI.SS.UserModel.IWorkbook,System.Int32)">
+            <summary>
+                Workbook2ToDataSet
+            </summary>
+            <param name="workbook">excel workbook</param>
+            <param name="headerRowIndex">headerRowIndex</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToDataTable(NPOI.SS.UserModel.IWorkbook,System.Int32,System.Int32)">
+            <summary>
+                Workbook2ToDataTable
+            </summary>
+            <param name="workbook">excel workbook</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <param name="headerRowIndex">headerRowIndex</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToDataTable(NPOI.SS.UserModel.ISheet)">
+            <summary>
+                Sheet2DataTable
+            </summary>
+            <param name="sheet">excel sheet</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToDataTable(NPOI.SS.UserModel.ISheet,System.Int32)">
+            <summary>
+                Sheet2DataTable
+            </summary>
+            <param name="sheet">excel sheet</param>
+            <param name="headerRowIndex">headerRowIndex</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ImportData``1(NPOI.SS.UserModel.IWorkbook,System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+                import entityList to workbook first sheet
+            </summary>
+            <typeparam name="TEntity">TEntity</typeparam>
+            <param name="workbook">workbook</param>
+            <param name="list">entityList</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ImportData``1(NPOI.SS.UserModel.IWorkbook,System.Collections.Generic.IEnumerable{``0},System.Int32)">
+            <summary>
+                import entityList to workbook sheet
+            </summary>
+            <typeparam name="TEntity">TEntity</typeparam>
+            <param name="workbook">workbook</param>
+            <param name="list">entityList</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>the sheet LastRowNum</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ImportData``1(NPOI.SS.UserModel.ISheet,System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+                import entityList to sheet
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="sheet">sheet</param>
+            <param name="list">entityList</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ImportData``1(NPOI.SS.UserModel.ISheet,System.Collections.Generic.IEnumerable{``0},System.Int32)">
+            <summary>
+                import entityList to sheet
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="sheet">sheet</param>
+            <param name="list">entityList</param>
+            <param name="sheetIndex">sheetIndex</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ImportData``1(NPOI.SS.UserModel.IWorkbook,System.Data.DataTable)">
+            <summary>
+                import dataTable to workbook first sheet
+            </summary>
+            <typeparam name="TEntity">TEntity</typeparam>
+            <param name="workbook">workbook</param>
+            <param name="dataTable">dataTable</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ImportData``1(NPOI.SS.UserModel.IWorkbook,System.Data.DataTable,System.Int32)">
+            <summary>
+                import dataTable to workbook first sheet
+            </summary>
+            <typeparam name="TEntity">TEntity</typeparam>
+            <param name="workbook">workbook</param>
+            <param name="dataTable">dataTable</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <returns>the sheet LastRowNum</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ImportData``1(NPOI.SS.UserModel.ISheet,System.Data.DataTable)">
+            <summary>
+            import dataTable to sheet
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="sheet">sheet</param>
+            <param name="dataTable">dataTable</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ImportData``1(NPOI.SS.UserModel.ISheet,System.Data.DataTable,System.Int32)">
+            <summary>
+            import dataTable to sheet
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="sheet">sheet</param>
+            <param name="dataTable">dataTable</param>
+            <param name="sheetIndex">sheetIndex</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelFileByTemplate``1(System.Collections.Generic.IEnumerable{``0},System.String,System.String,System.Int32,System.Object)">
+            <summary>
+            export excel via template
+            </summary>
+            <typeparam name="TEntity">Entity Type</typeparam>
+            <param name="entities">entities</param>
+            <param name="templatePath"></param>
+            <param name="excelPath">templateBytes</param>
+            <param name="sheetIndex">sheetIndex,zero by default</param>
+            <param name="extraData">extraData</param>
+            <returns>exported excel bytes</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelFileByTemplate``1(System.Collections.Generic.IEnumerable{``0},System.Byte[],System.String,WeihanLi.Npoi.ExcelFormat,System.Int32,System.Object)">
+            <summary>
+            export excel via template
+            </summary>
+            <typeparam name="TEntity">Entity Type</typeparam>
+            <param name="entities">entities</param>
+            <param name="templateBytes">templateBytes</param>
+            <param name="excelFormat">excelFormat</param>
+            <param name="excelPath">excelPath</param>
+            <param name="sheetIndex">sheetIndex,zero by default</param>
+            <param name="extraData">extraData</param>
+            <returns>exported excel bytes</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelFileByTemplate``1(System.Collections.Generic.IEnumerable{``0},NPOI.SS.UserModel.IWorkbook,System.String,System.Int32,System.Object)">
+            <summary>
+            export excel via template
+            </summary>
+            <typeparam name="TEntity">Entity Type</typeparam>
+            <param name="entities">entities</param>
+            <param name="templateWorkbook">templateWorkbook</param>
+            <param name="excelPath"></param>
+            <param name="sheetIndex">sheetIndex</param>
+            <param name="extraData">extraData</param>
+            <returns>exported excel bytes</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytesByTemplate``1(System.Collections.Generic.IEnumerable{``0},System.String,System.Int32,System.Object)">
+            <summary>
+            export excel via template
+            </summary>
+            <typeparam name="TEntity">Entity Type</typeparam>
+            <param name="entities">entities</param>
+            <param name="templatePath">templatePath</param>
+            <param name="sheetIndex">sheetIndex,zero by default</param>
+            <param name="extraData">extraData</param>
+            <returns>exported excel bytes</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytesByTemplate``1(System.Collections.Generic.IEnumerable{``0},System.Byte[],WeihanLi.Npoi.ExcelFormat,System.Int32,System.Object)">
+            <summary>
+            export excel via template
+            </summary>
+            <typeparam name="TEntity">Entity Type</typeparam>
+            <param name="entities">entities</param>
+            <param name="templateBytes">templateBytes</param>
+            <param name="excelFormat">excelFormat</param>
+            <param name="sheetIndex">sheetIndex,zero by default</param>
+            <param name="extraData">extraData</param>
+            <returns>exported excel bytes</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytesByTemplate``1(System.Collections.Generic.IEnumerable{``0},System.IO.Stream,WeihanLi.Npoi.ExcelFormat,System.Int32,System.Object)">
+            <summary>
+            export excel via template
+            </summary>
+            <typeparam name="TEntity">Entity Type</typeparam>
+            <param name="entities">entities</param>
+            <param name="templateStream">templateStream</param>
+            <param name="excelFormat">excelFormat</param>
+            <param name="sheetIndex">sheetIndex,zero by default</param>
+            <param name="extraData">extraData</param>
+            <returns>exported excel bytes</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytesByTemplate``1(System.Collections.Generic.IEnumerable{``0},NPOI.SS.UserModel.IWorkbook,System.Int32,System.Object)">
+            <summary>
+            export excel via template
+            </summary>
+            <typeparam name="TEntity">Entity Type</typeparam>
+            <param name="entities">entities</param>
+            <param name="templateWorkbook">templateWorkbook</param>
+            <param name="sheetIndex">sheetIndex</param>
+            <param name="extraData">extraData</param>
+            <returns>exported excel bytes</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytesByTemplate``1(System.Collections.Generic.IEnumerable{``0},NPOI.SS.UserModel.ISheet,System.Object)">
+            <summary>
+            export excel via template
+            </summary>
+            <typeparam name="TEntity">Entity Type</typeparam>
+            <param name="entities">entities</param>
+            <param name="templateSheet"></param>
+            <param name="extraData">extraData</param>
+            <returns>exported excel bytes</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelFile``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+                EntityList2ExcelFile
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="entityList">entityList</param>
+            <param name="excelPath">excelPath</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelFile``1(System.Collections.Generic.IEnumerable{``0},System.String,System.Int32)">
+            <summary>
+                EntityList2ExcelFile
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="entityList">entityList</param>
+            <param name="excelPath">excelPath</param>
+            <param name="sheetIndex">sheetIndex</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelStream``1(System.Collections.Generic.IEnumerable{``0},System.IO.Stream)">
+            <summary>
+                EntityList2ExcelStream(*.xls by default)
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="entityList">entityList</param>
+            <param name="stream">stream where to write</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelStream``1(System.Collections.Generic.IEnumerable{``0},System.IO.Stream,WeihanLi.Npoi.ExcelFormat,System.Int32)">
+            <summary>
+                EntityList2ExcelStream
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="entityList">entityList</param>
+            <param name="stream">stream where to write</param>
+            <param name="excelFormat">excelFormat</param>
+            <param name="sheetIndex">sheetIndex</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelStream``1(System.Collections.Generic.IEnumerable{``0},System.IO.Stream,WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+                EntityList2ExcelStream
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="entityList">entityList</param>
+            <param name="stream">stream where to write</param>
+            <param name="excelFormat">excelFormat</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytes``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+                EntityList2ExcelBytes(*.xls by default)
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="entityList">entityList</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytes``1(System.Collections.Generic.IEnumerable{``0},WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+                EntityList2ExcelBytes
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="entityList">entityList</param>
+            <param name="excelFormat">excelFormat</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytes``1(System.Collections.Generic.IEnumerable{``0},WeihanLi.Npoi.ExcelFormat,System.Int32)">
+            <summary>
+                EntityList2ExcelBytes
+            </summary>
+            <typeparam name="TEntity">EntityType</typeparam>
+            <param name="entityList">entityList</param>
+            <param name="excelFormat">excelFormat</param>
+            <param name="sheetIndex">sheetIndex</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelFile(System.Data.DataTable,System.String)">
+            <summary>
+                export DataTable to excel file
+            </summary>
+            <param name="dataTable">dataTable</param>
+            <param name="excelPath">excelPath</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelFile(System.Data.DataTable,System.String,WeihanLi.Npoi.Settings.ExcelSetting)">
+            <summary>
+                export DataTable to excel file
+            </summary>
+            <param name="dataTable">dataTable</param>
+            <param name="excelPath">excelPath</param>
+            <param name="excelSetting">excelSetting</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelStream(System.Data.DataTable,System.IO.Stream)">
+            <summary>
+                DataTable2ExcelStream
+            </summary>
+            <param name="dataTable">dataTable</param>
+            <param name="stream">stream</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelStream(System.Data.DataTable,System.IO.Stream,WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+                DataTable2ExcelStream
+            </summary>
+            <param name="dataTable">dataTable</param>
+            <param name="stream">stream</param>
+            <param name="excelFormat">excelFormat</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelStream(System.Data.DataTable,System.IO.Stream,WeihanLi.Npoi.ExcelFormat,WeihanLi.Npoi.Settings.ExcelSetting)">
+            <summary>
+                DataTable2ExcelStream
+            </summary>
+            <param name="dataTable">dataTable</param>
+            <param name="stream">stream</param>
+            <param name="excelFormat">excelFormat</param>
+            <param name="excelSetting">excelSetting</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytes(System.Data.DataTable)">
+            <summary>
+                DataTable2ExcelBytes(*.xlsx by default)
+            </summary>
+            <param name="dataTable">dataTable</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytes(System.Data.DataTable,WeihanLi.Npoi.ExcelFormat)">
+            <summary>
+                DataTable2ExcelBytes
+            </summary>
+            <param name="dataTable">dataTable</param>
+            <param name="excelFormat">excel格式</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytes(System.Data.DataTable,WeihanLi.Npoi.ExcelFormat,WeihanLi.Npoi.Settings.ExcelSetting)">
+            <summary>
+                DataTable2ExcelBytes
+            </summary>
+            <param name="dataTable">dataTable</param>
+            <param name="excelFormat">excelFormat</param>
+            <param name="excelSetting">excelSetting</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.SetCellValue(NPOI.SS.UserModel.ICell,System.Object)">
+            <summary>
+                SetCellValue
+            </summary>
+            <param name="cell">ICell</param>
+            <param name="value">value</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.SetCellValue(NPOI.SS.UserModel.ICell,System.Object,System.String)">
+            <summary>
+                SetCellValue
+            </summary>
+            <param name="cell">ICell</param>
+            <param name="value">value</param>
+            <param name="formatter">formatter</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.GetCellValue(NPOI.SS.UserModel.ICell,System.Type)">
+            <summary>
+                GetCellValue
+            </summary>
+            <param name="cell">cell</param>
+            <param name="propertyType">propertyType</param>
+            <returns>cellValue</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.GetCellValue``1(NPOI.SS.UserModel.ICell)">
+            <summary>
+                GetCellValue
+            </summary>
+            <typeparam name="T">Type</typeparam>
+            <param name="cell">cell</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.GetRowCollection(NPOI.SS.UserModel.ISheet)">
+            <summary>
+            GetRowCollection
+            </summary>
+            <param name="sheet">excel sheet</param>
+            <returns>row collection</returns>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.WriteToFile(NPOI.SS.UserModel.IWorkbook,System.String)">
+            <summary>
+                Write workbook to excel file
+            </summary>
+            <param name="workbook">workbook</param>
+            <param name="filePath">file path</param>
+        </member>
+        <member name="M:WeihanLi.Npoi.NpoiExtensions.ToExcelBytes(NPOI.SS.UserModel.IWorkbook)">
+            <summary>
+                ToExcelBytes
+            </summary>
+            <param name="workbook">workbook</param>
+        </member>
+        <member name="T:WeihanLi.Npoi.NpoiRowCollection">
+            <summary>
+            Sheet row collection
+            </summary>
+        </member>
+        <member name="T:WeihanLi.Npoi.Resource">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Resource.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Resource.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Resource.ArgumentCanNotBeEmpty">
+            <summary>
+              查找类似 the argument can not be empty 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Resource.FileNotFound">
+            <summary>
+              查找类似 can not find the file 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Resource.IndexOutOfRange">
+            <summary>
+              查找类似 {0} out of range, max value: {1} 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Resource.InvalidExcelFile">
+            <summary>
+              查找类似 invalid excel file 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Resource.InvalidFilePath">
+            <summary>
+              查找类似 invalid file path 的本地化字符串。
+            </summary>
+        </member>
+        <member name="T:WeihanLi.Npoi.Settings.ExcelSetting">
+            <summary>
+            Excel Settings
+            Excel文档属性设置
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.ExcelSetting.Author">
+            <summary>
+            Author
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.ExcelSetting.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.ExcelSetting.Title">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.ExcelSetting.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.ExcelSetting.Subject">
+            <summary>
+            Subject
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.ExcelSetting.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.FilterSetting.FirstColumn">
+            <summary>
+            Gets or sets the first column index.
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.FilterSetting.LastColumn">
+            <summary>
+            Gets or sets the last column index.
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.FreezeSetting.ColSplit">
+            <summary>
+            horizontal position of split
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.FreezeSetting.RowSplit">
+            <summary>
+            Vertical position of split
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.FreezeSetting.LeftMostColumn">
+            <summary>
+            Top row visible in bottom pane
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.FreezeSetting.TopRow">
+            <summary>
+            Left column visible in right pane
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.SheetSetting.SheetIndex">
+            <summary>
+            SheetIndex
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.SheetSetting.SheetName">
+            <summary>
+            SheetName
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.SheetSetting.StartRowIndex">
+            <summary>
+            StartRowIndex
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.SheetSetting.HeaderRowIndex">
+            <summary>
+            HeaderRowIndex
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.Settings.SheetSetting.AutoColumnWidthEnabled">
+            <summary>
+            enable auto column width
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.TemplateOptions.TemplateGlobalParamFormat">
+            <summary>
+            Global Param Format
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.TemplateOptions.TemplateHeaderParamFormat">
+            <summary>
+            Header Param Format
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.TemplateOptions.TemplateDataParamFormat">
+            <summary>
+            Data Param Format
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.TemplateOptions.TemplateDataPrefix">
+            <summary>
+            Data Param Prefix
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.TemplateOptions.TemplateDataBegin">
+            <summary>
+            Data Begin markup
+            </summary>
+        </member>
+        <member name="P:WeihanLi.Npoi.TemplateOptions.TemplateDataEnd">
+            <summary>
+            Data End markup
+            </summary>
+        </member>
+        <member name="M:WeihanLi.Npoi.TemplateHelper.ConfigureTemplateOptions(System.Action{WeihanLi.Npoi.TemplateOptions})">
+            <summary>
+            Configure TemplateOptions
+            </summary>
+            <param name="optionsAction">optionsAction</param>
+        </member>
+    </members>
+</doc>

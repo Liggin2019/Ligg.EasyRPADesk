@@ -1,0 +1,124 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Id>200</Id><Name>ToolMenuArea</Name><TypeName>MenuArea</TypeName><Container>ToolBarSectionRightRegion</Container><ParentId>0</ParentId>
+			<ControlTypeName>ToolStrip</ControlTypeName><DataSource/><StyleText>ImageWidth:32|ImageHeight:32</StyleText>
+			
+			<DisplayName/>
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>500</Width><Height>54</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>210</Id><Name>Goto</Name><TypeName>MenuItem</TypeName><Container>ToolMenuArea</Container><ParentId>-1</ParentId>
+			<ControlTypeName>ImageTextToolSplitButtonV</ControlTypeName><DataSource>SubMenus\GotoToolSplitButtonMenu</DataSource><StyleText/>
+			
+			<DisplayName>Go To</DisplayName>
+			
+			
+			
+			<Action/><DockTypeName>Right</DockTypeName>
+			
+			
+			
+			<DockOrder/><OffsetOrPositionX>1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>54</Height><ImageUrl>%GlbCfgDir%\Shared\Images\goto.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>220</Id><Name>RefreshUi</Name><TypeName>MenuItem</TypeName><Container>ToolMenuArea</Container>
+			<ParentId>-1</ParentId><ControlTypeName>ImageToolButton</ControlTypeName><DataSource/><StyleText/>
+			
+			<DisplayName>Refresh UI</DisplayName>
+			
+			
+			
+			<Action>RefreshUi</Action>
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><DockOrder>1</DockOrder><OffsetOrPositionX>2</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>45</Width><Height>54</Height><ImageUrl>%GlbCfgDir%\Shared\Images\refresh.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>250</Id><Name>Logon</Name><TypeName>MenuItem</TypeName><Container>ToolMenuArea</Container>
+			<ParentId>-1</ParentId><ControlTypeName>ImageToolButton</ControlTypeName><DataSource/><StyleText/>
+			
+			<DisplayName>Logon</DisplayName>
+			
+			
+			
+			<Action>ShowDialog;Szi;_Start\Logon</Action>
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><DockOrder>4</DockOrder><OffsetOrPositionX>2</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>45</Width><Height>54</Height><ImageUrl>%GlbCfgDir%\Shared\Images\logon.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>260</Id><Name>UserSetting</Name><TypeName>MenuItem</TypeName><Container>ToolMenuArea</Container>
+			<ParentId>-1</ParentId><ControlTypeName>ImageToolSplitButton</ControlTypeName><DataSource>SubMenus\UserSettingToolSplitButtonMenu</DataSource><StyleText/>
+			
+			<DisplayName>UserSetting</DisplayName>
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><DockOrder>5</DockOrder><OffsetOrPositionX>2</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>45</Width><Height>54</Height><ImageUrl>%GlbCfgDir%\Shared\Images\user.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>270</Id><Name>UserInfo</Name><TypeName>MenuItem</TypeName><Container>ToolMenuArea</Container>
+			<ParentId>-1</ParentId><ControlTypeName>ToolLabel</ControlTypeName><DataSource/><StyleText/>
+			
+			<DisplayName>%CurrentUserName%
+Welcome You</DisplayName>
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><DockOrder>6</DockOrder><OffsetOrPositionX>2</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>100</Width><Height>54</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>280</Id><Name>Help</Name><TypeName>MenuItem</TypeName><Container>ToolMenuArea</Container>
+			<ParentId>-1</ParentId><ControlTypeName>ImageToolSplitButton</ControlTypeName><DataSource>SubMenus\HelpToolSplitButtonMenu</DataSource><StyleText/>
+			
+			<DisplayName>Help</DisplayName>
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><DockOrder>7</DockOrder><OffsetOrPositionX>2</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>45</Width><Height>54</Height><ImageUrl>%GlbCfgDir%\Shared\Images\help.png</ImageUrl><Invalid/>
+		</LayoutElement>
+
+</ArrayOfLayoutElement>

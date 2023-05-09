@@ -1,0 +1,104 @@
+
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>AccountOptionL</MasterName>
+			<DisplayName>帐号选项</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>DomainAccount</MasterName>
+			<DisplayName>域帐号</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>SystemAccount</MasterName>
+			<DisplayName>系统帐号</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>AccountL</MasterName>
+			<DisplayName>帐号</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>PasswordL</MasterName>
+			<DisplayName>密码</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Logon</MasterName>
+			<DisplayName>登录</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Cancel</MasterName>
+			<DisplayName>取消</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Account</MasterName>
+			<DisplayName>帐号</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Password</MasterName>
+			<DisplayName>密码</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

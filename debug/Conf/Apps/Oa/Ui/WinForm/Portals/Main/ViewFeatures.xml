@@ -1,0 +1,52 @@
+<ArrayOfViewFeature>
+		<ViewFeature>
+			<IsPublic>true</IsPublic><Name>Public</Name><Alias></Alias><Location>Public</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><Name>Dashboard</Name><Alias></Alias><Location>Dashboard</Location>
+						
+			
+			
+			
+			<ResizeParamsText>ToolBarSection:64,520,428|MainSectionLeftNavDivision:0,144,0|MainSectionLeftNavDivision1:590,0,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30|HorResizableDivisionStatus:none|HorResizableDivision1Status:show|</ResizeParamsText><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><Name>mngAttendance</Name><Alias>mngAttendanceAm</Alias><Location>Admin\Attendance</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><Name>Demo</Name><Alias></Alias><Location>_Shared\Demo</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><Name>Demo1</Name><Alias></Alias><Location>_Shared\Demo1</Location>
+						
+			
+			
+			
+			<ResizeParamsText/><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><Name>DemoNoMenu</Name><Alias></Alias><Location>_Shared\Demo1</Location>
+						
+			
+			
+			
+			<ResizeParamsText>ToolBarSection:64,520,428|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30</ResizeParamsText><Invalid/>
+		</ViewFeature><ViewFeature>
+			<IsPublic>false</IsPublic><Name>Demo1NoMenu</Name><Alias></Alias><Location>_Shared\Demo</Location>
+						
+			
+			
+			
+			<ResizeParamsText>ToolBarSection:64,520,428|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30</ResizeParamsText><Invalid/>
+		</ViewFeature>
+</ArrayOfViewFeature>

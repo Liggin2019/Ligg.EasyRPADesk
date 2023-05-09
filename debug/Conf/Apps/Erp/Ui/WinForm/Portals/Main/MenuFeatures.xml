@@ -1,0 +1,9 @@
+<ArrayOfMenuFeature>
+	<MenuFeature>
+		<Id>1</Id><MenuTypeName>Horizontal</MenuTypeName><Name>HorMenu</Name><Container>TopNavSectionCenterRegion</Container><Location>HorMenu</Location><ImageUrls/><UnavailableServerViews/>
+		
+	</MenuFeature><MenuFeature>
+		<Id>2</Id><MenuTypeName>Vertical</MenuTypeName><Name>MainMenu</Name><Container>MainSectionLeftNavDivisionMiddleRegion</Container><Location>VerMenu</Location><ImageUrls>%GlbSharedDir%\Images\schedule.gif,%GlbSharedDir%\Images\task.gif</ImageUrls><UnavailableServerViews>=HttpClientGet;Sys/Permission/GetUnavailableClientViews;portal:Erp</UnavailableServerViews>
+		
+	</MenuFeature><MenuFeature><Id>3</Id><MenuTypeName>ToolBar</MenuTypeName><Name>ToolBarMenu</Name><Container/><Location>ToolBarMenu</Location><ImageUrls/><UnavailableServerViews/></MenuFeature>
+</ArrayOfMenuFeature>

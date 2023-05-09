@@ -1,0 +1,47 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>UserName</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value/><Expression/>
+			<Condition/>
+		</Procedure><Procedure>
+			
+			<Name>Password</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value/><Expression/>
+			<Condition/>
+		</Procedure><Procedure>
+			
+			<Name>LogonResult</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>0</GroupId><Value>false</Value><Expression/>
+			<Condition/>
+		</Procedure><Procedure>
+			
+			<Name>LogonResult10</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Expression>=Judge;IfElse;#UserName.v#,Equal,admin</Expression>
+			<Condition/>
+		</Procedure><Procedure>
+			
+			<Name>LogonResult11</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Expression>=Judge^IfElse^#Password.v#,Equal,admin@123</Expression>
+			<Condition/>
+		</Procedure><Procedure>
+			
+			<Name>LogonResult12</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Expression>=Judge;And;#LogonResult10.v#,#LogonResult11.v#</Expression>
+			<Condition/>
+		</Procedure><Procedure>
+			
+			<Name>Transaction13</Name><TypeName>Transaction</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Expression>SetProcessVariableValue;#LogonResult#;true</Expression>
+			<Condition>#LogonResult12.v#</Condition>
+		</Procedure><Procedure>
+			
+			<Name>LogonResult20</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Expression>=Judge;IfElse;#UserName.v#,Equal,user</Expression>
+			<Condition/>
+		</Procedure><Procedure>
+			
+			<Name>LogonResult21</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Expression>=Judge^IfElse^#Password.v#,Equal,user@123</Expression>
+			<Condition/>
+		</Procedure><Procedure>
+			
+			<Name>LogonResult22</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Expression>=Judge;And;#LogonResult20.v#,#LogonResult21.v#</Expression>
+			<Condition/>
+		</Procedure><Procedure>
+			
+			<Name>Transaction23</Name><TypeName>Transaction</TypeName><DisplayName/><GroupId>1</GroupId><Value/><Expression>SetProcessVariableValue;#LogonResult#;true</Expression>
+			<Condition>#LogonResult22.v#</Condition>
+		</Procedure>
+</ArrayOfProcedure>

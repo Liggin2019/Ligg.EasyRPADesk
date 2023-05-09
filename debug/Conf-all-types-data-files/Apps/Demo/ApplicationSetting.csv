@@ -1,0 +1,13 @@
+FieldName,FieldValue
+HelpdeskEmail,
+SupportMultiLanguages,false
+DefaultCulture,
+DefaultLanguageCode,en
+IncludedLanguages,
+PhythonExecPath,
+ApplicationVersion,1.1.10
+VerifyPasswordAtStart,false
+PasswordVerificationRule,"Type:None,Params:HappyCoding"
+LogonAtStart,false
+RunBootStrapperAtStart,false
+BootStrapperTasks,

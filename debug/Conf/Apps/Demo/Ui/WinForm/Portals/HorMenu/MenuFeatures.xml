@@ -1,0 +1,6 @@
+<ArrayOfMenuFeature>
+	<MenuFeature>
+		<Id>1</Id><MenuTypeName>Horizontal</MenuTypeName><Name>MainMenu</Name><Container>ToolBarSectionCenterRegion</Container><Location>HorMenu</Location><ImageUrls/><Invalid/>
+		
+	</MenuFeature><MenuFeature><Id>3</Id><MenuTypeName>ToolBar</MenuTypeName><Name>ToolBarMenu</Name><Container/><Location>ToolBarMenu</Location><ImageUrls/><Invalid/></MenuFeature>
+</ArrayOfMenuFeature>

@@ -1,0 +1,124 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<ValidationRules/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>-1</Width><Height>20</Height><Invisible>false</Invisible>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>UrlL</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Url</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<ValidationRules/><OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>40</Width><Height>20</Height><Invisible>false</Invisible>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>UrlOption</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			<StyleClass/><StyleText>DataSourceType:Ldict|</StyleText><DisplayName>Url</DisplayName><DataSource>https://www.qq.com=QQ|https://www.baidu.com=Baidu|sina.cn=Sina</DataSource>			
+			<Value/><Action>RefreshControlValue;$Url$</Action>
+			
+			
+			<ValidationRules/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>60</Width><Height>20</Height><Invisible>false</Invisible>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>$UrlOption.v$</Value><Action/>
+			
+			
+			<ValidationRules>StringMinLength,10|WebUrl</ValidationRules><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>250</Width><Height>20</Height><Invisible>false</Invisible>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><Action>Xrun;$Validate$,$OpenUrl1$</Action>
+			
+			
+			<ValidationRules/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>20</Width><Height>20</Height><Invisible>false</Invisible>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Validate</Name><TypeName>SubTransaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$Validator$</Action>
+			
+			
+			<ValidationRules/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invisible>false</Invisible>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl1</Name><TypeName>SubTransaction</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource/>			
+			<Value/><Action>Crun^=Judge;IfElse;$Validator.v$;NotEqual;true^PopupMsg;Url error;$Validator.t$^OpenUrl;$Url.v$</Action>
+			
+			
+			<ValidationRules/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invisible>false</Invisible>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Validator</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass>
+			
+			<StyleText>DataSourceType:Json</StyleText><DisplayName/><DataSource>=ValidateInput^$Url$</DataSource>			
+			<Value/><Action/>
+			
+			
+			<ValidationRules/><OffsetOrPositionX>1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>20</Width><Height>20</Height><Invisible>true</Invisible>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

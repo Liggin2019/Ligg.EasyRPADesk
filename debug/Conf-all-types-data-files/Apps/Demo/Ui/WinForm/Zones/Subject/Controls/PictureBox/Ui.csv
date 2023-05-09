@@ -1,0 +1,3 @@
+Name,TypeName,ControlTypeName,Row,DisplayName,DataSource,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+Row202,Control,Row,,,,-1,8,-1,60
+PictureBox,Control,PictureBox,Row202,PictureBox,%GlbCfgDir%\Shared\Images\help.png,8,0,160,30

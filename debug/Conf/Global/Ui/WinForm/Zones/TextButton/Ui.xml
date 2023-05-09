@@ -1,0 +1,14 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+		<Name>TextButton</Name>
+		<TypeName>Control</TypeName>
+		<ControlTypeName>TextButton</ControlTypeName>
+		<StyleClass>Button</StyleClass><StyleText/>
+		
+		<DisplayName>=GetSharedAnnexText;#0#</DisplayName>			
+		<Action>#1#</Action>
+		<DockTypeName>Fill</DockTypeName>
+						
+			
+	</ZoneItem>
+</ArrayOfZoneItem>

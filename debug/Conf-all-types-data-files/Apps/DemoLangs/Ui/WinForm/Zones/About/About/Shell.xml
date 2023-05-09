@@ -1,0 +1,11 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>Arch</Name><TypeName>Variable</TypeName><DisplayName>Architecture</DisplayName><Expression/><ExecMode/><ShowRunningStatus/><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>App</Name><TypeName>Variable</TypeName><DisplayName>Application</DisplayName><Expression/><ExecMode/><ShowRunningStatus/><SkipOnInitFlag/>
+			
+		</Procedure>
+</ArrayOfProcedure>

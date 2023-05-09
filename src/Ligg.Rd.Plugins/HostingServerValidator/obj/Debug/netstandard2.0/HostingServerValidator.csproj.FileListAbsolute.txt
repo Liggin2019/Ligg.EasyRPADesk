@@ -1,0 +1,10 @@
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\debug\program\Btstp\netstandard2.0\HostingServerValidator.deps.json
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\debug\program\Btstp\netstandard2.0\HostingServerValidator.dll
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\debug\program\Btstp\netstandard2.0\HostingServerValidator.pdb
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\src\Ligg.Lrd.BootStrapper\HostingServerValidator\obj\Debug\netstandard2.0\HostingServerValidator.csprojAssemblyReference.cache
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\src\Ligg.Lrd.BootStrapper\HostingServerValidator\obj\Debug\netstandard2.0\HostingServerValidator.AssemblyInfoInputs.cache
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\src\Ligg.Lrd.BootStrapper\HostingServerValidator\obj\Debug\netstandard2.0\HostingServerValidator.AssemblyInfo.cs
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\src\Ligg.Lrd.BootStrapper\HostingServerValidator\obj\Debug\netstandard2.0\HostingServerValidator.csproj.CoreCompileInputs.cache
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\src\Ligg.Lrd.BootStrapper\HostingServerValidator\obj\Debug\netstandard2.0\HostingServerValidator.csproj.CopyComplete
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\src\Ligg.Lrd.BootStrapper\HostingServerValidator\obj\Debug\netstandard2.0\HostingServerValidator.dll
+D:\Doing\coding\project-doing\Ligg.Lrd\4.3.7\src\Ligg.Lrd.BootStrapper\HostingServerValidator\obj\Debug\netstandard2.0\HostingServerValidator.pdb

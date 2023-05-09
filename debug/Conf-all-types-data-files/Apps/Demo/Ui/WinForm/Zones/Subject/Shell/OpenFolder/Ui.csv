@@ -1,0 +1,11 @@
+Name,TypeName,Row,ControlTypeName,DisplayName,DataSource,Value,Action,Action1,OffsetOrPositionX,OffsetOrPositionY,Width,Height,StyleClass,StyleText
+Row100,Control,,Row,,,,,,-1,24,-1,24,,
+FolderL,Control,Row100,Label,Folder,,,,,8,0,48,24,FieldName,
+FolderOption,Control,Row100,ComboBox,Folder,%RootDir%=RootDir|%CfgDir%=CfgDir|%GlbCfgDir%=GlbCfgDir|%GlbSharedDir%=GlbSharedDir|%AppCfgDir%=AppCfgDir|%AppSharedDir%=AppSharedDir|%PortalsDir%=FuncsDir|%ViewsDir%=ViewsDir|%ZonesDir%=ZonesDir,,RefreshControlValue;$Folder$,,8,0,96,24,,DataSourceType:Ldict|
+OpenFolder,Control,Row100,PictureBox,Open Folder,%GlbSharedDir%\images\folder-open.png,,OpenFolder;$Folder.v$,,270,0,24,24,,
+Row200,Control,,Row,,,,,,-1,8,-1,60,,
+Folder,Control,Row200,RichTextBox,,,$FolderOption.v$,,"Xrun;$SetInitDir$,$RefreshShell$,$Crun$",16,0,436,60,,InitValue:true
+SetInitDir,SubTransaction,Row200,,,,,SetVariableValue;#InitDir#;$Folder.v$,,-1,-1,-1,-1,,
+RefreshShell,SubTransaction,Row200,,,,,RunShell;##;1,,-1,-1,-1,-1,,
+Crun,SubTransaction,Row200,,,,,Crun^#IsDirValid.v#^SetControlValue;$Folder$;#Dir.v#,,-1,-1,-1,-1,,
+Test,SubTransaction,Row200,,,,,PopupMsg;;#IsDirValid.v#,,-1,-1,-1,-1,,

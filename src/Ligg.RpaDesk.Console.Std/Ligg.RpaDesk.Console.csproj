@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Console</AssemblyName>
+    <RootNamespace>Ligg.RpaDesk.WinCnsl</RootNamespace>
+    <AssemblyVersion>3.5.7.0</AssemblyVersion>
+    <FileVersion>3.5.7.0</FileVersion>
+    <PackageId>Ligg.EasyRpaDesk.Console.Std</PackageId>
+    <Product>Ligg.EasyRpaDesk.Console.Std</Product>
+    <Version>3.5.7.1</Version>
+    <Authors>Liggit</Authors>
+    <Description>Ligg.EasyRpaDesk.Console.Std</Description>
+    <Copyright>Copyright © Liggit 2023</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\debug-lib\Console</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\release-lib\Console</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ligg.RpaDesk.Parser\.Ligg.RpaDesk.Parser.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Resource1 - Copy.Designer.cs">
+      <DependentUpon>TextRes.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resources\TextRes.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TextRes.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\TextRes.zh-CN.resx">
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\TextRes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TextRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

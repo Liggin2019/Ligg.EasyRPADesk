@@ -1,0 +1,8 @@
+<FormStyle>
+	
+	<Width>590</Width>
+	<Height>630</Height>
+	<HeightRemark>250+320+30+30</HeightRemark>
+	<DrawIcon>true</DrawIcon>
+    <IconUrl>%AppSharedDir%\Icos\OrpTk.ico</IconUrl>
+</FormStyle>

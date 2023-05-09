@@ -1,0 +1,19 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>FilledLabel</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass/><StyleText>BackColor:222, 242, 252|</StyleText><DisplayName>Filled Label</DisplayName>			
+			<Action/>
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+	</ZoneItem>
+	
+</ArrayOfZoneItem>

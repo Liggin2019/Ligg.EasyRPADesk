@@ -1,0 +1,23 @@
+<ArrayOfProcedure>
+	<Procedure>
+			
+			<Name>Month</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression/>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>DataToDelete</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression/>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>DeleteParams</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Join;ids=;#DataToDelete.v#;|</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>DeleteResult</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=HttpClientPost@Prd/Material/DeleteSelected@@#DeleteParams.v#</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>UnavailableBtns</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=HttpClientGet@sys/Permission/GetUnavailableClientViewButtons@View:mngMaterialAm</Expression>
+			<SkipOnInit>false</SkipOnInit><Condition/>
+		</Procedure>
+</ArrayOfProcedure>

@@ -1,0 +1,6 @@
+Name,Container,TypeName,Location,ShellArgs,StyleClass,StyleText,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+MainArea,MainSectionMainDivisionMiddleRegion,ContentArea,,,,"Padding:0,0,0,5|",Fill,-1,-1,-1,-1
+AboutUsL,MainArea,Zone,%GlbUiDir%\Zones\TitleLabel,"Abou Us,Level1,",,,Top,-1,-1,-1,-1
+AboutUs,MainArea,Zone,About\About,,,,Top,-1,-1,-1,-1
+ContactUsL,MainArea,Zone,%GlbUiDir%\Zones\TitleLabel,"Contact Us,Level1,",,,Top,-1,-1,-1,-1
+ContactUs,MainArea,Zone,About\Contact,,,,Top,-1,-1,-1,-1

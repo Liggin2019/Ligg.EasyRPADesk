@@ -1,0 +1,97 @@
+MasterName,DisplayName,Description,Title,Remark,LanguageCode
+10,Operation Center,,,,en
+Operation,Operation,,,,en
+Operation,Operation,,,,de
+Operation,运维中心,,,,szh
+EventMgr,Event Management,,,,en
+EventMgr,Event Management,,,,de
+EventMgr,事件管理,,,,szh
+ChgMgr,Change Management,,,,en
+ChgMgr,Change Management,,,,de
+ChgMgr,变更管理,,,,szh
+ObjMgr,Object Management,,,,en
+ObjMgr,Object Management,,,,de
+ObjMgr,对象管理,,,,szh
+ConfigMgr,Config Management,,,,en
+ConfigMgr,Config Management,,,,de
+ConfigMgr,配置管理,,,,szh
+EmrgMgr,Emergency Management,,,,en
+EmrgMgr,Emergency Management,,,,de
+EmrgMgr,紧急事故管理,,,,szh
+SchMgr,Scheduling Management,,,,en
+SchMgr,Scheduling Management,,,,de
+SchMgr,调度管理,,,,szh
+DeployMgr,Deployment Management,,,,en
+DeployMgr,Deployment Management,,,,de
+DeployMgr,部署管理,,,,szh
+OlDeploy,Online Deployment ,,,,en
+OlDeploy,Online Deployment ,,,,de
+OlDeploy,在线部署,,,,szh
+ScDeploy,Scheduling  Deployment ,,,,en
+ScDeploy,Scheduling  Deployment ,,,,de
+ScDeploy,按计划部署,,,,szh
+Console,Console Of Scheduling And Deployment ,,,,en
+Console,Console Of Scheduling And Deployment ,,,,de
+Console,调度部署监控台,,,,szh
+AdmTk,Administrator Toolkit,,,,en
+AdmTk,Administrator Toolkit,,,,de
+AdmTk,管理员工具箱,,,,szh
+20,Service Center,,,,en
+Service,Service,,,,en
+Service,Service,,,,de
+Service,服务中心,,,,szh
+ServDesk,Servive Desk,,,,en
+ServDesk,Servive Desk,,,,de
+ServDesk,服务台,,,,szh
+CmplMgr,Complaint Management,,,,en
+CmplMgr,Complaint Management,,,,de
+CmplMgr,投诉管理,,,,szh
+SLAMgr,SLA Management,,,,en
+SLAMgr,SLA Management,,,,de
+SLAMgr,SLA 管理,,,,szh
+PrbmMgr,Problem Management,,,,en
+PrbmMgr,Problem Management,,,,de
+PrbmMgr,问题管理,,,,szh
+InccidentMgr,Inccident Management,,,,en
+InccidentMgr,Inccident Management,,,,de
+InccidentMgr,事故管理,,,,szh
+AssetMgr,Asset Management,,,,en
+AssetMgr,Asset Management,,,,de
+AssetMgr,资产管理,,,,szh
+ChangeMgr,Change Management,,,,en
+ChangeMgr,Change Management,,,,de
+ChangeMgr,变更管理,,,,szh
+ServEval,Servive Evaluation And Analysis,,,,en
+ServEval,Servive Evaluation And Analysis,,,,de
+ServEval,服务评估和分析,,,,szh
+UsrHelpdesk,User Helpdesk,,,,en
+UsrHelpdesk,User Helpdesk,,,,de
+UsrHelpdesk,用户帮助台,,,,szh
+UsrTk,User Toolkit,,,,en
+UsrTk,User Toolkit,,,,de
+UsrTk,用户工具箱,,,,szh
+30,Knowledge Center,,,,de
+Knowledge,Knowledge,,,,de
+Knowledge,Knowledge,,,,en
+Knowledge,知识中心,,,,szh
+DocLib,Documentation Libary,,,,en
+DocLib,Documentation Libary,,,,de
+DocLib,资料库,,,,szh
+MediaLib,Media Libary,,,,en
+MediaLib,Media Libary,,,,de
+MediaLib,介质库,,,,szh
+NwConnLib,Network Connection Libary,,,,en
+NwConnLib,Network Connection Libary,,,,de
+NwConnLib,网络连接库,,,,szh
+40,Process Center,,,,en
+Wf,Work Flow,,,,en
+Wf,Work Flow,,,,de
+Wf,流程中心,,,,szh
+50,Project Center,,,,en
+Project,Project,,,,en
+Project,Project,,,,de
+Project,项目中心,,,,szh
+60,Performance Cenetr,,,,en
+Performance,Performance,,,,en
+Performance,Performance,,,,de
+Performance,绩效中心,,,,szh

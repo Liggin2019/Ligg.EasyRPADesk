@@ -1,0 +1,8 @@
+MasterName,DisplayName,LanguageCode
+MachineL,机器名,szh
+OsL,操作系统,szh
+NetworkPosL,网络位置,szh
+RefreshNetworkPos,刷新网络位置,szh
+CurrentWinAcctStatus,当前Windows帐号,szh
+RunAsAdminWinAcctStatus,超级运行Windows帐号,szh
+ShowRunAsAdminWinAcctStatus,刷新超级运行帐号状态,szh

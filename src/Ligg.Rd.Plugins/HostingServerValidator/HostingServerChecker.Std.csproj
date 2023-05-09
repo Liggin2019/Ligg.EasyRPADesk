@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Ligg.RpaDesk.Plugins</RootNamespace>
+    <AssemblyName>HostingServerChecker</AssemblyName>
+    <Authors>Liggit</Authors>
+    <Company>Liggit</Company>
+    <PackageId>Liggit.RpaDesk.Plugin.HostingServerChecker.Std</PackageId>
+    <Version>1.1.1.0</Version>
+    <Product>Liggit.RpaDesk</Product>
+    <Description>Liggit.RpaDesk.Plugin.HostingServerChecker.Std</Description>
+    <Copyright>Copyright © Liggit 2023</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\..\release\program\Plugins</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\..\debug\program\Plugins</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ligg.RpaDesk.Interface\.Ligg.RpaDesk.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

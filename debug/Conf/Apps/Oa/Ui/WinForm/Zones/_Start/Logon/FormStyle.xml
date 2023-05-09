@@ -1,0 +1,15 @@
+<FormStyle>
+    <Width>498</Width>
+    <Height>480</Height>
+    <HasNoControlBoxes>false</HasNoControlBoxes>
+    <HasMinimizeBox>false</HasMinimizeBox>
+    <WindowRadius>0</WindowRadius>
+    <CannotBeClosed>false</CannotBeClosed>
+    <DrawIcon>true</DrawIcon>
+    <IconUrl>%GlbSharedDir%\Icos\ligg-1.ico</IconUrl>
+    
+    <ShowInTaskbar>true</ShowInTaskbar>
+    <RunningMessageHeight>0</RunningMessageHeight>
+    <ShowRunningStatus>true</ShowRunningStatus>
+    <ShowRunningProgress>false</ShowRunningProgress>  
+</FormStyle>

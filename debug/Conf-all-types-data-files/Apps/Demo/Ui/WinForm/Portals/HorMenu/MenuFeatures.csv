@@ -1,0 +1,3 @@
+Id,MenuTypeName,Name,Container,Location,ImageUrls,Invalid
+1,Horizontal,MainMenu,ToolBarSectionCenterRegion,HorMenu,,
+3,ToolBar,ToolBarMenu,,ToolBarMenu,,

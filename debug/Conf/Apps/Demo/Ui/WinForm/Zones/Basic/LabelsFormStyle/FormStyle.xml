@@ -1,0 +1,8 @@
+<FormStyle>
+	
+	<Width>800</Width>
+	<Height>-1</Height>
+    <RunningMessageHeight>100</RunningMessageHeight>
+    <ShowRunningStatus>true</ShowRunningStatus>
+    <ShowRunningProgress>true</ShowRunningProgress>
+</FormStyle>

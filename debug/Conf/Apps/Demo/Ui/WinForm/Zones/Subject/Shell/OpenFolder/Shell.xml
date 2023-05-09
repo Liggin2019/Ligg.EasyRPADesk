@@ -1,0 +1,15 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>InitDir</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><StartValue>D:\</StartValue><Expression></Expression>
+			
+		</Procedure><Procedure>
+			
+			<Name>Dir</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><StartValue></StartValue><Expression>=ChooseDirectory;#InitDir.v#</Expression>
+			
+		</Procedure><Procedure>
+			
+			<Name>IsDirValid</Name><TypeName>Variable</TypeName><DisplayName/><GroupId>1</GroupId><StartValue></StartValue><Expression>=Judge;IsDirectoryExisting;#Dir.v#</Expression>
+			
+		</Procedure>
+</ArrayOfProcedure>

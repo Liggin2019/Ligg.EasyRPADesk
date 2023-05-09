@@ -1,0 +1,494 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Id>101</Id><ParentId>0</ParentId><Name>Dashboard</Name><DisplayName>Dashboard</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName>
+			
+						
+			
+			
+			
+			
+						
+			<View>Dashboard</View><ImageUrl>%GlbSharedDir%\Images\Home.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>110</Id><ParentId>0</ParentId><Name>Administration</Name><DisplayName>Administration</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName>
+			
+						
+			
+			
+			
+			
+						
+			<View/><ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\Admin.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11010</Id><ParentId>110</ParentId><Name>SystemTool</Name><DisplayName>System Tool</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName>
+			
+						
+			
+			
+			
+			
+						
+			<View>About</View><ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11020</Id><ParentId>110</ParentId><Name>NetworkTool</Name><DisplayName>Network Tool</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName>
+			
+						
+			
+			
+			
+			
+						
+			<View>OpenUrls</View><ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11030</Id><ParentId>110</ParentId><Name>RemoteTool</Name><DisplayName>Remote Tool</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName>
+			
+						
+			
+			
+			
+			
+						
+			<View>UnderDev</View><ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11050</Id><ParentId>110</ParentId><Name>SystemSetting</Name><DisplayName>System Setting</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoServer</View>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11060</Id><ParentId>110</ParentId><Name>RunAsAdmin</Name><DisplayName>Run As Admin</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>115</Id><ParentId>0</ParentId><Name>Operation</Name><DisplayName>Operation</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View/><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\Orperation.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11510</Id><ParentId>115</ParentId><Name>Information</Name><DisplayName>Information</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11520</Id><ParentId>115</ParentId><Name>Registry</Name><DisplayName>Registry</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoServer</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11530</Id><ParentId>115</ParentId><Name>Process</Name><DisplayName>Process</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11540</Id><ParentId>115</ParentId><Name>Service</Name><DisplayName>Service</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11550</Id><ParentId>115</ParentId><Name>Installation</Name><DisplayName>Installation</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoServer</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11560</Id><ParentId>115</ParentId><Name>Performance</Name><DisplayName>Performance</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>120</Id><ParentId>0</ParentId><Name>Management</Name><DisplayName>Management</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View/><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\Management.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12010</Id><ParentId>120</ParentId><Name>Asset</Name><DisplayName>Asset</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12020</Id><ParentId>120</ParentId><Name>License</Name><DisplayName>License</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoServer</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12030</Id><ParentId>120</ParentId><Name>ServiceDesk</Name><DisplayName>Service Desk</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12050</Id><ParentId>120</ParentId><Name>Monitoring</Name><DisplayName>Monitoring</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205010</Id><ParentId>12050</ParentId><Name>Server1</Name><DisplayName>Server</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View>NoServer</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\Server.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205020</Id><ParentId>12050</ParentId><Name>Database1</Name><DisplayName>Database</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\Database.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205030</Id><ParentId>12050</ParentId><Name>Network1</Name><DisplayName>Network</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\Network.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205040</Id><ParentId>12050</ParentId><Name>Storage1</Name><DisplayName>Storage</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\Storage.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12060</Id><ParentId>120</ParentId><Name>RoutingInsp</Name><DisplayName>Routing Insp.</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoAuth</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206010</Id><ParentId>12060</ParentId><Name>Daily</Name><DisplayName>Daily</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206020</Id><ParentId>12060</ParentId><Name>Weekly</Name><DisplayName>Weekly</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoServer</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206030</Id><ParentId>12060</ParentId><Name>Monthly</Name><DisplayName>Monthly</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoAuth</View>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206040</Id><ParentId>12060</ParentId><Name>Quarterly</Name><DisplayName>Quarterly</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>UnderDev</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206050</Id><ParentId>12060</ParentId><Name>Yearly</Name><DisplayName>Yearly</DisplayName>
+			<ControlTypeName>ToolStripMenuItem</ControlTypeName><View>NoServer</View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>130</Id><ParentId>0</ParentId><Name>Deployment</Name><DisplayName>Deployment</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View>UnderDev</View>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\deploy.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>140</Id><ParentId>0</ParentId><Name>Configuration</Name><DisplayName>Configuration</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View>NoAuth</View>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\Config.png</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>150</Id><ParentId>0</ParentId><Name>Console</Name><DisplayName>Console</DisplayName>
+			<ControlTypeName>ImageToolStripMenuItemH</ControlTypeName><View>NoServer</View>
+			
+			
+			
+			
+			
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;Connecting server failed...^^300</Action>
+			
+			
+			
+			<ImageUrl>%PortalsDir%\NestedMenu\Menus\NestedMenu\Images\Console.png</ImageUrl>
+		</LayoutElement>
+
+</ArrayOfLayoutElement>

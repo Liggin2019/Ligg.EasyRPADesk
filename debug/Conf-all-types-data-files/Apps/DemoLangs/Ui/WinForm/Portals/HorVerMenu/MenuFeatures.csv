@@ -1,0 +1,4 @@
+Id,MenuTypeName,Name,Container,Location,ImageUrls,Invalid
+1,Horizontal,MainMenu,TopNavSectionCenterRegion,HorMenu,,
+2,Vertical,MainMenu1,MainSectionLeftNavDivisionMiddleRegion,VerMenu,"%GlbSharedDir%\Images\schedule.gif,%GlbSharedDir%\Images\task.gif",
+3,ToolBar,ToolBarMenu,,ToolBarMenu,,

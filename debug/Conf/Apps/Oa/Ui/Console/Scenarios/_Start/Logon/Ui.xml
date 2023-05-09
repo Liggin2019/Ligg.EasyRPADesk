@@ -1,0 +1,124 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Title</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ LOGON ＃＃＃＃＃＃</DisplayName>			
+			<Value/><ValidationRules/><Condition/>
+			
+		</UiItem><UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>Please input account and password</DisplayName>			
+			<Value/><ValidationRules/><Condition/>
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Value>1</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Account</Name><TypeName>ReadLine</TypeName>
+			<DisplayName>account</DisplayName>			
+			<Value/><ValidationRules>Mandatory|StringMinLength,3</ValidationRules><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Password</Name><TypeName>ReadLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>password</DisplayName>			
+			<Value/><ValidationRules>Mandatory|StringMinLength,3</ValidationRules><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>SetAcctVar</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>SetVariableValue;#Account#;$Account.v$</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>SetPwVar</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>SetVariableValue;#Password#;$Password.v$</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Logon</Name><TypeName>Transaction</TypeName>
+			<DisplayName/>			
+			<Value>RefreshProcedures;#LogonResult#,#LogonResult1#</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun</Name><TypeName>Transaction</TypeName>
+			<DisplayName/>			
+			<Value>Crun@#LogonResult1.v#@ReturnTrue</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Break</Name><TypeName>Break</TypeName>
+			<DisplayName/>			
+			<Value/><ValidationRules/><Condition>#LogonResult1.v#</Condition>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>WriteLine</Name><TypeName>Transaction</TypeName>
+			<DisplayName/>			
+			<Value>WriteLine@Account or password incorrect@Red</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>GoTo</Name><TypeName>GoTo</TypeName>
+			<DisplayName/>			
+			<Value>NewLine</Value><ValidationRules/><Condition/>
+			
+			
+			
+						
+			
+		</UiItem>
+	
+	
+		
+</ArrayOfUiItem>

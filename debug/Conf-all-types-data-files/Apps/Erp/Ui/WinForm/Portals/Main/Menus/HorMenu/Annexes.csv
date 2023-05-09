@@ -1,0 +1,10 @@
+lv,MasterName,DisplayName,LanguageCode
+-,Dashboard,首页,szh
+-,File,文件,szh
+--,Open,打开,szh
+--,Save,保存,szh
+--,SaveAs,另存为,szh
+--,Exit,退出,szh
+--,Preference,设置,szh
+--,Tool,工具,szh
+--,Help,帮助,szh

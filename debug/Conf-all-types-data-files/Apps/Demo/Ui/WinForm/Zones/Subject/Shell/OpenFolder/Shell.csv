@@ -1,0 +1,4 @@
+Name,TypeName,DisplayName,GroupId,StartValue,Expression
+InitDir,Variable,,1,D:\,
+Dir,Variable,,1,,=ChooseDirectory;#InitDir.v#
+IsDirValid,Variable,,1,,=Judge;IsDirectoryExisting;#Dir.v#

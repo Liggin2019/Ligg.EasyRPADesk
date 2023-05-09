@@ -1,0 +1,6 @@
+CultureName,LanguageCode,LanguageName,ImageUrl
+en-US,en,English,Images\\us.png
+zh-CN,en,English,Images\\cn.png
+zh-CN,szh,简体中文,Images\\cn.png
+zh-CN,czh,繁体中文,Images\\cn.png
+de-DE,de,Deutsch,Images\\de.png

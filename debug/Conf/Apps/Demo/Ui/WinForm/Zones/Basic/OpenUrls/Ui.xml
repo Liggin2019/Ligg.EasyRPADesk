@@ -1,0 +1,278 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrlsL</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Open Urls</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>80</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Clear</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Clear Urls</DisplayName><DataSource>images\clear.png</DataSource>			
+			<Value/><Action>ClearControls;$Url1$,$Url2$,$Url3$</Action>
+			
+			
+			<OffsetOrPositionX>258</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>26</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrls</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Urls</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><Action>Xrun;$OpenUrl1$,$OpenUrl2$,$OpenUrl3$</Action>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>26</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row101</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine101</Name><TypeName>Control</TypeName>
+			<Row>Row101</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>398</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url1L</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Url1</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>60</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url1</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>https://www.qq.com</Value><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>300</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl1</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><Action>OpenUrl;$Url1.v$</Action>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row300</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url2L</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Url2</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>60</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url2</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>https://www.baidu.com</Value><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>300</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl2</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><Action>OpenUrl;$Url2.v$</Action>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row400</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url3L</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Url3</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>60</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url3</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>https://www.sina.com.cn</Value><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>300</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl3</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><Action>OpenUrl;$Url3.v$</Action>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

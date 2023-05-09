@@ -1,0 +1,111 @@
+<ArrayOfAnnex>
+	
+	
+	
+	
+	
+	
+	<Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Dashboard</MasterName>
+			<DisplayName>首页</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex>
+	<Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>File</MasterName>
+			<DisplayName>文件</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Open</MasterName>
+			<DisplayName>打开</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Save</MasterName>
+			<DisplayName>保存</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>SaveAs</MasterName>
+			<DisplayName>另存为</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Exit</MasterName>
+			<DisplayName>退出</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Preference</MasterName>
+			<DisplayName>设置</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Tool</MasterName>
+			<DisplayName>工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Help</MasterName>
+			<DisplayName>帮助</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex>
+	
+		
+</ArrayOfAnnex>

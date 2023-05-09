@@ -1,0 +1,4 @@
+Name,TypeName,ControlTypeName,StyleClass,StyleText,DisplayName,Action,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+PosLabel1,Control,Label,,"BackColor:0,255,255|TextAlign:MiddleCenter",Pos Label1,,,0,0,400,100
+PosLabel2,Control,Label,,"BackColor:0,255,0|TextAlign:MiddleCenter",Pos Label1,,,0,105,100,100
+PosLabel3,Control,Label,,"BackColor:0,0,255|TextAlign:MiddleCenter|ForeColor:255,255,255",Pos Label2,,,105,105,100,100

@@ -1,0 +1,199 @@
+<ArrayOfAnnex>
+	
+	
+	
+	
+	
+	
+	<Annex>
+			
+			
+			
+			<lv>101</lv><MasterName>Production</MasterName>
+			<DisplayName>生产管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Product</MasterName>
+			<DisplayName>产品数据</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex>
+	<Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Material</MasterName>
+			<DisplayName>物料数据</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>MaterialMgmt</MasterName>
+			<DisplayName>物料管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>MaterialRpt</MasterName>
+			<DisplayName>物料报表</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>BOM</MasterName>
+			<DisplayName>物料清单</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Procecure</MasterName>
+			<DisplayName>采购管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Warehouse</MasterName>
+			<DisplayName>仓储管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Planning</MasterName>
+			<DisplayName>生产计划</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Execution</MasterName>
+			<DisplayName>生产执行</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>120</lv><MasterName>Sales</MasterName>
+			<DisplayName>销售管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>130</lv><MasterName>Quality</MasterName>
+			<DisplayName>质量管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>140</lv><MasterName>Finance</MasterName>
+			<DisplayName>财务管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>150</lv><MasterName>Hrm</MasterName>
+			<DisplayName>人力资源</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>160</lv><MasterName>System</MasterName>
+			<DisplayName>系统管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Thread</MasterName>
+			<DisplayName>线程管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Cache</MasterName>
+			<DisplayName>缓存管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex>
+	
+		
+</ArrayOfAnnex>

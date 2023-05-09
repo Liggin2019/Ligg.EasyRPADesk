@@ -1,0 +1,794 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<StyleClass/><StyleText/><DataSource/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>28</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>RunnerL</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>TitleLabel</ControlTypeName>
+			
+			<DisplayName>Runner</DisplayName><StyleClass>Level1</StyleClass><StyleText/>			
+			<DataSource/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>1020</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row20</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<StyleClass/><StyleText/><DataSource/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>1</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>HeadL</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Run Type</DisplayName><StyleClass>Level1</StyleClass><StyleText/>			
+			<DataSource/>
+			
+			
+			<Action/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>140</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Head1L</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Input</DisplayName><StyleClass>Level1</StyleClass><StyleText/>			
+			<DataSource/>
+			
+			
+			<Action/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>250</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Head2L</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Args</DisplayName><StyleClass>Level1</StyleClass><StyleText/>			
+			<DataSource/>
+			
+			
+			<Action/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>60</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Head3L</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Cmd Option</DisplayName><StyleClass>Level1</StyleClass><StyleText/>			
+			<DataSource/>
+			
+			
+			<Action/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>100</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Head4L</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Save Output</DisplayName><StyleClass>Level1</StyleClass><StyleText/>			
+			<DataSource/>
+			
+			
+			<Action/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>100</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Head5L</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>Options</DisplayName><StyleClass>Level1</StyleClass><StyleText/>			
+			<DataSource/>
+			
+			
+			<Action/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>300</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenFolder</Name><TypeName>Control</TypeName>
+			<Row>Row20</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<DisplayName>Runner</DisplayName><StyleClass/><StyleText/>			
+			<DataSource>%GlbCfgDir%\Shared\images\folder-open.png</DataSource>
+			
+			
+			<Action>OpenFolder;%AppOutputDir%\ProcessLog</Action><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row21</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine21</Name><TypeName>Control</TypeName>
+			<Row>Row21</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>1004</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ExecCmdL</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>ExecCmd</DisplayName><StyleClass>Level2</StyleClass><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>140</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Input100</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>ping www.baidu.com</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>250</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Args100</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>60</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ExecCmdWindowOption100</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText>DataSourceType:Larray|</StyleText>			
+			<Value/><DataSource>ShowWindow,NoWindow,BlankWindow</DataSource><Action>RefreshControlValue;$Options100$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>100</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SaveOutput100</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>CheckBox</ControlTypeName>
+			
+			<DisplayName>Save Output</DisplayName><StyleClass/><StyleText/>			
+			<Value/><DataSource/><Action>RefreshControlValue;$Options100$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>100</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Options100</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>=Combine;;WindowOption:;$ExecCmdWindowOption100.t$;,;Save:;$SaveOutput100.v$</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled>true</Disabled><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>300</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Run100</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<DisplayName>Run</DisplayName><StyleClass/><StyleText/>			
+			<Value/><DataSource>%GlbCfgDir%\Shared\images\run.png</DataSource><Action>ExecCmd@$Input100.v$@$Args100.v$@$ExecCmdWindowOption100.t$@$SaveOutput100.v$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>24</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row101</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine101</Name><TypeName>Control</TypeName>
+			<Row>Row101</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>1004</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>84</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ExecCmdsL</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>ExecCmds</DisplayName><StyleClass>Level2</StyleClass><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>140</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Input200</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>=GetContentFromTextFile;%FormCfgDir%\Asset\ShowDirsBat\show-dirs.bat</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>250</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Args200</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>/l /a</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>60</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ExecCmdWindowOption200</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText>DataSourceType:Larray|</StyleText>			
+			<Value/><DataSource>ShowWindow,NoWindow,BlankWindow</DataSource><Action>RefreshControlValue;$Options200$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>100</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SaveOutput200</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>CheckBox</ControlTypeName>
+			
+			<DisplayName>Save Output</DisplayName><StyleClass/><StyleText/>			
+			<Value/><DataSource/><Action>RefreshControlValue;$Options200$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>100</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Options200</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>=Combine;;WindowOption:;$ExecCmdWindowOption200.t$;,;Save:;$SaveOutput200.v$</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled>true</Disabled><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>300</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Run200</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<DisplayName>Run</DisplayName><StyleClass/><StyleText/>			
+			<Value/><DataSource>%GlbCfgDir%\Shared\images\run.png</DataSource><Action>ExecCmds@$Input200.v$@$Args200.v$@$ExecCmdWindowOption200.t$@$SaveOutput200.v$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>24</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row201</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine201</Name><TypeName>Control</TypeName>
+			<Row>Row201</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>1004</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row300</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>RunBatL</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>RunBat</DisplayName><StyleClass>Level2</StyleClass><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>140</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Input300</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>%FormCfgDir%\Asset\XcopyBat\xcopy.bat</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>250</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Args300</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>60</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ExecCmdWindowOption300</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText>DataSourceType:Larray|</StyleText>			
+			<Value/><DataSource>ShowWindow,NoWindow,BlankWindow</DataSource><Action>RefreshControlValue;$Options300$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>100</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SaveOutput300</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>CheckBox</ControlTypeName>
+			
+			<DisplayName>Save Output</DisplayName><StyleClass/><StyleText/>			
+			<Value/><DataSource/><Action>RefreshControlValue;$Options300$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>100</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Options300</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>=Combine;;WindowOption:;$ExecCmdWindowOption300.t$;,;Save:;$SaveOutput300.v$</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled>true</Disabled><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>300</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Run300</Name><TypeName>Control</TypeName>
+			<Row>Row300</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<DisplayName>Run</DisplayName><StyleClass/><StyleText/>			
+			<Value/><DataSource>%GlbCfgDir%\Shared\images\run.png</DataSource><Action>RunBat@$Input300.v$@$Args300.v$@$ExecCmdWindowOption300.t$@$SaveOutput300.v$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>24</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row301</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine301</Name><TypeName>Control</TypeName>
+			<Row>Row301</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>1004</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row400</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>RunPythonL</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<DisplayName>RunPython</DisplayName><StyleClass>Level2</StyleClass><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>140</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Input400</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>%FormCfgDir%\Asset\Demo.py</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>250</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Args400</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>Mary Tom</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>60</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ExecCmdWindowOption400</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText>DataSourceType:Larray|</StyleText>			
+			<Value/><DataSource>ShowWindow,NoWindow,BlankWindow</DataSource><Action>RefreshControlValue;$Options400$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>100</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SaveOutput400</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>CheckBox</ControlTypeName>
+			
+			<DisplayName>Save Output</DisplayName><StyleClass/><StyleText/>			
+			<Value/><DataSource/><Action>RefreshControlValue;$Options400$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>100</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Options400</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value>=Combine;;WindowOption:;$ExecCmdWindowOption400.t$;,;Save:;$SaveOutput400.v$</Value><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled>true</Disabled><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>300</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Run400</Name><TypeName>Control</TypeName>
+			<Row>Row400</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<DisplayName>Run</DisplayName><StyleClass/><StyleText/>			
+			<Value/><DataSource>%GlbCfgDir%\Shared\images\run.png</DataSource><Action>RunPython@$Input400.v$@$Args400.v$@$ExecCmdWindowOption400.t$@$SaveOutput400.v$</Action>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>24</Width><Height>80</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row401</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine401</Name><TypeName>Control</TypeName>
+			<Row>Row401</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<DisplayName/><StyleClass>Level1</StyleClass><StyleText/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<Invisible/><Disabled/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>1004</Width><Height>1</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

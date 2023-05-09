@@ -1,0 +1,9 @@
+Name,TypeName,Condition,Expression
+Option,Variable,,
+Image,Variable,,
+Text,Variable,,Text not defined
+UnderDevRun,Transaction,=Judge;IfElse;#0#;Equal;UnderDev,SetVariableValue;#Text#;This function is under developing...
+UnderDevReturn,Return,=Judge;IfElse;#0#;Equal;UnderDev,
+NoAuthRun,Transaction,=Judge;IfElse;#0#;Equal;NoAuth,SetVariableValue;#Text#;You have no authorization
+NoAuthReturn,Return,=Judge;IfElse;#0#;Equal;NoAuth,
+NoServerRun,Transaction,=Judge;IfElse;#0#;Equal;NoServer,SetVariableValue;#Text#;Connecting server failed...

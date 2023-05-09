@@ -1,0 +1,17 @@
+Name,TypeName,ControlTypeName,StyleClass,StyleText,DisplayName,DataSource,Action,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+LogoImage,Control,PictureBox,,,,%GlbCfgDir%\Shared\Images\logo\logo.png,,10,6,48,32
+ProductShortName,Control,Label,,"FontSize:11|FontStyle:Bold|ForeColor:10,40,150|",=GetApplicationAnnexText;Remark,,,58,8,80,32
+ProductDes,Control,Label,,FontSize:8|FontStyle:Bold|,=GetApplicationAnnexText;Remark2,,,155,8,400,32
+ProductImage,Control,PictureBox,,,,%AppSharedDir%\Images\product.png,,16,53,120,120
+BackgrdPanel,Control,ShadowPanel,Default,,,,,150,45,420,150
+ProductL,Control,Label,,"BackColor:250,250,250|",Product,,,155,50,55,30
+Product,Control,Label,,"BackColor:250,250,250|",=GetApplicationAnnexText;Remark1,,,225,50,340,30
+ModuleL,Control,Label,,"BackColor:250,250,250|",Module,,,155,80,55,30
+Module,Control,Label,,"BackColor:250,250,250|",=GetApplicationAnnexText;Description,,,225,80,340,30
+FunctionL,Control,Label,,"BackColor:250,250,250|",Function,,,155,110,55,30
+Function,Control,Label,,"BackColor:250,250,250|",=GetApplicationAnnexText,,,225,110,340,30
+VersionL,Control,Label,,"BackColor:250,250,250|",Version,,,155,140,55,30
+Version,Control,Label,,"BackColor:250,250,250|",=Combine;;%AppCode%-%AppVersion%(;#App.t#;)       ;%ArchCode%-%ArchVersion%(;#Arch.t#;),,,225,140,340,30
+Org,Control,TextButton,,"FontStyle:Bold|FontSize:8.50|ForeColor:10,40,150|",Ligg Tech,,OpenUrl;https://liggin2019.github.io/docs,230,201,70,24
+CopyRight,Control,Label,,FontStyle:Bold|FontSize:8.50|,All Right Reserved,,,300,200,130,24
+ContactUs,Control,TextButton,,"FontStyle1:Bold|FontSize:8.50|ForeColor:10,40,150|",Contact Us,,ShowDialog^Szi;Public\Contact,430,200,80,24

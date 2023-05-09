@@ -1,0 +1,9 @@
+D:\Doing\coding\project-doing\Ligg.Infra.Utility\DataParser\debug\lib\netstandard2.0\DataParser.deps.json
+D:\Doing\coding\project-doing\Ligg.Infra.Utility\DataParser\debug\lib\netstandard2.0\DataParser.dll
+D:\Doing\coding\project-doing\Ligg.Infra.Utility\DataParser\debug\lib\netstandard2.0\DataParser.pdb
+D:\Doing\coding\project-doing\Ligg.Infra.Utility\DataParser\src\ConfigFileUtil\obj\Debug\netstandard2.0\Ligg.Infrastructure.Utility.DataParser.AssemblyInfoInputs.cache
+D:\Doing\coding\project-doing\Ligg.Infra.Utility\DataParser\src\ConfigFileUtil\obj\Debug\netstandard2.0\Ligg.Infrastructure.Utility.DataParser.AssemblyInfo.cs
+D:\Doing\coding\project-doing\Ligg.Infra.Utility\DataParser\src\ConfigFileUtil\obj\Debug\netstandard2.0\Ligg.Infrastructure.Utility.DataParser.csproj.CoreCompileInputs.cache
+D:\Doing\coding\project-doing\Ligg.Infra.Utility\DataParser\src\ConfigFileUtil\obj\Debug\netstandard2.0\DataParser.dll
+D:\Doing\coding\project-doing\Ligg.Infra.Utility\DataParser\src\ConfigFileUtil\obj\Debug\netstandard2.0\DataParser.pdb
+D:\Doing\coding\project-doing\Ligg.Infra.Utility\DataParser\src\ConfigFileUtil\obj\Debug\netstandard2.0\Ligg.Infrastructure.Utility.DataParser.csprojAssemblyReference.cache

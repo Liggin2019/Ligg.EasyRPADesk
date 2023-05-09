@@ -1,0 +1,255 @@
+<ArrayOfZoneItem>
+
+		<ZoneItem>
+			
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>MachineL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row100</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>Machine</DisplayName>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>86</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Machine</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName><Row>Row100</Row><StyleClass/><StyleText/>
+			
+			<DisplayName/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>90</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>OsL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row100</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>OS</DisplayName>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>62</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Os</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName><Row>Row100</Row><StyleClass/><StyleText/>
+			
+			<DisplayName/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>220</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>IpsL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row100</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>IP</DisplayName>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>30</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ips</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName><Row>Row100</Row><StyleClass/><StyleText/>
+			
+			<DisplayName/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>205</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row109</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName><Row>Row109</Row><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<DisplayName/>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>760</Width>
+			<Height>1</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName><Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>
+			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX>
+			<OffsetOrPositionY>4</OffsetOrPositionY>			<Width>-1</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>NetworkPosL</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName><Row>Row200</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>Network Pos.</DisplayName>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>86</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>NetworkPos</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName><Row>Row200</Row><StyleClass/><StyleText>DataSourceType:Larray|</StyleText>
+			
+			<DisplayName/>			
+			<Value/><DataSource>Undefined,Internet,LGGZ LAN,LGSZ LAN,LGUS LAN,LGDE LAN</DataSource><Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>90</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>RefreshNetworkPos</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName><Row>Row200</Row><StyleClass/><StyleText/>
+			
+			<DisplayName>Click to refresh network position...</DisplayName>			
+			<Value/><DataSource>%GlbCfgDir%\Shared\Images\refresh.png</DataSource><Action/>
+			
+			
+			<OffsetOrPositionX>1</OffsetOrPositionX>
+			<OffsetOrPositionY>-3</OffsetOrPositionY>			<Width>14</Width>
+			<Height>14</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>CurrentWinAcctStatus</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><Row>Row200</Row><StyleClass/><StyleText>DataSourceType:Json|TextWidth:120|MsgHasBorder:true</StyleText>
+			
+			<DisplayName>Current Win. Acct.</DisplayName>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>240</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>RunAsAdminWinAcctStatus</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><Row>Row200</Row><StyleClass/><StyleText>DataSourceType:Json|TextWidth:150|MsgHasBorder:true</StyleText>
+			
+			<DisplayName>RunAsAdmin Win. Acct.</DisplayName>			
+			<Value/><DataSource/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX>
+			<OffsetOrPositionY>0</OffsetOrPositionY>			<Width>270</Width>
+			<Height>24</Height>
+		</ZoneItem><ZoneItem>
+			
+			<Name>ShowRunAsAdminWinAcctStatus</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName><Row>Row200</Row><StyleClass/><StyleText/>
+			
+			<DisplayName>Click to show details of RunAsAdminWinAcctStatus...</DisplayName>			
+			<Value/><DataSource>%GlbCfgDir%\Shared\Images\details.png</DataSource><Action/>
+			
+			
+			<OffsetOrPositionX>1</OffsetOrPositionX>
+			<OffsetOrPositionY>-3</OffsetOrPositionY>			<Width>14</Width>
+			<Height>14</Height>
+		</ZoneItem>
+		
+		
+		
+		
+				
+		
+		
+		
+</ArrayOfZoneItem>

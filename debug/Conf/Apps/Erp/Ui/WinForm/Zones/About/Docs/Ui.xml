@@ -1,0 +1,128 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>DocsImageL</Name><TypeName>Control</TypeName>
+			<Container/><ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/><DisplayName>docs-en.png</DisplayName>
+			
+			<Value/><DataSource/>
+			
+			<Action/>
+			
+			
+			<Invisible>true</Invisible><DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>DocsImage</Name><TypeName>Control</TypeName>
+			<Container/><ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText>ShowImageByLang:true</StyleText><DisplayName/>
+			
+			<Value/><DataSource>=Combine;;%ZonesDir%\About\Docs\Images\;$DocsImageL.t$</DataSource>
+			
+			<Action/>
+			
+			
+			<Invisible/><DockTypeName/><OffsetOrPositionX>47</OffsetOrPositionX><OffsetOrPositionY>16</OffsetOrPositionY><Width>1012</Width><Height>740</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>GoPanel</Name><TypeName>ControlContainer</TypeName>
+			<Container/><ControlTypeName>ContainerPanel</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText>CpntArrangeType:RowLining|Style:Rounded|Radius:40|</StyleText><DisplayName/>
+			
+			<Value/><DataSource/>
+			
+			<Action/>
+			
+			
+			<Invisible/><DockTypeName/><OffsetOrPositionX>730</OffsetOrPositionX><OffsetOrPositionY>28</OffsetOrPositionY><Width>364</Width><Height>40</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>LogoImage</Name><TypeName>Control</TypeName>
+			<Container/><ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/>
+			
+			<Value/><DataSource>%GlbCfgDir%\Shared\Images\Logo\logo-1.png</DataSource>
+			
+			<Action/>
+			
+			
+			<Invisible/><DockTypeName/><OffsetOrPositionX>260</OffsetOrPositionX><OffsetOrPositionY>-10</OffsetOrPositionY><Width>100</Width><Height>100</Height>
+						
+			
+		</ZoneItem>
+	<ZoneItem>
+		<Name>Row10</Name><TypeName>SubControl</TypeName>
+		<Container>GoPanel</Container><ControlTypeName>Row</ControlTypeName>
+
+		<Row/><StyleClass/><StyleText/><DisplayName/>
+		
+		<Value/><DataSource/>			
+		<Action/>
+		
+		
+		<Invisible/><DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>32</Height>
+		
+		
+	</ZoneItem>
+	<ZoneItem>
+			<Name>UrlL</Name><TypeName>SubControl</TypeName><Container>GoPanel</Container>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row10</Row><StyleClass/><StyleText>ForeColor:16,16,16|FontStyle:Bold|FontSize:12.00</StyleText><DisplayName>Url:</DisplayName>
+			
+			<Value/><DataSource/>			
+			<Action/>
+			
+			
+			<Invisible/><DockTypeName/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>38</Width><Height>32</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Url</Name><TypeName>SubControl</TypeName><Container>GoPanel</Container>
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			
+			
+			<Row>Row10</Row><StyleClass/><StyleText>DisplayByLang:true|HasNoBorder:true|ForeColor:160,160,160|FontSize:12.8</StyleText><DisplayName/>
+			
+			<Value>=GetAnnexText;ZoneItem;$Url$</Value><DataSource/>			
+			<Action/>
+			
+			
+			<Invisible/><DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>5</OffsetOrPositionY><Width>266</Width><Height>32</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Go</Name><TypeName>SubControl</TypeName><Container>GoPanel</Container>
+			<ControlTypeName>PictureBox</ControlTypeName><Row>Row10</Row>
+			
+			
+			
+			<StyleClass/><StyleText/><DisplayName>Click to visit docs site...</DisplayName>
+			
+			<Value>%GlbCfgDir%\Shared\Images\go.jpg</Value><DataSource>%GlbCfgDir%\Shared\Images\go.jpg</DataSource>			
+			<Action>OpenUrl;$Url.v$</Action>
+			
+			
+			<Invisible/><DockTypeName/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>32</Width><Height>32</Height>
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

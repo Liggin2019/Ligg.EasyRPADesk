@@ -1,0 +1,171 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>-1</Width><Height>100</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>CtrlCtn</Name><TypeName>ControlContainer</TypeName>
+			<Container/><Row>Row10</Row>
+			
+			
+			<ControlTypeName>ContainerPanel</ControlTypeName>
+			
+			<StyleClass/><StyleText>CpntArrangeType:RowLining|Style:Rounded|Radius:2|</StyleText><ValidationRules/><DisplayName>eeeee</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>500</Width><Height>100</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row10a</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn</Container><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>5</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl1</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn</Container><Row>Row10a</Row>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Ctrl1</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>90</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl2</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn</Container><Row>Row10a</Row>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Ctrl2</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>130</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row20</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>-1</Width><Height>100</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>CtrlCtn2</Name><TypeName>ControlContainer</TypeName>
+			<Container/><Row>Row20</Row>
+			
+			
+			<ControlTypeName>ContainerPanel</ControlTypeName>
+			
+			<StyleClass/><StyleText>Style:Rounded|Radius:2|</StyleText><ValidationRules/><DisplayName>eeeee</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>500</Width><Height>100</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl11</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn2</Container><Row/>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Ctrl1</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>90</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl12</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn2</Container><Row/>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Ctrl2</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>130</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl100</Name><TypeName>Control</TypeName>
+			<Container>Row100</Container><Row>Row100</Row>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>ddds</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

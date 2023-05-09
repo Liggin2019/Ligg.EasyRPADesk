@@ -1,0 +1,3 @@
+Name,TypeName,DisplayName,GroupId,Value,Expression
+FilePath,Variable,,1,,=ChooseFile;txt file|*.txt;%RootDir%
+IsPathValid,Variable,,1,,=Judge;IsFileExisting;#FilePath.v#

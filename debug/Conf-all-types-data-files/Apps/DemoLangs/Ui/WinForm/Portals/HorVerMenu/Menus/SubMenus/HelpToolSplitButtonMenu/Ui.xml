@@ -1,0 +1,24 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			<Id>10</Id><ParentId>0</ParentId><Name>About</Name>
+						
+			<ControlTypeName/><DisplayName>About</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>ShowDialog;Svi;FuncsShared\Dashboard</Action>
+			<ImageUrl>images\about.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>20</Id><ParentId>0</ParentId><Name>ContactUs</Name>
+						
+			<ControlTypeName/><DisplayName>Contact Us</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>ShowDialog;Szi;About\Contact</Action>
+			<ImageUrl>images\email.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>30</Id><ParentId>0</ParentId><Name>HelpCenter</Name>
+						
+			<ControlTypeName/><DisplayName>Help Center</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>ShowDialog;Szi;About\Docs</Action>
+			<ImageUrl>images\help.png</ImageUrl><Invalid/>
+		</LayoutElement>
+</ArrayOfLayoutElement>

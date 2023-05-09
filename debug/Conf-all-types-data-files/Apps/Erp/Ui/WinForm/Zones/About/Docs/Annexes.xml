@@ -1,0 +1,49 @@
+
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>Url</MasterName>
+			<DisplayName>https://liggin2019.github.io/docs/en/</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>en</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Url</MasterName>
+			<DisplayName>https://liggin2019.github.io/docs</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>DocsImageL</MasterName>
+			<DisplayName>docs-szh.png</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Go</MasterName>
+			<DisplayName>点击访问文档站点</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

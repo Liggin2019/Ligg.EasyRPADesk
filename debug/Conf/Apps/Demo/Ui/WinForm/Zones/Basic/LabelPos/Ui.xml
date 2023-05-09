@@ -1,0 +1,19 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>PosLabel</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass/><StyleText>BackColor:0,255,255|TextAlign:MiddleCenter</StyleText><DisplayName>Pos Label </DisplayName>			
+			<Action/>
+			
+			
+			<DockTypeName></DockTypeName><OffsetOrPositionX>40</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>200</Width><Height>150</Height>
+						
+			
+	</ZoneItem>
+	
+</ArrayOfZoneItem>

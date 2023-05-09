@@ -1,0 +1,138 @@
+<ArrayOfAnnex>
+	
+	
+		<Annex>
+			
+			
+			
+			<MasterName>System Message</MasterName>
+			<DisplayName>系统消息</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>You have no authorization</MasterName>
+			<DisplayName>你没有相应权限</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>This function is under developing...</MasterName>
+			<DisplayName>本功能正在开发当中...</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Connecting server failed...</MasterName>
+			<DisplayName>服务器连接失败...</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>System Info.</MasterName>
+			<DisplayName>系统信息</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>All Tansactions</MasterName>
+			<DisplayName>所有功能</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Recmd Tansactions</MasterName>
+			<DisplayName>推荐功能</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Favorite Tansactions</MasterName>
+			<DisplayName>自选功能</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Developer Toolkit</MasterName>
+			<DisplayName>开发者工具</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>About Us</MasterName>
+			<DisplayName>关于我们</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Contact Us</MasterName>
+			<DisplayName>联系我们</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Documentation</MasterName>
+			<DisplayName>文档</DisplayName>
+			
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

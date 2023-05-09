@@ -1,0 +1,29 @@
+Name,TypeName,Container,ControlTypeName,Row,StyleClass,StyleText,DisplayName,DataSource,Action,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+LogoImage,Control,,PictureBox,,,,,%GlbCfgDir%\Shared\Images\logo\logo.png,,10,6,48,32
+ProductShortName,Control,,Label,,,"FontSize:11|FontStyle:Bold|ForeColor:10,40,150|",=GetApplicationAnnexText;Remark,,,58,8,80,32
+ProductDes,Control,,Label,,,FontSize:8|FontStyle:Bold|,=GetApplicationAnnexText;Remark2,,,155,8,400,32
+ProductImage,Control,,PictureBox,,,,,%AppSharedDir%\Images\product1.png,,16,53,120,120
+BackgrdPanel,ControlContainer,,ShadowPanel,,Default,CpntArrangeType:RowLining|,,,,150,45,420,240
+Row10,SubControl,BackgrdPanel,Row,,,,,,,-1,10,-1,30
+EmailL,SubControl,BackgrdPanel,Label,Row10,,"BackColor:250,250,250|",Email,,,5,0,55,30
+Email1,SubControl,BackgrdPanel,TextButton,Row10,,"BackColor:250,250,250|TextAlign:MiddleLeft",liggin2019@126.com,,"SendLocalEmail^liggin2019@126.com^I am a user of ITSAOM, I am very interesting in your product.",5,0,172,30
+Email2,SubControl,BackgrdPanel,TextButton,Row10,,"BackColor:250,250,250|TextAlign:MiddleLeft",liggin2019@outlook.com,,"SendLocalEmail^liggin2019@outlook.com^I am a user of ITSAOM, Iam very interesting in your product.",4,0,172,30
+Row20,SubControl,BackgrdPanel,Row,,,,,,,-1,0,-1,30
+Sns1L,SubControl,BackgrdPanel,Label,Row20,,"BackColor:250,250,250|",SNS,,,5,0,55,30
+Sns11,SubControl,BackgrdPanel,TextButton,Row20,,"BackColor:250,250,250|TextAlign:MiddleLeft",Toutiao@liggitin2019,,,5,0,172,30
+Sns12,SubControl,BackgrdPanel,TextButton,Row20,,"BackColor:250,250,250|TextAlign:MiddleLeft",Twitter@liggitin2019,,,4,0,172,30
+Row30,SubControl,BackgrdPanel,Row,,,,,,,-1,0,-1,30
+Sns2L,SubControl,BackgrdPanel,Label,Row30,,"BackColor:250,250,250|",SNS,,,5,0,55,30
+Sns21,SubControl,BackgrdPanel,TextButton,Row30,,"BackColor:250,250,250|TextAlign:MiddleLeft",WeChat@liggitin2019,,,5,0,348,30
+Row40,SubControl,BackgrdPanel,Row,,,,,,,-1,0,-1,30
+OpenSrcAddressL,SubControl,BackgrdPanel,Label,Row40,,"BackColor:250,250,250|",OpenSrc,,,5,0,55,30
+OpenSrcAddress,SubControl,BackgrdPanel,TextButton,Row40,,"BackColor:250,250,250|TextAlign:MiddleLeft",https://www.github.com/liggin2019,,OpenUrl;https://www.github.com/liggin2019,5,0,348,30
+Row50,SubControl,BackgrdPanel,Row,,,,Product,,,-1,0,-1,30
+OpenSrcAddress1L,SubControl,BackgrdPanel,Label,Row50,,"BackColor:250,250,250|",OpenSrc,,,5,0,55,30
+OpenSrcAddress1,SubControl,BackgrdPanel,TextButton,Row50,,"BackColor:250,250,250|TextAlign:MiddleLeft",https://www.gitee.com/liggin2019,,OpenUrl;https://www.gitee.com/liggin2019,5,0,348,30
+Row60,SubControl,BackgrdPanel,Row,,,,Product,,,-1,0,-1,30
+BlogAddressL,SubControl,BackgrdPanel,Label,Row60,,"BackColor:250,250,250|",Blog,,,5,0,55,30
+BlogAddress,SubControl,BackgrdPanel,TextButton,Row60,,"BackColor:250,250,250|TextAlign:MiddleLeft",https://www.cnblogs.com/liggin2019,,OpenUrl;https://www.cnblogs.com/liggin2019,5,0,348,30
+Row70,SubControl,BackgrdPanel,Row,,,,Product,,,-1,0,-1,30
+HelpDocL,SubControl,BackgrdPanel,Label,Row70,,"BackColor:250,250,250|",Docs,,,5,0,55,30
+HelpDoc,SubControl,BackgrdPanel,TextButton,Row70,,"BackColor:250,250,250|TextAlign:MiddleLeft",https://liggin2019.github.io/docs,,OpenUrl;https://liggin2019.github.io/docs,5,0,348,30

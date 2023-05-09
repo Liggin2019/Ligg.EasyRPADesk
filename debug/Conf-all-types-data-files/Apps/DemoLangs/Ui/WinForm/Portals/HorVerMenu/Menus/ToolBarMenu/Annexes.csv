@@ -1,0 +1,19 @@
+AnnexId,MasterName,DisplayName,Description,Remark,LanguageCode
+200,Logon,Logon,,用户登录,szh
+200,Logon,Logon,,User Logon,en
+200,Logon,用户登录,,Anmeldung des Benutzers,de
+200,Help,帮助,,帮助中心,szh
+200,Help,Help,,Help Center,en
+200,Help,Hilfe,,Hilfe Center,de
+200,Goto,转至,,转至,szh
+200,Goto,Go to,,Go to,en
+200,Goto,gehen,,gehen,de
+200,UserSetting,个人设置,,个人设置,szh
+200,UserSetting,User Setting,,User Setting,en
+200,UserSetting,"benutzer, die ",,"benutzer, die ",de
+200,CopyWindow,复制窗口,,复制窗口,szh
+200,CopyWindow,Copy Window,,Copy Window,en
+200,CopyWindow,Fenster kopieren,,Fenster kopieren,de
+200,RefreshWindow,刷新窗口,,刷新窗口,szh
+200,RefreshWindow,Refresh Window,,Refresh Window,en
+200,RefreshWindow,Fenster aktualisieren,,Fenster aktualisieren,de

@@ -1,0 +1,94 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>1</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,0,250|</StyleText>
+			
+			<DisplayName>1</DisplayName><DockOrder/>			
+			
+			
+			
+			<DockTypeName>Left</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>55</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>2</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,250,0|</StyleText>
+			
+			<DisplayName>2</DisplayName><DockOrder/>			
+			
+			
+			
+			<DockTypeName>Left</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>55</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>3</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:0,250,250|</StyleText>
+			
+			<DisplayName>3</DisplayName><DockOrder/>			
+			
+			
+			
+			<DockTypeName>Left</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>55</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>one</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:250,0,0|</StyleText>
+			
+			<DisplayName>one</DisplayName><DockOrder>3</DockOrder>			
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>55</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>two</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:0,0,250|</StyleText>
+			
+			<DisplayName>two</DisplayName><DockOrder>2</DockOrder>			
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>55</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>three</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:0,250,0|</StyleText>
+			
+			<DisplayName>three</DisplayName><DockOrder>1</DockOrder>			
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>55</Width><Height>-1</Height>
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

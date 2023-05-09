@@ -1,0 +1,4 @@
+Name,TypeName,GroupId,StartValue,Expression
+InitDir,Variable,1,D:\,
+Dir,Variable,1,,=ChooseDirectory;#InitDir.v#
+RelativePath,Variable,1,,=GetDirectoryRelativePath;#InitDir.v#;#Dir.v#

@@ -1,0 +1,82 @@
+
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>MachineL</MasterName>
+			<DisplayName>机器名</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>OsL</MasterName>
+			<DisplayName>操作系统</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>NetworkPosL</MasterName>
+			<DisplayName>网络位置</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>RefreshNetworkPos</MasterName>
+			<DisplayName>刷新网络位置</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>CurrentWinAcctStatus</MasterName>
+			<DisplayName>当前Windows帐号</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>RunAsAdminWinAcctStatus</MasterName>
+			<DisplayName>超级运行Windows帐号</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ShowRunAsAdminWinAcctStatus</MasterName>
+			<DisplayName>刷新超级运行帐号状态</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

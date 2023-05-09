@@ -1,0 +1,15 @@
+Name,TypeName,ControlTypeName,Row,StyleClass,StyleText,DisplayName,Value,Location,DataSource,Action,OffsetOrPositionX,OffsetOrPositionY,Width,Height,Disabled
+Row100,Control,Row,,,,,,,,,-1,4,-1,24,
+ApplicationL,Control,Label,Row100,FieldName,,Application,,,,,8,0,86,24,
+Application,Control,TitleLabel,Row100,Level2,,=GetApplicationAnnexText;Remark,,,,,4,0,50,24,true
+ModuleL,Control,Label,Row100,FieldName,,Module,,,,,8,0,62,24,
+Module,Control,TitleLabel,Row100,Level2,,=GetApplicationAnnexText;Description,,,,,4,0,160,24,true
+FunctionL,Control,Label,Row100,FieldName,,Function,,,,,8,0,128,24,
+Function,Control,TitleLabel,Row100,Level2,,=GetApplicationAnnexText,,,,,4,0,184,24,true
+Row101,Control,Row,,,,,,,,,-1,4,-1,1,
+SplitLine,Control,SplitRectangle,Row101,FieldName,,,,,,,0,0,760,1,
+Row200,Control,Row,,,,,,,,,-1,4,-1,24,
+AppVersionL,Control,Label,Row200,FieldName,,Application Version,,,,,8,0,210,24,
+AppVersion,Control,TitleLabel,Row200,Level2,,=Join;%AppCode%-%AppVersion%,,,,,4,0,160,24,true
+ArchVersionL,Control,Label,Row200,FieldName,,Architeture Version,,,,,8,0,128,24,
+ArchVersion,Control,TitleLabel,Row200,Level2,,=Join;%ArchCode%-%ArchVersion%,,,,,4,0,184,24,true

@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Ligg.RpaDesk</RootNamespace>
+    <AssemblyName>WinFormApp</AssemblyName>
+    <Authors>Liggit</Authors>
+    <AssemblyVersion>4.3.7.0</AssemblyVersion>
+    <FileVersion>4.3.7.0</FileVersion>
+    <Version>4.3.7.0</Version>
+    <Product>Ligg.EasyRpaDesk</Product>
+    <PackageId>Ligg.EasyRpaDesk.WinFormApp.Core</PackageId>
+    <Description>Ligg.EasyRpaDesk.WinFormApp.Core</Description>
+    <Copyright>Copyright © Liggit 2023</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\release\Program\Main\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\debug\Program\Main\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ligg.Infrastructure\Ligg.Infra.Std\Ligg.Infrastructure.Std.csproj" />
+    <ProjectReference Include="..\Ligg.RpaDesk.Interface\.Ligg.RpaDesk.Interface.csproj" />
+    <ProjectReference Include="..\Ligg.RpaDesk.Parser\.Ligg.RpaDesk.Parser.csproj" />
+    <ProjectReference Include="..\Ligg.RpaDesk.WinForm.Core\Ligg.RpaDesk.WinForm.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\TextRes.Designer.cs">
+      <DependentUpon>TextRes.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resources\TextRes.zh-CN.Designer.cs">
+      <DependentUpon>TextRes.zh-CN.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\TextRes.resx">
+      <LastGenOutput>TextRes.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\TextRes.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>TextRes.zh-CN.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataModels\" />
+  </ItemGroup>
+
+</Project>

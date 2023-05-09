@@ -1,0 +1,38 @@
+
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>xxx</MasterName>
+			<DisplayName>Logon</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>en</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>xxx</MasterName>
+			<DisplayName>用户登录</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>xxx</MasterName>
+			<DisplayName>Logon</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

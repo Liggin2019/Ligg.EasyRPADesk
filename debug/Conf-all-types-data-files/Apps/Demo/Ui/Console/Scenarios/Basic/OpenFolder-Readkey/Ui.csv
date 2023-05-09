@@ -1,0 +1,10 @@
+Name,TypeName,DisplayName,Contitine,Value
+Tip,WriteLine,££££££££££££ Open Folder ££££££££££££,,
+NewLine,NewLine,,,2
+key,ReadKey,Folder Option£ºa:CfgDir; b:AppCfgDir; c:AppUiDir; d:ScenariosDir; e:AppOutputDir;  other:ScenarioDir,,
+Crun1,Transaction,,,Crun^=Judge;IfElse;$key.v$;Equal;a^OpenFolder;%CfgDir%
+Crun2,Transaction,,,Crun^=Judge;IfElse;$key.v$;Equal;b^OpenFolder;%AppCfgDir%
+Crun3,Transaction,,,Crun^=Judge;IfElse;$key.v$;Equal;c^OpenFolder;%AppUiDir%
+Crun4,Transaction,,,Crun^=Judge;IfElse;$key.v$;Equal;d^OpenFolder;%SnrsDir%
+Crun5,Transaction,,,Crun^=Judge;IfElse;$key.v$;Equal;e^OpenFolder;%AppOutputDir%
+Else,Transaction,,,Crun^=Judge;IfAnyElse;Equal;$key.v$;a;b;c;d;e^DoNothing^OpenFolder;%SnrDir%

@@ -1,0 +1,31 @@
+<ArrayOfKeyValue>
+	<KeyValue>
+		<Key>Undefined</Key>
+		<Value>Undefined</Value>
+	</KeyValue>
+	
+	<KeyValue>
+		<Key>Internet</Key>
+		<Value>Internet</Value>
+	</KeyValue>
+	
+	<KeyValue>
+		<Key>LGGZLAN</Key>
+		<Value>LGGZ LAN</Value>
+	</KeyValue>
+	
+	<KeyValue>
+		<Key>LGSZLAN</Key>
+		<Value>LGSZ LAN</Value>
+	</KeyValue>
+	
+	<KeyValue>
+		<Key>LGUSLAN</Key>
+		<Value>LGUS LAN</Value>
+	</KeyValue>
+	
+	<KeyValue>
+		<Key>LGDELAN</Key>
+		<Value>LGDE LAN</Value>
+	</KeyValue>
+	</ArrayOfKeyValue>

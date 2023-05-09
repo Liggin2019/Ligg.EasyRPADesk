@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "VYk3hjlTqZa8T/MvQnLfWUOgRlTvZ3Qqlg6vUX22OcrqP8PwdrfWzl2qieKjZtVIzmjVPnCqwBw5DzFVdMuzxw==",
+  "success": true,
+  "projectFilePath": "D:\\Doing\\coding\\coding-doing\\arch\\Ligg.RpaDesk\\src-sharing\\src\\Ligg.Infrastructure\\Ligg.Infra.DataParser\\Ligg.Infrastructure.DataParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adm-dev\\.nuget\\packages\\jquery\\2.1.1\\jquery.2.1.1.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\npoi\\2.5.6\\npoi.2.5.6.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\npoi.ooxml.dll\\2.0.6\\npoi.ooxml.dll.2.0.6.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\npoi.openxml4net.dll\\2.0.6\\npoi.openxml4net.dll.2.0.6.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\npoi.openxmlformats.dll\\2.0.6\\npoi.openxmlformats.dll.2.0.6.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\sampledependency\\1.0.0\\sampledependency.1.0.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

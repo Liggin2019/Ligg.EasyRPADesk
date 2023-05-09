@@ -1,0 +1,71 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>Option</Name><TypeName>Variable</TypeName><Expression/><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>Image</Name><TypeName>Variable</TypeName><Expression/><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>Text</Name><TypeName>Variable</TypeName><Expression>Text not defined</Expression><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>UnderDevRun</Name><TypeName>Transaction</TypeName><Expression>Crun^=Judge;IfElse;#0#;Equal;UnderDev^SetVariableValue;#Text#;This function is under developing...</Expression><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>NoAuthRun</Name><TypeName>Transaction</TypeName><Expression>Crun^=Judge;IfElse;#0#;Equal;NoAuth^SetVariableValue;#Text#;You have no authorization</Expression><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>NoServerRun</Name><TypeName>Transaction</TypeName><Expression>Crun^=Judge;IfElse;#0#;Equal;NoServer^SetVariableValue;#Text#;Connecting server failed...</Expression><SkipOnInitFlag/>
+			
+		</Procedure><Procedure>
+			
+			<Name>Test1</Name><TypeName>Transaction</TypeName><Expression>PopupMsg;1;1111</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>Test2</Name><TypeName>Transaction</TypeName><Expression>PopupMsg;2;2222</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>TestXrun</Name><TypeName>Transaction</TypeName><Expression>Xrun;#Test1#,#Test2#</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>TestCrunXrun</Name><TypeName>Transaction</TypeName><Expression>Crun^=Judge;IfElse;#0#;Equal;NoServer^Xrun;#TestXrun#</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>TestCrunXrun1</Name><TypeName>Transaction</TypeName><Expression>Crun^=Judge;IfElse;#0#;Equal;NoServer1^Xrun;#TestXrun#</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>TestCrun1</Name><TypeName>Transaction</TypeName><Expression>Crun^=Judge;IfElse;#0#;Equal;NoServer1^PopupMsg;1;1111</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>TestCrun2</Name><TypeName>Transaction</TypeName><Expression>Crun^=Judge;IfElse;#0#;Equal;NoServer^PopupMsg;2;222</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>TestXrunCrun1</Name><TypeName>Transaction</TypeName><Expression>Xrun;#TestCrun1#</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>TestXrunCrun2</Name><TypeName>Transaction</TypeName><Expression>Xrun;#TestCrun2#</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>TestXrunCrunXrun</Name><TypeName>Transaction</TypeName><Expression>Xrun;#TestCrunXrun#</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure><Procedure>
+			
+			<Name>TestXrunCrunXrun1</Name><TypeName>Transaction</TypeName><Expression>Xrun;#TestCrunXrun1#</Expression><SkipOnInitFlag>true</SkipOnInitFlag>
+			
+		</Procedure>
+</ArrayOfProcedure>

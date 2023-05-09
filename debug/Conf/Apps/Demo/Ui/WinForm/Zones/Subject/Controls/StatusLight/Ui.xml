@@ -1,0 +1,475 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>5</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine10</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row10</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>687</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLightL10</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row100</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>StatusLight10</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLight10</Name><TypeName>Control</TypeName>
+			<ControlTypeName>StatusLight</ControlTypeName>
+			
+			
+			
+			<Row>Row100</Row><StyleClass/><StyleText>DataSourceType:Larray|LabelWidth:340|</StyleText>
+			
+			<DisplayName>=GetApplicationAnnexText;Remark1</DisplayName><DataSource>false,yyy yyyy yyyy yyy yyy fffff fff ff</DataSource>			
+			<Action>PopupMsg^value, text and msg^=Combine;;val=;$StatusLight10.v$; txt=;$StatusLight10.t$</Action>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>560</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row101</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine11</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row101</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>687</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLightL20</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row200</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>StatusLight20</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLight20</Name><TypeName>Control</TypeName>
+			<ControlTypeName>StatusLight</ControlTypeName>
+			
+			
+			
+			<Row>Row200</Row><StyleClass/><StyleText>DataSourceType:Larray|LabelWidth:0|</StyleText>
+			
+			<DisplayName>=GetApplicationAnnexText;Remark1</DisplayName><DataSource>true,yyy yyyy yyyy yyy yyy fffff fff ff</DataSource>			
+			<Action>PopupMsg^value, text and msg^=Combine;;val=;$StatusLight20.v$; txt=;$StatusLight20.t$</Action>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>560</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row201</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine21</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row201</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>687</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLightL30</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row300</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>StatusLight30</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLight30</Name><TypeName>Control</TypeName>
+			<ControlTypeName>StatusLight</ControlTypeName>
+			
+			
+			
+			<Row>Row300</Row><StyleClass/><StyleText>DataSourceType:Ldict|HideLight:true|MsgHasBorder:true|LabelWidth:340|MsgForeColor:255,0,0|ForeColor:255,0,255|</StyleText>
+			
+			<DisplayName>=GetApplicationAnnexText;Remark1</DisplayName><DataSource>Success:false|Message:yyy yyyy yyyy yyy yyy fffff fff ff|</DataSource>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>560</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row301</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine31</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row301</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>687</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row400</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLightL40</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row400</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>StatusLight40</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLight40</Name><TypeName>Control</TypeName>
+			<ControlTypeName>StatusLight</ControlTypeName>
+			
+			
+			
+			<Row>Row400</Row><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json|</StyleText>
+			
+			<DisplayName>=GetApplicationAnnexText;Remark1</DisplayName><DataSource>{"Success":false,"Message":"yyy yyyy yyyy yyy yyy fffff fff ff"}</DataSource>			
+			<Action>PopupMsg^value, text and msg^=Combine;;val=;$StatusLight40.v$; txt=;$StatusLight40.t$</Action>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>440</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row401</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine41</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row401</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>687</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row900</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>-1</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>VerifyNumberRangeL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row900</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>Input A Number</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Number</Name><TypeName>Control</TypeName>
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			
+			
+			<Row>Row900</Row><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>50</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Refresh</Name><TypeName>Control</TypeName>
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			
+			
+			<Row>Row900</Row><StyleClass>Button</StyleClass><StyleText/>
+			
+			<DisplayName>Verify</DisplayName><DataSource/>			
+			<Action>RefreshControlDataSource;$StatusLight90$</Action>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>5</OffsetOrPositionY><Width>60</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row901</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>280</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLightL90</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row901</Row><StyleClass>FieldName</StyleClass><StyleText/>
+			
+			<DisplayName>StatusLight90</DisplayName><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>280</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>StatusLight90</Name><TypeName>Control</TypeName>
+			<ControlTypeName>StatusLight</ControlTypeName>
+			
+			
+			
+			<Row>Row901</Row><StyleClass/><StyleText>DataSourceType:Json|NotInitDataSource:true|ArrangementType:Vertical|MsgHasBorder:true|MsgHeight:170|TextForeColor:255,0,0|FontSize:15.5</StyleText>
+			
+			<DisplayName>Verify Number Range Between 1 to 999</DisplayName><DataSource>=Validate;$Number.v$;NumeralRange,1,999</DataSource>			
+			<Action>PopupMsg^value, text and msg^=Combine;;val=;$StatusLight90.v$; txt=;$StatusLight90.t$</Action>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>560</Width><Height>280</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row1000</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><DataSource/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine99</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row1000</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><DataSource/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>687</Width><Height>1</Height>
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

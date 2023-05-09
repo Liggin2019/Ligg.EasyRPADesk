@@ -1,0 +1,21 @@
+Name,TypeName,ControlTypeName,Row,StyleClass,StyleText,DisplayName,Location,DataSource,Value,Action,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+Row10,Control,Row,,,,,,,,,-1,5,-1,1
+SplitLine10,Control,SplitRectangle,Row10,Level1,,,,,,,0,0,568,1
+Row100,Control,Row,,,,,,,,,-1,8,-1,20
+ComboBoxL100,Control,Label,Row100,Level1,,ComboBox10,,,,,8,0,120,20
+ComboBox100,Control,ComboBox,Row100,Level2,DataSourceType:Larray|,,,"type1,type2,type3,",,PopupMsg^value and text^=Combine; ;val=;$ComboBox100.v$;txt=;$ComboBox100.t$,8,0,240,20
+DataSrcTypeL100,Control,Label,Row100,,,DataSrcType:Larry,,,,,8,0,120,20
+Row101,Control,Row,,,,,,,,,-1,8,-1,1
+SplitLine101,Control,SplitRectangle,Row101,Level1,,,,,,,-1,0,568,1
+Row200,Control,Row,,,,,,,,,-1,8,-1,20
+ComboBoxL200,Control,Label,Row200,Level1,,ComboBox20,,,,,8,0,120,20
+ComboBox200,Control,ComboBox,Row200,Level2,DataSourceType:Ldict|,,,"type1:type1Name,typ2:type2Name,type3:type3Name,",,PopupMsg^value and text^=Combine; ;val=;$ComboBox200.v$;txt=;$ComboBox200.t$,8,0,240,20
+DataSrcTypeL200,Control,Label,Row200,,,DataSrcType:Ldict,,,,,8,0,120,20
+Row201,Control,Row,,,,,,,,,-1,8,-1,1
+SplitLine201,Control,SplitRectangle,Row201,Level1,,,,,,,-1,0,568,1
+Row400,Control,Row,,,,,,,,,-1,8,-1,20
+ComboBoxL400,Control,Label,Row400,Level1,,ComboBox40,,,,,8,0,120,20
+ComboBox400,Control,ComboBox,Row400,Level2,"DataSourceType:ConfigFile,DisplayByLang:true,",,\Data\ComboBox400,dataSrc,,PopupMsg^value and text^=Combine; ;val=;$ComboBox400.v$;txt=;$ComboBox400.t$,8,0,240,20
+DataSrcTypeL400,Control,Label,Row400,,,DataSrcType:Config File,,,,,8,0,200,20
+Row401,Control,Row,,,,,,,,,-1,8,-1,1
+SplitLine401,Control,SplitRectangle,Row401,Level1,,,,,,,-1,0,568,1

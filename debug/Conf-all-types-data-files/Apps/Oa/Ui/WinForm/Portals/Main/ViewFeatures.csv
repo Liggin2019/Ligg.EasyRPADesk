@@ -1,0 +1,8 @@
+IsPublic,Name,Alias,Location,ResizeParamsText,Invalid
+true,Public,,Public,,
+false,Dashboard,,Dashboard,"ToolBarSection:64,520,428|MainSectionLeftNavDivision:0,144,0|MainSectionLeftNavDivision1:590,0,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30|HorResizableDivisionStatus:none|HorResizableDivision1Status:show|",
+false,mngAttendance,mngAttendanceAm,Admin\Attendance,,
+false,Demo,,_Shared\Demo,,
+false,Demo1,,_Shared\Demo1,,
+false,DemoNoMenu,,_Shared\Demo1,"ToolBarSection:64,520,428|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30",
+false,Demo1NoMenu,,_Shared\Demo,"ToolBarSection:64,520,428|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30",

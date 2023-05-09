@@ -1,0 +1,17 @@
+FieldName,FieldValue
+HelpdeskEmail,LiggHelpdesk@outlook.com
+SupportMultiLanguages,true
+DefaultCulture,zh-CN
+DefaultLanguageCode,szh
+IncludedLanguages,"zh-CN:en, zh-CN:szh, en-US:en, de-DE:de"
+PhythonExecPath,
+ApplicationVersion,3.1.4
+HasCblpComponent,false
+CblpDllPath,
+CblpLibDir,d:\mdl\green
+CblpDataDir,
+RunBootStrapperTasksAtStart,false
+BootStrapperTasks,"CheckHostingServer,CheckLicenseAvailability,CheckPublicationValidity,CheckSoftwareVersion"
+VerifyPasswordAtStart,false
+PasswordVerificationRule,"Type:None,Params:www"
+LogonAtStart,false

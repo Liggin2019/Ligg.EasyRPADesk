@@ -1,0 +1,51 @@
+<ArrayOfAnnex>
+	<Annex>
+	<MasterName>OpenUrlsL</MasterName><DisplayName>打开网页</DisplayName>
+	
+	
+	<LanguageCode>szh</LanguageCode>
+	</Annex>
+	<Annex>
+		<MasterName>Clear</MasterName><DisplayName>清除</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>OpenUrls</MasterName><DisplayName>打开多个网页</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>Url1L</MasterName><DisplayName>网页1</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>OpenUrl1</MasterName><DisplayName>打开网页1</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>Url2L</MasterName><DisplayName>网页2</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>OpenUrl2</MasterName><DisplayName>打开网页2</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>Url3L</MasterName><DisplayName>网页3</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>OpenUrl3</MasterName><DisplayName>打开网页3</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex>
+		
+		
+</ArrayOfAnnex>

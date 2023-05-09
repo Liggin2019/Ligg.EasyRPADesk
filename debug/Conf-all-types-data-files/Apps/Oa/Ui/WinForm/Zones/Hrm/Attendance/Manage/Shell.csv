@@ -1,0 +1,10 @@
+Name,TypeName,GroupId,Expression,SkipOnInit,Condition
+DataToUpload,Variable,0,=Cblpc-AttendanceService-Get-GetData;ThisMonth,true,
+UploadParams,Variable,0,"=Join;Month=;2023-03-13;,;OrgId=;888",true,
+UploadResult,Variable,0,=HttpClientPost@Hrm/Attendance/AddMany@#DataToUpload.v#@#UploadParams.v#,true,
+Month,Variable,0,,true,
+DataToApproveParams,Variable,0,"=Join;Month=;#Month.v#;,;PageIndex=8,PageSize=15",true,
+DataToApprove,Variable,0,=HttpClientGet@Hrm/Attendance/GetPagedApproveModels@#DataToApproveParams.v#,true,
+ApproveResultParamms,Variable,0,"=Join;Month=;#Month.v#;,;OrgId=;888",true,
+ApproveResult,Variable,0,=HttpClientPost@Hrm/Attendance/Approve@#ApproveResultParamms.v#,true,
+UnavailableBtns,Variable,0,=HttpClientGet@sys/Permission/GetUnavailableClientViewButtons@View:mngAttendanceAm,false,

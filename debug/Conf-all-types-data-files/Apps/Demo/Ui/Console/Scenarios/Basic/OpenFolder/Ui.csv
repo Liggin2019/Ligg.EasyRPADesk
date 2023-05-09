@@ -1,0 +1,5 @@
+Name,TypeName,DisplayName,Value
+Tip,WriteLine,££££££££££££ Open Folder ££££££££££££,
+NewLine,NewLine,,2
+Dir,ReadLine,Directory,
+OpenFolder,Transaction,Open Folder,OpenFolder;$Dir.v$

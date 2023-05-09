@@ -1,0 +1,79 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>30</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>UrlL</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Url</DisplayName><DataSource/>			
+			<Value/><LoadValueOnInitFlag/><Action/>
+			
+			
+			<OffsetOrPositionX>20</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>40</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>UrlOption</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			<StyleClass/><StyleText>DataSourceType:Ldict|</StyleText><DisplayName>Url</DisplayName><DataSource>https://www.qq.com=QQ|https://www.baidu.com-=Baidu|https://www.sina.com.cn=Sina</DataSource>			
+			<Value/><LoadValueOnInitFlag/><Action>RefreshControlValue;$Url$</Action>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>60</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Url</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName/><DataSource/>			
+			<Value>$UrlOption.v$</Value><LoadValueOnInitFlag>true</LoadValueOnInitFlag><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>250</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenUrl</Name><TypeName>Control</TypeName>
+			<Row>Row10</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Url</DisplayName><DataSource>images\open-url.png</DataSource>			
+			<Value/><LoadValueOnInitFlag/><Action>OpenUrl;$Url.v$</Action>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

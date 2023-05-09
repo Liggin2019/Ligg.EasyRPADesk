@@ -1,0 +1,155 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><Action/><Action1/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>24</OffsetOrPositionY><Width>-1</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>FolderL</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><DisplayName>Folder</DisplayName><DataSource/>			
+			<Value/><Action/><Action1/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>48</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>FolderOption</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			<StyleClass/><StyleText>DataSourceType:Ldict|</StyleText><DisplayName>Folder</DisplayName><DataSource>%RootDir%=RootDir|%CfgDir%=CfgDir|%GlbCfgDir%=GlbCfgDir|%GlbSharedDir%=GlbSharedDir|%AppCfgDir%=AppCfgDir|%AppSharedDir%=AppSharedDir|%PortalsDir%=FuncsDir|%ViewsDir%=ViewsDir|%ZonesDir%=ZonesDir</DataSource>			
+			<Value/><Action>RefreshControlValue;$Folder$</Action><Action1/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>96</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OpenFolder</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><DisplayName>Open Folder</DisplayName><DataSource>%GlbSharedDir%\images\folder-open.png</DataSource>			
+			<Value/><Action>OpenFolder;$Folder.v$</Action><Action1/>
+			
+			
+			<OffsetOrPositionX>270</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>24</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<DisplayName/><DataSource/>
+			
+			<Value/><Action/><Action1/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Folder</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>RichTextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText>InitValue:true</StyleText><DisplayName/><DataSource/>			
+			<Value>$FolderOption.v$</Value><Action/><Action1>Xrun;$SetInitDir$,$RefreshShell$,$Crun$</Action1>
+			
+			
+			<OffsetOrPositionX>16</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>436</Width><Height>60</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SetInitDir</Name><TypeName>SubTransaction</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><Action>SetVariableValue;#InitDir#;$Folder.v$</Action>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>RefreshShell</Name><TypeName>SubTransaction</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><Action>RunShell;##;1</Action>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Crun</Name><TypeName>SubTransaction</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><Action>Crun^#IsDirValid.v#^SetControlValue;$Folder$;#Dir.v#</Action>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Test</Name><TypeName>SubTransaction</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<DisplayName/><StyleClass/><StyleText/>			
+			<Value/><Action>PopupMsg;;#IsDirValid.v#</Action>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

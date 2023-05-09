@@ -1,0 +1,7 @@
+Name,TypeName,ControlTypeName,StyleClass,StyleText,DisplayName,DockOrder,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+1,Control,Label,,"BackColor:250,0,250|",1,,Left,-1,-1,55,-1
+2,Control,Label,,"BackColor:250,250,0|",2,,Left,-1,-1,55,-1
+3,Control,Label,,"BackColor:0,250,250|",3,,Left,-1,-1,55,-1
+one,Control,Label,,"BackColor:250,0,0|",one,,Right,-1,-1,55,-1
+two,Control,Label,,"BackColor:0,0,250|",two,,Right,-1,-1,55,-1
+three,Control,Label,,"BackColor:0,250,0|",three,,Right,-1,-1,55,-1

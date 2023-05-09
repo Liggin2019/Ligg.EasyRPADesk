@@ -1,0 +1,8 @@
+Name,TypeName,DisplayName,Value,ValidationRules
+Tip,WriteLine,££££££££££££ Open Folder ££££££££££££,,
+NewLine,NewLine,,2,
+Dir,ReadLine,a existing folder,,Directory
+OpenFolder,Transaction,Open Folder,OpenFolder;$Dir.v$,
+Goto,GoTo,,NewLine,
+NewLine1,NewLine,,2,
+PressAnyKeyToExit,Transaction,,PressAnyKeyToExit,

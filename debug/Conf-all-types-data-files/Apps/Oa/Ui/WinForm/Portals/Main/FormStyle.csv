@@ -1,0 +1,10 @@
+FieldName,FieldValue
+Width,1024
+Height,768
+StartWindowState,maximized
+OrdinaryWindowStatus,maximized
+WindowRadius,0
+DrawIcon,true
+IconUrl,%GlbSharedDir%\icos\ligg-1.ico
+NotShowInTaskbar,false
+ResizeParamsText,"ToolBarSection:64,520,428|MainSectionLeftNavDivision:125,120,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30"

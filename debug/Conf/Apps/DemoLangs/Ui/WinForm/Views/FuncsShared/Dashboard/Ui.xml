@@ -1,0 +1,123 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Name>LeftArea</Name><Container>MainSectionLeftNavDivision1MiddleRegion</Container><TypeName>ContentArea</TypeName>
+			<Location/><ShellArgs/><StyleClass/><StyleText>Padding:0,0,0,5|</StyleText>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>AboutUsL</Name><Container>LeftArea</Container><TypeName>Zone</TypeName>
+			<Location>%GlbUiDir%\Zones\TitleLabel</Location><ShellArgs>About Us,Level1,</ShellArgs><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>AboutUs</Name><Container>LeftArea</Container><TypeName>Zone</TypeName>
+			<Location>About\About</Location><ShellArgs/><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>ContactUs</Name><Container>LeftArea</Container><TypeName>Zone</TypeName>
+			<Location>About\Contact</Location><ShellArgs/><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>MainArea</Name><Container>MainSectionMainDivisionMiddleRegion</Container><TypeName>ContentArea</TypeName>
+			<Location/><ShellArgs/><StyleClass/><StyleText>Padding:0,0,0,5|</StyleText>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>DocsL</Name><Container>MainArea</Container><TypeName>Zone</TypeName>
+			<Location>%GlbUiDir%\Zones\TitleLabel</Location><ShellArgs>Documentation,Level1,</ShellArgs><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>Docs</Name><Container>MainArea</Container><TypeName>Zone</TypeName>
+			<Location>About\Docs</Location><ShellArgs/><StyleClass/><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>793</Height>
+		</LayoutElement>
+
+	</ArrayOfLayoutElement>

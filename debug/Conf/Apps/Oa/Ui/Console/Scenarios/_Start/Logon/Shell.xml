@@ -1,0 +1,19 @@
+<ArrayOfProcedure>
+	<Procedure>
+			
+			<Name>Account</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression></Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>Password</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression></Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>LogonResult</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=HttpClientLogon;Sys/User/Logon;#Account.v#;#Password.v#</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>LogonResult1</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Judge;UniversalResult;#LogonResult.v#</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure>
+</ArrayOfProcedure>

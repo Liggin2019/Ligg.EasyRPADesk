@@ -1,0 +1,8 @@
+Name,Container,TypeName,Location,ShellArgs,StyleClass,StyleText,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+LeftArea,MainSectionLeftNavDivision1MiddleRegion,ContentArea,,,,"Padding:0,0,0,5|",Fill,-1,-1,-1,-1
+AboutUsL,LeftArea,Zone,%GlbUiDir%\Zones\TitleLabel,"About Us,Level1,",,,Top,-1,-1,-1,-1
+AboutUs,LeftArea,Zone,About\About,,,,Top,-1,-1,-1,-1
+ContactUs,LeftArea,Zone,About\Contact,,,,Top,-1,-1,-1,-1
+MainArea,MainSectionMainDivisionMiddleRegion,ContentArea,,,,"Padding:0,0,0,5|",Fill,-1,-1,-1,-1
+DocsL,MainArea,Zone,%GlbUiDir%\Zones\TitleLabel,"Documentation,Level1,",,,Top,-1,-1,-1,-1
+Docs,MainArea,Zone,About\Docs,,,,Top,-1,-1,-1,793

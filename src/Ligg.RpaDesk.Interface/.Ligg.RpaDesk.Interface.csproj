@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>4.3.7.0</Version>
+    <AssemblyName>Interface</AssemblyName>
+    <RootNamespace>Ligg.RpaDesk.Interface</RootNamespace>
+    <PackageId>Ligg.EasyRpaDesk.Interface.Std</PackageId>
+    <Authors>Liggit</Authors>
+    <Company>Liggit</Company>
+    <Product>Ligg.RpaDesk</Product>
+    <Description>Ligg.EasyRpaDesk.Interface.Std</Description>
+    <Copyright>Copyright © Liggit 2023</Copyright>
+    <AssemblyVersion>4.3.7.0</AssemblyVersion>
+    <FileVersion>4.3.7.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\debug-lib\Interface</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\release-lib\Interface</OutputPath>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<ApplicationSetting>
+	<HelpdeskEmail/>
+	<SupportMultiLanguages>false</SupportMultiLanguages>
+	<DefaultCulture/>
+	<DefaultLanguageCode>en</DefaultLanguageCode>
+	<IncludedLanguages/>
+	
+	<PhythonExecPath/>	
+	<ApplicationVersion>1.1.10</ApplicationVersion>
+	
+	<VerifyPasswordAtStart>false</VerifyPasswordAtStart>
+	<PasswordVerificationRule>Type:None,Params:HappyCoding</PasswordVerificationRule>
+	<LogonAtStart>false</LogonAtStart>
+	<RunBootStrapperAtStart>false</RunBootStrapperAtStart>
+	<BootStrapperTasks></BootStrapperTasks>
+
+</ApplicationSetting>

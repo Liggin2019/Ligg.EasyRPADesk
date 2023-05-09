@@ -1,0 +1,16 @@
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\bin\Release\netstandard2.0\Ligg.Infra.deps.json
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\bin\Release\netstandard2.0\Ligg.Infra.dll
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\bin\Release\netstandard2.0\Ligg.Infra.pdb
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\bin\Release\netstandard2.0\zh-CN\Ligg.Infra.resources.dll
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infra.csprojAssemblyReference.cache
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infrastructure.Base.Resources.BaseRes.resources
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infrastructure.Base.Resources.BaseRes.zh-CN.resources
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infra.csproj.GenerateResource.cache
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infra.AssemblyInfoInputs.cache
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infra.AssemblyInfo.cs
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infra.csproj.CoreCompileInputs.cache
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\zh-CN\Ligg.Infra.resources.dll
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infra.dll
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infra.pdb
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\bin\Release\netstandard2.0\System.Web.Extensions.dll
+E:\Doing\coding\project\Ligg.Infra\src\Ligg.Infra\obj\Release\netstandard2.0\Ligg.Infra.csproj.CopyComplete

@@ -1,0 +1,13 @@
+<FormStyle>
+	
+	<Width>1112</Width>
+	<Height>853</Height>
+    
+    <DrawIcon>true</DrawIcon>
+    <IconUrl>%AppSharedDir%\Icos\OrpTk.ico</IconUrl>
+      
+    <ResizeParamsText>MainSectionLeftNavDivision1:590,0,0|HorResizableDivision1Status:hide|
+    
+    </ResizeParamsText>
+    	
+</FormStyle>

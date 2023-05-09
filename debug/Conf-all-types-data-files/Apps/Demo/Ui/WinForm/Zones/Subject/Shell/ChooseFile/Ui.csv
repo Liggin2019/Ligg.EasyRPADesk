@@ -1,0 +1,17 @@
+Name,TypeName,Row,ControlTypeName,DisplayName,StyleClass,StyleText,Value,Action,Action1,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+Row100,Control,,Row,,,,,,,-1,8,-1,24
+ChooseFileL,Control,Row100,Label,Choose File(Double Click),Level1,,,,,8,0,180,24
+FilePath,Control,Row100,TextBox,,,,Double click to choose a file...,,"Xrun;$RefreshShell$,$Crun$",8,4,620,24
+RefreshShell,SubTransaction,Row100,,,,,,"RefreshProcedures;#FilePath#,#IsPathValid#",,-1,-1,-1,-1
+Crun,SubTransaction,Row100,,,,,,"Crun^#IsPathValid.v#^Xrun;$SetFilePath$,$SetContent$",,-1,-1,-1,-1
+SetFilePath,SubTransaction,Row100,,,,,,SetControlValue;$FilePath$;#FilePath.v#,,-1,-1,-1,-1
+SetContent,SubTransaction,Row100,,,,,,SetControlValue^$Content$^=GetContentFromTextFile;$FilePath.v$,,-1,-1,-1,-1
+Row101,Control,,Row,,,,,,,-1,4,-1,1
+SplitLine11,Control,Row101,SplitRectangle,,Level1,,,,,8,0,816,1
+Row900,Control,,Row,,,,,,,-1,8,-1,24
+ContentL,Control,Row900,Label,Content,Level1,,,,,8,0,100,24
+ClearContent,Control,Row900,CommandLabel,Clear Content,CmdLabel,,,ClearControls;$Content$,,600,0,100,24
+Row901,Control,,Row,,,,,,,-1,4,-1,1
+SplitLine91,Control,Row901,SplitRectangle,,Level1,,,,,8,0,816,1
+Row1000,Control,,Row,,,,,,,-1,8,-1,300
+Content,Control,Row1000,RichTextBox,,FieldName,,,,,20,-1,800,300

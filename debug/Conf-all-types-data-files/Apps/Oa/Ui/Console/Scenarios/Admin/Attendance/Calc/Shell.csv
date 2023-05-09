@@ -1,0 +1,5 @@
+Name,TypeName,GroupId,Expression,SkipOnInit,Condition
+DataToUpload,Variable,0,=Cblpc-AttendanceService-Get-GetData;ThisMonth,true,
+UnavailableBtns,Variable,0,=HttpClientGet@sys/Permission/GetUnavailableClientViewButtons@View:mngAttendance,false,
+HasNoPermission,Variable,0,=Judge;IsInLarry;btnGetAttendanceUploadModels;#UnavailableBtns.v#,false,
+HasPermission,Variable,0,=Judge;Not;#HasNoPermission.v#,false,

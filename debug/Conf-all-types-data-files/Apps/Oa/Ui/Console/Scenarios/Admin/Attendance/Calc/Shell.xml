@@ -1,0 +1,19 @@
+<ArrayOfProcedure>
+	<Procedure>
+			
+			<Name>DataToUpload</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Cblpc-AttendanceService-Get-GetData;ThisMonth</Expression>
+			<SkipOnInit>true</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>UnavailableBtns</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=HttpClientGet@sys/Permission/GetUnavailableClientViewButtons@View:mngAttendance</Expression>
+			<SkipOnInit>false</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>HasNoPermission</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Judge;IsInLarry;btnGetAttendanceUploadModels;#UnavailableBtns.v#</Expression>
+			<SkipOnInit>false</SkipOnInit><Condition/>
+		</Procedure><Procedure>
+			
+			<Name>HasPermission</Name><TypeName>Variable</TypeName><GroupId>0</GroupId><Expression>=Judge;Not;#HasNoPermission.v#</Expression>
+			<SkipOnInit>false</SkipOnInit><Condition/>
+		</Procedure>
+</ArrayOfProcedure>

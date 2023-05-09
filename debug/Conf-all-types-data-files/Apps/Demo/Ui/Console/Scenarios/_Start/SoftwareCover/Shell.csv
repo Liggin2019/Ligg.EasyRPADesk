@@ -1,0 +1,5 @@
+Name,TypeName,DisplayName,Expression,GroupId,ShowRunningStatus
+Action1,Transaction,Check Hosting Location,Sleep;800,1,true
+Action2,Transaction,Check Software Version,Sleep;800,1,true
+Action3,Transaction,Check License Availability,Sleep;800,1,true
+Action4,Transaction,Check Publishment Validity,Sleep;800,1,true

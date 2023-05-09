@@ -1,0 +1,13 @@
+Name,TypeName,Container,Location,ShellArgs,StyleClass,StyleText,DisplayName,Remark,Action,DockOrder,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height,Invalid
+FormHeaderArea,ContentArea,ToolBarSectionLeftRegion,,,,,,,,,Fill,-1,-1,-1,-1,
+FormHeader,Zone,FormHeaderArea,Public\FormHeader,,,,,,,,Fill,-1,-1,-1,-1,
+ComAndSysInfoArea,ContentArea,MainSectionMainDivisionUpRegion,,,,,,,,,Fill,-1,-1,-1,-1,
+ComputerAndSystemInfoL,Zone,ComAndSysInfoArea,%GlbUiDir%\Zones\TitleLabel,"Computer and System Info.,Level1,,TextAlign:MiddleLeft",,BackColor:Transparent,,,,,Top,-1,-1,-1,30,
+ComputerInfo,Zone,ComAndSysInfoArea,Public\ComputerInfo,,,Style:Rounded|Radius:20,,,,,,6,30,-1,-1,
+TansactionArea,ContentArea,MainSectionRightDivisionUpRegion,,,,,,,,,Fill,-1,-1,-1,-1,
+RecmdTransL,Zone,TansactionArea,%GlbUiDir%\Zones\TitleLabel,"Recmd Tansactions,Level1,TextAlign:MiddleLeft",,,,,,,Top,-1,-1,-1,30,
+RecmdTrans,Zone,TansactionArea,Public\RecmdTransactions,,,,,,,,Top,-1,-1,-1,-1,
+FavTransL,Zone,TansactionArea,%GlbUiDir%\Zones\TitleLabel,"Favorite Tansactions,Level1,TextAlign:MiddleLeft",,,,,,2,Bottom,-1,-1,-1,30,
+FavTrans,Zone,TansactionArea,Public\FavoriteTransactions,,,,,,,1,Bottom,-1,-1,-1,-1,
+SysAdmToolkitArea,ContentArea,MainSectionRightDivisionDownRegion,,,,,,,,,Fill,-1,-1,-1,-1,
+DeveloperToolkit,Zone,SysAdmToolkitArea,%GlbUiDir%\Zones\ImageTextButtonH,Developer Toolkit|%GlbSharedDir%\Images\tools-red-blue.png|PopupMsg@=GetSharedAnnexText;System Message@=GetSharedAnnexText;You have no authorization,,,,,,,Bottom,-1,-1,-1,30,

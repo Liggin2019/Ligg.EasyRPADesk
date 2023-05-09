@@ -1,0 +1,7 @@
+Name,TypeName,StartValue,Condition,Expression
+Option,Variable,,,
+Image,Variable,,,
+TextUnderDev,Variable,Undefined,=Judge;IfElse;#0#;Equal;UnderDev,This function is under developing...
+TextNoAuth,Variable,Undefined,=Judge;IfElse;#0#;Equal;NoAuth,You have no authorization
+TextNoServer,Variable,Undefined,=Judge;IfElse;#0#;Equal;NoServer,Connecting server failed...
+Text,Variable,,,=IfAnyElse;NotEqual;Undefined;Text not defined ;#TextUnderDev.v#;#TextNoAuth.v#;#TextNoServer.v#

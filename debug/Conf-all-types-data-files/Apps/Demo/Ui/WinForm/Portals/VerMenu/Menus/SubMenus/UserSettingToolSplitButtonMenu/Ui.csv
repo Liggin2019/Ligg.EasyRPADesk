@@ -1,0 +1,4 @@
+Id,ParentId,Name,ControlTypeName,DisplayName,Disabled,Invisible,Action,ImageUrl,Invali
+1,0,Avatar,,My Avatar,,,PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300,images\user.gif,
+2,0,Style,,My Style,,,PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300,\images\style.gif,
+3,0,FavoriteShortcuts,,Favorite Shortcuts,,,PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300,images\funcs.png,

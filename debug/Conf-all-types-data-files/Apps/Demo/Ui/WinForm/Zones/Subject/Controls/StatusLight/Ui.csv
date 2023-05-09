@@ -1,0 +1,32 @@
+Name,TypeName,ControlTypeName,Row,StyleClass,StyleText,DisplayName,DataSource,Action,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+Row10,Control,Row,,,,,,,-1,5,-1,1
+SplitLine10,Control,SplitRectangle,Row10,Level1,,,,,4,0,687,1
+Row100,Control,Row,,,,,,,-1,4,-1,24
+StatusLightL10,Control,Label,Row100,FieldName,,StatusLight10,,,4,0,120,24
+StatusLight10,Control,StatusLight,Row100,,DataSourceType:Larray|LabelWidth:340|,=GetApplicationAnnexText;Remark1,"false,yyy yyyy yyyy yyy yyy fffff fff ff","PopupMsg^value, text and msg^=Combine;;val=;$StatusLight10.v$; txt=;$StatusLight10.t$",4,0,560,24
+Row101,Control,Row,,,,,,,-1,4,-1,1
+SplitLine11,Control,SplitRectangle,Row101,Level1,,,,,4,0,687,1
+Row200,Control,Row,,,,,,,-1,0,-1,24
+StatusLightL20,Control,Label,Row200,FieldName,,StatusLight20,,,4,0,120,24
+StatusLight20,Control,StatusLight,Row200,,DataSourceType:Larray|LabelWidth:0|,=GetApplicationAnnexText;Remark1,"true,yyy yyyy yyyy yyy yyy fffff fff ff","PopupMsg^value, text and msg^=Combine;;val=;$StatusLight20.v$; txt=;$StatusLight20.t$",4,0,560,24
+Row201,Control,Row,,,,,,,-1,4,-1,1
+SplitLine21,Control,SplitRectangle,Row201,Level1,,,,,4,0,687,1
+Row300,Control,Row,,,,,,,-1,4,-1,24
+StatusLightL30,Control,Label,Row300,FieldName,,StatusLight30,,,4,0,120,24
+StatusLight30,Control,StatusLight,Row300,,"DataSourceType:Ldict|HideLight:true|MsgHasBorder:true|LabelWidth:340|MsgForeColor:255,0,0|ForeColor:255,0,255|",=GetApplicationAnnexText;Remark1,Success:false|Message:yyy yyyy yyyy yyy yyy fffff fff ff|,,4,0,560,24
+Row301,Control,Row,,,,,,,-1,4,-1,1
+SplitLine31,Control,SplitRectangle,Row301,Level1,,,,,4,0,687,1
+Row400,Control,Row,,,,,,,-1,4,-1,24
+StatusLightL40,Control,Label,Row400,FieldName,,StatusLight40,,,4,0,120,24
+StatusLight40,Control,StatusLight,Row400,Validator,DataSourceType:Json|,=GetApplicationAnnexText;Remark1,"{""Success"":false,""Message"":""yyy yyyy yyyy yyy yyy fffff fff ff""}","PopupMsg^value, text and msg^=Combine;;val=;$StatusLight40.v$; txt=;$StatusLight40.t$",4,0,440,24
+Row401,Control,Row,,,,,,,-1,4,-1,1
+SplitLine41,Control,SplitRectangle,Row401,Level1,,,,,4,0,687,1
+Row900,Control,Row,,,,,,,-1,0,-1,24
+VerifyNumberRangeL,Control,Label,Row900,FieldName,,Input A Number,,,4,0,120,24
+Number,Control,TextBox,Row900,,,,,,4,4,50,24
+Refresh,Control,TextButton,Row900,Button,,Verify,,RefreshControlDataSource;$StatusLight90$,4,5,60,20
+Row901,Control,Row,,,,,,,-1,4,-1,280
+StatusLightL90,Control,Label,Row901,FieldName,,StatusLight90,,,4,0,120,280
+StatusLight90,Control,StatusLight,Row901,,"DataSourceType:Json|NotInitDataSource:true|ArrangementType:Vertical|MsgHasBorder:true|MsgHeight:170|TextForeColor:255,0,0|FontSize:15.5",Verify Number Range Between 1 to 999,"=Validate;$Number.v$;NumeralRange,1,999","PopupMsg^value, text and msg^=Combine;;val=;$StatusLight90.v$; txt=;$StatusLight90.t$",4,0,560,280
+Row1000,Control,Row,,,,,,,-1,4,-1,1
+SplitLine99,Control,SplitRectangle,Row1000,Level1,,,,,4,0,687,1

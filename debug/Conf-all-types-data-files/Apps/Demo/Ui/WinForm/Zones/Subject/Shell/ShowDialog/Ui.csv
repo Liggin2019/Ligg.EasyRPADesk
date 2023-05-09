@@ -1,0 +1,13 @@
+Name,TypeName,Row,ControlTypeName,DisplayName,DataSource,Value,Action,Action1,OffsetOrPositionX,OffsetOrPositionY,Width,Height,StyleClass,StyleText
+Row100,Control,,Row,,,,,,-1,24,-1,24,,
+FolderL,Control,Row100,Label,Option,,,,,8,0,48,24,FieldName,
+Option,Control,Row100,ComboBox,Folder,%ZonesDir%=Szi|%ViewsDir%=Svi|,,RefreshControlValue;$RelativePath$,,8,0,96,24,,DataSourceType:Ldict|
+RefreshUi,Control,Row100,PictureBox,Refresh Ui,%GlbSharedDir%\images\refresh.png,,RefreshUi,,100,0,24,24,,
+OpenFolder,Control,Row100,PictureBox,Open Folder,%GlbSharedDir%\images\folder-open.png,,Crun^=Judge;IsEmpty;#Dir.v#^OpenFolder;$Option.v$^OpenFolder;#Dir.v#,,8,0,24,24,,
+ShowDialog,Control,Row100,PictureBox,Show Dialog,%GlbSharedDir%\images\details.png,,ShowDialog;$Option.t$;$RelativePath.v$,,8,0,24,24,,
+Row200,Control,,Row,,,,,,-1,16,-1,60,,
+RelativePath,Control,Row200,TextBox,,,Double click to choose Zone or View...,,"Xrun;$SetInitDir$,$RefreshShell$,$SetControlValue$",16,0,336,60,,
+SetInitDir,SubTransaction,Row200,,,,,SetVariableValue;#InitDir#;$Option.v$,,-1,-1,-1,-1,,
+RefreshShell,SubTransaction,Row200,,,,,"RefreshProcedures;#InitDir#,#Dir#,#RelativePath#",,-1,-1,-1,-1,,
+SetControlValue,SubTransaction,Row200,,,,,SetControlValue;$RelativePath$;#RelativePath.v#,,-1,-1,-1,-1,,
+Test,SubTransaction,Row200,,,,,PopupMsg;;$Option.t$,,-1,-1,-1,-1,,

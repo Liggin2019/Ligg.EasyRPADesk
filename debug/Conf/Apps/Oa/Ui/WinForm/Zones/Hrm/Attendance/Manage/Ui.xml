@@ -1,0 +1,627 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>-1</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>UploadL</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><ValidationRules/><DisplayName>Upload attendance data of last month</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>258</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Validator100</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json,NotInitDataSource:true</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource>#UploadResult.v#</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>400</Width><Height>22</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Calc</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Calculate attendance</DisplayName><DataSource>images\calc.png</DataSource>			
+			<Value/><Action>RunSenario@Oa@Admin\Attendance\Calc</Action>
+			
+			
+			<Invisible>=Judge;IsInLarry;btnImport;#UnavailableBtns.v#</Invisible><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>26</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>GetUploadData</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Get upload data</DisplayName><DataSource>images\download.png</DataSource>			
+			<Value/><Action>Xrun;$GetLocalData$,$SetUploadData$</Action>
+			
+			
+			<Invisible>=Judge;IsInLarry;btnImport;#UnavailableBtns.v#</Invisible><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>26</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>GetLocalData</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Get data from local</DisplayName><DataSource/>			
+			<Value/><Action>RefreshProcedures;#DataToUpload#</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SetUploadData</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Set upload data</DisplayName><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$DataToUpload$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Upload</Name><TypeName>Control</TypeName>
+			<Row>Row100</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Upload data to server</DisplayName><DataSource>images\upload.png</DataSource>			
+			<Value/><Action>Xrun;$Upload1$,$Upload2$,$Upload3$</Action>
+			
+			
+			<Invisible>=Judge;IsInLarry;btnImport;#UnavailableBtns.v#</Invisible><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>26</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Upload1</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$Validator200$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Upload2</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>Crun^$Validator200.v$^RefreshProcedures;#UploadParams#,#UploadResult#</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Upload3</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$Validator100$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row199</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine199</Name><TypeName>Control</TypeName>
+			<Row>Row199</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>760</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>6</OffsetOrPositionY><Width>-1</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>UploadedDataL</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<ValidationRules/><DisplayName>Data to import</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>100</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Validator200</Name><TypeName>Control</TypeName>
+			<Row>Row200</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json,NotInitDataSource:true</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource>=ValidateInput;$DataToUpload$</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>760</Width><Height>22</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row210</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>120</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>DataToUpload</Name><TypeName>Control</TypeName>
+			<Row>Row210</Row>
+			
+			
+			<ControlTypeName>DataGridViewEx</ControlTypeName>
+			
+			<StyleClass/><StyleText>DataSourceType:Json,NotInitDataSource:true,BackColor:25 25 25</StyleText><ValidationRules>Mandatory</ValidationRules><DisplayName/><DataSource>#DataToUpload.v#</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>760</Width><Height>120</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row500</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>24</OffsetOrPositionY><Width>-1</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ApproveL</Name><TypeName>Control</TypeName>
+			<Row>Row500</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><ValidationRules/><DisplayName>Approve attendance data of last month</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>258</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Validator500</Name><TypeName>Control</TypeName>
+			<Row>Row500</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json,NotInitDataSource:true</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource>#ApproveResult.v#</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>3</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>431</Width><Height>22</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>GetApproveData</Name><TypeName>Control</TypeName>
+			<Row>Row500</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Get approve attendance</DisplayName><DataSource>images\download.png</DataSource>			
+			<Value/><Action>Xrun;$SetMonth$,$GetServerData$,$SetApproveData$</Action>
+			
+			
+			<Invisible>=Judge;IsInLarry;btnApprove;#UnavailableBtns.v#</Invisible><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>26</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SetMonth</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Set month</DisplayName><DataSource/>			
+			<Value/><Action>SetVariableValue;#Month#;$Month.v$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>GetServerData</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Get data from server</DisplayName><DataSource/>			
+			<Value/><Action>RefreshProcedures;#DataToApproveParams#,#DataToApprove#</Action>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SetApproveData</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Set approve data</DisplayName><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$DataToApprove$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Approve</Name><TypeName>Control</TypeName>
+			<Row>Row500</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Approve</DisplayName><DataSource>images\approve.gif</DataSource>			
+			<Value/><Action>Xrun;$Approve1$,$Approve2$,$Approve3$,$Approve4$</Action>
+			
+			
+			<Invisible>=Judge;IsInLarry;btnApprove;#UnavailableBtns.v#</Invisible><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>26</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Approve1</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$Validator600$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Approve2</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>Crun^$Validator600.v$^RefreshProcedures;#ApproveResultParams#,#ApproveResult#^PopupMsg;Error;%OnlyLastMonthCanBeApproved%</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Approve3</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>Crun^$Validator600.v$@RefreshControlDataSource;$Validator500$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Approve4</Name><TypeName>SubTransaction</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$Validator500$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row599</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine599</Name><TypeName>Control</TypeName>
+			<Row>Row599</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>760</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row600</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>6</OffsetOrPositionY><Width>-1</Width><Height>26</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>InputMonthL</Name><TypeName>Control</TypeName>
+			<Row>Row600</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<ValidationRules/><DisplayName>Select Month</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>82</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>OnlyLastMonthL</Name><TypeName>Control</TypeName>
+			<Row>Row600</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<ValidationRules/><DisplayName>(%OnlyLastMonthCanBeApproved%)</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>220</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Month</Name><TypeName>Control</TypeName>
+			<Row>Row600</Row>
+			
+			
+			<ControlTypeName>DateTimePickerEx</ControlTypeName><StyleClass/><StyleText>CustomFormat:yyyy-MM|</StyleText>
+			
+			<ValidationRules>LastMonth</ValidationRules><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>3</OffsetOrPositionY><Width>100</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Validator600</Name><TypeName>Control</TypeName>
+			<Row>Row600</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json,NotInitDataSource:true</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource>=ValidateInput;$Month$</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>3</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>357</Width><Height>22</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row700</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>6</OffsetOrPositionY><Width>-1</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>DataToApproveL</Name><TypeName>Control</TypeName>
+			<Row>Row700</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName><StyleClass>Level2</StyleClass><StyleText/>
+			
+			<ValidationRules/><DisplayName>Data to approve</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>100</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row710</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>140</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>DataToApprove</Name><TypeName>Control</TypeName>
+			<Row>Row710</Row>
+			
+			
+			<ControlTypeName>DataGridViewEx</ControlTypeName>
+			
+			<StyleClass/><StyleText>DataSourceType:Json,NotInitDataSource:true,BackColor:25 25 25,ReadOnly:true</StyleText><ValidationRules>Mandatory</ValidationRules><DisplayName/><DataSource>#DataToApprove.v#</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>760</Width><Height>120</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

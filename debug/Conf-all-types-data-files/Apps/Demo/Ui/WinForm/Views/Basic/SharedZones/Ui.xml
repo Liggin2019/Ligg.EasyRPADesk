@@ -1,0 +1,106 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Name>MainArea</Name><Container>MainSectionMainDivisionMiddleRegion</Container><TypeName>ContentArea</TypeName>
+			<Location/><ShellArgs/><StyleText>Padding:2|</StyleText>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>TitleLabel</Name><Container>MainArea</Container>
+			<TypeName>Zone</TypeName><Location>%GlbUiDir%\Zones\TitleLabel</Location><ShellArgs>TitleLabel,Level1,TextAlign:MiddleLeft</ShellArgs>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<StyleText/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>TitleLabel1</Name><Container>MainArea</Container>
+			<TypeName>Zone</TypeName><Location>%GlbUiDir%\Zones\TitleLabel</Location><ShellArgs>Recmd Tansactions,Level1,TextAlign:MiddleLeft</ShellArgs>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<StyleText/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>TextButton</Name><Container>MainArea</Container>
+			<TypeName>Zone</TypeName><Location>%GlbUiDir%\Zones\TextButton</Location><ShellArgs>TextButton|DoNothing</ShellArgs>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<StyleText/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>TextButton1</Name><Container>MainArea</Container>
+			<TypeName>Zone</TypeName><Location>%GlbUiDir%\Zones\TextButton</Location><ShellArgs>TextButton|DoNothing</ShellArgs>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<StyleText/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>TextButton3</Name><Container>MainArea</Container>
+			<TypeName>Zone</TypeName><Location>%GlbUiDir%\Zones\ImageTextButtonV</Location><ShellArgs>TextButton|DoNothing</ShellArgs>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<StyleText/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>30</Height><Invalid/>
+		</LayoutElement>
+
+	</ArrayOfLayoutElement>

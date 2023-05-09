@@ -1,0 +1,7 @@
+Name,TypeName,Expression
+Option,Variable,
+Image,Variable,
+TextUnderDev,Variable,=IfElse;#0#;Equal;UnderDev;This function is under developing...;Undefined
+TextNoAuth,Variable,=IfElse;#0#;Equal;NoAuth;You have no authorization;Undefined
+TextNoServer,Variable,=IfElse;#0#;Equal;NoServer;Connecting server failed...;Undefined
+Text,Variable,=IfAnyElse;NotEqual;Undefined;Text not defined ;#TextUnderDev.v#;#TextNoAuth.v#;#TextNoServer.v#

@@ -1,0 +1,19 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>LeftLabel</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass/><StyleText>BackColor:0,255,255|TextAlign:MiddleCenter</StyleText><DisplayName>Left Label </DisplayName>			
+			<Action/>
+			
+			
+			<DockTypeName>Left</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>200</Width><Height>-1</Height>
+						
+			
+	</ZoneItem>
+	
+</ArrayOfZoneItem>

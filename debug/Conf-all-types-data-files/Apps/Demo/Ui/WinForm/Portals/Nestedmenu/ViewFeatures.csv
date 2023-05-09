@@ -1,0 +1,10 @@
+IsPublic,Name,Location,ResizeParamsText,Invalid
+true,Public,FuncsShared\Public,,
+false,Dashboard,FuncsShared\Dashboard,"ToolBarSection:64,460,300|MainSectionLeftNavDivision:0,144,0|MainSectionLeftNavDivision1:590,0,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30|HorResizableDivisionStatus:none|HorResizableDivision1Status:show|",
+false,About,FuncsShared\About,,
+false,OpenUrls,Basic\OpenUrls,,
+false,UnderDev,_Shared\UnderDev,,
+false,NoAuth,_Shared\NoAuth,,
+false,NoServer,_Shared\NoServer,,
+false,UnderDevNoMenu,_Shared\UnderDev,"ToolBarSection:64,460,300|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30",
+false,NoAuthNoMenu,_Shared\NoAuth,"ToolBarSection:64,460,300|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30",

@@ -1,0 +1,804 @@
+<ArrayOfAnnex>
+	
+	
+	
+	
+	
+	
+	<Annex>
+			
+			
+			
+			<lv>101</lv><MasterName>Dashboard</MasterName>
+			<DisplayName>首页</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>110</lv><MasterName>Administration</MasterName>
+			<DisplayName>管理工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex>
+	<Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Administration</MasterName>
+			<DisplayName>verwaltung</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>SystemTool</MasterName>
+			<DisplayName>系统工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>SystemTool</MasterName>
+			<DisplayName>System Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>en</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>SystemTool</MasterName>
+			<DisplayName>System Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>NetworkTool</MasterName>
+			<DisplayName>网络工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>NetworkTool</MasterName>
+			<DisplayName>Network Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>en</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>NetworkTool</MasterName>
+			<DisplayName>Network Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>SystemSetting</MasterName>
+			<DisplayName>系统设置</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>SystemSetting</MasterName>
+			<DisplayName>System Setting</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>en</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>SystemSetting</MasterName>
+			<DisplayName>System Setting</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>RemoteTool</MasterName>
+			<DisplayName>远程工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>RemoteTool</MasterName>
+			<DisplayName>Remote Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>en</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>RemoteTool</MasterName>
+			<DisplayName>Remote Tool</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>RunAsAdmin</MasterName>
+			<DisplayName>超级运行</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>RunAsAdmin</MasterName>
+			<DisplayName>Run As Admin</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>en</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>RunAsAdmin</MasterName><DisplayName>Run As Admin</DisplayName>
+			
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>115</lv><MasterName>Operation</MasterName>
+			<DisplayName>运维工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>115</lv><MasterName>Information</MasterName>
+			<DisplayName>机器信息</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>115</lv><MasterName>Registry</MasterName>
+			<DisplayName>注册表工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>115</lv><MasterName>Process</MasterName>
+			<DisplayName>进程工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>115</lv><MasterName>Service</MasterName>
+			<DisplayName>服务工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>115</lv><MasterName>Installation</MasterName>
+			<DisplayName>安装工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>115</lv><MasterName>Performance</MasterName>
+			<DisplayName>性能工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>120</lv><MasterName>Management</MasterName>
+			<DisplayName>运维管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Management</MasterName>
+			<DisplayName>Management</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Asset</MasterName>
+			<DisplayName>资产管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Asset</MasterName>
+			<DisplayName>Asset</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>License</MasterName>
+			<DisplayName>软件授权</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>License</MasterName>
+			<DisplayName>License</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>ServiceDesk</MasterName>
+			<DisplayName>服务台</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>ServiceDesk</MasterName>
+			<DisplayName>Service Desk</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Performance</MasterName>
+			<DisplayName>性能分析</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Performance</MasterName>
+			<DisplayName>Performance</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Server</MasterName>
+			<DisplayName>服务器</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Server</MasterName>
+			<DisplayName>Server</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Database</MasterName>
+			<DisplayName>数据库</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Database</MasterName>
+			<DisplayName>Database</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Network</MasterName>
+			<DisplayName>网络</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Network</MasterName>
+			<DisplayName>Network</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Storage</MasterName>
+			<DisplayName>存储</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Storage</MasterName>
+			<DisplayName>Storage</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Monitoring</MasterName>
+			<DisplayName>监控管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Monitoring</MasterName>
+			<DisplayName>Monitoring</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>RoutingInsp</MasterName>
+			<DisplayName>巡检管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Server1</MasterName>
+			<DisplayName>服务器</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Server1</MasterName>
+			<DisplayName>Server</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Database1</MasterName>
+			<DisplayName>数据库</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Database1</MasterName>
+			<DisplayName>Database</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Network1</MasterName>
+			<DisplayName>网络</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Network1</MasterName>
+			<DisplayName>Network</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Storage1</MasterName>
+			<DisplayName>存储</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Storage1</MasterName>
+			<DisplayName>Storage</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>RoutingInsp</MasterName>
+			<DisplayName>巡检工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>RoutingInsp</MasterName>
+			<DisplayName>- inspektion</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Daily</MasterName>
+			<DisplayName>日检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Daily</MasterName>
+			<DisplayName>Daily</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			<lv>---</lv><MasterName>Weekly</MasterName>
+			
+			
+			
+			<DisplayName>周检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<lv>---</lv><MasterName>Weekly</MasterName>
+			
+			
+			
+			<DisplayName>Weekly</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			<lv>---</lv><MasterName>Monthly</MasterName>
+			
+			
+			
+			<DisplayName>月检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<lv>---</lv><MasterName>Monthly</MasterName>
+			
+			
+			
+			<DisplayName>Monthly</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			<lv>---</lv><MasterName>Quarterly</MasterName>
+			
+			
+			
+			<DisplayName>季检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			<lv>---</lv><MasterName>Quarterly</MasterName>
+			
+			
+			
+			<DisplayName>Quarterly</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Yearly</MasterName>
+			<DisplayName>年检</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>---</lv><MasterName>Yearly</MasterName>
+			<DisplayName>Yearly</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex>
+	<Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Deployment</MasterName>
+			<DisplayName>部署管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Deployment</MasterName>
+			<DisplayName>Einsatz</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Configuration</MasterName>
+			<DisplayName>配置管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Configuration</MasterName>
+			<DisplayName>konfiguration</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>de</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Console</MasterName>
+			<DisplayName>在线部署</DisplayName><LanguageCode>szh</LanguageCode>
+			
+			
+			
+			
+			
+		</Annex><Annex>
+			
+			
+			
+			<lv>-</lv><MasterName>Console</MasterName>
+			<DisplayName>Console</DisplayName><LanguageCode>de</LanguageCode>
+			
+			
+			
+			
+			
+		</Annex>
+		
+</ArrayOfAnnex>

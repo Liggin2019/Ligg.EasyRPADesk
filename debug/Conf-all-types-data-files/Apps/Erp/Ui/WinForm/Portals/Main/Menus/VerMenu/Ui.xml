@@ -1,0 +1,273 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Id>110</Id><ParentId>0</ParentId><Name>Production</Name><DisplayName>Production</DisplayName>
+			
+			
+						
+			
+			
+			
+			
+						
+			<View/><ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11010</Id><ParentId>110</ParentId><Name>Product</Name><DisplayName>Product</DisplayName><View/>
+			
+			
+						
+			
+			
+			
+			
+						
+			<Action/><ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1101010</Id><ParentId>11010</ParentId><Name>Material</Name><DisplayName>Material</DisplayName><View/>
+			
+			
+						
+			
+			
+			
+			
+						
+			<Action/><ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>110101010</Id><ParentId>1101010</ParentId><Name>MaterialMgmt</Name><DisplayName>Manage</DisplayName><View>MngMaterial</View>
+			
+			
+						
+			
+			
+			
+			
+						
+			<Action/><ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>110101020</Id><ParentId>1101010</ParentId><Name>MaterialRpt</Name><DisplayName>Report</DisplayName><View>Demo1</View>
+			
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1101020</Id><ParentId>11010</ParentId><Name>BOM</Name><DisplayName>BOM</DisplayName><View>Demo</View>
+			
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11020</Id><ParentId>110</ParentId><Name>Procecure</Name><DisplayName>Procecure</DisplayName><View>Demo1</View>
+			
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11030</Id><ParentId>110</ParentId><Name>Warehouse</Name><DisplayName>Warehouse</DisplayName><View>Demo</View>
+			
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11050</Id><ParentId>110</ParentId><Name>Planning</Name><DisplayName>Planning</DisplayName>
+			<View>Demo1</View>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11060</Id><ParentId>110</ParentId><Name>Execution</Name><DisplayName>Execution</DisplayName>
+			<View>Demo</View>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>120</Id><ParentId>0</ParentId><Name>Sales</Name><DisplayName>Sales</DisplayName>
+			<View>Demo1</View><Action/>
+			
+						
+			
+			
+			
+			
+						
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>130</Id><ParentId>0</ParentId><Name>Quality</Name><DisplayName>Quality</DisplayName>
+			<View>Demo</View>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>140</Id><ParentId>0</ParentId><Name>Finance</Name><DisplayName>Finance</DisplayName>
+			<View>Demo1</View>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>150</Id><ParentId>0</ParentId><Name>Hrm</Name><DisplayName>Human Resource</DisplayName>
+			<View>Demo</View>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>160</Id><ParentId>0</ParentId><Name>System</Name><DisplayName>System</DisplayName>
+			<View>Demo1</View>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>16010</Id><ParentId>160</ParentId><Name>Thread</Name><DisplayName>Thread</DisplayName>
+			<View>Demo</View>
+			
+			
+			
+			
+			
+			<Action/>
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>16020</Id><ParentId>160</ParentId><Name>Cache</Name><DisplayName>Cache</DisplayName>
+			<View>Demo1</View>
+			
+			
+			
+			
+			
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;Connecting server failed...^^300</Action>
+			
+			
+			
+			<ImageUrl>0,1</ImageUrl>
+		</LayoutElement>
+
+</ArrayOfLayoutElement>

@@ -1,0 +1,4 @@
+Name,TypeName,ControlTypeName,StyleClass,StyleText,DisplayName,DataSource,Action,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height,ImageWidth,ImageHeight
+LogoImage,Control,PictureBox,,,,%GlbCfgDir%\Shared\Images\logo\logo.png,,,1,11,46,32,-1,-1
+ProductShortName,Control,Label,,"FontSize:17|FontStyle:Bold|ForeColor:10,40,150",=GetApplicationAnnexText;Remark,,,,48,7,130,45,-1,-1
+ProductDes,Control,Label,,"FontSize:8|ForeColor:255,255,255|",=GetApplicationAnnexText;Remark2,,,,100,14,400,30,-1,-1

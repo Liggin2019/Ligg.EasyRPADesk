@@ -1,0 +1,220 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			<Id>10</Id><ParentId>0</ParentId><Name>Operation</Name>
+						
+			<ControlTypeName/><DisplayName>Operation</DisplayName>
+			<Invisible/><Disabled/>
+			<Action/>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1010</Id><ParentId>10</ParentId><Name>EventMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Event Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1020</Id><ParentId>10</ParentId><Name>ChgMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Change Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1030</Id><ParentId>10</ParentId><Name>EmrgMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Emergency Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1040</Id><ParentId>10</ParentId><Name>ObjMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Object Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1050</Id><ParentId>10</ParentId><Name>ConfigMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Config Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1060</Id><ParentId>10</ParentId><Name>SchMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Scheduling Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1070</Id><ParentId>10</ParentId><Name>DeployMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Deploy Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1071</Id><ParentId>10</ParentId><Name>OlDeploy</Name>
+						
+			<ControlTypeName/><DisplayName>Online Deployment</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1080</Id><ParentId>10</ParentId><Name>ScDeploy</Name>
+						
+			<ControlTypeName/><DisplayName>Scheduling  Deployment </DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1089</Id><ParentId>10</ParentId><Name>Separator1089</Name>
+						
+			<ControlTypeName>Separator</ControlTypeName><DisplayName/>
+			<Invisible/><Disabled/>
+			<Action/>
+			<ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>1090</Id><ParentId>10</ParentId><Name>AdmTk</Name>
+						
+			<ControlTypeName/><DisplayName>Administrator Toolkit</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>20</Id><ParentId>0</ParentId><Name>Service</Name>
+						
+			<ControlTypeName/><DisplayName>Service</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>\images\Service.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2010</Id><ParentId>20</ParentId><Name>ServDesk</Name>
+						
+			<ControlTypeName/><DisplayName>Servive Desk</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2011</Id><ParentId>20</ParentId><Name>CmplMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Complaint Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2020</Id><ParentId>20</ParentId><Name>PrbmMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Problem Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2030</Id><ParentId>20</ParentId><Name>SLAMgr</Name>
+						
+			<ControlTypeName/><DisplayName>SLA Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2040</Id><ParentId>20</ParentId><Name>InccidentMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Inccident Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2050</Id><ParentId>20</ParentId><Name>AssetMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Asset Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2060</Id><ParentId>20</ParentId><Name>ChangeMgr</Name>
+						
+			<ControlTypeName/><DisplayName>Change Management</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2070</Id><ParentId>20</ParentId><Name>ServEval</Name>
+						
+			<ControlTypeName/><DisplayName>Servive Evaluation And Analysis</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2079</Id><ParentId>20</ParentId><Name>Separator2079</Name>
+						
+			<ControlTypeName>Separator</ControlTypeName><DisplayName/>
+			<Invisible/><Disabled/>
+			<Action/>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2080</Id><ParentId>20</ParentId><Name>UsrHelpdesk</Name>
+						
+			<ControlTypeName/><DisplayName>User Helpdesk</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>2090</Id><ParentId>20</ParentId><Name>UsrTk</Name>
+						
+			<ControlTypeName/><DisplayName>User Toolkit</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>images\Operation.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>30</Id><ParentId>0</ParentId><Name>Knowledge</Name>
+						
+			<ControlTypeName/><DisplayName>Knowledge</DisplayName>
+			<Invisible/><Disabled/>
+			<Action/>
+			<ImageUrl>\images\Knowledge.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>3010</Id><ParentId>30</ParentId><Name>DocLib</Name>
+						
+			<ControlTypeName/><DisplayName>Documentation Libary</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>\images\Knowledge.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>3020</Id><ParentId>30</ParentId><Name>MediaLib</Name>
+						
+			<ControlTypeName/><DisplayName>Media Libary</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>\images\Knowledge.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>3030</Id><ParentId>30</ParentId><Name>NwConnLib</Name>
+						
+			<ControlTypeName/><DisplayName>Network Connection Libary</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>\images\Knowledge.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>40</Id><ParentId>0</ParentId><Name>Wf</Name><ControlTypeName/><DisplayName>Work Flow</DisplayName>
+						
+			
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>\images\process.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>50</Id><ParentId>0</ParentId><Name>Project</Name>
+						
+			<ControlTypeName/><DisplayName>Project</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>\images\project.gif</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			<Id>60</Id><ParentId>0</ParentId><Name>Performance</Name>
+						
+			<ControlTypeName/><DisplayName>Performance</DisplayName>
+			<Invisible/><Disabled/>
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;You have no authorization^^300</Action>
+			<ImageUrl>\images\performance.png</ImageUrl><Invalid/>
+		</LayoutElement>
+</ArrayOfLayoutElement>

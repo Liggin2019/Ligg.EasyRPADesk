@@ -1,0 +1,232 @@
+<ArrayOfAnnex>
+	
+	
+	
+	
+	
+	
+	<Annex>
+			
+			
+			
+			<lv>101</lv><MasterName>Dashboard</MasterName>
+			<DisplayName>首页</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>110</lv><MasterName>Personal</MasterName>
+			<DisplayName>个人事务</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex>
+	<Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>MyMessage</MasterName>
+			<DisplayName>我的消息</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>MyShedule</MasterName>
+			<DisplayName>我的日程</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>MyNetDrive</MasterName>
+			<DisplayName>我的网盘</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>MyWf</MasterName>
+			<DisplayName>我的流程</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>MyProject</MasterName>
+			<DisplayName>我的项目</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+			
+			
+			
+			<lv>115</lv><MasterName>Administration</MasterName>
+			<DisplayName>行政人事</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Attendance</MasterName>
+			<DisplayName>考勤管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Salary</MasterName>
+			<DisplayName>薪资管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Dormitory</MasterName>
+			<DisplayName>宿舍管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Canteen</MasterName>
+			<DisplayName>食堂管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>BisinessBus</MasterName>
+			<DisplayName>班车管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>115</lv><MasterName>Performance</MasterName>
+			<DisplayName>性能工具</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>120</lv><MasterName>Project</MasterName>
+			<DisplayName>项目管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>130</lv><MasterName>NetDrive</MasterName>
+			<DisplayName>网盘</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>140</lv><MasterName>Knowledge</MasterName>
+			<DisplayName>知识库</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>150</lv><MasterName>System</MasterName>
+			<DisplayName>系统管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Thread</MasterName>
+			<DisplayName>线程管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<lv>--</lv><MasterName>Cache</MasterName>
+			<DisplayName>缓存管理</DisplayName>
+			
+			
+			
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+	
+		
+</ArrayOfAnnex>

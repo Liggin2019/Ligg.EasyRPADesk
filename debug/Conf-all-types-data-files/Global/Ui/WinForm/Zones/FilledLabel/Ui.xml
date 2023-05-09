@@ -1,0 +1,11 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>FilledLabel</Name>
+			<TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			<StyleClass>#1#</StyleClass>
+			<StyleText>#2#</StyleText>
+			<DisplayName>#0#</DisplayName>			
+			<DockTypeName>Fill</DockTypeName>
+		</ZoneItem>
+</ArrayOfZoneItem>

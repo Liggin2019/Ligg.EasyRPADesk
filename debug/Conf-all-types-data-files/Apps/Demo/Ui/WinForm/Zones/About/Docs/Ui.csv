@@ -1,0 +1,8 @@
+Name,TypeName,Container,ControlTypeName,Row,StyleClass,StyleText,DisplayName,DataSource,Action,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+DocsImage,Control,,PictureBox,,,,,\images\docs-en.png,,,47,16,1012,740
+GoPanel,ControlContainer,,ContainerPanel,,,CpntArrangeType:RowLining|Style:Rounded|Radius:40|,,,,,730,28,364,40
+LogoImage,Control,,PictureBox,,,,,%GlbCfgDir%\Shared\Images\Logo\logo-1.png,,,260,-10,100,100
+Row10,SubControl,GoPanel,Row,,,,,,,,-1,4,-1,32
+UrlL,SubControl,GoPanel,Label,Row10,,"ForeColor:16,16,16|FontStyle:Bold|FontSize:12.00",Url:,,,,10,0,38,32
+Url,SubControl,GoPanel,Label,Row10,,"ForeColor:160,160,160|FontSize:12.00",https://liggin2019.github.io/docs/en/,,,,0,0,266,32
+Go,SubControl,GoPanel,PictureBox,Row10,,,Click to visit docs site...,%GlbCfgDir%\Shared\Images\go.jpg,OpenUrl;https://liggin2019.github.io/docs/en/,,4,0,32,32

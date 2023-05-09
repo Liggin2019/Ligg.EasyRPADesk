@@ -1,0 +1,308 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><Location/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>5</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine10</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row10</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>568</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ComboBoxL100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row100</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>ComboBox10</DisplayName><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ComboBox100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			
+			
+			<Row>Row100</Row><StyleClass>Level2</StyleClass><StyleText>DataSourceType:Larray|</StyleText>
+			
+			<DisplayName/><Location/><DataSource>type1,type2,type3,</DataSource>			
+			<Value/><Action>PopupMsg^value and text^=Combine; ;val=;$ComboBox100.v$;txt=;$ComboBox100.t$</Action>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>240</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>DataSrcTypeL100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row100</Row><StyleClass/><StyleText/>
+			
+			<DisplayName>DataSrcType:Larry</DisplayName><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row101</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><Location/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine101</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row101</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>568</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ComboBoxL200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row200</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>ComboBox20</DisplayName><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ComboBox200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			
+			
+			<Row>Row200</Row><StyleClass>Level2</StyleClass><StyleText>DataSourceType:Ldict|</StyleText>
+			
+			<DisplayName/><Location/><DataSource>type1:type1Name,typ2:type2Name,type3:type3Name,</DataSource>			
+			<Value/><Action>PopupMsg^value and text^=Combine; ;val=;$ComboBox200.v$;txt=;$ComboBox200.t$</Action>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>240</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>DataSrcTypeL200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row200</Row><StyleClass/><StyleText/>
+			
+			<DisplayName>DataSrcType:Ldict</DisplayName><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row201</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><Location/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine201</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row201</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>568</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row400</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ComboBoxL400</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row400</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>ComboBox40</DisplayName><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>ComboBox400</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			
+			
+			<Row>Row400</Row><StyleClass>Level2</StyleClass><StyleText>DataSourceType:ConfigFile,DisplayByLang:true,</StyleText>
+			
+			<DisplayName/><Location>\Data\ComboBox400</Location><DataSource>dataSrc</DataSource>			
+			<Value/><Action>PopupMsg^value and text^=Combine; ;val=;$ComboBox400.v$;txt=;$ComboBox400.t$</Action>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>240</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>DataSrcTypeL400</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row400</Row><StyleClass/><StyleText/>
+			
+			<DisplayName>DataSrcType:Config File</DisplayName><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>200</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row401</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/><Location/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine401</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row401</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/><Location/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>568</Width><Height>1</Height>
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

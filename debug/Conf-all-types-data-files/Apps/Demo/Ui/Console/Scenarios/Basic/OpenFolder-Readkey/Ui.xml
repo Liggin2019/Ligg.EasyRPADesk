@@ -1,0 +1,121 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>Tip</Name><TypeName>WriteLine</TypeName>
+			<DisplayName>＃＃＃＃＃＃ Open Folder ＃＃＃＃＃＃</DisplayName>			
+			<Contitine/><Value/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine</Name><TypeName>NewLine</TypeName>
+			<DisplayName/>			
+			<Contitine/><Value>2</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>key</Name><TypeName>ReadKey</TypeName>
+			<DisplayName>Folder Option：a:CfgDir; b:AppCfgDir; c:AppUiDir; d:ScenariosDir; e:AppOutputDir;  other:ScenarioDir</DisplayName>			
+			<Contitine/><Value/>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun1</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Contitine/><Value>Crun^=Judge;IfElse;$key.v$;Equal;a^OpenFolder;%CfgDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun2</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Contitine/><Value>Crun^=Judge;IfElse;$key.v$;Equal;b^OpenFolder;%AppCfgDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun3</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Contitine/><Value>Crun^=Judge;IfElse;$key.v$;Equal;c^OpenFolder;%AppUiDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun4</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Contitine/><Value>Crun^=Judge;IfElse;$key.v$;Equal;d^OpenFolder;%SnrsDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Crun5</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Contitine/><Value>Crun^=Judge;IfElse;$key.v$;Equal;e^OpenFolder;%AppOutputDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem><UiItem>
+			<Name>Else</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Contitine/><Value>Crun^=Judge;IfAnyElse;Equal;$key.v$;a;b;c;d;e^DoNothing^OpenFolder;%SnrDir%</Value>
+			
+			
+			
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

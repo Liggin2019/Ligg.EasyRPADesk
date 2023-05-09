@@ -1,0 +1,25 @@
+<FormStyle>
+	
+	<Width>1024</Width>
+	<Height>768</Height>
+	
+	
+	
+	
+	
+	
+	<StartWindowState>maximized</StartWindowState>
+	<OrdinaryWindowStatus>maximized</OrdinaryWindowStatus>
+	<WindowRadius>0</WindowRadius>
+	
+	<DrawIcon>true</DrawIcon>
+	<IconUrl>%GlbSharedDir%\icos\ligg-1.ico</IconUrl>
+	<NotShowInTaskbar>false</NotShowInTaskbar>
+	
+	
+	
+	
+	
+	<ResizeParamsText>ToolBarSection:64,520,428|MainSectionLeftNavDivision:125,120,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30</ResizeParamsText>
+	
+</FormStyle>

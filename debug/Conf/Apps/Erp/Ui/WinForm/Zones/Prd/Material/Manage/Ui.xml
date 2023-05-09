@@ -1,0 +1,688 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AddEditL</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row10</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><ValidationRules/><DisplayName>Add material</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>140</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ValidatorTotal</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row10</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>NotInitValue:true</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource/>			
+			<Value>=Judge;And;$ValidatorName.v$;$ValidatorDes.v$</Value><Action/>
+			
+			
+			<Invisible>true</Invisible><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>552</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>TextBoxAdd</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row10</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName><StyleClass/><StyleText>NotInitValue:true</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource/>			
+			<Value>=Join;Type:;$Type.v$;,;Name:;$Name.v$;,;Description:;$Des.v$;,;BasicUnit:;$BasicUnit.v$</Value><Action/>
+			
+			
+			<Invisible>true</Invisible><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>AddResult</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row10</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json,NotInitDataSource:true</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource>=HttpClientPost;Prd/Material/Add;;$TextBoxAdd.v$</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible>true</Invisible><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Add</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row10</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Add data</DisplayName><DataSource>images\add.png</DataSource>			
+			<Value/><Action>Xrun;$Add1$,$Add2$,$InitData$</Action>
+			
+			
+			<Invisible>=Judge;IsInLarry;btnAdd;#UnavailableBtns.v#</Invisible><OffsetOrPositionX>40</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Add1</Name><TypeName>SubTransaction</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>RefreshControlValue;$ValidatorTotal$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Add2</Name><TypeName>SubTransaction</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>Crun@$ValidatorTotal.v$@Xrun;$Add3$,$Add4$,$Add5$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Add3</Name><TypeName>SubTransaction</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>RefreshControlValue;$TextBoxAdd$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Add4</Name><TypeName>SubTransaction</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$AddResult$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Add5</Name><TypeName>SubTransaction</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>PopupMsg;$AddResult.t$;$AddResult.t$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row19</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine19</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row19</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>760</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row20</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>-1</Width><Height>180</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>CtrlGroup</Name><TypeName>ControlContainer</TypeName>
+			<Container/><Row>Row20</Row>
+			
+			
+			<ControlTypeName>ContainerPanel</ControlTypeName>
+			
+			<StyleClass/><StyleText>CpntArrangeType:RowLining|Style:Rounded|Radius:40|</StyleText><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>760</Width><Height>180</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row2001</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>20</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>TypeL</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2001</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><ValidationRules/><DisplayName>Type</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>80</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Type</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2001</Row>
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			<StyleClass/><StyleText>DataSourceType:Json</StyleText><ValidationRules/><DisplayName/><DataSource>=HttpClientGet@Prd/Material/GetMaterialTypeDictItems</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>280</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row2002</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>20</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>NameL</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2002</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><ValidationRules/><DisplayName>Name</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>80</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Id</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2002</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value>10000088</Value><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Name</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2002</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules>Mandatory|StringMaxLength,64</ValidationRules><DisplayName/><DataSource/>			
+			<Value>   </Value><Action>RefreshControlDataSource;$ValidatorName$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>280</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ValidatorName</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2002</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource>=ValidateInput;$Name$</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>380</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row2003</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>20</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>DesL</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2003</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><ValidationRules/><DisplayName>Description</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>80</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Des</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2003</Row>
+			
+			
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules>Mandatory|StringMaxLength,128</ValidationRules><DisplayName/><DataSource/>			
+			<Value>   </Value><Action>RefreshControlDataSource;$ValidatorDes$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>280</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ValidatorDes</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2003</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource>=ValidateInput;$Des$</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>380</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row2004</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>20</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>BasicUnitL</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2004</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>FieldName</StyleClass><StyleText/><ValidationRules/><DisplayName>Basic unit</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>80</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>BasicUnit</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2004</Row>
+			
+			
+			<ControlTypeName>ComboBox</ControlTypeName>
+			
+			<StyleClass/><StyleText>DataSourceType:Larray</StyleText><ValidationRules/><DisplayName/><DataSource>PCs,Kg,M,M2,M3</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>280</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ValidatorBasicUnit</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlGroup</Container><Row>Row2004</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json,NotInitDataSource:true</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>380</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>DelL</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row100</Row>
+			
+			
+			<ControlTypeName>Label</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><ValidationRules/><DisplayName>Delete materials</DisplayName><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>140</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>ValidatorDel</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row100</Row>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass><StyleText>DataSourceType:Json,NotInitDataSource:true</StyleText>
+			
+			<ValidationRules/><DisplayName/><DataSource>#DeleteResult.v#</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>552</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Get</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row100</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Get data</DisplayName><DataSource>images\download.png</DataSource>			
+			<Value/><Action>RefreshControlDataSource;$Data$</Action>
+			
+			
+			<Invisible></Invisible><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>24</Width><Height>24</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Delete</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row100</Row>
+			
+			
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Delete</DisplayName><DataSource>images\delete.png</DataSource>			
+			<Value/><Action>Xrun;$Delete1$,$Delete2$,$Delete3$,$InitData$</Action>
+			
+			
+			<Invisible>=Judge;IsInLarry;btnDelete;#UnavailableBtns.v#</Invisible><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Delete1</Name><TypeName>SubTransaction</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Delete</DisplayName><DataSource/>			
+			<Value/><Action>SetVariableValue;#DataToDelete#;$Data.v$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Delete2</Name><TypeName>SubTransaction</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Delete</DisplayName><DataSource/>			
+			<Value/><Action>RefreshProcedures;#DeleteParams#,#DeleteResult#</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Delete3</Name><TypeName>SubTransaction</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Delete</DisplayName><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$ValidatorDel$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Test</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row100</Row>
+			
+			
+			<ControlTypeName>Button</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Test</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;$Data.v$;</Action>
+			
+			
+			<Invisible>true</Invisible><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>20</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row199</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>4</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine199</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row199</Row>
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<StyleClass>Level1</StyleClass><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>760</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>
+			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>-1</Width><Height>500</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Data</Name><TypeName>Control</TypeName>
+			<Container/><Row>Row200</Row>
+			
+			
+			<ControlTypeName>DataGridViewEx</ControlTypeName>
+			
+			<StyleClass/><StyleText>DataSourceType:Json,NotInitDataSource:true,GetValueType:SelectededRowsIds</StyleText><ValidationRules/><DisplayName/><DataSource>=HttpClientGet@Prd/Material/GetPagedManageDtos@Type=888,PageIndex=8,PageSize=15</DataSource>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>760</Width><Height>500</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>InitData</Name><TypeName>AfterZoneRenderHandler</TypeName>
+			<Container/><Row>Row200</Row>
+			
+			
+			<ControlTypeName/>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action>RefreshControlDataSource;$Data$</Action>
+			
+			
+			<Invisible/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>0</Width><Height>0</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

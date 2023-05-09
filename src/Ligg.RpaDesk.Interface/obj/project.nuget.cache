@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0/Na3ZzAazg/MS0O58DJubmJqXe5axbRihirqYo28CmrrDS2c8PwWw1/tlrLz+D2WjkdyF2GBPJ5Uwdg+BwfPQ==",
+  "success": true,
+  "projectFilePath": "D:\\Doing\\coding\\coding-doing\\arch\\Ligg.RpaDesk\\src-sharing\\src\\Ligg.RpaDesk.Interface\\.Ligg.RpaDesk.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adm-dev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

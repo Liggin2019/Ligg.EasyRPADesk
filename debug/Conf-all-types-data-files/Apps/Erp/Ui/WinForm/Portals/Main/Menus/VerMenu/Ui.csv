@@ -1,0 +1,18 @@
+Id,ParentId,Name,DisplayName,View,ImageUrl,Action
+110,0,Production,Production,,"0,1",
+11010,110,Product,Product,,"0,1",
+1101010,11010,Material,Material,,"0,1",
+110101010,1101010,MaterialMgmt,Manage,MngMaterial,"0,1",
+110101020,1101010,MaterialRpt,Report,Demo1,"0,1",
+1101020,11010,BOM,BOM,Demo,"0,1",
+11020,110,Procecure,Procecure,Demo1,"0,1",
+11030,110,Warehouse,Warehouse,Demo,"0,1",
+11050,110,Planning,Planning,Demo1,"0,1",
+11060,110,Execution,Execution,Demo,"0,1",
+120,0,Sales,Sales,Demo1,"0,1",
+130,0,Quality,Quality,Demo,"0,1",
+140,0,Finance,Finance,Demo1,"0,1",
+150,0,Hrm,Human Resource,Demo,"0,1",
+160,0,System,System,Demo1,"0,1",
+16010,160,Thread,Thread,Demo,"0,1",
+16020,160,Cache,Cache,Demo1,"0,1",PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;Connecting server failed...^^300

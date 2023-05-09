@@ -1,0 +1,3 @@
+Name,Container,TypeName,Location,ShellArgs,StyleText,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+MainArea,MainSectionMainDivisionMiddleRegion,ContentArea,,,Padding:2|,Fill,-1,-1,-1,-1
+NoAuth,MainArea,Zone,%GlbUiDir%\Zones\SystemMessage,You have no authorization|%GlbCfgDir%\Shared\images\stop.png,,,120,120,-1,-1

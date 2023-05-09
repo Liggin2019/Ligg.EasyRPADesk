@@ -1,0 +1,28 @@
+
+<ArrayOfAnnex>
+		<Annex>
+			
+			<MasterName>Tip</MasterName>
+			<DisplayName>＃＃＃＃＃＃ 用户登录 ＃＃＃＃＃＃</DisplayName>
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			<MasterName>UserName</MasterName>
+			<DisplayName>用户名</DisplayName>
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			<MasterName>Password</MasterName>
+			<DisplayName>密码</DisplayName>
+			<Description></Description>
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Logon</MasterName>
+			<DisplayName>登录验证</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

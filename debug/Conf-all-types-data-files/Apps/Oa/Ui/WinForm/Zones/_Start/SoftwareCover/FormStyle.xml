@@ -1,0 +1,12 @@
+<FormStyle>
+	
+    <HasNoControlBoxes>true</HasNoControlBoxes>
+    <WindowRadius>12</WindowRadius>
+    <CannotBeClosed>false</CannotBeClosed>
+    <DrawIcon>true</DrawIcon>
+    <IconUrl>%GlbSharedDir%\Icos\logo.ico</IconUrl>
+    
+    <RunningMessageHeight>0</RunningMessageHeight>
+    <ShowRunningStatus>true</ShowRunningStatus>
+    <ShowRunningProgress>false</ShowRunningProgress>  
+</FormStyle>

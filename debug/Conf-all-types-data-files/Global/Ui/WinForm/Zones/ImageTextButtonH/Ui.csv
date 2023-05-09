@@ -1,0 +1,2 @@
+Name,TypeName,ControlTypeName,StyleClass,StyleText,DisplayName,DataSource,Action,DockTypeName,Width,Height,ImageWidth,ImageHeight
+ImageTextButtonH,Control,ImageTextButtonH,HorButton,FontStyle:Bold,=GetSharedAnnexText;#0#,#1#,#2#,Fill,-1,30,-1,-1

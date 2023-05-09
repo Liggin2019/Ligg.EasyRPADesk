@@ -1,0 +1,616 @@
+<ArrayOfUiItem>
+		<UiItem>
+			<Name>DecorationLine100</Name><TypeName>WriteLine</TypeName>
+			<DisplayName/>			
+			<Value>＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃</Value>
+			
+			
+			<ShowRunningStatus> </ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar101</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<ShowRunningStatus> </ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Logo</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>%OrgCode% </Value>
+			
+			
+			<ShowRunningStatus> </ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>ProductShortName</Name><TypeName>Write</TypeName>
+			<DisplayName/>			
+			<Value>=GetApplicationAnnexText;Remark</Value>
+			
+			
+			<ShowRunningStatus> </ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Space102</Name><TypeName>WriteSpace</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<ShowRunningStatus> </ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>ProductDes</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>=GetApplicationAnnexText;Remark2</Value>
+			
+			
+			<ShowRunningStatus> </ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine200</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<ShowRunningStatus> </ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar201</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<ShowRunningStatus> </ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine300</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<ShowRunningStatus> </ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar301</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<ShowRunningStatus/><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine400</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar401</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Product</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Product </DisplayName>			
+			<Value>=GetApplicationAnnexText;Remark1</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine500</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar501</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine600</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar601</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Module</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Module  </DisplayName>			
+			<Value>=GetApplicationAnnexText;Description</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine700</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar701</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine800</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar801</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Function</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Function</DisplayName>			
+			<Value>=GetApplicationAnnexText</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine810</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar811</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine900</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar901</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Version</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Version </DisplayName>			
+			<Value>=Combine;;%AppCode%-%AppVersion%(;Application;)       ;%ArchCode%-%ArchVersion%(;Architecture;)</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine1000</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationChar1001</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>＃ </Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine1100</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>DecorationLine1101</Name><TypeName>WriteLine</TypeName>
+			<DisplayName/>			
+			<Value>＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃</Value>
+			
+			
+			<ShowRunningStatus/><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine1200</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>1</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>WriteSpace1201</Name><TypeName>WriteSpace</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>4</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>OrgShortName</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>%OrgShortName%</DisplayName>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>CopyRight</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName> All Right Reserved</DisplayName>			
+			<Value/>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>WriteSpace1202</Name><TypeName>WriteSpace</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>5</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>ContactUs</Name><TypeName>Write</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Contact Us</DisplayName>			
+			<Value>Liggin2019@outlook.com</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>NewLine1300</Name><TypeName>NewLine</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>3</Value>
+			
+			
+			<ShowRunningStatus/><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>ExecBootStrapperTasks</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName>Exec BootStrapper Tasks</DisplayName>			
+			<Value>RefreshProcedures;#Action1#,#Action2#,#Action3#,#Action4#</Value>
+			
+			
+			<ShowRunningStatus>true</ShowRunningStatus><Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>Sleep</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>Sleep;2000</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem><UiItem>
+			<Name>ClearConsole</Name><TypeName>Transaction</TypeName>
+			
+			
+			
+			
+			
+			
+			<DisplayName/>			
+			<Value>ClearConsole</Value>
+			
+			
+			<Invalid/>
+						
+			
+		</UiItem>
+		
+</ArrayOfUiItem>

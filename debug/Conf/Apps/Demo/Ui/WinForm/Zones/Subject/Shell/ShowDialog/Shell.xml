@@ -1,0 +1,15 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>InitDir</Name><TypeName>Variable</TypeName><GroupId>1</GroupId><StartValue>D:\</StartValue><Expression/>
+			
+		</Procedure><Procedure>
+			
+			<Name>Dir</Name><TypeName>Variable</TypeName><GroupId>1</GroupId><StartValue/><Expression>=ChooseDirectory;#InitDir.v#</Expression>
+			
+		</Procedure><Procedure>
+			
+			<Name>RelativePath</Name><TypeName>Variable</TypeName><GroupId>1</GroupId><StartValue/><Expression>=GetDirectoryRelativePath;#InitDir.v#;#Dir.v#</Expression>
+			
+		</Procedure>
+</ArrayOfProcedure>

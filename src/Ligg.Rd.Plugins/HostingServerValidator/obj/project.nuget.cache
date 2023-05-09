@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IGYN0GUC2mLuoih8z7e42W7CmNAR4GulN42ggBpYi9XiEmd3hjhQk4B7yxS1DPpeL862xlTLy6CrSWjgmDe1Hw==",
+  "success": true,
+  "projectFilePath": "D:\\Doing\\coding\\coding-doing\\arch\\Ligg.RpaDesk\\src-sharing\\src\\Ligg.Rd.Plugins\\HostingServerValidator\\HostingServerChecker.Std.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adm-dev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\adm-dev\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

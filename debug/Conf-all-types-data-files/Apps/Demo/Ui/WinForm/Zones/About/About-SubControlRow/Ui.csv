@@ -1,0 +1,21 @@
+Name,TypeName,ControlTypeName,Row,Container,StyleClass,StyleText,DisplayName,DataSource,Action,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+LogoImage,Control,PictureBox,,,,,,%GlbCfgDir%\Shared\Images\logo\logo.png,,,10,6,48,32
+ProductCode,Control,Label,,,,"FontSize:11|FontStyle:Bold|ForeColor:10,40,150",=GetApplicationAnnexText;Remark,,,,58,8,80,32
+ProductDes,Control,Label,,,,FontSize:8|FontStyle:Bold,=GetApplicationAnnexText;Remark2,,,,155,8,400,32
+ProductImage,Control,PictureBox,,,,,,%AppSharedDir%\Images\product.png,,,16,53,120,120
+BackgrdPanel,ControlContainer,ShadowPanel,,,Default,CpntArrangeType:RowLining,,,,,150,45,420,150
+Row100,SubControl,Row,,BackgrdPanel,,,,,,,-1,10,-1,30
+ProductL,SubControl,Label,Row100,BackgrdPanel,,"BackColor:250,250,250|",Product,,,,5,0,55,30
+Product,SubControl,Label,Row100,BackgrdPanel,,"BackColor:250,250,250|",=GetApplicationAnnexText;Remark1,,,,15,0,340,30
+Row200,SubControl,Row,,BackgrdPanel,,,,,,,-1,0,-1,30
+ModuleL,SubControl,Label,Row200,BackgrdPanel,,"BackColor:250,250,250|",Module,,,,5,0,55,30
+Module,SubControl,Label,Row200,BackgrdPanel,,"BackColor:250,250,250|",=GetApplicationAnnexText;Description,,,,15,0,300,30
+Row300,SubControl,Row,,BackgrdPanel,,,,,,,-1,0,-1,30
+FunctionL,SubControl,Label,Row300,BackgrdPanel,,"BackColor:250,250,250|",Function,,,,5,0,55,30
+Function,SubControl,Label,Row300,BackgrdPanel,,"BackColor:250,250,250|",=GetApplicationAnnexText,,,,15,0,300,30
+Row400,SubControl,Row,,BackgrdPanel,,,,,,,-1,0,-1,30
+VersionL,SubControl,Label,Row400,BackgrdPanel,,"BackColor:250,250,250|",Version,,,,5,0,55,30
+Version,SubControl,Label,Row400,BackgrdPanel,,"BackColor:250,250,250|",=Combine;;%AppCode%-%AppVersion%(;Application;)       ;%ArchCode%-%ArchVersion%(;Architecture;),,,,15,0,300,30
+Org,Control,TextButton,,,,"FontStyle:Bold|FontSize:8.50|ForeColor:10,40,150|",Ligg Tech,,OpenUrl;https://liggin2019.github.io/docs,,230,201,70,24
+CopyRight,Control,Label,,,,FontStyle:Bold|FontSize:8.50,All Right Reserved,,,,300,200,130,24
+ContactUs,Control,TextButton,,,,"FontStyle1:Bold|FontSize:8.50|ForeColor:10,40,150|",Contact Us,,ShowDialog^Szi;Public\Contact,,430,200,80,24

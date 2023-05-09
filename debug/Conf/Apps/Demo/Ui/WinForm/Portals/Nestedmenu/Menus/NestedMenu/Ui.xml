@@ -1,0 +1,660 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Id>100</Id><Name>TopMenuArea</Name><TypeName>MenuArea</TypeName><Container>ToolBarSectionCenterRegion</Container><ParentId>0</ParentId><DefaultSubItemId>101</DefaultSubItemId>
+			<ControlTypeName>ToolStrip</ControlTypeName><View/><StyleText>ImageWidth:32|ImageHeight:32</StyleText>
+			
+			<DisplayName/>
+			
+			
+			
+			
+			
+			
+			
+			<Invisible/><DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>101</Id><Name>Dashboard</Name><TypeName>MenuItem</TypeName><Container>TopMenuArea</Container><ParentId>-1</ParentId>
+			<DefaultSubItemId/><ControlTypeName>ImageTextToolButtonV</ControlTypeName><View>Dashboard</View><StyleText/>
+			
+			<DisplayName>Dashboard</DisplayName>
+			
+			
+			
+			
+			
+			
+			
+			<Invisible/><DockTypeName>Right</DockTypeName><DockOrder>101</DockOrder><OffsetOrPositionX>6</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>54</Height><ImageUrl>%GlbSharedDir%\Images\Home.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>110</Id><Name>Administration</Name><TypeName>MenuItem</TypeName><Container>TopMenuArea</Container><ParentId>-1</ParentId>
+			<DefaultSubItemId/><ControlTypeName>ImageTextToolButtonV</ControlTypeName><View/><StyleText/>
+			
+			<DisplayName>Administration</DisplayName>
+			
+			
+			
+			
+			
+			
+			
+			<Invisible/><DockTypeName>Right</DockTypeName><DockOrder>110</DockOrder><OffsetOrPositionX>6</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>86</Width><Height>54</Height><ImageUrl>Images\Admin.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11000</Id><Name>AdministrationArea</Name><TypeName>MenuArea</TypeName><Container>MainSectionLeftNavDivisionUpRegion</Container><ParentId>110</ParentId><DefaultSubItemId>11010</DefaultSubItemId>
+			<ControlTypeName>Panel</ControlTypeName><View/><StyleText/>
+			
+			<DisplayName/>
+			<Action/>
+			
+			
+
+
+
+			
+
+
+
+			
+			
+			
+			
+			
+			
+			
+
+			
+			<Invisible/><DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><ImageUrl/><Invalid/>
+			
+
+
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11010</Id><Name>SystemTool</Name><TypeName>MenuItem</TypeName><Container>AdministrationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>About</View><StyleText/>
+			
+			<DisplayName>System Tool</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11020</Id><Name>NetworkTool</Name><TypeName>MenuItem</TypeName><Container>AdministrationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>OpenUrls</View><StyleText/>
+			
+			<DisplayName>Network Tool</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11030</Id><Name>RemoteTool</Name><TypeName>MenuItem</TypeName><Container>AdministrationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>UnderDev</View><StyleText/>
+			
+			<DisplayName>Remote Tool</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11050</Id><Name>SystemSetting</Name><TypeName>MenuItem</TypeName><Container>AdministrationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>NoServer</View><StyleText/>
+			
+			<DisplayName>System Setting</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11060</Id><Name>RunAsAdmin</Name><TypeName>MenuItem</TypeName><Container>AdministrationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>NoAuth</View><StyleText/>
+			
+			<DisplayName>Run As Admin</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>115</Id><Name>Operation</Name><TypeName>MenuItem</TypeName><Container>TopMenuArea</Container><ParentId>-1</ParentId>
+			<ControlTypeName>ImageTextToolButtonV</ControlTypeName><View/><StyleText/>
+			
+			<DisplayName>Operation</DisplayName>
+			
+			
+			
+			<Action/><Invisible/><DockTypeName>Right</DockTypeName>
+			
+			
+			
+			<DockOrder>115</DockOrder><OffsetOrPositionX>6</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>54</Height><ImageUrl>Images\Orperation.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11500</Id><Name>OperationArea</Name><TypeName>MenuArea</TypeName><Container>MainSectionLeftNavDivisionUpRegion</Container><ParentId>115</ParentId><DefaultSubItemId>11510</DefaultSubItemId>
+			<ControlTypeName>Panel</ControlTypeName><View/><StyleText/>
+			
+			<DisplayName/>
+			<Action/>
+			
+			
+
+
+
+			
+
+
+
+			
+			
+			
+			
+			
+			
+			
+
+			
+			<Invisible/><DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><ImageUrl/><Invalid/>
+			
+
+
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11510</Id><Name>Registry</Name><TypeName>MenuItem</TypeName><Container>OperationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>UnderDev</View><StyleText/>
+			
+			<DisplayName>Registry</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11520</Id><Name>Process</Name><TypeName>MenuItem</TypeName><Container>OperationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>NoServer</View><StyleText/>
+			
+			<DisplayName>Process</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11530</Id><Name>Service</Name><TypeName>MenuItem</TypeName><Container>OperationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>NoAuth</View><StyleText/>
+			
+			<DisplayName>Service</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11540</Id><Name>Installation</Name><TypeName>MenuItem</TypeName><Container>OperationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>UnderDev</View><StyleText/>
+			
+			<DisplayName>Installation</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>11550</Id><Name>Performance</Name><TypeName>MenuItem</TypeName><Container>OperationArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>NoServer</View><StyleText/>
+			
+			<DisplayName>Performance</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>120</Id><Name>Management</Name><TypeName>MenuItem</TypeName><Container>TopMenuArea</Container><ParentId>-1</ParentId>
+			<ControlTypeName>ImageTextToolButtonV</ControlTypeName><View/><StyleText/>
+			
+			<DisplayName>Management</DisplayName>
+			
+			
+			
+			<Action/><Invisible/><DockTypeName>Right</DockTypeName>
+			
+			
+			
+			<DockOrder>120</DockOrder><OffsetOrPositionX>6</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>86</Width><Height>54</Height><ImageUrl>Images\Management.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12000</Id><Name>ManagementArea</Name><TypeName>MenuArea</TypeName><Container>MainSectionLeftNavDivisionUpRegion</Container><ParentId>120</ParentId><DefaultSubItemId>12010</DefaultSubItemId>
+			<ControlTypeName>Panel</ControlTypeName><View/><StyleText/>
+			
+			<DisplayName/>
+			<Action/>
+			
+			
+
+
+
+			
+
+
+
+			
+			
+			
+			
+			
+			
+			
+
+			
+			<Invisible/><DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><ImageUrl/><Invalid/>
+			
+
+
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12010</Id><Name>ServiceDesk</Name><TypeName>MenuItem</TypeName><Container>ManagementArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>NoAuth</View><StyleText/>
+			
+			<DisplayName>Service Desk</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12020</Id><Name>License</Name><TypeName>MenuItem</TypeName><Container>ManagementArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>NoServer</View><StyleText/>
+			
+			<DisplayName>License</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12030</Id><Name>Asset</Name><TypeName>MenuItem</TypeName><Container>ManagementArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>UnderDev</View><StyleText/>
+			
+			<DisplayName>Asset</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12050</Id><Name>Monitoring</Name><TypeName>MenuItem</TypeName><Container>ManagementArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View/><StyleText/>
+			
+			<DisplayName>Monitoring</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205000</Id><Name>MonitoringArea</Name><TypeName>MenuArea</TypeName><Container>MainSectionLeftNavDivisionMiddleRegion</Container><ParentId>12050</ParentId><DefaultSubItemId>1205010</DefaultSubItemId>
+			<ControlTypeName>Panel</ControlTypeName><View/><StyleText>Padding:2,0,0,4|</StyleText>
+			
+			<DisplayName/>
+			<Action/>
+			
+			
+
+
+
+			
+
+
+
+			
+			
+			
+			
+			
+			
+			
+
+			
+			<Invisible/><DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><ImageUrl/><Invalid/>
+			
+
+
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205010</Id><Name>Server1</Name><TypeName>MenuItem</TypeName><Container>MonitoringArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><View>UnderDev</View><StyleText>BackColor:240,250,250|</StyleText>
+			
+			<DisplayName>Server</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl>Images\Server.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205020</Id><Name>Database1</Name><TypeName>MenuItem</TypeName><Container>MonitoringArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><View>NoServer</View><StyleText>BackColor:240,250,250|Offset:2,4,2</StyleText>
+			
+			<DisplayName>Database</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl>Images\Database.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205030</Id><Name>Network1</Name><TypeName>MenuItem</TypeName><Container>MonitoringArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><View>NoAuth</View><StyleText>BackColor:240,250,250|</StyleText>
+			
+			<DisplayName>Network</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl>Images\Network.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1205040</Id><Name>Storage1</Name><TypeName>MenuItem</TypeName><Container>MonitoringArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>ImageTextButtonH</ControlTypeName><View>UnderDev</View><StyleText>BackColor:240,250,250|</StyleText>
+			
+			<DisplayName>Storage</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl>Images\Storage.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>12060</Id><Name>RoutingInsp</Name><TypeName>MenuItem</TypeName><Container>ManagementArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View/><StyleText/>
+			
+			<DisplayName>Routing Insp.</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>24</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206000</Id><Name>RoutingInspArea</Name><TypeName>MenuArea</TypeName><Container>MainSectionLeftNavDivisionMiddleRegion</Container><ParentId>12060</ParentId><DefaultSubItemId>1206010</DefaultSubItemId>
+			<ControlTypeName>Panel</ControlTypeName><View/><StyleText>Padding:2,0,0,4|</StyleText>
+			
+			<DisplayName/>
+			<Action/>
+			
+			
+
+
+
+			
+
+
+
+			
+			
+			
+			
+			
+			
+			
+
+			
+			<Invisible/><DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height><ImageUrl/><Invalid/>
+			
+
+
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206010</Id><Name>Daily</Name><TypeName>MenuItem</TypeName><Container>RoutingInspArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>UnderDev</View><StyleText>BackColor:240,250,250|</StyleText>
+			
+			<DisplayName>Daily</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>20</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206020</Id><Name>Weekly</Name><TypeName>MenuItem</TypeName><Container>RoutingInspArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>NoServer</View><StyleText>BackColor:240,250,250|</StyleText>
+			
+			<DisplayName>Weekly</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>20</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206030</Id><Name>Monthly</Name><TypeName>MenuItem</TypeName><Container>RoutingInspArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View>NoAuth</View><StyleText>BackColor:240,250,250|</StyleText>
+			
+			<DisplayName>Monthly</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>20</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206040</Id><Name>Quarterly</Name><TypeName>MenuItem</TypeName><Container>RoutingInspArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View/><StyleText>BackColor:240,250,250|</StyleText>
+			
+			<DisplayName>Quarterly</DisplayName>			
+			
+			
+			
+			
+						
+			<Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>20</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>1206050</Id><Name>Yearly</Name><TypeName>MenuItem</TypeName><Container>RoutingInspArea</Container><ParentId>-1</ParentId><DefaultSubItemId/>
+			<ControlTypeName>TextButton</ControlTypeName><View/><StyleText>BackColor:240,250,250|</StyleText>
+			
+			<DisplayName>Yearly</DisplayName>			
+			
+			
+			
+			
+						
+			<Action/><Invisible/><DockTypeName>Top</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>2</OffsetOrPositionY><Width>-1</Width><Height>20</Height><ImageUrl/><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>130</Id><Name>Deployment</Name><TypeName>MenuItem</TypeName><Container>TopMenuArea</Container><ParentId>-1</ParentId>
+			<DefaultSubItemId/><ControlTypeName>ImageTextToolButtonV</ControlTypeName><View>UnderDevNoMenu</View><StyleText/>
+			
+			<DisplayName>Deployment</DisplayName>
+			
+			
+			
+			<Action/><Invisible/><DockTypeName>Right</DockTypeName>
+			
+			
+			
+			<DockOrder>130</DockOrder><OffsetOrPositionX>6</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>86</Width><Height>54</Height><ImageUrl>Images\deploy.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>140</Id><Name>Configuration</Name><TypeName>MenuItem</TypeName><Container>TopMenuArea</Container><ParentId>-1</ParentId>
+			<DefaultSubItemId/><ControlTypeName>ImageTextToolButtonV</ControlTypeName><View>NoAuthNoMenu</View><StyleText/>
+			
+			<DisplayName>Configuration</DisplayName>
+			
+			
+			
+			<Action/><Invisible/><DockTypeName>Right</DockTypeName>
+			
+			
+			
+			<DockOrder>140</DockOrder><OffsetOrPositionX>6</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>54</Height><ImageUrl>Images\Config.png</ImageUrl><Invalid/>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Id>150</Id><Name>Console</Name><TypeName>MenuItem</TypeName><Container>TopMenuArea</Container><ParentId>-1</ParentId>
+			<ControlTypeName>ImageTextToolButtonV</ControlTypeName><View>UnderDevNoMenu</View><StyleText/>
+			
+			<DisplayName>Console</DisplayName>
+			
+			
+			
+			<Action>PopupMsg^=GetSharedAnnexText;System Message^=GetSharedAnnexText;Connecting server failed...^^300</Action><Invisible/><DockTypeName>Right</DockTypeName>
+			
+			
+			
+			<DockOrder>150</DockOrder><OffsetOrPositionX>6</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>54</Height><ImageUrl>Images\Console.png</ImageUrl><Invalid/>
+		</LayoutElement>
+
+</ArrayOfLayoutElement>

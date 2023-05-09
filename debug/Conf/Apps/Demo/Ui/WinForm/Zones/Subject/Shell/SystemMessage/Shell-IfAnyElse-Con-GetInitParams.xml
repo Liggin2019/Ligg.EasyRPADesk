@@ -1,0 +1,27 @@
+<ArrayOfProcedure>
+		<Procedure>
+			
+			<Name>Option</Name><TypeName>Variable</TypeName><StartValue/><Condition/><Expression>=GetInitParams;0</Expression>
+			
+		</Procedure><Procedure>
+			
+			<Name>Image</Name><TypeName>Variable</TypeName><StartValue/><Condition/><Expression>=GetInitParams;1</Expression>
+			
+		</Procedure><Procedure>
+			
+			<Name>TextUnderDev</Name><TypeName>Variable</TypeName><StartValue>Undefined</StartValue><Condition>=Judge;IfElse;#Option.v#;Equal;UnderDev</Condition><Expression>This function is under developing...</Expression>
+			
+		</Procedure><Procedure>
+			
+			<Name>TextNoAuth</Name><TypeName>Variable</TypeName><StartValue>Undefined</StartValue><Condition>=Judge;IfElse;#Option.v#;Equal;NoAuth</Condition><Expression>You have no authorization</Expression>
+			
+		</Procedure><Procedure>
+			
+			<Name>TextNoServer</Name><TypeName>Variable</TypeName><StartValue>Undefined</StartValue><Condition>=Judge;IfElse;#Option.v#;Equal;NoServer</Condition><Expression>Connecting server failed...</Expression>
+			
+		</Procedure><Procedure>
+			
+			<Name>Text</Name><TypeName>Variable</TypeName><StartValue/><Condition/><Expression>=IfAnyElse;NotEqual;Undefined;Text not defined ;#TextUnderDev.v#;#TextNoAuth.v#;#TextNoServer.v#</Expression>
+			
+		</Procedure>
+</ArrayOfProcedure>

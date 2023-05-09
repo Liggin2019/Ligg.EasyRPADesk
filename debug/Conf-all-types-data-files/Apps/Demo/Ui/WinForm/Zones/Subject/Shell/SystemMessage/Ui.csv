@@ -1,0 +1,8 @@
+Name,TypeName,ControlTypeName,Row,DisplayName,DataSource,OffsetOrPositionX,OffsetOrPositionY,Width,Height,StyleClass,StyleText
+Row10,Control,Row,,,,-1,46,-1,1,,
+SplitLine1,Control,SplitRectangle,Row10,,,16,0,530,1,Level2,
+Row20,Control,Row,,,,-1,16,-1,64,,
+PictureBox,Control,PictureBox,Row20,,#1#,65,-1,64,64,,
+Label,Control,Label,Row20,=GetSharedAnnexText;#Text.v#,,4,0,400,64,,FontSize:16|FontStyle:Bold|TextAlign:MiddleLeft|
+Row30,Control,Row,,,,-1,16,-1,1,,
+SplitLine2,Control,SplitRectangle,Row30,,,16,0,530,1,Level2,

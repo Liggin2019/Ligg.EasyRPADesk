@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RL5XH7LywkmKaW+0H0FGJie+4hupZEVqbztprxmZtAUiKOC8ty/FsLfByNL3izjTljZQZDxP5hAncmlYqrYYJw==",
+  "success": true,
+  "projectFilePath": "D:\\Doing\\coding\\coding-doing\\arch\\Ligg.RpaDesk\\src-sharing\\src\\Ligg.Rd.Components\\Oa\\Ligg.RpaDesk.components.Oa.Fx.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adm-dev\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

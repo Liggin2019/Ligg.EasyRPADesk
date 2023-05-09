@@ -1,0 +1,598 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			
+			<Name>Row10</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>5</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabelL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row10</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>CommandLabel</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row11</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine11</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row11</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>508</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CheckTypeL100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row100</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>CheckType:None</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row101</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine101</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row101</Row><StyleClass>Level1</StyleClass><StyleText/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>492</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row102</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel1a100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row102</Row><StyleClass/><StyleText/>
+			
+			<DisplayName>CommandLabel1</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel2a100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row102</Row><StyleClass/><StyleText>CheckType:None</StyleText>
+			
+			<DisplayName>CommandLabel2</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel3a100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row102</Row><StyleClass>CommandLabel</StyleClass><StyleText/>
+			
+			<DisplayName>CommandLabel3</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel4a100</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row102</Row><StyleClass/><StyleText>CheckType:None|ForeColor:160,160,160</StyleText>
+			
+			<DisplayName>CommandLabel4</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row103</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine103</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row103</Row><StyleClass>Level1</StyleClass><StyleText/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>492</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CheckTypeL200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row200</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>CheckType:Focus</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row201</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine201</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row201</Row><StyleClass>Level1</StyleClass><StyleText/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>492</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row202</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel1b200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row202</Row><StyleText>CheckType:Focus</StyleText>
+			
+			<DisplayName>CommandLabel1</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel2b200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row202</Row><StyleText>CheckType:Focus</StyleText>
+			
+			<DisplayName>CommandLabel2</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel3b200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row202</Row><StyleClass>ButtonLabel</StyleClass><StyleText/>
+			
+			<DisplayName>CommandLabel3</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel4b200</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row202</Row><StyleClass/><StyleText>CheckType:Focus|ForeColor:160,160,160|CheckedColor:48, 145, 242|FontStyle:Bold</StyleText>
+			
+			<DisplayName>CommandLabel4</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row203</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine203</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row203</Row><StyleClass>Level1</StyleClass><StyleText/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>492</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CheckTypeL300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<Row>Row300</Row><StyleClass>Level1</StyleClass><StyleText/>
+			
+			<DisplayName>CheckType:Click</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row301</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine301</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row301</Row><StyleClass>Level1</StyleClass><StyleText/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>492</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Row302</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Row</ControlTypeName>
+			
+			
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<DisplayName/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel1c300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row302</Row><StyleClass/><StyleText>CheckType:Click</StyleText>
+			
+			<DisplayName>CommandLabel1</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel2c300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row302</Row><StyleClass/><StyleText>CheckType:Click</StyleText>
+			
+			<DisplayName>CommandLabel2</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel3c300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row302</Row><StyleClass>LinkedLabel</StyleClass><StyleText/>
+			
+			<DisplayName>CommandLabel3</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>CommandLabel4c300</Name><TypeName>Control</TypeName>
+			<ControlTypeName>CommandLabel</ControlTypeName>
+			
+			
+			
+			<Row>Row302</Row><StyleText>CheckType:Click|ForeColor:160,160,160|HoveringColor:140, 0, 0|CheckedColor:230, 0, 0|FontStyle:Underline</StyleText>
+			
+			<DisplayName>CommandLabel4</DisplayName>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>4</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>120</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row303</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine303</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row303</Row><StyleClass>Level1</StyleClass><StyleText/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>8</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>492</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row1000</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<Row/><StyleClass/><StyleText/><DisplayName/>
+			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>-1</Width><Height>1</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>SplitLine1000</Name><TypeName>Control</TypeName>
+			
+			
+			
+			<ControlTypeName>SplitRectangle</ControlTypeName>
+			
+			<Row>Row1000</Row><StyleClass>Level1</StyleClass><StyleText/><DisplayName/>			
+			<Action/>
+			
+			
+			<OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>508</Width><Height>1</Height>
+						
+			
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

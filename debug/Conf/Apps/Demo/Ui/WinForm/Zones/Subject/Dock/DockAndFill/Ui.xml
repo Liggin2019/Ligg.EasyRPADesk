@@ -1,0 +1,49 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>LeftYellow</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:255,255,0|</StyleText>
+			
+			<DisplayName>LeftYellow</DisplayName>			
+			
+			
+			
+			<DockTypeName>Left</DockTypeName><DockOrder/><OffsetOrPositionX>12</OffsetOrPositionX><OffsetOrPositionY>12</OffsetOrPositionY><Width>80</Width><Height>55</Height>
+						
+			<Invalid/>
+		</ZoneItem><ZoneItem>
+			<Name>FillWhite</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:255,255,255|</StyleText>
+			
+			<DisplayName>FillWhite - The ball is on the floor. It is a red ball. It is a rubber ball. The baby looks at the ball. The cat looks at the ball.</DisplayName>			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+						
+			<Invalid/>
+		</ZoneItem><ZoneItem>
+			<Name>RightGreen</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			
+			
+			
+			<StyleClass/><StyleText>BackColor:0,255,0|</StyleText>
+			
+			<DisplayName>RightWhite</DisplayName>			
+			
+			
+			
+			<DockTypeName>Right</DockTypeName><DockOrder/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>80</Width><Height>55</Height>
+						
+			<Invalid/>
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

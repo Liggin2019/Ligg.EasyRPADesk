@@ -1,0 +1,19 @@
+<ApplicationSetting>
+	<PhythonExecPath/>	
+	<HelpdeskEmail>LiggHelpdesk@outlook.com</HelpdeskEmail>
+	
+	<SupportMultiLanguages>true</SupportMultiLanguages>
+	<DefaultCulture>zh-CN</DefaultCulture>
+	<DefaultLanguageCode>szh</DefaultLanguageCode>
+	<IncludedLanguages>zh-CN:en, zh-CN:szh, en-US:en, de-DE:de</IncludedLanguages>
+	
+	<ApplicationVersion>1.1.1.0</ApplicationVersion>
+	<ApplicationDataDir/><ApplicationLibDir/><ApplicationOutputDir/>
+	
+	<HasCblpComponent>true</HasCblpComponent>
+	<ShowSoftwareCoverAtStart>true</ShowSoftwareCoverAtStart>
+	
+	<LogonAtStart>true</LogonAtStart>
+	
+	
+</ApplicationSetting>

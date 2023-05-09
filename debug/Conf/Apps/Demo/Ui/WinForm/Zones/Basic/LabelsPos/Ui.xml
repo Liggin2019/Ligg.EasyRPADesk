@@ -1,0 +1,27 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>PosLabel1</Name><TypeName>Control</TypeName>
+			<ControlTypeName>Label</ControlTypeName>
+			<StyleClass/><StyleText>BackColor:0,255,255|TextAlign:MiddleCenter</StyleText><DisplayName>Pos Label1</DisplayName>			
+			<Action/>
+			<DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>400</Width><Height>100</Height>
+	</ZoneItem>
+	<ZoneItem>
+		
+		<Name>PosLabel2</Name><TypeName>Control</TypeName>
+		<ControlTypeName>Label</ControlTypeName>
+		<StyleClass/><StyleText>BackColor:0,255,0|TextAlign:MiddleCenter</StyleText><DisplayName>Pos Label1</DisplayName>			
+		<Action/>
+		<DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>105</OffsetOrPositionY><Width>100</Width><Height>100</Height>
+	</ZoneItem>
+	<ZoneItem>
+		
+		<Name>PosLabel3</Name><TypeName>Control</TypeName>
+		<ControlTypeName>Label</ControlTypeName>
+		<StyleClass/><StyleText>BackColor:0,0,255|TextAlign:MiddleCenter|ForeColor:255,255,255</StyleText><DisplayName>Pos Label2</DisplayName>			
+		<Action/>
+		<DockTypeName/><OffsetOrPositionX>105</OffsetOrPositionX><OffsetOrPositionY>105</OffsetOrPositionY><Width>100</Width><Height>100</Height>
+	</ZoneItem>
+	
+</ArrayOfZoneItem>

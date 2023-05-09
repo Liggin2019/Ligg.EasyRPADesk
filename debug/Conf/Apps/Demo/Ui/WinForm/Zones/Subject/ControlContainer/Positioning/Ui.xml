@@ -1,0 +1,123 @@
+<ArrayOfZoneItem>
+	<ZoneItem>
+			
+			<Name>CtrlCtn</Name><TypeName>ControlContainer</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>ContainerPanel</ControlTypeName>
+			
+			<StyleClass/><StyleText>CpntArrangeType:RowLining|Style:Rounded|Radius:2|</StyleText><ValidationRules/><DisplayName>eeeee</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>500</Width><Height>100</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Row10</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn</Container><Row/>
+			
+			
+			<ControlTypeName>Row</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName/><DataSource/>			
+			<Value/><Action/>
+			
+			
+			<Invisible/><DockTypeName/><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>5</OffsetOrPositionY><Width>-1</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl1</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn</Container><Row>Row10</Row>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Ctrl1</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><DockTypeName/><OffsetOrPositionX>90</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl2</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn</Container><Row>Row10</Row>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Ctrl2</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><DockTypeName/><OffsetOrPositionX>130</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>CtrlCtn2</Name><TypeName>ControlContainer</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>ContainerPanel</ControlTypeName>
+			
+			<StyleClass/><StyleText>Style:Rounded|Radius:2|</StyleText><ValidationRules/><DisplayName>eeeee</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><DockTypeName>Top</DockTypeName><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>500</Width><Height>100</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl21</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn2</Container><Row/>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Ctrl21</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><DockTypeName>None</DockTypeName><OffsetOrPositionX>90</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl22</Name><TypeName>SubControl</TypeName>
+			<Container>CtrlCtn2</Container><Row/>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>Ctrl22</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><DockTypeName>None</DockTypeName><OffsetOrPositionX>130</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem><ZoneItem>
+			
+			<Name>Ctrl100</Name><TypeName>Control</TypeName>
+			<Container/><Row/>
+			
+			
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			<StyleClass/><StyleText/><ValidationRules/><DisplayName>ddds</DisplayName><DataSource/>			
+			<Value/><Action>PopupMsg;ooo;ooo</Action>
+			
+			
+			<Invisible/><DockTypeName>Bottom</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>50</Width><Height>20</Height>
+						
+			
+		</ZoneItem>
+</ArrayOfZoneItem>

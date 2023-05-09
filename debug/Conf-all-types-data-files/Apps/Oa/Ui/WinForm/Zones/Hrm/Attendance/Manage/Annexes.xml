@@ -1,0 +1,55 @@
+<ArrayOfAnnex>
+	<Annex>
+	<MasterName>UploadL</MasterName><DisplayName>计算并上传上月考勤</DisplayName>
+	
+	
+	<LanguageCode>szh</LanguageCode>
+	</Annex>
+	<Annex>
+		<MasterName>Calc</MasterName><DisplayName>计算考勤</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>GetUploadData</MasterName><DisplayName>获取本地数据</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>Upload</MasterName><DisplayName>上传</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>UploadedDataL</MasterName><DisplayName>待上传数据</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>ApproveL</MasterName><DisplayName>批准上月考勤</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>GetApproveData</MasterName><DisplayName>下载考勤</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>Approve</MasterName><DisplayName>批准</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>InputMonthL</MasterName><DisplayName>选择月份</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex><Annex>
+		<MasterName>DataToApproveL</MasterName><DisplayName>待批准数据</DisplayName>
+		
+		
+		<LanguageCode>szh</LanguageCode>
+	</Annex>
+		
+</ArrayOfAnnex>

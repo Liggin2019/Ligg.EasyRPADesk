@@ -1,0 +1,8 @@
+FieldName,FieldValue
+Width,1112
+Height,853
+DrawIcon,true
+IconUrl,%AppSharedDir%\Icos\OrpTk.ico
+ResizeParamsText,"MainSectionLeftNavDivision1:590,0,0|HorResizableDivision1Status:hide|
+    
+    "

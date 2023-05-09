@@ -1,0 +1,364 @@
+<ArrayOfZoneItem>
+		<ZoneItem>
+			<Name>GroundPanel</Name><TypeName>Control</TypeName>
+			<ControlTypeName>ShadowPanel</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass/><StyleText>BackColor:255,255,250|</StyleText>
+			
+			<DisplayName/><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action/>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>10</OffsetOrPositionX><OffsetOrPositionY>0</OffsetOrPositionY><Width>478</Width><Height>251</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		<Disabled/><Invisible/></ZoneItem><ZoneItem>
+			<Name>AccountOptionL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>TitleLabel</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass>Level2</StyleClass><StyleText>BackColor:255,255,255|ForeColor:0,0,0|</StyleText>
+			
+			<DisplayName>Account Option</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action/>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>200</Width><Height>40</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		<Disabled/></ZoneItem><ZoneItem>
+			<Name>AccountOptionContainer</Name><TypeName>ControlContainer</TypeName>
+			<ControlTypeName>Panel</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass/><StyleText>BackColor:255,255,255|</StyleText>
+			
+			<DisplayName/><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action/>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>165</OffsetOrPositionX><OffsetOrPositionY>10</OffsetOrPositionY><Width>260</Width><Height>40</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>DomainAccount</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>RadioButton</ControlTypeName>
+			
+			
+			
+			<Container>AccountOptionContainer</Container><StyleClass/><StyleText>BackColor:255,255,255|</StyleText>
+			
+			<DisplayName>Domain Account</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action/>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>0</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>119</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		<Disabled>true</Disabled></ZoneItem><ZoneItem>
+			<Name>SystemAccount</Name><TypeName>SubControl</TypeName>
+			<ControlTypeName>RadioButton</ControlTypeName>
+			
+			
+			
+			<Container>AccountOptionContainer</Container><StyleClass/><StyleText>BackColor:255,255,255|</StyleText>
+			
+			<DisplayName>System Account</DisplayName><Location/><DataSource/>			
+			<Value>true</Value><ValidationRules/><Action/>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>140</OffsetOrPositionX><OffsetOrPositionY>8</OffsetOrPositionY><Width>119</Width><Height>30</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>AccountL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>TitleLabel</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass>Level2</StyleClass><StyleText>BackColor:255,255,255|</StyleText>
+			
+			<DisplayName>Account</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action/>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>70</OffsetOrPositionY><Width>95</Width><Height>21</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Account</Name><TypeName>Control</TypeName>
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass/><StyleText>BackColor:255,255,255|</StyleText>
+			
+			<DisplayName>Account</DisplayName><Location/><DataSource/>			
+			<Value>root</Value><ValidationRules>Mandatory|StringMinLength,3</ValidationRules><Action/>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>120</OffsetOrPositionX><OffsetOrPositionY>70</OffsetOrPositionY><Width>150</Width><Height>21</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Validator</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><Container/><StyleClass>Validator</StyleClass>
+			
+			<StyleText>NotInitDataSource:true|DataSourceType:Json</StyleText><DisplayName/><Location/><DataSource>=ValidateInput^$Account$</DataSource>			
+			
+			
+			
+			<ValidationRules/><Action/><DockOrder>23</DockOrder><DockTypeName/><OffsetOrPositionX>285</OffsetOrPositionX><OffsetOrPositionY>70</OffsetOrPositionY><Width>180</Width><Height>25</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight><Disabled/><Invisible/>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>PasswordL</Name><TypeName>Control</TypeName>
+			<ControlTypeName>TitleLabel</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass>Level2</StyleClass><StyleText>BackColor:255,255,255|</StyleText>
+			
+			<DisplayName>Password</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action/>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>120</OffsetOrPositionY><Width>95</Width><Height>21</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Password</Name><TypeName>Control</TypeName>
+			<ControlTypeName>TextBox</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass/><StyleText>BackColor:255,255,255|Type:Password</StyleText>
+			
+			<DisplayName>Password</DisplayName><Location/><DataSource/>			
+			<Value>123456</Value><ValidationRules>Mandatory|StringMinLength,6</ValidationRules><Action/>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>120</OffsetOrPositionX><OffsetOrPositionY>120</OffsetOrPositionY><Width>150</Width><Height>21</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			
+			<Name>Validator1</Name><TypeName>Control</TypeName>
+			<Row/>
+			
+			
+			<ControlTypeName>StatusLight</ControlTypeName><StyleClass>Validator</StyleClass>
+			
+			<StyleText>NotInitDataSource:true|DataSourceType:Json</StyleText><DisplayName/><Location/><DataSource>=ValidateInput^$Password$</DataSource>			
+			
+			
+			
+			<ValidationRules/><Action/><DockOrder>23</DockOrder><DockTypeName/><OffsetOrPositionX>285</OffsetOrPositionX><OffsetOrPositionY>120</OffsetOrPositionY><Width>150</Width><Height>25</Height><ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight><Disabled/><Invisible/>
+						
+			
+		</ZoneItem><ZoneItem>
+			<Name>Logon</Name><TypeName>Control</TypeName>
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass/><StyleText>BackColor:48, 145, 242|</StyleText>
+			
+			<DisplayName>Logon</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>Xrun;$Validate$,$LogonRun$</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>180</OffsetOrPositionY><Width>186</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Validate</Name><TypeName>SubTransaction</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName>Get Validation Result</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>Xrun;$Validate1$,$Validate2$</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>190</OffsetOrPositionY><Width>375</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Validate1</Name><TypeName>SubTransaction</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName>Get Validation Result</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/>
+			
+			<Action>RefreshControlDataSource;$Validator$</Action><DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>190</OffsetOrPositionY><Width>375</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Validate2</Name><TypeName>SubTransaction</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName>Judge Validation Result</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>RefreshControlDataSource;$Validator1$</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>190</OffsetOrPositionY><Width>375</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>LogonRun</Name><TypeName>SubTransaction</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName>LogonRun</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>Crun@=Judge;And;$Validator.v$;$Validator1.v$@Xrun;$LogonRun1$,$LogonRun2$@PopupMsg;IsDialog;#IsDialog.v#</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>190</OffsetOrPositionY><Width>375</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>LogonRun1</Name><TypeName>SubTransaction</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName>LogonRun1</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>RefreshControlDataSource;$LogonResult$</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>190</OffsetOrPositionY><Width>375</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>LogonRun2</Name><TypeName>SubTransaction</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName>LogonRun2</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>Crun@$LogonResult.v$@Xrun;$GetCurrentUser$,$SetCurrentUser$,$ReturnTrueAndClose$</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>190</OffsetOrPositionY><Width>375</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>GetCurrentUser</Name><TypeName>SubTransaction</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName>GetCurrentUser</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>RefreshProcedures;#GetCurrentUser#</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>190</OffsetOrPositionY><Width>375</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>SetCurrentUser</Name><TypeName>SubTransaction</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName>SetCurrentUser</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>SetCurrentUser;#GetCurrentUser.v#</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>190</OffsetOrPositionY><Width>375</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>ReturnTrueAndClose</Name><TypeName>SubTransaction</TypeName>
+			<ControlTypeName/>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName>CloseAndRefreshUi</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>Crun@#IsDialog.v#@ReturnTrueAndClose@ReturnTrueAndClose</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>50</OffsetOrPositionX><OffsetOrPositionY>190</OffsetOrPositionY><Width>375</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>Cancel</Name><TypeName>Control</TypeName>
+			<ControlTypeName>TextButton</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass/><StyleText>BackColor:48, 145, 242|</StyleText>
+			
+			<DisplayName>Cancel</DisplayName><Location/><DataSource/>			
+			<Value/><ValidationRules/><Action>Crun;#IsModal.v#;CloseForm;ReturnFalseAndClose</Action>
+			
+			<DockOrder/>
+			<DockTypeName/><OffsetOrPositionX>340</OffsetOrPositionX><OffsetOrPositionY>180</OffsetOrPositionY><Width>86</Width><Height>35</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>LogonResult</Name><TypeName>Control</TypeName>
+			<ControlTypeName>StatusLight</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass>Validator</StyleClass><StyleText>NotInitDataSource:true|DataSourceType:Json|</StyleText>
+			
+			<DisplayName/><Location/><DataSource>=HttpClientLogon;Sys/User/Logon;$Account.v$;$Password.v$</DataSource>			
+			<Value/><ValidationRules/><Action/>
+			
+			<DockOrder>23</DockOrder>
+			<DockTypeName>Bottom</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>50</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem><ZoneItem>
+			<Name>AccoutList</Name><TypeName>Control</TypeName>
+			<ControlTypeName>PictureBox</ControlTypeName>
+			
+			
+			
+			<Container/><StyleClass/><StyleText/>
+			
+			<DisplayName/><Location>Images</Location><DataSource>account-list.png</DataSource>			
+			<Value/><ValidationRules/><Action/>
+			
+			<DockOrder/>
+			<DockTypeName>Bottom</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>150</Height>
+						
+			<ImageWidth>-1</ImageWidth><ImageHeight>-1</ImageHeight>
+		</ZoneItem>
+		
+</ArrayOfZoneItem>

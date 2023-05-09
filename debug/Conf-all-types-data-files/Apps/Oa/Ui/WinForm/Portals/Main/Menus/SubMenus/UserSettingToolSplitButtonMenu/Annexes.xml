@@ -1,0 +1,37 @@
+<ArrayOfAnnex>
+		<Annex>
+			
+			
+			
+			<MasterName>Avatar</MasterName>
+			<DisplayName>我的头像</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Style</MasterName>
+			<DisplayName>我的风格</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>FavoriteShortcuts</MasterName>
+			<DisplayName>自选功能</DisplayName>
+			<Description/><Title/>
+			
+			<Remark/>
+			
+			<LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

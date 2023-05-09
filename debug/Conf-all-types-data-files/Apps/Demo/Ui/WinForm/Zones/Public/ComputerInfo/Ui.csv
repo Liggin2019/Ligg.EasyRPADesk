@@ -1,0 +1,17 @@
+Name,TypeName,ControlTypeName,Row,StyleClass,StyleText,DisplayName,Value,DataSource,Action,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+Row100,Control,Row,,,,,,,,-1,4,-1,24
+MachineL,Control,Label,Row100,FieldName,,Machine,,,,8,0,86,24
+Machine,Control,TextBox,Row100,,,,,,,4,0,90,24
+OsL,Control,Label,Row100,FieldName,,OS,,,,8,0,62,24
+Os,Control,TextBox,Row100,,,,,,,4,0,220,24
+IpsL,Control,Label,Row100,FieldName,,IP,,,,8,0,30,24
+Ips,Control,TextBox,Row100,,,,,,,4,0,205,24
+Row109,Control,Row,,,,,,,,-1,4,-1,1
+SplitLine,Control,SplitRectangle,Row109,Level2,,,,,,0,0,760,1
+Row200,Control,Row,,,,,,,,-1,4,-1,24
+NetworkPosL,Control,Label,Row200,FieldName,,Network Pos.,,,,8,0,86,24
+NetworkPos,Control,ComboBox,Row200,,DataSourceType:Larray|,,,"Undefined,Internet,LGGZ LAN,LGSZ LAN,LGUS LAN,LGDE LAN",,4,0,90,24
+RefreshNetworkPos,Control,PictureBox,Row200,,,Click to refresh network position...,,%GlbCfgDir%\Shared\Images\refresh.png,,1,-3,14,14
+CurrentWinAcctStatus,Control,StatusLight,Row200,,DataSourceType:Json|TextWidth:120|MsgHasBorder:true,Current Win. Acct.,,,,8,0,240,24
+RunAsAdminWinAcctStatus,Control,StatusLight,Row200,,DataSourceType:Json|TextWidth:150|MsgHasBorder:true,RunAsAdmin Win. Acct.,,,,8,0,270,24
+ShowRunAsAdminWinAcctStatus,Control,PictureBox,Row200,,,Click to show details of RunAsAdminWinAcctStatus...,,%GlbCfgDir%\Shared\Images\details.png,,1,-3,14,14

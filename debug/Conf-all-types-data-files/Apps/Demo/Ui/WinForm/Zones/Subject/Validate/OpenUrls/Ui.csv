@@ -1,0 +1,25 @@
+Name,TypeName,Row,ControlTypeName,DisplayName,DataSource,Value,Action,ValidationRules,OffsetOrPositionX,OffsetOrPositionY,Width,Height,StyleClass,StyleText
+Row100,Control,,Row,,,,,,-1,4,-1,26,,
+OpenUrlsL,Control,Row100,Label,Open Urls,,,,,20,0,80,26,FieldName,
+Clear,Control,Row100,PictureBox,Clear Urls,images\clear.png,,"ClearControls;$Url200$,$Url300$,$Url400$",,258,0,26,26,,
+OpenUrls,Control,Row100,PictureBox,Open Urls,images\open-url.png,,"Crun^=Judge;IfAnyElse;NotEqual;true;$Validator200.v$;$Validator300.v$;$Validator400.v$^PopupMsg;Url error;Any of following urls is not correct!^Xrun;$OpenUrl200$,$OpenUrl300$,$OpenUrl400$",,8,0,26,26,,
+Row101,Control,,Row,,,,,,-1,4,-1,1,,
+SplitLine101,Control,Row101,SplitRectangle,,,,,,20,0,398,1,Level1,
+Row200,Control,,Row,,,,,,-1,4,-1,20,,
+Url200L,Control,Row200,Label,Url1,,,,,20,0,60,20,FieldName,
+Url200,Control,Row200,TextBox,,,https://www.qq.com,RefreshControlDataSource;$Validator200$,"StringMinLength,10|WebUrl",8,0,300,20,,
+OpenUrl200,Control,Row200,PictureBox,Open Url,images\open-url.png,,Crun^$Validator200.v$^OpenUrl;$Url200.v$,,8,0,20,20,,
+Row201,Control,,Row,,,,,,-1,4,-1,20,,
+Validator200,Control,Row201,StatusLight,,=ValidateInput^$Url200$,,,,88,0,300,20,Validator,DataSourceType:Json
+Row300,Control,,Row,,,,,,-1,4,-1,20,,
+Url300L,Control,Row300,Label,Url2,,,,,20,0,60,20,FieldName,
+Url300,Control,Row300,TextBox,,,https://www.baidu.com,RefreshControlDataSource;$Validator300$,"StringMinLength,10|WebUrl",8,0,300,20,,
+OpenUrl300,Control,Row300,PictureBox,Open Url,images\open-url.png,,Crun^$Validator300.v$^OpenUrl;$Url200.v$,,8,0,20,20,,
+Row301,Control,,Row,,,,,,-1,4,-1,20,,
+Validator300,Control,Row301,StatusLight,,=ValidateInput^$Url200$,,,,88,0,300,20,Validator,DataSourceType:Json
+Row400,Control,,Row,,,,,,-1,4,-1,20,,
+Url400L,Control,Row400,Label,Url300,,,,,20,0,60,20,FieldName,
+Url400,Control,Row400,TextBox,,,https://www.sina.com.cn,RefreshControlDataSource;$Validator400$,"StringMinLength,10|WebUrl",8,0,300,20,,
+OpenUrl400,Control,Row400,PictureBox,Open Url,images\open-url.png,,Crun^$Validator400.v$^OpenUrl;$Url400.v$,,8,0,20,20,,
+Row401,Control,,Row,,,,,,-1,4,-1,20,,
+Validator400,Control,Row401,StatusLight,,=ValidateInput^$Url400$,,,,88,0,300,20,Validator,DataSourceType:Json

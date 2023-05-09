@@ -1,0 +1,1 @@
+[{"Name":"Tip","TypeName":"WriteLine","DisplayName":"＃＃＃＃＃＃ Open Folder ＃＃＃＃＃＃","Value":""},{"Name":"NewLine","TypeName":"NewLine","DisplayName":"","Value":"2"},{"Name":"Dir","TypeName":"ReadLine","DisplayName":"Directory","Value":""},{"Name":"OpenFolder","TypeName":"Transaction","DisplayName":"Open Folder","Value":"OpenFolder;$Dir.v$"}]

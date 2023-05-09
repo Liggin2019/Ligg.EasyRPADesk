@@ -1,0 +1,11 @@
+<FormStyle>
+	
+	<Width>1194</Width>
+	<Height>853</Height>
+    
+    <DrawIcon>true</DrawIcon>
+    <IconUrl>%GlbCfgDir%\Shared\Images\Logo\logo.ico</IconUrl>
+      
+    <ResizeParamsText>MainSectionLeftNavDivision:590,0,0|MainSectionLeftNavDivision1:590,0,0|HorResizableDivisionStatus:hide|HorResizableDivision1Status:hide</ResizeParamsText>
+    	
+</FormStyle>

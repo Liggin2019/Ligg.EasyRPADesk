@@ -1,0 +1,9 @@
+Name,TypeName,Row,ControlTypeName,DisplayName,DataSource,Value,Action,ValidationRules,OffsetOrPositionX,OffsetOrPositionY,Width,Height,Invisible,StyleClass,StyleText
+Row10,Control,,Row,,,,,,-1,30,-1,20,false,,
+UrlL,Control,Row10,Label,Url,,,,,20,0,40,20,false,FieldName,
+UrlOption,Control,Row10,ComboBox,Url,https://www.qq.com=QQ|https://www.baidu.com=Baidu|sina.cn=Sina,,RefreshControlValue;$Url$,,8,0,60,20,false,,DataSourceType:Ldict|
+Url,Control,Row10,TextBox,,,$UrlOption.v$,,"StringMinLength,10|WebUrl",8,0,250,20,false,,
+OpenUrl,Control,Row10,PictureBox,Open Url,images\open-url.png,,"Xrun;$Validate$,$OpenUrl1$",,8,0,20,20,false,,
+Validate,SubTransaction,Row10,,Open Url,,,RefreshControlDataSource;$Validator$,,-1,-1,-1,-1,false,,
+OpenUrl1,SubTransaction,Row10,,Open Url,,,Crun^=Judge;IfElse;$Validator.v$;NotEqual;true^PopupMsg;Url error;$Validator.t$^OpenUrl;$Url.v$,,-1,-1,-1,-1,false,,
+Validator,Control,Row10,StatusLight,,=ValidateInput^$Url$,,,,1,0,20,20,true,Validator,DataSourceType:Json

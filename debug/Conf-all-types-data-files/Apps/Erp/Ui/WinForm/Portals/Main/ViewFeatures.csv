@@ -1,0 +1,8 @@
+IsPublic,IsDefault,Name,Alias,Location,ResizeParamsText,Invalid
+true,false,Public,,Public,,
+false,true,Dashboard,,Dashboard,"TopNavSection:28,5,0|ToolBarSection:64,520,482|MainSectionLeftNavDivision:185,0,0|MainSectionLeftNavDivision1:590,0,0|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30|HorResizableDivisionStatus:hide|HorResizableDivision1Status:show|",
+false,false,MngMaterial,MngMaterialAm,Prd\Material,,
+false,false,Demo,,_Shared\Demo,,
+false,false,Demo1,,_Shared\Demo1,,
+false,false,DemoNoMenu,,_Shared\Demo1,"TopNavSection:28,5,0|ToolBarSection:64,520,482|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30",
+false,false,Demo1NoMenu,,_Shared\Demo,"TopNavSection:28,5,0|ToolBarSection:64,520,482|MainSectionMainDivision:100,0|MainSectionRightDivision:180,380,30",

@@ -1,0 +1,4 @@
+Id,MenuTypeName,Name,Container,Location,ImageUrls,UnavailableServerViews
+1,Horizontal,HorMenu,TopNavSectionCenterRegion,HorMenu,,
+2,Vertical,MainMenu,MainSectionLeftNavDivisionMiddleRegion,VerMenu,"%GlbSharedDir%\Images\schedule.gif,%GlbSharedDir%\Images\task.gif",=HttpClientGet;Sys/Permission/GetUnavailableClientViews;portal:Erp
+3,ToolBar,ToolBarMenu,,ToolBarMenu,,

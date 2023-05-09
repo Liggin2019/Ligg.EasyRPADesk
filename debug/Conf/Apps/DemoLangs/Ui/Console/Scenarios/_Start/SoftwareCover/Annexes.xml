@@ -1,0 +1,49 @@
+
+<ArrayOfAnnex>
+		<Annex>
+			
+			<MasterName>Product</MasterName>
+			<DisplayName>产品</DisplayName>
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			<MasterName>Module</MasterName>
+			<DisplayName>模块</DisplayName>
+			<Description/>
+			<LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>Function</MasterName>
+			<DisplayName>功能</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			<MasterName>Version</MasterName>
+			<DisplayName>版本</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>CopyRight</MasterName>
+			<DisplayName>版权所有</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ContactUs</MasterName>
+			<DisplayName>联系我们</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex><Annex>
+			
+			
+			
+			<MasterName>ExecBootStrapperTasks</MasterName>
+			<DisplayName>执行启动程序任务</DisplayName>
+			<Description/><LanguageCode>szh</LanguageCode>
+		</Annex>
+		
+</ArrayOfAnnex>

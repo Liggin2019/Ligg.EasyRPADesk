@@ -1,0 +1,10 @@
+Id,MasterName,DisplayName,Description,Title,Remark,LanguageCode
+10,About,关于 ,,,,szh
+10,About,About,,,,en
+10,About,über,,,,de
+20,ContactUs,联系我们,,,,szh
+20,ContactUs,ContactUs,,,,en
+20,ContactUs,Kontaktieren Sie uns,,,,de
+30,HelpCenter,帮助中心,,,,szh
+30,HelpCenter,Help Center,,,,en
+30,HelpCenter,Hilfe Center ,,,,de

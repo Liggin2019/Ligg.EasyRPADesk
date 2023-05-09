@@ -1,0 +1,6 @@
+Name,Container,TypeName,Trigger,Location,Action,StyleText,DockTypeName,OffsetOrPositionX,OffsetOrPositionY,Width,Height
+MainArea,MainSectionMainDivisionMiddleRegion,ContentArea,,,,Padding:2|,Fill,-1,-1,-1,-1
+ChooseUrl,MainArea,Zone,,Basic\OpenUrlByChoice,,,Top,-1,-1,-1,60
+SetUrl,,ActionWatcher,$ChooseUrl_UrlOption$,,SetControlValue;$OpenUrls_Url1$;$ChooseUrl_UrlOption.v$,,,-1,-1,-1,-1
+SetUrl1,,ActionWatcher,$ChooseUrl_UrlOption$,,SetControlValue;$OpenUrls_Url2$;$ChooseUrl_UrlOption.v$,,,-1,-1,-1,-1
+OpenUrls,MainArea,Zone,,Basic\OpenUrls,,,Top,-1,-1,-1,-1

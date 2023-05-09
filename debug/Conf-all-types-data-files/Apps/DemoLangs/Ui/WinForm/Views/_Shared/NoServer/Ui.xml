@@ -1,0 +1,38 @@
+<ArrayOfLayoutElement>
+		<LayoutElement>
+			
+			
+			
+			
+			<Name>MainArea</Name><Container>MainSectionMainDivisionMiddleRegion</Container><TypeName>ContentArea</TypeName>
+			<Location/><ShellArgs/><StyleText>Padding:2</StyleText>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName>Fill</DockTypeName><OffsetOrPositionX>-1</OffsetOrPositionX><OffsetOrPositionY>-1</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement><LayoutElement>
+			
+			
+			
+			
+			<Name>NoServer</Name><Container>MainArea</Container><TypeName>Zone</TypeName>
+			<Location>%GlbUiDir%\Zones\SystemMessage</Location><ShellArgs>Connecting server failed...|%GlbCfgDir%\Shared\images\stop.png</ShellArgs><StyleText/>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<DockTypeName></DockTypeName><OffsetOrPositionX>120</OffsetOrPositionX><OffsetOrPositionY>120</OffsetOrPositionY><Width>-1</Width><Height>-1</Height>
+		</LayoutElement>
+
+	</ArrayOfLayoutElement>

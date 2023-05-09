@@ -1,0 +1,13 @@
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\release-lib\WinFormBase\netfxapp4.7.2\WinFormBase.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\release-lib\WinFormBase\netfxapp4.7.2\WinFormBase.pdb
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\release-lib\WinFormBase\netfxapp4.7.2\zh-CN\WinFormBase.resources.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\Ligg.WinFormBase.Fx.csprojAssemblyReference.cache
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\Ligg.WinFormBase.BaseForm.resources
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\Ligg.WinFormBase.Properties.Resources.resources
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\Ligg.WinFormBase.Resources.TextRes.resources
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\Ligg.WinFormBase.Resources.TextRes.zh-CN.resources
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\Ligg.WinFormBase.Fx.csproj.GenerateResource.cache
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\Ligg.WinFormBase.Fx.csproj.CoreCompileInputs.cache
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\zh-CN\WinFormBase.resources.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\WinFormBase.dll
+D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.WinFormBase.Fx\obj\Debug\WinFormBase.pdb

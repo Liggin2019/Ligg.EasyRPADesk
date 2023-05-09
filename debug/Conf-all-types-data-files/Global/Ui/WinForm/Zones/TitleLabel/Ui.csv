@@ -1,0 +1,2 @@
+Name,TypeName,ControlTypeName,StyleClass,StyleText,DisplayName,DockTypeName,DockOrder,OffsetOrPositionX,OffsetOrPositionY,Width,Height,ImageWidth,ImageHeight
+TitleLabel,Control,TitleLabel,#1#,#2#,=GetSharedAnnexText;#0#,Top,1,-1,-1,-1,24,-1,-1

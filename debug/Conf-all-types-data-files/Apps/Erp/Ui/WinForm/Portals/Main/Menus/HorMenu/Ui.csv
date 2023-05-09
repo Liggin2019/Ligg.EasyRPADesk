@@ -1,0 +1,10 @@
+Id,ParentId,Name,DisplayName,ControlTypeName,View,ImageUrl,Action
+110,0,Dashboard,Dashboard,ImageToolStripMenuItemH,Dashboard,%GlbSharedDir%\Images\Home.png,
+120,0,File,File,ImageToolStripMenuItemH,,%GlbSharedDir%\Images\folder-close.gif,
+12010,120,Open,Open,ToolStripMenuItem,,,
+12020,120,Save,Save,ToolStripMenuItem,,,
+12030,120,SaveAs,Save As,ToolStripMenuItem,,,
+12040,120,Exit,Performance,ToolStripMenuItem,,,
+130,0,Preference,Preference,ImageToolStripMenuItemH,,%GlbSharedDir%\Images\run.png,
+140,0,Tool,Tool Box,ImageToolStripMenuItemH,,%GlbSharedDir%\Images\tools-red-blue.png,
+150,0,Help,Help,ImageToolStripMenuItemH,,%GlbSharedDir%\Images\help.png,

@@ -1,0 +1,4 @@
+<FormStartPolicy>
+	<ShowSoftwareCoverAtStart>false</ShowSoftwareCoverAtStart>
+	<LogonAtStart>true</LogonAtStart>
+</FormStartPolicy>

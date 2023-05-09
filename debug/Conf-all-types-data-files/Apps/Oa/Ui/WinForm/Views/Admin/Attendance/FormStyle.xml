@@ -1,0 +1,9 @@
+<FormStyle>
+	
+	<Width>460</Width>
+	<Height>238</Height>
+    
+    <DrawIcon>true</DrawIcon>
+    <IconUrl>%GlbSharedDir%\Icos\logo.ico</IconUrl>
+
+</FormStyle>

@@ -1,0 +1,11 @@
+Id,Name,TypeName,Container,ParentId,ControlTypeName,DataSource,StyleText,DisplayName,DockTypeName,DockOrder,OffsetOrPositionX,OffsetOrPositionY,Width,Height,ImageUrl,Invalid,Action
+200,ToolMenuArea,MenuArea,ToolBarSectionRightRegion,0,ToolStrip,,ImageWidth:32|ImageHeight:32,,Fill,,-1,-1,500,54,,,
+210,Goto,MenuItem,ToolMenuArea,-1,ImageTextToolSplitButtonV,SubMenus\GotoToolSplitButtonMenu,,Go To,Left,,1,-1,80,54,%GlbCfgDir%\Shared\Images\goto.png,,
+220,RefreshWindow,MenuItem,ToolMenuArea,-1,ImageToolButton,,,Refresh Window,Right,1,2,-1,45,54,%GlbCfgDir%\Shared\Images\refresh.png,,RefreshUi
+230,CopyWindow,MenuItem,ToolMenuArea,-1,ImageToolButton,,,Copy Window,Right,2,2,-1,45,54,%GlbCfgDir%\Shared\Images\copy.png,true,RefreshForm
+240,RefreshUi,TransactionOnlyItem,,-1,,,,,,3,-1,-1,-1,-1,,,RefreshUi
+250,Logon,MenuItem,ToolMenuArea,-1,ImageToolButton,,,Logon,Right,4,2,-1,45,54,%GlbCfgDir%\Shared\Images\logon.png,true,"Xrun;Logon-Xrun1,Logon-Xrun2,Logon-Xrun3"
+260,UserSetting,MenuItem,ToolMenuArea,-1,ImageToolSplitButton,SubMenus\UserSettingToolSplitButtonMenu,,UserSetting,Right,5,2,-1,45,54,%GlbCfgDir%\Shared\Images\user.png,,
+270,UserInfo,MenuItem,ToolMenuArea,-1,ToolLabel,,,UserName
+Welcome You,Right,6,2,-1,100,54,,true,
+280,Help,MenuItem,ToolMenuArea,-1,ImageToolSplitButton,SubMenus\HelpToolSplitButtonMenu,,Help,Right,7,2,-1,45,54,%GlbCfgDir%\Shared\Images\help.png,,
