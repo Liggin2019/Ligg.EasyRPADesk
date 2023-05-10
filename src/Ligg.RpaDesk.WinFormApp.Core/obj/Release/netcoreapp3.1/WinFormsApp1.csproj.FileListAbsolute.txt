@@ -1,4 +1,0 @@
-D:\Doing\coding\project\Ligg.Ewa\3.5.3\src\WinFormsApp1\obj\Release\netcoreapp3.1\WinFormsApp1.csprojAssemblyReference.cache
-D:\Doing\coding\project\Ligg.Ewa\3.5.3\src\WinFormsApp1\obj\Release\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
-D:\Doing\coding\project\Ligg.Ewa\3.5.3\src\WinFormsApp1\obj\Release\netcoreapp3.1\WinFormsApp1.AssemblyInfo.cs
-D:\Doing\coding\project\Ligg.Ewa\3.5.3\src\WinFormsApp1\obj\Release\netcoreapp3.1\WinFormsApp1.csproj.CoreCompileInputs.cache

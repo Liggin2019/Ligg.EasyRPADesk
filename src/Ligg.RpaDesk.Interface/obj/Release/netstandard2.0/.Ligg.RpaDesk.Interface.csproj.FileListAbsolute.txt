@@ -1,9 +1,0 @@
-D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.RpaDesk.Interface\bin\Release\netstandard2.0\Interface.deps.json
-D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.RpaDesk.Interface\bin\Release\netstandard2.0\Interface.dll
-D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.RpaDesk.Interface\bin\Release\netstandard2.0\Interface.pdb
-D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.RpaDesk.Interface\obj\Release\netstandard2.0\.Ligg.RpaDesk.Interface.AssemblyInfoInputs.cache
-D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.RpaDesk.Interface\obj\Release\netstandard2.0\.Ligg.RpaDesk.Interface.AssemblyInfo.cs
-D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.RpaDesk.Interface\obj\Release\netstandard2.0\.Ligg.RpaDesk.Interface.csproj.CoreCompileInputs.cache
-D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.RpaDesk.Interface\obj\Release\netstandard2.0\Interface.dll
-D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.RpaDesk.Interface\obj\Release\netstandard2.0\Interface.pdb
-D:\Doing\coding\project-doing\Ligg.Rd\4.3.7\scr-dev\src\Ligg.RpaDesk.Interface\obj\Release\netstandard2.0\.Ligg.RpaDesk.Interface.csprojAssemblyReference.cache

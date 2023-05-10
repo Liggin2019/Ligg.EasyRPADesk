@@ -1,8 +1,0 @@
-D:\Doing\coding\project-doing\Ligg.Infra.Utility\ConfigFile\debug\lib\netstandard2.0\Ligg.Infrastructure.Utility.ConfigFile.deps.json
-D:\Doing\coding\project-doing\Ligg.Infra.Utility\ConfigFile\debug\lib\netstandard2.0\Ligg.Infrastructure.Utility.ConfigFile.dll
-D:\Doing\coding\project-doing\Ligg.Infra.Utility\ConfigFile\debug\lib\netstandard2.0\Ligg.Infrastructure.Utility.ConfigFile.pdb
-D:\Doing\coding\project-doing\Ligg.Infra.Utility\ConfigFile\src\ConfigFileUtil\obj\Debug\netstandard2.0\Ligg.Infrastructure.Utility.ConfigFile.AssemblyInfoInputs.cache
-D:\Doing\coding\project-doing\Ligg.Infra.Utility\ConfigFile\src\ConfigFileUtil\obj\Debug\netstandard2.0\Ligg.Infrastructure.Utility.ConfigFile.AssemblyInfo.cs
-D:\Doing\coding\project-doing\Ligg.Infra.Utility\ConfigFile\src\ConfigFileUtil\obj\Debug\netstandard2.0\Ligg.Infrastructure.Utility.ConfigFile.csproj.CoreCompileInputs.cache
-D:\Doing\coding\project-doing\Ligg.Infra.Utility\ConfigFile\src\ConfigFileUtil\obj\Debug\netstandard2.0\Ligg.Infrastructure.Utility.ConfigFile.dll
-D:\Doing\coding\project-doing\Ligg.Infra.Utility\ConfigFile\src\ConfigFileUtil\obj\Debug\netstandard2.0\Ligg.Infrastructure.Utility.ConfigFile.pdb
