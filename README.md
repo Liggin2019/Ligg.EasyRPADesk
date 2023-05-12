@@ -2,7 +2,7 @@
 本框架是一款无码化Windows应用编程框架和UI库，包括2部分:WinformApp和ConsoleApp。通过该框架，采用原创的文本编程技术，不需任何代码，仅通过文本和数据文件(包括UI配置、Shell脚本)， 以类似Excel公式的方式和搭积木的形式, 可以
 
 > - 搭建任意复杂的Windows& 控制台人机交互界面
-> - 支持多语言、及各种运行模式（同步、异步、多线程）
+> - 支持多语言、多应用、多门户及各种运行模式（同步、异步、多线程）
 > - 内置基础功能，外嵌组件和插件，通过Shell脚本实现运算和过程控制
 > - 与UI元素之间互动，在任意点执行Shell脚本，运行基础功能，或加载运行"即插即用"的组件或插件，实时解释、部署和执行， 实现系统功能扩展和流程自动化(Robotic Process Automation)
 #### 当前版本:  4.3.7.0   [帮助文档](https://liggin2019.github.io/docs/)
@@ -91,11 +91,11 @@
 ![structure](https://liggin2019.github.io/static/images/lrd/lrd-console-att-calc.png)</br>
 ###  Winform界面-登录</br>
 ![structure](https://liggin2019.github.io/static/images/lrd/lrd-logon.png)</br>
-###  Winform Web客户端界面-OA-Nested菜单</br>
+###  Winform Web客户端界面-OA主门户-Nested菜单</br>
 ![structure](https://liggin2019.github.io/static/images/lrd/lrd-oa.png)</br>
-###  Winform Web客户端界面-ERP-水平垂直菜单</br>
+###  Winform Web客户端界面-ERP主门户-水平垂直菜单</br>
 ![structure](https://liggin2019.github.io/static/images/lrd/lrd-erp.png)</br>
-###  Winform Demo portal界面</br>
+###  Winform C/S客户端界面-Demo主门户</br>
 ![structure](https://liggin2019.github.io/static/images/lrd/lrd-open-urls-mvi.png)</br>
 
 ###   Winform Demo Svi界面</br>
@@ -103,9 +103,9 @@
 ###  Winform Demo zvi界面</br>
 ![structure](https://liggin2019.github.io/static/images/lrd/lrd-open-urls-szi.png)</br>
 
-###  Winform Demo-langs-portal界面-多语言-简体中文</br>
+###  Winform C/S客户端界面-Demolangs主门户-多语言-简体中文</br>
 ![structure](https://liggin2019.github.io/static/images/lrd/lrd-demo-langs-szh.png)</br>
-###  Winform Demo-langs-portal界面-多语言-英文</br>
+###  Winform C/S客户端界面-Demolangs主门户-多语言-英文</br>
 ![structure](https://liggin2019.github.io/static/images/lrd/lrd-demo-langs-en.png)</br>
 
 
